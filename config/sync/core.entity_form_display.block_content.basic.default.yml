@@ -1,4 +1,4 @@
-uuid: fa6424cd-23ae-46e6-b234-7a74e3230fd3
+uuid: 4b4b1c71-66ba-488f-aa8e-4bf9e1fb5a7e
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,7 @@ dependencies:
     - block_content.type.basic
     - field.field.block_content.basic.body
   module:
-    - field_layout
-    - layout_discovery
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: e1Nu5xXAuF_QplbBUhQBPLnYWvHtDX0MkZnpuCiY8uM
 id: block_content.basic.default

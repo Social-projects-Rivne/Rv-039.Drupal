@@ -1,4 +1,4 @@
-uuid: 6765a35e-c890-418e-a360-4b8d0a62a3d3
+uuid: 300d3c91-3033-468a-82d3-65611ef5dae3
 langcode: en
 status: true
 dependencies:
@@ -6,14 +6,8 @@ dependencies:
     - field.field.node.page.body
     - node.type.page
   module:
-    - field_layout
-    - layout_discovery
     - path
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: sb0qCkzU_8mNq29NehYAU8jCBXWPLeX0UN8sYFVGVcw
 id: node.page.default

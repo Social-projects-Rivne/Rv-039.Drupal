@@ -1,4 +1,4 @@
-uuid: 8985b4d6-fec6-4313-a75a-5c637a338cd4
+uuid: 4ef6f78a-9f9e-4307-8125-a31b72b68b2b
 langcode: en
 status: true
 dependencies:
@@ -6,36 +6,8 @@ dependencies:
     - field.field.node.page.body
     - node.type.page
   module:
-    - field_layout
-    - layout_builder
-    - layout_discovery
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
-  layout_builder:
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings: {  }
-        components:
-          61d5d668-e345-45df-84c6-a820fc1ea059:
-            uuid: 61d5d668-e345-45df-84c6-a820fc1ea059
-            region: content
-            configuration:
-              id: 'field_block:node:page:body'
-              label_display: ''
-              formatter:
-                label: hidden
-                type: text_default
-                settings: {  }
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-            additional: {  }
-            weight: 0
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
 id: node.page.default
@@ -53,6 +25,4 @@ content:
   links:
     weight: 101
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden: {  }

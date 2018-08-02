@@ -1,4 +1,4 @@
-uuid: ef76daf9-e5c8-466d-aa29-1caef9c83f03
+uuid: 950623bc-62f1-4640-82ca-3abf2cd182da
 langcode: en
 status: true
 dependencies:
@@ -6,14 +6,8 @@ dependencies:
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
-    - field_layout
     - image
-    - layout_discovery
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
 id: user.user.default
