@@ -1,0 +1,22 @@
+uuid: f647fd9d-ca88-404a-bfe1-057d7567150f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dedrone
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: dedrone_breadcrumbs
+theme: dedrone
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

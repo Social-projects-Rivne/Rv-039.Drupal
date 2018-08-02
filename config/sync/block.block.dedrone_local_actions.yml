@@ -1,0 +1,20 @@
+uuid: b95dd219-5b0e-4b12-ba4f-e54e3793df93
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dedrone
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: dedrone_local_actions
+theme: dedrone
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

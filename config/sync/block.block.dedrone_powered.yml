@@ -1,0 +1,22 @@
+uuid: 90d69dd3-7182-4015-a2b5-99009942def7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dedrone
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: dedrone_powered
+theme: dedrone
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: f79e19e7-7857-4aad-b74d-07e55852600a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dedrone
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: dedrone_content
+theme: dedrone
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

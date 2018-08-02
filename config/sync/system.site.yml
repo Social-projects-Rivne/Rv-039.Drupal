@@ -1,0 +1,14 @@
+uuid: 468616bb-0263-4c67-81b2-e1715f8f0fc3
+name: dedrone
+mail: dsbhfj@mail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

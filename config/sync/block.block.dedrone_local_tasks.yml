@@ -1,0 +1,22 @@
+uuid: 0193d944-3508-4c4c-bb94-cbf5a466f9b4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dedrone
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: dedrone_local_tasks
+theme: dedrone
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
