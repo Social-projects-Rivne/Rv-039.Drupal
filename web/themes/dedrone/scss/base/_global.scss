@@ -1,0 +1,10 @@
+// Global CSS goes here
+body {
+	background-color: $body-bg-color;
+	font: {
+	size: $primery-font-size;
+    weight: 400;
+    family: $primery-font;
+	}
+    color: $body-color;
+}
