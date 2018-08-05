@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements template_preprocess_paragraph().
+ *
+ */
+function dedrone_preprocess_paragraph(&$variables) {
+   $paragraph = $variables['elements']['#paragraph'];
+   if ($paragraph->bundle() == 'image_and_description_simple') {
+     if ($paragraph->hasField('field_image_position')) {
+     	$position_field = $paragraph->get('field_image_position');
+     	if ($position_field) {
+     	  $variables['content']['image_position'] = $position_field->value;
+     	}
+     }
+   }  
+}

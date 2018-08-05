@@ -1,0 +1,29 @@
+command:
+  name: init:site
+  description: 'Initialize website'
+commands:
+  - command: site:install
+    options:
+      langcode: en
+      db-type: mysql
+      db-host: database
+      db-name: drupal8
+      db-user: drupal8
+      db-pass: drupal8
+      db-port: 3306 
+      site-name: D8
+      account-name: admin
+      site-mail: admin@admin.com
+      account-pass: admin
+      account-mail: admin@admin.com
+      uri: http://default
+      no-interaction: true
+      force: true
+    arguments:
+      profile: standard
+  - command: config:import
+    options:
+       no-interaction: true
+  - command: cache:rebuild
+    arguments:
+      cache: all
