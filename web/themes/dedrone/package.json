@@ -1,0 +1,10 @@
+{
+	"devDependencies": {
+		"gulp": "3.8.11",
+		"gulp-autoprefixer": "2.1.0",
+		"gulp-plumber": "1.0.0",
+		"gulp-rename": "1.2.2",
+		"gulp-sass": "^4.0.1",
+		"gulp-util": "^3.0.8"
+	}
+}

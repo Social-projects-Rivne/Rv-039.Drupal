@@ -1,0 +1,8 @@
+uuid: 998fb60e-4512-4fcb-aa1d-09c40432c202
+langcode: en
+status: true
+dependencies: {  }
+id: content-page-products
+label: Content_page_products
+description: ''
+locked: false

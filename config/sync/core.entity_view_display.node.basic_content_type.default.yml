@@ -1,0 +1,31 @@
+uuid: 4c045db8-8526-4eb5-8e72-b344e64eb2b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.basic_content_type.body
+    - node.type.basic_content_type
+  enforced:
+    module:
+      - node_type_example
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 6m-_fnOdVVEunnFLdGHDOWIJ7NNTZZ1mATWMD4CCt0I
+id: node.basic_content_type.default
+targetEntityType: node
+bundle: basic_content_type
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
