@@ -2,6 +2,6 @@ global-styling:
   version: VERSION
   css:
     theme:
-      css/main.css: {}
+      css/styles.css: {}
   js:
     js/main.js: {}

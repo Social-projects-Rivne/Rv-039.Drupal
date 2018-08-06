@@ -14,10 +14,10 @@
  */
 #}
 
-{% set attributes = attributes.addClass('site-branding') %}
+{% set attributes = attributes.addClass('site-branding float-left header__logo') %}
 {% block content %}
   {% if site_logo %}
-    <a href="{{ path('<front>') }}" title="{{ 'Home CUSTOM TEST'|t }}" rel="home" class="site-branding__logo">
+    <a href="{{ path('<front>') }}" title="{{ 'Home CUSTOM TEST'|t }}" rel="home" class="header__logo-link">
       <img src="{{ site_logo }}" alt="{{ 'Home CUSTOM TEST'|t }}" />
     </a>
   {% endif %}
