@@ -1,0 +1,49 @@
+.header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #FFF;
+	box-shadow: 1px 1px 3px 0 rgba(0,0,0,.2);
+    
+	
+	&__logo {
+		&-link {
+			display: block;
+			width: 135px;
+			height: 28px;
+			
+			img {
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+	
+}
+
+.main-menu {
+	& > li {
+		float: left;
+		margin-left: 30px;
+		padding: 0;
+		
+		&:first-child {
+			margin-left: 0px;
+		}
+
+		&:last-child {
+			& > a {
+				color: #e5310e;
+			}
+		}
+		
+		& > a {
+			display: block;
+			padding: 5px 0 4px 0;
+			font-size: 13px;
+		    font-weight: 400;
+		    letter-spacing: 1px;
+		    text-transform: uppercase;
+		    color: #111;
+		}
+	}	
+}
