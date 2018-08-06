@@ -1,24 +1,11 @@
-{% extends "block.html.twig" %}
-{#
-/**
- * @file
- * Bartik's theme implementation for a branding block.
- *
- * Each branding element variable (logo, name, slogan) is only available if
- * enabled in the block configuration.
- *
- * Available variables:
- * - site_logo: Logo for site as defined in Appearance or theme settings.
- * - site_name: Name for site as defined in Site information settings.
- * - site_slogan: Slogan for site as defined in Site information settings.
- */
-#}
+
+
 
 {% set attributes = attributes.addClass('site-branding') %}
 {% block content %}
   {% if site_logo %}
-    <a href="{{ path('<front>') }}" title="{{ 'Home CUSTOM TEST'|t }}" rel="home" class="site-branding__logo">
-      <img src="{{ site_logo }}" alt="{{ 'Home CUSTOM TEST'|t }}" />
+    <a href="{{ path('<front>') }}" title="{{ ''|t }}" rel="home" class="site-branding__logo">
+      <img src="{{ web/themes/dedrone/images/dedrone_logo-svg.png }}" alt="{{ 'Hello'|t }}"  />
     </a>
   {% endif %}
   {% if site_name or site_slogan %}

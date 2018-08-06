@@ -1,52 +1,84 @@
 module:
   admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
+  ajax_example: 0
   automated_cron: 0
+  background_image: 0
   backup_migrate: 0
   big_pipe: 0
   block: 0
   block_content: 0
+  block_example: 0
   breakpoint: 0
+  cache_example: 0
   ckeditor: 0
   color: 0
   comment: 0
   config: 0
   contact: 0
+  content_entity_example: 0
   contextual: 0
+  cron_example: 0
   ctools: 0
   datetime: 0
   dblog: 0
   devel: 0
   dynamic_page_cache: 0
   editor: 0
+  email_example: 0
   entity_reference_revisions: 0
+  events_example: 0
   examples: 0
   field: 0
+  field_example: 0
+  field_permission_example: 0
   field_ui: 0
   file: 0
+  file_example: 0
   filter: 0
+  form_api_example: 0
   help: 0
   history: 0
   honeypot: 0
+  hooks_example: 0
   image: 0
+  js_example: 0
   link: 0
   link_class: 0
+  media: 0
+  menu_example: 0
   menu_link_attributes: 0
   menu_ui: 0
   node: 0
+  node_type_example: 0
   options: 0
   page_cache: 0
+  page_example: 0
+  pager_example: 0
   path: 0
+  phpunit_example: 0
+  plugin_type_example: 0
+  queue_example: 0
   quickedit: 0
   rdf: 0
+  render_example: 0
   search: 0
+  session_example: 0
   shortcut: 0
+  simpletest: 0
+  simpletest_example: 0
+  stream_wrapper_example: 0
   system: 0
+  tabledrag_example: 0
+  tablesort_example: 0
   taxonomy: 0
+  testing_example: 0
   text: 0
   token: 0
   toolbar: 0
   tour: 0
+  tour_example: 0
   ultimate_cron: 0
   update: 0
   user: 0

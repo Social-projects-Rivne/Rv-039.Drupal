@@ -1,0 +1,27 @@
+uuid: 15e87bb6-41d1-49d3-9f38-a0d86d3f54dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.basic_content_type
+  enforced:
+    module:
+      - node_type_example
+  module:
+    - text
+_core:
+  default_config_hash: D8BqLBt3L87B-z8d9KmJI2fcqKD-n_Vr-AGjWt2oRaU
+id: node.basic_content_type.body
+field_name: body
+entity_type: node
+bundle: basic_content_type
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
