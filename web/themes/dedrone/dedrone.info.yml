@@ -24,3 +24,9 @@ regions:
   header: Header
   content: Content
   footer: 'Footer'
+  footer_first: 'First bottom column'
+  footer_second: 'Second bottom column'
+  footer_third: 'Third bottom column'
+  footer_fourth: 'Fourth bottom column'
+  footer_five: 'Five bottom column'
+  footer_six: 'Six bottom column'
