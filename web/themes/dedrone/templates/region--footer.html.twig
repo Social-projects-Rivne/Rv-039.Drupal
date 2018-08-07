@@ -1,0 +1,48 @@
+{% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth or page.footer_five or page.footer_six %}
+    <div id="bottom">
+      <div class="container">
+        <div class="row">
+          {% if page.footer_first %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_first }}
+            </div>
+          {% endif %}
+          {% if page.footer_second %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_second }}
+            </div>
+          {% endif %}
+          {% if page.footer_third %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_third }}
+            </div>
+          {% endif %}
+          {% if page.footer_fourth %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_fourth }}
+            </div>
+          {% endif %}
+	  {% if page.footer_five %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_five }}
+            </div>
+          {% endif %}
+	  {% if page.footer_six %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_six }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="fcred col-sm-12">
+          {{ "Copyright"|t }} &copy; {{ this_year }}, <a href="{{ front_page }}">{{ site_name }}</a>. {{ "Theme by"|t }} <a href="http://www.devsaran.com" target="_blank">Devsaran</a>.
+        </div>
+      </div>
+    </div>
+</footer>
