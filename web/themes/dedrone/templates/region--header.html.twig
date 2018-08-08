@@ -1,16 +1,17 @@
 {%
   set classes = [
+    'header',
     'region',
     'region-' ~ region|clean_class,
   ]
 %}
 {% if content %}
-  <div{{ attributes.addClass(classes) }}>
-    {{ content }}
-  </div>
+  <header{{ attributes.addClass(classes) }}>
+	 <div class="container">
+     <div class="clearfix">
+        {{ content }}
+      </div>
+	 </div>
+  </HEADER>
 {% endif %}
-<header>
-	<div class="container">
-		<h1>Header Title</h1>
-	</div>
-</header>
+      

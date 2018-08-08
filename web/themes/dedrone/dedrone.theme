@@ -13,5 +13,13 @@ function dedrone_preprocess_paragraph(&$variables) {
      	  $variables['content']['image_position'] = $position_field->value;
      	}
      }
-   }  
+   }
+   if ($paragraph->bundle() == 'slider') {
+     if ($paragraph->hasField('field_css_class')) {
+     	$css_option = $paragraph->get('field_css_class');
+     	if ($css_option) {
+     	  $variables['content']['css_class'] = $css_option->value;
+     	}
+     }
+   }
 }
