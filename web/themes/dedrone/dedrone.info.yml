@@ -23,7 +23,7 @@ libraries:
 regions:
   header: Header
   content: Content
-  footer: 'Footer'
+  footer: Footer
   footer_first: 'First bottom column'
   footer_second: 'Second bottom column'
   footer_third: 'Third bottom column'

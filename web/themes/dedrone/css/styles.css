@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800,900");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6887,3 +6887,44 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #111; }
+
+.footer .container {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 100px; }
+
+.region-footer {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-family: 'Roboto',sans-serif; }
+
+.region-footer h2 {
+  margin-top: 10px;
+  padding-top: 0;
+  color: #111;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.05em; }
+
+.region-footer a {
+  color: #111;
+  clear: left;
+  display: block;
+  text-align: left;
+  text-decoration: none solid #111111;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  font: normal normal 300 normal 16px / 23px 'Roboto', sans-serif;
+  outline: #111111 none 0px;
+  padding: 0px 0px; }
+
+.region-footer ul.menu {
+  color: #111;
+  margin: 0;
+  list-style-type: none;
+  padding-start: 0; }

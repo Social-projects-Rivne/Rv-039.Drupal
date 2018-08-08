@@ -1,0 +1,48 @@
+.footer .container
+{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom:100px;
+}
+
+.region-footer
+{   
+	display: flex;
+	width: 100%;
+    font-family: 'Roboto',sans-serif;
+}
+
+.region-footer h2{
+    margin-top: 10px;
+    padding-top: 0;
+    
+    color: #111;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+
+.region-footer a{
+    color: #111;
+    clear: left;
+    display: block;
+    text-align: left;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-size-adjust: 100%;
+    font: normal normal 300 normal 16px / 23px 'Roboto', sans-serif;
+    outline: rgb(17, 17, 17) none 0px;
+    padding: 0px 0px;
+}
+
+
+.region-footer ul.menu{
+    color: #111;
+    margin: 0;
+    list-style-type: none;
+    padding-start: 0;
+}
+

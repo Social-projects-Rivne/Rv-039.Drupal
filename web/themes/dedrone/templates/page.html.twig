@@ -41,5 +41,13 @@
  
 {{ page.content }}
         
-{{ page.footer }}
+{% if page.footer %}
+    <footer class="footer {{ container }} role="contentinfo">
+      <div class = "container">
+        <div class = "row">
+          {{ page.footer }}
+        </div>
+      </div>
+    </footer>
+{% endif %}
 
