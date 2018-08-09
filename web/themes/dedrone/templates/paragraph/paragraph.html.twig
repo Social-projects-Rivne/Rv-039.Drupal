@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Custom theme implementation to display a paragraph.
+ * Default theme implementation to display a paragraph.
  *
  * Available variables:
  * - paragraph: Full paragraph entity.
@@ -38,7 +38,6 @@
  * @ingroup themeable
  */
 #}
-
 {%
   set classes = [
     'paragraph',
@@ -47,12 +46,10 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-default viewmode
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
-    {% block content %}  
-       <h2>SLIODE!!!</h2>
+    {% block content %}
+      {{ content }}
     {% endblock %}
   </div>
 {% endblock paragraph %}
-
