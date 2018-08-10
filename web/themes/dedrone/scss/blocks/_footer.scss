@@ -1,0 +1,29 @@
+.footer 
+{
+	nav.block-menu 
+	{
+		margin-left: auto;
+		margin-right: 5em;
+	
+		ul,li,h2 
+		{
+			display: inline-block;
+		}
+
+        h2,a 
+        {
+    		letter-spacing: 0.05em;
+	    	color: #111;
+	    	line-height: 13px;
+	    	font: normal normal 300 normal 13px 'Roboto', sans-serif;
+   		}
+
+		a 
+		{
+	    	border-left: 1px solid #808080;
+	    	padding-left: 15px;
+	    	padding-right: 15px;
+	    	text-decoration: none;
+	    }
+	}
+}

@@ -6888,43 +6888,58 @@ body {
     text-transform: uppercase;
     color: #111; }
 
-.footer .container {
-  padding-top: 75px;
-  padding-bottom: 75px;
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 100px; }
-
-.region-footer {
+.footerMenu {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   font-family: 'Roboto',sans-serif; }
+  .footerMenu .container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 45px; }
+    .footerMenu .container h2 {
+      margin-top: 50px;
+      color: #111;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: 0.05em; }
+    .footerMenu .container a {
+      color: #111;
+      clear: left;
+      display: block;
+      text-align: left;
+      font: normal normal 300 normal 16px / 23px 'Roboto', sans-serif;
+      padding: 0px 0px;
+      text-decoration: none; }
+      .footerMenu .container a:hover {
+        color: #009ee3; }
+    .footerMenu .container ul.menu {
+      color: #111;
+      margin: 0;
+      list-style-type: none;
+      padding-start: 0; }
+    .footerMenu .container li {
+      padding-top: 10px; }
+    .footerMenu .container .social-media-links--platforms a:hover {
+      color: #818181; }
+    .footerMenu .container .social-media-links--platforms ul {
+      margin-top: 25px; }
 
-.region-footer h2 {
-  margin-top: 10px;
-  padding-top: 0;
-  color: #111;
-  font-size: 13px;
-  font-weight: 700;
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 0.05em; }
-
-.region-footer a {
-  color: #111;
-  clear: left;
-  display: block;
-  text-align: left;
-  text-decoration: none solid #111111;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-          text-size-adjust: 100%;
-  font: normal normal 300 normal 16px / 23px 'Roboto', sans-serif;
-  outline: #111111 none 0px;
-  padding: 0px 0px; }
-
-.region-footer ul.menu {
-  color: #111;
-  margin: 0;
-  list-style-type: none;
-  padding-start: 0; }
+.footer nav.block-menu {
+  margin-left: auto;
+  margin-right: 5em; }
+  .footer nav.block-menu ul, .footer nav.block-menu li, .footer nav.block-menu h2 {
+    display: inline-block; }
+  .footer nav.block-menu h2, .footer nav.block-menu a {
+    letter-spacing: 0.05em;
+    color: #111;
+    line-height: 13px;
+    font: normal normal 300 normal 13px 'Roboto', sans-serif; }
+  .footer nav.block-menu a {
+    border-left: 1px solid #808080;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none; }

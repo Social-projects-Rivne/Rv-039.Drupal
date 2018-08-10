@@ -41,13 +41,9 @@
  
 {{ page.content }}
         
-{% if page.footer %}
-    <footer class="footer {{ container }} role="contentinfo">
-      <div class = "container">
-        <div class = "row">
-          {{ page.footer }}
-        </div>
-      </div>
-    </footer>
+{% if page.footerMenu %}
+    {{ page.footerMenu }}
 {% endif %}
+
+{{ page.footer }}
 

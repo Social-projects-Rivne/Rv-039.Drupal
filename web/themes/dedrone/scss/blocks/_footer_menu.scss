@@ -1,48 +1,66 @@
-.footer .container
+.footerMenu
 {
-    padding-top: 75px;
-    padding-bottom: 75px;
-    border-bottom: 1px solid #ddd;
-    margin-bottom:100px;
-}
-
-.region-footer
-{   
-	display: flex;
-	width: 100%;
+    display: flex;
+    width: 100%;
     font-family: 'Roboto',sans-serif;
+   
+    .container
+    {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 45px;
+
+        h2
+        {
+            margin-top: 50px;
+            color: #111;
+            font-size: 13px;
+            font-weight: 700;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        a
+        {
+            color: #111;
+            clear: left;
+            display: block;
+            text-align: left;
+            font: normal normal 300 normal 16px / 23px 'Roboto', sans-serif;
+            padding: 0px 0px;
+            text-decoration: none;
+            &:hover 
+            {   
+                color: #009ee3;   
+            }
+
+        }
+
+        ul.menu
+        {
+            color: #111;
+            margin: 0;
+            list-style-type: none;
+            padding-start: 0;
+        }
+
+        li
+        {
+            padding-top: 10px;     
+        }
+
+        .social-media-links--platforms 
+        {
+            a:hover
+            {
+                color: #818181;
+            }
+            ul
+            {
+                margin-top: 25px;
+            }
+        }
+    }
 }
-
-.region-footer h2{
-    margin-top: 10px;
-    padding-top: 0;
-    
-    color: #111;
-    font-size: 13px;
-    font-weight: 700;
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
-
-.region-footer a{
-    color: #111;
-    clear: left;
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(17, 17, 17);
-    text-size-adjust: 100%;
-    font: normal normal 300 normal 16px / 23px 'Roboto', sans-serif;
-    outline: rgb(17, 17, 17) none 0px;
-    padding: 0px 0px;
-}
-
-
-.region-footer ul.menu{
-    color: #111;
-    margin: 0;
-    list-style-type: none;
-    padding-start: 0;
-}
-
