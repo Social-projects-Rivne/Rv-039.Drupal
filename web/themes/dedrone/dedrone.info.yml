@@ -23,4 +23,6 @@ libraries:
 regions:
   header: Header
   content: Content
-  footer: 'Footer'
+  footerMenu: 'Footer Menu'
+  footer: Footer
+

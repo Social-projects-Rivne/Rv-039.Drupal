@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800,900");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6887,3 +6887,71 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #111; }
+
+/* ==========================================================================
+   Footer menu region style sheets.
+   ========================================================================== */
+.footerMenu {
+  /*Bootstrap menu container*/ }
+  .footerMenu .container {
+    /* Menu container positioning and style*/
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 45px;
+    /*Menus title positioning and style*/
+    /*Menus items positioning and style*/
+    /*Menus positioning and style*/
+    /*Menus elements positioning*/
+    /*Menus elements positioning and ":hover" style*/ }
+    .footerMenu .container h2 {
+      margin-top: 50px;
+      color: #111;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: 0.1em; }
+    .footerMenu .container a {
+      color: #111;
+      display: block;
+      text-align: left;
+      font: normal normal 300 normal 16px / 23px 'Roboto', sans-serif;
+      text-decoration: none; }
+      .footerMenu .container a:hover {
+        color: #009ee3; }
+    .footerMenu .container ul.menu {
+      color: #111;
+      margin: 0; }
+    .footerMenu .container li {
+      padding-top: 10px; }
+    .footerMenu .container ul.social-media-links--platforms {
+      display: block;
+      margin-top: 25px; }
+      .footerMenu .container ul.social-media-links--platforms a:hover {
+        color: #818181; }
+
+/* ==========================================================================
+   Footer region style sheets.
+   ========================================================================== */
+.footer {
+  /*Copyright menu.*/ }
+  .footer nav.block-menu {
+    /* Menu positioning */
+    margin-left: auto;
+    margin-right: 5em;
+    /*Move menu to the horizontal position.*/
+    /*Font style for menu*/
+    /* Menu elements positioning */ }
+    .footer nav.block-menu ul, .footer nav.block-menu li, .footer nav.block-menu h2 {
+      display: inline-block; }
+    .footer nav.block-menu h2, .footer nav.block-menu a {
+      letter-spacing: 0.05em;
+      color: #111;
+      line-height: 13px;
+      font: normal normal 300 normal 13px 'Roboto', sans-serif;
+      text-decoration: none; }
+    .footer nav.block-menu a {
+      border-left: 1px solid #808080;
+      padding-left: 15px;
+      padding-right: 15px; }
