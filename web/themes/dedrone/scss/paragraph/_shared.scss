@@ -1,10 +1,10 @@
 /* ==========================================================================
    Shared site styles 
-   ========================================================================== */
+========================================================================== */
 
 
 /* Text styles
-   ========================================================================== */
+========================================================================== */
 
 .shared_h1_title
 {
@@ -22,7 +22,6 @@
     text-align: center;
 }
 
-
 .shared_h2_title
 {
     font-size: 20px;
@@ -30,6 +29,7 @@
     color: #111;
     font-weight: 300;
 }
+
 .shared_h2_white_title_desc
 {
     @extend .shared_h2_title;
@@ -47,6 +47,7 @@
     text-align: left;
     display: inline-block;
 }
+
 .shared_link_label a
 {
     @extend .shared_p_simple_text;
@@ -54,9 +55,11 @@
     color: #009ee3;
 }
 
-/* Paragraphs background styles
-   ========================================================================== */
 
+/* Paragraphs background styles
+========================================================================== */
+
+/*Styles for makes full width paragraph background*/
 #full_width_background
 {
     display:flex;
@@ -77,8 +80,9 @@
     background: #f05c40 no-repeat center top;
 }
 
+
 /* Buttons style
-   ========================================================================== */
+========================================================================== */
 
 .shared_white_btn
 {
@@ -104,9 +108,8 @@
 }
 
 
-
-/* Shared paragraphs styles
-   ========================================================================== */
+/* Styles for shared paragraph
+========================================================================== */
 
 .paragraph--type--shared-simple-white-title-
 {

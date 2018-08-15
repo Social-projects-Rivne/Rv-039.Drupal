@@ -6956,16 +6956,23 @@ body {
       padding-left: 15px;
       padding-right: 15px; }
 
+/* ==========================================================================
+   Page "Technology Partners" styles
+   - positioning options and unique page styles.
+   - other page styles defined in _shared.scss.
+   ========================================================================== */
+/*Title paragraph*/
 .paragraph--type--shared-simple-white-title- #tech-par-title-background {
   min-height: 550px;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 21%, rgba(18, 18, 18, 0)), url(../images/technology-partners-title-background.jpg) no-repeat center top; }
 
+/*Page description paragraph*/
 .paragraph--type--bundle-description-tech-par-page {
-  padding-top: 150px;
-  padding-bottom: 150px; }
+  padding-top: 150px; }
   .paragraph--type--bundle-description-tech-par-page .shared_h1_title, .paragraph--type--bundle-description-tech-par-page .shared_h1_white_title {
     margin-bottom: 40px; }
 
+/*Main content paragraph*/
 .paragraph--type--bundle-content-tech-par-page .bundle_partner_logo {
   display: -ms-flexbox;
   display: flex;
@@ -6981,11 +6988,12 @@ body {
   padding: 40px 11px 11px;
   border-top: 1px solid #426270; }
 
+/*Additional information paragraph*/
 /* ==========================================================================
    Shared site styles 
-   ========================================================================== */
+========================================================================== */
 /* Text styles
-   ========================================================================== */
+========================================================================== */
 .shared_h1_title, .shared_h1_white_title {
   font-size: 40px;
   line-height: 45px;
@@ -7021,7 +7029,8 @@ body {
   color: #009ee3; }
 
 /* Paragraphs background styles
-   ========================================================================== */
+========================================================================== */
+/*Styles for makes full width paragraph background*/
 #full_width_background, .paragraph--type--shared-simple-white-title- #tech-par-title-background, #aditional_inf_background {
   display: -ms-flexbox;
   display: flex;
@@ -7034,7 +7043,7 @@ body {
   background: #f05c40 no-repeat center top; }
 
 /* Buttons style
-   ========================================================================== */
+========================================================================== */
 .shared_white_btn {
   display: inline-block;
   min-width: 220px;
@@ -7054,8 +7063,8 @@ body {
 .shared_adit_inf_btns {
   margin-top: 25px; }
 
-/* Shared paragraphs styles
-   ========================================================================== */
+/* Styles for shared paragraph
+========================================================================== */
 .paragraph--type--shared-simple-white-title- .shared_h1_white_title {
   margin-top: 10px;
   margin-bottom: 10px;
