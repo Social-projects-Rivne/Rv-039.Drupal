@@ -49,21 +49,21 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      <div id = "tech-par-title-background" class = "align-items-center">
+      <div id = "aditional_inf_background" class = "align-items-center">
           <div class = "container">
             <div class = "row justify-content-center">
-                <div class="col-6">
-                  <div class="shared_h1_white_title">
+                  <div class="shared_h1_white_title col-12">
                    {{ content.field_shared_h1_white_title }}
                   </div>
-                  <div class="shared_h2_white_title_desc">
-                   {{ content.field_shared_h2_white_title_desc }}
+                  <div class="shared_adit_inf_btns co1-12">
+                    <button type="button" class="btn btn-outline-light shared_white_btn">FREE WEBINAR</button>
+                    <button type="button" class="btn btn-outline-light shared_white_btn">LIVE DEMO</button>
                   </div>
-                </div>
             </div>
         </div>
       </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}
+
 

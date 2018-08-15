@@ -49,21 +49,22 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      <div id = "tech-par-title-background" class = "align-items-center">
           <div class = "container">
             <div class = "row justify-content-center">
-                <div class="col-6">
-                  <div class="shared_h1_white_title">
-                   {{ content.field_shared_h1_white_title }}
-                  </div>
-                  <div class="shared_h2_white_title_desc">
-                   {{ content.field_shared_h2_white_title_desc }}
-                  </div>
+                <div class="col-12 shared_h1_title">
+                  {{ content.field_shared_h1_title }}
+                </div>
+                <div class="col-6 shared_p_simple_text">
+                  {{ content.field_shared_p_simple_text[0] }}
+                </div>
+                <div class="col-6 shared_p_simple_text">
+                  {{ content.field_shared_p_simple_text[1] }}
+                </div>
+                <div class="col-12 shared_link_label">
+                  {{ content.field_shared_link_label }}
                 </div>
             </div>
-        </div>
-      </div>
+          </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}
-

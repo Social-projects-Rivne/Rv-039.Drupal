@@ -1,28 +1,65 @@
-.field--name-field-shared-h1-white-title
+/* ==========================================================================
+   Shared site styles 
+   ========================================================================== */
+
+
+/* Text styles
+   ========================================================================== */
+
+.shared_h1_title
 {
 	font-size: 40px;
     line-height: 45px;
     letter-spacing: 0;
-    color: #fff;	
-    text-align: center;	
+    color: #111;
     font-weight: 200;
 }
-.field--name-field-shared-h2-white-title-desc
+
+.shared_h1_white_title
 {
-    color: #fff;    
-    text-align: center; 
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 300;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    @extend .shared_h1_title;
+    color: #fff;
+    text-align: center;
 }
 
-#headerwrap
+
+.shared_h2_title
+{
+    font-size: 20px;
+    line-height: 24px;
+    color: #111;
+    font-weight: 300;
+}
+.shared_h2_white_title_desc
+{
+    @extend .shared_h2_title;
+    color: #fff;    
+    text-align: center; 
+}
+
+.shared_p_simple_text
+{
+    float: none;
+    clear: none;
+    color: #111;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    display: inline-block;
+}
+.shared_link_label a
+{
+    @extend .shared_p_simple_text;
+    font-weight: 400;
+    color: #009ee3;
+}
+
+/* Paragraphs background styles
+   ========================================================================== */
+
+#full_width_background
 {
     display:flex;
-    min-height: 550px;
-    background: linear-gradient(90deg,rgba(0,0,0,.5) 21%,hsla(0,0%,7%,0)), url(../images/technology-partners-title-background.jpg) no-repeat center top;
     background-attachment: relative;
     background-position: center center;
     width: 100%;
@@ -34,5 +71,63 @@
     -o-background-size: cover;
     background-size: cover;
 }
+#aditional_inf_background
+{
+    @extend #full_width_background;
+    background: #f05c40 no-repeat center top;
+}
+
+/* Buttons style
+   ========================================================================== */
+
+.shared_white_btn
+{
+    display: inline-block;
+    min-width: 220px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 15px 50px;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;   
+}
+.shared_white_btn:hover
+{
+    color: #f05c40;
+}
+.shared_adit_inf_btns
+{
+    margin-top:25px;
+}
 
 
+
+/* Shared paragraphs styles
+   ========================================================================== */
+
+.paragraph--type--shared-simple-white-title-
+{
+    .shared_h1_white_title
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 5px;
+    }
+    .shared_h2_white_title_desc
+    {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.paragraph--type--shared-aditional-information
+{
+    .container
+    {
+        padding-top:150px;
+        padding-bottom:150px;
+    }
+}

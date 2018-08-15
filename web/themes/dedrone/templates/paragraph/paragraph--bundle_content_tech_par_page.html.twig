@@ -47,23 +47,23 @@
   ]
 %}
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
-    {% block content %}
-      <div id = "tech-par-title-background" class = "align-items-center">
-          <div class = "container">
-            <div class = "row justify-content-center">
-                <div class="col-6">
-                  <div class="shared_h1_white_title">
-                   {{ content.field_shared_h1_white_title }}
-                  </div>
-                  <div class="shared_h2_white_title_desc">
-                   {{ content.field_shared_h2_white_title_desc }}
-                  </div>
-                </div>
+  <div class = "container">
+      <div{{ attributes.addClass(classes) }}>
+        {% block content %}
+           <div class = "row">
+            <div class="col-12 col-md-3 shared_h2_title">
+              {{ content.field_shared_h2_title }}
+              <span class ="shared_link_label">{{ content.field_shared_link_label }}</span>
             </div>
-        </div>
+            <div class="col-12 col-md-3 bundle_partner_logo justify-content-center">
+              {{ content.field_bundle_partner_logo }}
+            </div>
+            <div class="col-12 col-md-6 shared_p_simple_text">
+              {{ content.field_shared_p_simple_text }}
+            </div>
+           </div>
+        {% endblock %}
       </div>
-    {% endblock %}
+
   </div>
 {% endblock paragraph %}
-

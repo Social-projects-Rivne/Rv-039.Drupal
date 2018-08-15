@@ -1,0 +1,40 @@
+.paragraph--type--shared-simple-white-title-
+{
+	#tech-par-title-background
+	{
+	    @extend #full_width_background;
+	    min-height: 550px;
+	    background: linear-gradient(90deg,rgba(0,0,0,.5) 21%,hsla(0,0%,7%,0)), url(../images/technology-partners-title-background.jpg) no-repeat center top;
+	}
+}
+
+.paragraph--type--bundle-description-tech-par-page 
+{
+	padding-top:150px;
+	padding-bottom:150px;
+	.shared_h1_title
+	{
+		margin-bottom: 40px;
+	}
+}
+
+.paragraph--type--bundle-content-tech-par-page
+{
+	.bundle_partner_logo
+	{
+		display:flex;
+		width:160px;
+		height:100%;
+	}
+	.bundle_partner_logo img
+	{
+		width:160px;
+		height:auto;
+    }
+    .row
+    {
+    	margin: 60px 0 40px;
+		padding: 40px 11px 11px;
+	    border-top: 1px solid #426270;
+    }
+}
