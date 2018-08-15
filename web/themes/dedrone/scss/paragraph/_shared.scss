@@ -3,59 +3,6 @@
 ========================================================================== */
 
 
-/* Text styles
-========================================================================== */
-
-.shared_h1_title
-{
-	font-size: 40px;
-    line-height: 45px;
-    letter-spacing: 0;
-    color: #111;
-    font-weight: 200;
-}
-
-.shared_h1_white_title
-{
-    @extend .shared_h1_title;
-    color: #fff;
-    text-align: center;
-}
-
-.shared_h2_title
-{
-    font-size: 20px;
-    line-height: 24px;
-    color: #111;
-    font-weight: 300;
-}
-
-.shared_h2_white_title_desc
-{
-    @extend .shared_h2_title;
-    color: #fff;    
-    text-align: center; 
-}
-
-.shared_p_simple_text
-{
-    float: none;
-    clear: none;
-    color: #111;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: left;
-    display: inline-block;
-}
-
-.shared_link_label a
-{
-    @extend .shared_p_simple_text;
-    font-weight: 400;
-    color: #009ee3;
-}
-
-
 /* Paragraphs background styles
 ========================================================================== */
 
@@ -113,14 +60,16 @@
 
 .paragraph--type--shared-simple-white-title-
 {
-    .shared_h1_white_title
+    h1
     {
+        color: #fff;
         margin-top: 10px;
         margin-bottom: 10px;
         padding-top: 5px;
     }
-    .shared_h2_white_title_desc
+    h2
     {
+        color: #fff;
         margin-top: 20px;
         margin-bottom: 10px;
     }
@@ -128,6 +77,11 @@
 
 .paragraph--type--shared-aditional-information
 {
+    h1
+    {
+        color: #fff;
+        text-align: center;
+    }
     .container
     {
         padding-top:150px;

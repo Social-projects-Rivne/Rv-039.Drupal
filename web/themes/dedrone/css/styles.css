@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,800,900");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6851,6 +6851,29 @@ td,
 th {
   padding: 0; }
 
+h1 {
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0;
+  font-weight: 300;
+  color: #111; }
+
+h2 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 300;
+  color: #111; }
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #111; }
+
+a {
+  font-weight: 400;
+  color: #009ee3; }
+
 body {
   background-color: #fff;
   font-size: 14px;
@@ -6969,7 +6992,7 @@ body {
 /*Page description paragraph*/
 .paragraph--type--bundle-description-tech-par-page {
   padding-top: 150px; }
-  .paragraph--type--bundle-description-tech-par-page .shared_h1_title, .paragraph--type--bundle-description-tech-par-page .shared_h1_white_title {
+  .paragraph--type--bundle-description-tech-par-page .h1 {
     margin-bottom: 40px; }
 
 /*Main content paragraph*/
@@ -6992,42 +7015,6 @@ body {
 /* ==========================================================================
    Shared site styles 
 ========================================================================== */
-/* Text styles
-========================================================================== */
-.shared_h1_title, .shared_h1_white_title {
-  font-size: 40px;
-  line-height: 45px;
-  letter-spacing: 0;
-  color: #111;
-  font-weight: 200; }
-
-.shared_h1_white_title {
-  color: #fff;
-  text-align: center; }
-
-.shared_h2_title, .shared_h2_white_title_desc {
-  font-size: 20px;
-  line-height: 24px;
-  color: #111;
-  font-weight: 300; }
-
-.shared_h2_white_title_desc {
-  color: #fff;
-  text-align: center; }
-
-.shared_p_simple_text, .shared_link_label a {
-  float: none;
-  clear: none;
-  color: #111;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
-  display: inline-block; }
-
-.shared_link_label a {
-  font-weight: 400;
-  color: #009ee3; }
-
 /* Paragraphs background styles
 ========================================================================== */
 /*Styles for makes full width paragraph background*/
@@ -7065,14 +7052,20 @@ body {
 
 /* Styles for shared paragraph
 ========================================================================== */
-.paragraph--type--shared-simple-white-title- .shared_h1_white_title {
+.paragraph--type--shared-simple-white-title- h1 {
+  color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 5px; }
 
-.paragraph--type--shared-simple-white-title- .shared_h2_white_title_desc {
+.paragraph--type--shared-simple-white-title- h2 {
+  color: #fff;
   margin-top: 20px;
   margin-bottom: 10px; }
+
+.paragraph--type--shared-aditional-information h1 {
+  color: #fff;
+  text-align: center; }
 
 .paragraph--type--shared-aditional-information .container {
   padding-top: 150px;
