@@ -6858,6 +6858,14 @@ body {
   font-family: "Roboto", sans-serif;
   color: #818181; }
 
+.customers-img-text-wrap .img-wrap .field {
+  max-height: 450px;
+  overflow: hidden;
+  margin-left: -15px; }
+  .customers-img-text-wrap .img-wrap .field img {
+    width: 100%;
+    height: auto; }
+
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
