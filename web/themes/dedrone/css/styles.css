@@ -6857,6 +6857,10 @@ h1 {
   letter-spacing: 0;
   font-weight: 300;
   color: #111; }
+  @media (max-width: 479px) {
+    h1 {
+      font-size: 32px;
+      line-height: 36px; } }
 
 h2 {
   font-size: 20px;
@@ -6864,10 +6868,15 @@ h2 {
   letter-spacing: 0;
   font-weight: 300;
   color: #111; }
+  @media (max-width: 479px) {
+    h2 {
+      font-size: 18px; } }
 
 p {
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 300;
   color: #111; }
 
 a {
@@ -6990,10 +6999,8 @@ body {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 21%, rgba(18, 18, 18, 0)), url(../images/technology-partners-title-background.jpg) no-repeat center top; }
 
 /*Page description paragraph*/
-.paragraph--type--bundle-description-tech-par-page {
-  padding-top: 150px; }
-  .paragraph--type--bundle-description-tech-par-page .h1 {
-    margin-bottom: 40px; }
+.paragraph--type--bundle-description-tech-par-page h1 {
+  margin-bottom: 40px; }
 
 /*Main content paragraph*/
 .paragraph--type--bundle-content-tech-par-page .bundle_partner_logo {
@@ -7052,16 +7059,35 @@ body {
 
 /* Styles for shared paragraph
 ========================================================================== */
-.paragraph--type--shared-simple-white-title- h1 {
+.paragraph--type--shared-simple-white-title- .shared_white_title_pos {
+  max-width: 500px;
   color: #fff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 5px; }
+  /*Title*/
+  /*Description*/ }
+  @media (max-width: 479px) {
+    .paragraph--type--shared-simple-white-title- .shared_white_title_pos {
+      padding: 0px 25px; } }
+  .paragraph--type--shared-simple-white-title- .shared_white_title_pos h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    color: #fff; }
+  .paragraph--type--shared-simple-white-title- .shared_white_title_pos h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff; }
 
-.paragraph--type--shared-simple-white-title- h2 {
-  color: #fff;
-  margin-top: 20px;
-  margin-bottom: 10px; }
+@media (max-width: 1200px) {
+  .paragraph--type--shared-simple-white-title- {
+    margin-bottom: 150px; } }
+
+@media (max-width: 991px) {
+  .paragraph--type--shared-simple-white-title- {
+    margin-bottom: 100px; } }
+
+@media (max-width: 479px) {
+  .paragraph--type--shared-simple-white-title- {
+    margin-bottom: 75px; } }
 
 .paragraph--type--shared-aditional-information h1 {
   color: #fff;

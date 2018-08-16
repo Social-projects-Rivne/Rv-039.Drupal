@@ -60,19 +60,34 @@
 
 .paragraph--type--shared-simple-white-title-
 {
-    h1
+    .shared_white_title_pos
     {
-        color: #fff;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding-top: 5px;
+        max-width: 500px;
+        color: #fff;   
+        @media (max-width: 479px)
+        {
+            padding: 0px 25px;
+        }
+
+        /*Title*/
+        h1
+        {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-top: 5px;
+            color: #fff;
+        }
+        /*Description*/
+        h2
+        {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
     }
-    h2
-    {
-        color: #fff;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
+    @media (max-width: 1200px){ margin-bottom: 150px; }
+    @media (max-width: 991px) { margin-bottom: 100px; }
+    @media (max-width: 479px) { margin-bottom: 75px;  }
 }
 
 .paragraph--type--shared-aditional-information
