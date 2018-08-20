@@ -31,27 +31,38 @@
 /* Buttons style
 ========================================================================== */
 
-.shared_white_btn
+.shared_adit_inf_btns a
 {
     display: inline-block;
-    min-width: 220px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    text-decoration: none;
+    text-align:center;
     padding: 15px 50px;
     border-radius: 4px;
+    min-width: 220px;
+    margin: 0px 10px;
+    border-color: #fff;
+    background-color: transparent;
+    background-image: none;
+    color: #fff;
+    border: 1px solid #fff;
     font-size: 12px;
     line-height: 15px;
-    font-weight: 400;   
+    font-weight: 400;
+
+    @include media-breakpoint-down(xs) { 
+        width: 100%; 
+        margin: 20px 0px;
+    }
 }
-.shared_white_btn:hover
+
+.shared_adit_inf_btns a:hover
 {
     color: #f05c40;
+    background-color: #fff;
 }
 .shared_adit_inf_btns
 {
-    margin-top:25px;
+    margin: 25px 10px 0px 10px;
 }
 
 
@@ -64,7 +75,7 @@
     {
         max-width: 500px;
         color: #fff;   
-        @media (max-width: 479px)
+        @include media-breakpoint-up(xs)
         {
             padding: 0px 25px;
         }
@@ -85,9 +96,10 @@
             color: #fff;
         }
     }
-    @media (max-width: 1200px){ margin-bottom: 150px; }
-    @media (max-width: 991px) { margin-bottom: 100px; }
-    @media (max-width: 479px) { margin-bottom: 75px;  }
+    @include media-breakpoint-up(xs) { margin-bottom: 75px; }
+    @include media-breakpoint-up(sm) { margin-bottom: 100px; }
+    @include media-breakpoint-up(md) { margin-bottom: 150px; }
+    @include media-breakpoint-up(lg) { margin-bottom: 150px; }
 }
 
 .paragraph--type--shared-aditional-information
@@ -102,4 +114,6 @@
         padding-top:150px;
         padding-bottom:150px;
     }
+
+
 }
