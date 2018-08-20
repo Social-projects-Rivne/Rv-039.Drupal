@@ -4,13 +4,45 @@
       max-height: 450px;
       overflow: hidden;
       margin-left: -15px;
-      img{
-        width: 100%;
-        height: auto;
+      a{
+        position: relative;
+        z-index: -5;
+        img{
+          width: 100%;
+          height: auto;
+        }
       }
     }
   }
   .text-wrap{
-    
+    height: 100%;
+    margin-top: 0;
+    padding: 75px;
+    color: #111;
+    @media(max-width: 991px){
+      padding: 40px 75px;
+    }
+    @media screen and (max-width: 479px){
+      padding: 35px 75px;
+    }
+    h3{
+      font-size: 20px;
+      line-height: 24px;
+    }
+    ul{
+      margin: 10px 0;
+      padding: 0;
+      list-style: none;
+      li{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+        &:last-child{
+          border-bottom: none;
+        }
+      }
+    }
   }
 }

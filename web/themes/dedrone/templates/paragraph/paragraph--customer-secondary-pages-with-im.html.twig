@@ -53,10 +53,11 @@
     <div class="row customers-img-text-wrap">
       {% block content %}
         <div class="col-xs-12 col-lg-6 img-wrap">
-        <div style="backround-images:url({{ file_url(content.field_image[0].media.entity.field_media_image.entity.uri.value }})"></div>
+        <div style="background:url( {{ file_url(content.field_image[0].entity.uri.value) }} );"></div>
+        {{ content.field_image }}
         </div>
         <div class="col-xs-12 col-lg-6 text-wrap">
-         {{ content.field_contents }}
+         {{ content.field_content }}
         </div>
       {% endblock %}
     </div>
