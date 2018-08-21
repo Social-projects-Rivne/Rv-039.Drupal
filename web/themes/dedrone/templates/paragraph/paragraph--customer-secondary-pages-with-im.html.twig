@@ -52,9 +52,8 @@
   <div class="container-fluid">
     <div class="row customers-img-text-wrap">
       {% block content %}
-        <div class="col-xs-12 col-lg-6 img-wrap">
-        <div style="background:url( {{ file_url(content.field_image[0].entity.uri.value) }} );"></div>
-        {{ content.field_image }}
+        <div class="col-xs-12 col-lg-6 img-wrap" style="background:url({{ background_image_url }}) no-repeat center top;">
+
         </div>
         <div class="col-xs-12 col-lg-6 text-wrap">
          {{ content.field_content }}

@@ -6858,16 +6858,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: #818181; }
 
-.customers-img-text-wrap .img-wrap .field {
-  max-height: 450px;
+.customers-img-text-wrap .img-wrap {
+  height: 475px;
   overflow: hidden;
   margin-left: -15px; }
-  .customers-img-text-wrap .img-wrap .field a {
-    position: relative;
-    z-index: -5; }
-    .customers-img-text-wrap .img-wrap .field a img {
-      width: 100%;
-      height: auto; }
 
 .customers-img-text-wrap .text-wrap {
   height: 100%;
