@@ -7,62 +7,10 @@
 ========================================================================== */
 
 /*Styles for makes full width paragraph background*/
-#full_width_background
-{
-    display:flex;
-    background-attachment: relative;
-    background-position: center center;
-    width: 100%;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 #aditional_inf_background
 {
     @extend #full_width_background;
     background: #f05c40 no-repeat center top;
-}
-
-
-/* Buttons style
-========================================================================== */
-
-.shared_adit_inf_btns a
-{
-    display: inline-block;
-    text-decoration: none;
-    text-align:center;
-    padding: 15px 50px;
-    border-radius: 4px;
-    min-width: 220px;
-    margin: 0px 10px;
-    border-color: #fff;
-    background-color: transparent;
-    background-image: none;
-    color: #fff;
-    border: 1px solid #fff;
-    font-size: 12px;
-    line-height: 15px;
-    font-weight: 400;
-
-    @include media-breakpoint-down(xs) { 
-        width: 100%; 
-        margin: 20px 0px;
-    }
-}
-
-.shared_adit_inf_btns a:hover
-{
-    color: #f05c40;
-    background-color: #fff;
-}
-.shared_adit_inf_btns
-{
-    margin: 25px 10px 0px 10px;
 }
 
 
@@ -114,6 +62,42 @@
         padding-top:150px;
         padding-bottom:150px;
     }
+}
 
 
+/* Buttons style
+========================================================================== */
+
+.shared_adit_inf_btns a
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align:center;
+    padding: 15px 50px;
+    border-radius: 4px;
+    min-width: 220px;
+    margin: 0px 10px;
+    border-color: #fff;
+    background-color: transparent;
+    background-image: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+
+    @include media-breakpoint-down(xs) { 
+        width: 100%; 
+        margin: 20px 0px;
+    }
+}
+
+.shared_adit_inf_btns a:hover
+{
+    color: #f05c40;
+    background-color: #fff;
+}
+.shared_adit_inf_btns
+{
+    margin: 25px 10px 0px 10px;
 }

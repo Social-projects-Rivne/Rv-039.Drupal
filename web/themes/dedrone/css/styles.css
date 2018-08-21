@@ -7038,12 +7038,8 @@ body {
 ========================================================================== */
 /*Styles for makes full width paragraph background*/
 #full_width_background, .paragraph--type--shared-simple-white-title- #tech-par-title-background, #aditional_inf_background {
-  display: -ms-flexbox;
-  display: flex;
-  background-attachment: relative;
-  background-position: center center;
-  width: 100%;
-  background-size: cover; }
+  background-position: 0 0,50% 50%;
+  background-size: auto,cover; }
 
 #aditional_inf_background {
   background: #f05c40 no-repeat center top; }

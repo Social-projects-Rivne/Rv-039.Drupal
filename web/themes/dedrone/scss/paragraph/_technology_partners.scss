@@ -7,13 +7,7 @@
 /*Title paragraph*/
 .paragraph--type--shared-simple-white-title-
 {
-	#tech-par-title-background
-	{
-	    @extend #full_width_background;
-	    min-height: 550px;
 
-	    
-	}
 }
 
 /*Page description paragraph*/
@@ -63,7 +57,3 @@
 {
 
 }
-
-
-
-{{ base_path ~ directory }}/images/technology-partners-title-background.jpg

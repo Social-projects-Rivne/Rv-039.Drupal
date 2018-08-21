@@ -1,6 +1,4 @@
 <?php
-    use Drupal\file\Entity\File;
-    use Drupal\image\Entity\ImageStyle;
 /**
  * Implements template_preprocess_paragraph().
  *
@@ -18,8 +16,19 @@ function dedrone_preprocess_paragraph(&$variables) {
    }
 
 
-   /* 
-      Background image preprocess
+   if ($paragraph->bundle() == 'slider') {
+     if ($paragraph->hasField('field_css_class')) {
+     	$css_option = $paragraph->get('field_css_class');
+     	if ($css_option) {
+     	  $variables['content']['css_class'] = $css_option->value;
+     	}
+     }
+   }
+
+
+
+   /* Background image preprocess:
+    Preprocess for add media image field on paragraph background. 
       Variables:
       - 'shared_simple_white_title_' - paragraph name
       - 'field_shared_background_image' - media image field
@@ -36,12 +45,22 @@ function dedrone_preprocess_paragraph(&$variables) {
    }
 
 
-   if ($paragraph->bundle() == 'slider') {
-     if ($paragraph->hasField('field_css_class')) {
-     	$css_option = $paragraph->get('field_css_class');
-     	if ($css_option) {
-     	  $variables['content']['css_class'] = $css_option->value;
-     	}
+
+   /* Background color preprocess:
+      Variables:
+      - 'shared_aditional_information' - paragraph name
+      - 'field_background_color' -  jQuery Colorpicker field
+      - 'background_color' - variable for use image in twig template 
+      Example: 
+        style = "<div style="background-color:#{{background_color}}">*/
+   if ($paragraph->bundle() == 'shared_aditional_information') 
+   {
+    $color_field = $paragraph->get('field_background_color');
+    if (!$color_field->isEmpty()) {
+      $variables['background_color'] = $color_field->value;
      }
    }
+
 }
+
+
