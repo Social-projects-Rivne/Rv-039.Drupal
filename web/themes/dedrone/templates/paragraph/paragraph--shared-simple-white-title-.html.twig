@@ -12,12 +12,8 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-    <div class = "align-items-center" style="
-    background: linear-gradient(90deg,rgba(0,0,0,.5) 21%,hsla(0,0%,7%,0)), url({{ background_image_url }}) no-repeat center top;
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover;
-    min-height: 550px;
-    display:flex;">
+    <div class = "align-items-center background_image_position" style="
+    background: linear-gradient(90deg,rgba(0,0,0,.5) 21%,hsla(0,0%,7%,0)), url({{ background_image_url }}) no-repeat center top;">
           <div class="container">
             <div class="row justify-content-center">
                 <div class="text-center shared_white_title_pos">

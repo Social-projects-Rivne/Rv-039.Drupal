@@ -5,14 +5,16 @@
 
 /* Paragraphs background styles
 ========================================================================== */
-
-/*Styles for makes full width paragraph background*/
-#aditional_inf_background
+.paragraph--type--shared-simple-white-title-
 {
-    @extend #full_width_background;
-    background: #f05c40 no-repeat center top;
+    .background_image_position
+    {
+        background-position: 0 0,50% 50% !important;
+        background-size: auto,cover !important;
+        min-height: 550px !important;
+        display:flex !important;
+    }
 }
-
 
 /* Styles for shared paragraph
 ========================================================================== */

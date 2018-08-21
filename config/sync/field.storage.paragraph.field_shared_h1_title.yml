@@ -1,0 +1,20 @@
+uuid: 83c48f42-8815-4e93-b698-60b8e5810420
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_shared_h1_title
+field_name: field_shared_h1_title
+entity_type: paragraph
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

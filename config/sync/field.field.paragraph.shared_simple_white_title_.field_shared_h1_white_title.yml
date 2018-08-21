@@ -1,0 +1,21 @@
+uuid: d35d3071-50db-4e9f-89e0-a96d99418ebb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_h1_white_title
+    - paragraphs.paragraphs_type.shared_simple_white_title_
+  module:
+    - text
+id: paragraph.shared_simple_white_title_.field_shared_h1_white_title
+field_name: field_shared_h1_white_title
+entity_type: paragraph
+bundle: shared_simple_white_title_
+label: 'Shared H1 white title'
+description: 'H1 white color title text.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
