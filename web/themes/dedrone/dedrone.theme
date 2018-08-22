@@ -1,11 +1,11 @@
 <?php
-
 /**
  * Implements template_preprocess_paragraph().
  *
  */
 function dedrone_preprocess_paragraph(&$variables) {
    $paragraph = $variables['elements']['#paragraph'];
+
    if ($paragraph->bundle() == 'image_and_description_simple') {
      if ($paragraph->hasField('field_image_position')) {
      	$position_field = $paragraph->get('field_image_position');
@@ -15,6 +15,7 @@ function dedrone_preprocess_paragraph(&$variables) {
      }
    }
    if ($paragraph->bundle() == 'slider' ) {
+   if ($paragraph->bundle() == 'slider') {
      if ($paragraph->hasField('field_css_class')) {
      	$css_option = $paragraph->get('field_css_class');
      	if ($css_option) {
@@ -39,3 +40,42 @@ function dedrone_preprocess_paragraph(&$variables) {
 //        }
 //    }
 }
+
+
+
+   /* Background image preprocess:
+    Preprocess for add media image field on paragraph background. 
+      Variables:
+      - 'shared_simple_white_title_' - paragraph name
+      - 'field_shared_background_image' - media image field
+      - 'background_image_url' - variable for use image in twig template 
+      Example: 
+        style = "background:url({{ background_image_url }}) no-repeat center top;" */
+   if ($paragraph->bundle() == 'shared_simple_white_title_') 
+   {
+    $image_field = $paragraph->get('field_shared_background_image');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+
+
+
+   /* Background color preprocess:
+      Variables:
+      - 'shared_aditional_information' - paragraph name
+      - 'field_background_color' -  jQuery Colorpicker field
+      - 'background_color' - variable for use image in twig template 
+      Example: 
+        style = "<div style="background-color:#{{background_color}}">*/
+   if ($paragraph->bundle() == 'shared_aditional_information') 
+   {
+    $color_field = $paragraph->get('field_background_color');
+    if (!$color_field->isEmpty()) {
+      $variables['background_color'] = $color_field->value;
+     }
+   }
+
+}
+
