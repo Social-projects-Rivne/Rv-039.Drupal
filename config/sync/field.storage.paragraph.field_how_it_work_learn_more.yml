@@ -1,16 +1,17 @@
-uuid: eeb26bcc-3ff1-4425-bbf3-16cbabd61fa2
+uuid: 826d01db-f6ae-4fbb-8a15-9352979917f1
 langcode: en
 status: true
 dependencies:
   module:
-    - link
     - paragraphs
-id: paragraph.field_watch_a_video
-field_name: field_watch_a_video
+    - text
+id: paragraph.field_how_it_work_learn_more
+field_name: field_how_it_work_learn_more
 entity_type: paragraph
-type: link
-settings: {  }
-module: link
+type: text
+settings:
+  max_length: 255
+module: text
 locked: false
 cardinality: 1
 translatable: true

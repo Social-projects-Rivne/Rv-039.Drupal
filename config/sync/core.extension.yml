@@ -57,11 +57,14 @@ module:
   ultimate_cron: 0
   update: 0
   user: 0
+  video_embed_field: 0
   view_mode_selector: 0
   views_ui: 0
   webform: 0
   webform_examples: 0
   webform_ui: 0
+  yaml_content: 0
+  youtube_formatter: 0
   menu_link_content: 1
   pathauto: 1
   views: 10

@@ -1,0 +1,9 @@
+uuid: b2c7c2b1-d373-4a54-894f-093e96ad3754
+langcode: en
+status: true
+dependencies: {  }
+id: page_products_detect_a_drone
+label: 'page products Detect a Drone'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

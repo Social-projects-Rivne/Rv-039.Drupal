@@ -1,0 +1,21 @@
+uuid: 562400e4-dba8-44b2-b63c-d29da1b031d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_our_rf_sensors
+    - paragraphs.paragraphs_type.page_products_how_it_works
+  module:
+    - text
+id: paragraph.page_products_how_it_works.field_our_rf_sensors
+field_name: field_our_rf_sensors
+entity_type: paragraph
+bundle: page_products_how_it_works
+label: 'our RF sensors'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

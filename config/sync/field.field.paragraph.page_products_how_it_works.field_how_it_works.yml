@@ -1,0 +1,21 @@
+uuid: 36350b6b-b3fd-4d30-81d5-00de6860c8d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_how_it_works
+    - paragraphs.paragraphs_type.page_products_how_it_works
+  module:
+    - text
+id: paragraph.page_products_how_it_works.field_how_it_works
+field_name: field_how_it_works
+entity_type: paragraph
+bundle: page_products_how_it_works
+label: 'How it Works'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

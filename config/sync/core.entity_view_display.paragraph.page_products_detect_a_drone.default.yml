@@ -1,0 +1,33 @@
+uuid: fde907ad-217c-44a8-8940-f13f06b3ba93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_products_detect_a_drone.field_dedrone_s_rf_sensors
+    - field.field.paragraph.page_products_detect_a_drone.field_rf_sensor_side
+    - paragraphs.paragraphs_type.page_products_detect_a_drone
+  module:
+    - image
+    - text
+id: paragraph.page_products_detect_a_drone.default
+targetEntityType: paragraph
+bundle: page_products_detect_a_drone
+mode: default
+content:
+  field_dedrone_s_rf_sensors:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_rf_sensor_side:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

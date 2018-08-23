@@ -1,0 +1,21 @@
+uuid: c98867ce-0d54-47eb-bf6d-f3ec40263b10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nothing_and_noth
+    - paragraphs.paragraphs_type.complete_airspace_security_solut
+  module:
+    - text
+id: paragraph.complete_airspace_security_solut.field_nothing_and_noth
+field_name: field_nothing_and_noth
+entity_type: paragraph
+bundle: complete_airspace_security_solut
+label: 'nothing and nothing'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

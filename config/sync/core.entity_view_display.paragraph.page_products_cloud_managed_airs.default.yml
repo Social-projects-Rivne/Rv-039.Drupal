@@ -1,0 +1,33 @@
+uuid: c01bf751-2991-4f56-93b7-747c6c992c04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_products_cloud_managed_airs.field_cloud_managed_airspace_sec
+    - field.field.paragraph.page_products_cloud_managed_airs.field_page_products_dedrone_clou
+    - paragraphs.paragraphs_type.page_products_cloud_managed_airs
+  module:
+    - image
+    - text
+id: paragraph.page_products_cloud_managed_airs.default
+targetEntityType: paragraph
+bundle: page_products_cloud_managed_airs
+mode: default
+content:
+  field_cloud_managed_airspace_sec:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_page_products_dedrone_clou:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
