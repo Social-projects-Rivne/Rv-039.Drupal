@@ -6,13 +6,18 @@
 @import 'base/normalize';
 @import 'base/typography.scss';
 @import 'base/global';
-@import 'base/secondary-custimers-block-img-text';
 
 // Import Components
 @import 'blocks/header';
+@import 'blocks/_footer_menu';
+@import 'blocks/_footer';
+@import 'blocks/secondary_custimers_block-img_text';
+@import 'blocks/small_text_wrapper';
 
 // Import Layouts
 // @import 'layouts/home';
 
 // Import Plugins
 // @import 'plugins/plugin';
+
+

@@ -48,11 +48,11 @@
   ]
 %}
 
-Homepage slider
+{#Homepage slider#}
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
-    {% block content %}  
-       
+    {% block content %}
+      {{ content }}
     {% endblock %}
   </div>
 {% endblock paragraph %}
