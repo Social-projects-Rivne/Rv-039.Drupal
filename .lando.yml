@@ -2,3 +2,6 @@ name: d-85
 recipe: drupal8
 config:
   webroot: web
+services:
+  appserver:
+    xdebug: true

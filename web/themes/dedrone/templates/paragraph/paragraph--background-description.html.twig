@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Custom theme implementation to display a paragraph.
+ * Default theme implementation to display a paragraph.
  *
  * Available variables:
  * - paragraph: Full paragraph entity.
@@ -38,7 +38,6 @@
  * @ingroup themeable
  */
 #}
-
 {%
   set classes = [
     'paragraph',
@@ -47,13 +46,14 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-
-{#Homepage slider#}
+<section class='{{ content.css_class }}' style="background-image: url('{{ content.field_background_image.0['#markup'] }}')">
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ content }}
+      <div class="container">
+          <div class="wpap-content">{{ content|without('field_background_image') }}</div>
+      </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}
-
+</section>

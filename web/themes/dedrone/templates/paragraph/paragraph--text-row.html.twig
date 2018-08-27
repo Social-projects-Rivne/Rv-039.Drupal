@@ -1,21 +1,24 @@
 {%
   set classes = [
-    'swiper-container',
     'paragraph',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-
-<section class='{{ content.css_class }}'>
+<section class="text-columns">
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
-    {% block content %}
-        {{ content }}
-    {% endblock %}
+    <div class="container">
+      {% block content %}
+          <div class="title">
+            {{ content.field_title }}
+          </div>
+      <div class="wrap-items">
+          {{ content.field_image_description_column }}
+      </div>
+      {% endblock %}
+    </div>
   </div>
-
 {% endblock paragraph %}
 </section>
-
