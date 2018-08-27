@@ -1,0 +1,9 @@
+uuid: e913450e-ecd9-4d59-a624-eb05ff8f9cc7
+langcode: en
+status: true
+dependencies: {  }
+id: shared_aditional_information
+label: 'Shared aditional information'
+icon_uuid: null
+description: 'Aditional information paragraph with white title and buttons.  Example:  "Want to learn more?" block.'
+behavior_plugins: {  }

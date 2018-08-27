@@ -1,0 +1,40 @@
+uuid: cbf27188-3b70-43bc-a570-a7ae9ea932d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_simple_white_title_.field_shared_background_image
+    - field.field.paragraph.shared_simple_white_title_.field_shared_h1_white_title
+    - field.field.paragraph.shared_simple_white_title_.field_shared_h2_white_title_desc
+    - paragraphs.paragraphs_type.shared_simple_white_title_
+  module:
+    - text
+id: paragraph.shared_simple_white_title_.default
+targetEntityType: paragraph
+bundle: shared_simple_white_title_
+mode: default
+content:
+  field_shared_background_image:
+    type: entity_reference_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_shared_h1_white_title:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_shared_h2_white_title_desc:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

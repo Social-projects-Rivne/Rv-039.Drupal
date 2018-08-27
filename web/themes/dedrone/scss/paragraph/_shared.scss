@@ -1,0 +1,105 @@
+/* ==========================================================================
+   Shared site styles 
+========================================================================== */
+
+
+/* Paragraphs background styles
+========================================================================== */
+.paragraph--type--shared-simple-white-title-
+{
+    .background_image_position
+    {
+        background-position: 0 0,50% 50% !important;
+        background-size: auto,cover !important;
+        min-height: 550px !important;
+        display:flex !important;
+    }
+}
+
+/* Styles for shared paragraph
+========================================================================== */
+
+.paragraph--type--shared-simple-white-title-
+{
+    .shared_white_title_pos
+    {
+        max-width: 500px;
+        color: #fff;   
+        @include media-breakpoint-up(xs)
+        {
+            padding: 0px 25px;
+        }
+
+        /*Title*/
+        h1
+        {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-top: 5px;
+            color: #fff;
+        }
+        /*Description*/
+        h2
+        {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+    }
+    @include media-breakpoint-up(xs) { margin-bottom: 75px; }
+    @include media-breakpoint-up(sm) { margin-bottom: 100px; }
+    @include media-breakpoint-up(md) { margin-bottom: 150px; }
+    @include media-breakpoint-up(lg) { margin-bottom: 150px; }
+}
+
+.paragraph--type--shared-aditional-information
+{
+    h1
+    {
+        color: #fff;
+        text-align: center;
+    }
+    .container
+    {
+        padding-top:150px;
+        padding-bottom:150px;
+    }
+}
+
+
+/* Buttons style
+========================================================================== */
+
+.shared_adit_inf_btns a
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align:center;
+    padding: 15px 50px;
+    border-radius: 4px;
+    min-width: 220px;
+    margin: 0px 10px;
+    border-color: #fff;
+    background-color: transparent;
+    background-image: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+
+    @include media-breakpoint-down(xs) { 
+        width: 100%; 
+        margin: 20px 0px;
+    }
+}
+
+.shared_adit_inf_btns a:hover
+{
+    color: #f05c40;
+    background-color: #fff;
+}
+.shared_adit_inf_btns
+{
+    margin: 25px 10px 0px 10px;
+}
