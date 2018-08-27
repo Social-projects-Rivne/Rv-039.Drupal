@@ -1,0 +1,28 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+
+<section class="customers">
+  {% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+      <div class="container">
+        {% block content %}
+            <div class="titles-wrap">
+                {{ content.field_titles }}
+            </div>
+            <div class="thumbs-wrap">
+                {{ content.field_image_description_column }}
+            </div>
+            <div class="button-wrap">
+                {{ content.field_link_customers }}
+            </div>
+        {% endblock %}
+      </div>
+    </div>
+  {% endblock paragraph %}
+</section>

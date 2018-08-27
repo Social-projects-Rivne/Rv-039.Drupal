@@ -9,15 +9,23 @@
 
 // Import Components
 @import 'blocks/header';
-@import 'blocks/_footer_menu';
-@import 'blocks/_footer';
-@import 'paragraph/_technology_partners';
-@import 'paragraph/_shared';
+@import 'blocks/tabs';
+@import 'blocks/home-main-slider';
+@import 'blocks/benefits-trio';
+@import 'blocks/text-columns';
+@import 'blocks/products-intro';
+@import 'blocks/customers';
+@import 'blocks/buttons-section';
+@import 'blocks/webinars-section';
+@import 'blocks/cta-section';
+
+@import 'blocks/footer_menu';
+@import 'blocks/footer';
+@import 'paragraph/technology_partners';
+@import 'paragraph/shared';
 
 // Import Layouts
 // @import 'layouts/home';
 
 // Import Plugins
 // @import 'plugins/plugin';
-
-
