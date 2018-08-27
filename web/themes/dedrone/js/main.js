@@ -3,10 +3,23 @@
 	Drupal.behaviors.initSlider = {
 		attach: function (context, settings) {
 			$(document).ready(function(){
-				var mySwiper = new Swiper ('.swiper-container', {
+				var swiperMainFull = new Swiper ('.slider-main .swiper-container', {
 					loop: true,
 					effect: 'fade',
 					speed: 700,
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true
+					}
+				});
+
+				var swiperMainInner = new Swiper ('.slider-inner .swiper-container', {
+					loop: true,
+					effect: 'slide',
+					speed: 500,
+					autoplay: {
+						delay: 8000,
+					},
 					pagination: {
 						el: '.swiper-pagination',
 						clickable: true

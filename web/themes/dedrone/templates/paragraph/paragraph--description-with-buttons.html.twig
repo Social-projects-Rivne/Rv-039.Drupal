@@ -46,10 +46,16 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
+
+<section class='{{ content.css_class }}'>
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
-    {% block content %}
-      {{ content }}
-    {% endblock %}
+    <div class="container">
+      {% block content %}
+        <div class="wrap-title">{{ content.field_description }}</div>
+        <div class="wrap-buttons">{{ content.field_buttons }}</div>
+      {% endblock %}
+    </div>
   </div>
 {% endblock paragraph %}
+</section>

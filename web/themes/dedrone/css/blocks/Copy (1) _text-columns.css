@@ -1,0 +1,25 @@
+.text-columns {
+  min-height: 1000px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("../images/text_columns_bg.jpg");
+  background-size: cover; }
+  .text-columns .title {
+    margin: 10px 0;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #111;
+    font-weight: 300; }
+  .text-columns .wrap-items {
+    margin-top: 125px; }
+    .text-columns .wrap-items p {
+      margin-top: 10px;
+      float: none;
+      clear: none;
+      color: #111;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      font-weight: 300; }

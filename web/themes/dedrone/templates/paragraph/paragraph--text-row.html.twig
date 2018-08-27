@@ -1,21 +1,24 @@
-
 {%
   set classes = [
-    'benefits-trio',
     'paragraph',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-<section class='{{ content.field_css_class }}'>
+<section class="text-columns">
 {% block paragraph %}
-  <section{{ attributes.addClass(classes) }}>
+  <div{{ attributes.addClass(classes) }}>
     <div class="container">
-    {% block content %}
-      {{ content }}
-    {% endblock %}
+      {% block content %}
+          <div class="title">
+            {{ content.field_title }}
+          </div>
+      <div class="wrap-items">
+          {{ content.field_image_description_column }}
+      </div>
+      {% endblock %}
     </div>
-  </section>
+  </div>
 {% endblock paragraph %}
 </section>

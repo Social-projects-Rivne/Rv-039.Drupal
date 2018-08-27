@@ -14,7 +14,8 @@ function dedrone_preprocess_paragraph(&$variables) {
      	}
      }
    }
-   if ($paragraph->bundle() == 'slider' ) {
+
+   if ($paragraph->bundle() == 'slider' || 'bp_tabs' || 'description_with_buttons' || 'background_description' || 'bp_view' ) {
      if ($paragraph->hasField('field_css_class')) {
      	$css_option = $paragraph->get('field_css_class');
      	if ($css_option) {
@@ -23,19 +24,12 @@ function dedrone_preprocess_paragraph(&$variables) {
      }
    }
 
-    if ($paragraph->bundle() == 'bp_tabs' ) {
-        if ($paragraph->hasField('field_css_class')) {
-            $css_option = $paragraph->get('field_css_class');
+    if ($paragraph->bundle() == 'description_with_button' ) {
+        if ($paragraph->hasField('field_background_color')) {
+            $css_option = $paragraph->get('field_background_color');
             if ($css_option) {
-                $variables['content']['css_class'] = $css_option->value;
+                $variables['content']['css_background_color'] = $css_option->value;
             }
         }
     }
-//    if ($paragraph->bundle() == 'tabs') {
-//        $field_name = 'field_tabs';
-//        if ($paragraph->hasField('$field_name')) {
-//            $tabs_field = $paragraph->get('$field_name');
-//
-//        }
-//    }
 }
