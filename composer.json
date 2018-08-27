@@ -22,6 +22,7 @@
         "drupal/admin_toolbar": "^1.24",
         "drupal/backup_migrate": "^4.0",
         "drupal/block_class": "^1.0",
+        "drupal/bootstrap_paragraphs": "^2.0",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5.3",
         "drupal/ctools": "^3.0",
