@@ -1,0 +1,8 @@
+uuid: 2aa1092b-982a-4352-82f2-eb4f663d4da2
+langcode: en
+status: true
+dependencies: {  }
+id: bundle_milestones
+label: 'Bundle Milestones'
+target_entity_type_id: paragraph
+description: 'Milestones timeline content About us page'

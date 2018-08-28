@@ -1,0 +1,40 @@
+uuid: 2cae86ba-58cb-4c0a-9e6a-aed6e766e261
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_container_background_img.field_shared_background_image
+    - field.field.paragraph.shared_container_background_img.field_shared_content
+    - paragraphs.paragraphs_type.shared_container_background_img
+  module:
+    - paragraphs
+id: paragraph.shared_container_background_img.default
+targetEntityType: paragraph
+bundle: shared_container_background_img
+mode: default
+content:
+  field_shared_background_image:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_shared_content:
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

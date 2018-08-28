@@ -1,0 +1,23 @@
+uuid: ebf220a4-c4c9-4ba9-9eb8-2666e2da280e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: '-_KW0zJHapcayMq6x74VefngNHkiDO--AA22t2cldNo'
+id: paragraph.bp_accordion_section_title
+field_name: bp_accordion_section_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

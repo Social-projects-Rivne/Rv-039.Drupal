@@ -1,0 +1,110 @@
+uuid: 3cbe1a16-6b4d-428f-8e93-dc8bbe11da9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_timeline_element
+    - paragraphs.paragraphs_type.bundle_milestones_timeline_list
+  module:
+    - entity_reference_revisions
+id: paragraph.bundle_milestones_timeline_list.field_timeline_element
+field_name: field_timeline_element
+entity_type: paragraph
+bundle: bundle_milestones_timeline_list
+label: 'Timeline element'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      bp_accordion:
+        weight: 29
+        enabled: false
+      bp_accordion_section:
+        weight: 30
+        enabled: false
+      bp_blank:
+        weight: 31
+        enabled: false
+      bp_block:
+        weight: 32
+        enabled: false
+      bp_carousel:
+        weight: 33
+        enabled: false
+      bp_column_wrapper:
+        weight: 34
+        enabled: false
+      bp_columns:
+        weight: 35
+        enabled: false
+      bp_columns_three_uneven:
+        weight: 36
+        enabled: false
+      bp_columns_two_uneven:
+        weight: 37
+        enabled: false
+      bp_image:
+        weight: 38
+        enabled: false
+      bp_modal:
+        weight: 39
+        enabled: false
+      bp_simple:
+        weight: 40
+        enabled: false
+      bp_tab_section:
+        weight: 41
+        enabled: false
+      bp_tabs:
+        weight: 42
+        enabled: false
+      bp_view:
+        weight: 43
+        enabled: false
+      bundle_about_us_key_figures:
+        weight: 44
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 45
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 46
+        enabled: false
+      bundle_milestones_timeline:
+        weight: 47
+        enabled: false
+      bundle_milestones_timeline_list:
+        weight: 48
+        enabled: false
+      content_page_products:
+        weight: 49
+        enabled: false
+      image1:
+        weight: 50
+        enabled: false
+      image_and_description_simple:
+        weight: 51
+        enabled: false
+      shared_aditional_information:
+        weight: 52
+        enabled: false
+      shared_container:
+        weight: 53
+        enabled: false
+      shared_container_background_colr:
+        weight: 54
+        enabled: false
+      shared_container_background_img:
+        weight: 55
+        enabled: false
+      shared_simple_white_title_:
+        weight: 56
+        enabled: false
+field_type: entity_reference_revisions

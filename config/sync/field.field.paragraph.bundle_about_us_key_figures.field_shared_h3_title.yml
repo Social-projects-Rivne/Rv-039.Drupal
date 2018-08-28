@@ -1,0 +1,21 @@
+uuid: 400ca92f-938b-41be-9257-292c02b951c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_h3_title
+    - paragraphs.paragraphs_type.bundle_about_us_key_figures
+  module:
+    - text
+id: paragraph.bundle_about_us_key_figures.field_shared_h3_title
+field_name: field_shared_h3_title
+entity_type: paragraph
+bundle: bundle_about_us_key_figures
+label: 'Shared H3 title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

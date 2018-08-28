@@ -1,0 +1,33 @@
+uuid: 95302c80-b0ea-4384-b350-51bc6f9211ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bundle_milestones_timeline.field_shared_p_simple_text
+    - field.field.paragraph.bundle_milestones_timeline.field_timeline_date
+    - paragraphs.paragraphs_type.bundle_milestones_timeline
+  module:
+    - datetime
+    - text
+id: paragraph.bundle_milestones_timeline.default
+targetEntityType: paragraph
+bundle: bundle_milestones_timeline
+mode: default
+content:
+  field_shared_p_simple_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_timeline_date:
+    weight: 0
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: month_year
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden: {  }

@@ -1,0 +1,26 @@
+uuid: 495bcd7a-70ac-4a3e-b043-387dff6ee633
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bundle_milestones_timeline_list.field_timeline_element
+    - field.field.paragraph.bundle_milestones_timeline_list.field_timeline_view
+    - paragraphs.paragraphs_type.bundle_milestones_timeline_list
+  module:
+    - viewsreference
+id: paragraph.bundle_milestones_timeline_list.default
+targetEntityType: paragraph
+bundle: bundle_milestones_timeline_list
+mode: default
+content:
+  field_timeline_view:
+    type: viewsreference_formatter
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+hidden:
+  field_timeline_element: true

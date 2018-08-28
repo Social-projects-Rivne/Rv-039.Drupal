@@ -1,0 +1,9 @@
+uuid: 2dda5632-2884-46aa-914a-a7207a942e46
+langcode: en
+status: true
+dependencies: {  }
+id: shared_container_background_img
+label: 'Shared container background img'
+icon_uuid: null
+description: 'Container with background image.'
+behavior_plugins: {  }

@@ -1,0 +1,8 @@
+uuid: eeb4c320-39b4-4f22-92e6-4069f1d37ee9
+langcode: en
+status: true
+dependencies: {  }
+id: month_year
+label: 'Month Year'
+locked: false
+pattern: 'F Y'

@@ -1,0 +1,9 @@
+uuid: cce63781-763d-4098-952c-e5f04da0bbe0
+langcode: en
+status: true
+dependencies: {  }
+id: shared_container_background_colr
+label: 'Shared container background color'
+icon_uuid: null
+description: 'Bootstarap container with background color.'
+behavior_plugins: {  }

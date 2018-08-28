@@ -1,0 +1,24 @@
+uuid: 4963dee9-2382-40ef-a19e-6dae948acb16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_container.field_shared_content
+    - paragraphs.paragraphs_type.shared_container
+  module:
+    - entity_reference_revisions
+id: paragraph.shared_container.default
+targetEntityType: paragraph
+bundle: shared_container
+mode: default
+content:
+  field_shared_content:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

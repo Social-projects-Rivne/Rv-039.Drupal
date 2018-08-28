@@ -1,0 +1,21 @@
+uuid: b0418953-2a75-4ef4-b210-4cf04f7f0d5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_timeline_date
+    - paragraphs.paragraphs_type.bundle_milestones_timeline
+  module:
+    - datetime
+id: paragraph.bundle_milestones_timeline.field_timeline_date
+field_name: field_timeline_date
+entity_type: paragraph
+bundle: bundle_milestones_timeline
+label: 'Timeline date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

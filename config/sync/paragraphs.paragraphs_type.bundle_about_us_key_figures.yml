@@ -1,0 +1,9 @@
+uuid: ddb9b17c-d113-44ae-a4fd-a712917a8ade
+langcode: en
+status: true
+dependencies: {  }
+id: bundle_about_us_key_figures
+label: 'Bundle about us key figures'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

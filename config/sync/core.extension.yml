@@ -7,8 +7,10 @@ module:
   block: 0
   block_class: 0
   block_content: 0
+  bootstrap_paragraphs: 0
   breakpoint: 0
   ckeditor: 0
+  classy_paragraphs: 0
   color: 0
   color_field: 0
   comment: 0
@@ -46,11 +48,13 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  paragraphs_type_permissions: 0
   path: 0
   quickedit: 0
   rdf: 0
   search: 0
   shortcut: 0
+  simple_timeline: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -63,6 +67,7 @@ module:
   user: 0
   view_mode_selector: 0
   views_ui: 0
+  viewsreference: 0
   webform: 0
   webform_examples: 0
   webform_ui: 0

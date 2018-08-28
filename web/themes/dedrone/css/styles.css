@@ -6872,6 +6872,15 @@ h2 {
     h2 {
       font-size: 18px; } }
 
+h3 {
+  margin-bottom: 0;
+  float: none;
+  clear: none;
+  color: #111;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500; }
+
 p {
   font-size: 16px;
   line-height: 24px;
@@ -7106,3 +7115,56 @@ body {
 
 .shared_adit_inf_btns {
   margin: 25px 10px 0px 10px; }
+
+.content-section {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+
+.about-key-figures .key-figure-position {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.about-key-figures .h1-key-figure {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #fff; }
+
+.about-key-figures .h3-key-figure {
+  text-align: center;
+  margin-top: 0;
+  color: #fff; }
+
+.key-figure-padding {
+  margin-bottom: 100px; }
+
+ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper .timeline-marker {
+  left: -5px; }
+
+ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper .timeline-marker {
+  right: -5px; }
+
+.timeline-marker {
+  position: absolute;
+  background-color: #009ee3 !important;
+  color: #009ee3 !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin-top: 2px !important;
+  border: 3px solid #009ee3 !important; }
+
+ul.timeline-list:after {
+  background-color: #009ee3 !important;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: #009ee3;
+  top: 0; }
+
+.timeline-item-wrapper time {
+  color: #fff; }
+
+.timeline-item-wrapper p {
+  display: inline-block;
+  width: 300px;
+  color: #fff; }

@@ -1,0 +1,24 @@
+{# #}
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+
+{% set the_image = item.content['#field_collection_item'].field_featurette_image %}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+    <div class = "align-items-center content-section background_image_position" style="
+    background: linear-gradient(90deg,rgba(0,0,0,.5) 21%,hsla(0,0%,7%,0)), url({{ background_image_url }}) no-repeat center top;">
+          <div class="container">
+            {{content.field_shared_content}}
+          </div>
+      </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}
+

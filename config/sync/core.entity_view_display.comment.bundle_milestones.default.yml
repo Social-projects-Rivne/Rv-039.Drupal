@@ -1,0 +1,57 @@
+uuid: a1c9727c-b01b-438d-b55b-cbc4ce7046b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.bundle_milestones
+    - field.field.comment.bundle_milestones.comment_body
+    - field.field.comment.bundle_milestones.field_ending
+    - field.field.comment.bundle_milestones.field_logo
+    - field.field.comment.bundle_milestones.field_opening
+  module:
+    - datetime
+    - image
+    - text
+id: comment.bundle_milestones.default
+targetEntityType: comment
+bundle: bundle_milestones
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_ending:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_logo:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_opening:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

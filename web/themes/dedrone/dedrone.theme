@@ -51,7 +51,7 @@ function dedrone_preprocess_paragraph(&$variables) {
       - 'background_image_url' - variable for use image in twig template 
       Example: 
         style = "background:url({{ background_image_url }}) no-repeat center top;" */
-   if ($paragraph->bundle() == 'shared_simple_white_title_') 
+   if ($paragraph->bundle() == 'shared_simple_white_title_' || $paragraph->bundle() == 'shared_container_background_img' ) 
    {
     $image_field = $paragraph->get('field_shared_background_image');
     if (!$image_field->isEmpty()) {
@@ -69,7 +69,7 @@ function dedrone_preprocess_paragraph(&$variables) {
       - 'background_color' - variable for use image in twig template 
       Example: 
         style = "<div style="background-color:#{{background_color}}">*/
-   if ($paragraph->bundle() == 'shared_aditional_information') 
+   if ($paragraph->bundle() == 'shared_aditional_information' || $paragraph->bundle() == 'shared_container_background_colr') 
    {
     $color_field = $paragraph->get('field_background_color');
     if (!$color_field->isEmpty()) {

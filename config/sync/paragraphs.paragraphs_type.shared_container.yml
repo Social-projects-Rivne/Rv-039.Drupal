@@ -1,0 +1,9 @@
+uuid: 9101b8a8-8048-4d4f-928f-f0c14b07948e
+langcode: en
+status: true
+dependencies: {  }
+id: shared_container
+label: 'Shared container'
+icon_uuid: null
+description: 'Bootstrap container.'
+behavior_plugins: {  }

@@ -1,0 +1,30 @@
+uuid: 7f451684-7f5c-4ac1-9ea0-bd5c6e4d6f35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bundle_about_us_key_figures.field_shared_h1_title
+    - field.field.paragraph.bundle_about_us_key_figures.field_shared_h3_title
+    - paragraphs.paragraphs_type.bundle_about_us_key_figures
+  module:
+    - text
+id: paragraph.bundle_about_us_key_figures.default
+targetEntityType: paragraph
+bundle: bundle_about_us_key_figures
+mode: default
+content:
+  field_shared_h1_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_shared_h3_title:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

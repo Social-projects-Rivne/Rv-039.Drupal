@@ -1,0 +1,9 @@
+uuid: dec99c76-3420-4e41-a7c1-c9bfc8a01f43
+langcode: en
+status: true
+dependencies: {  }
+id: bundle_milestones_timeline
+label: 'Bundle Milestones  timeline'
+icon_uuid: null
+description: 'About us page -> Milestones timeline paragraph'
+behavior_plugins: {  }

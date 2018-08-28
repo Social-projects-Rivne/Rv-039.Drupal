@@ -1,0 +1,101 @@
+uuid: 2409f036-4d82-4c2e-a8e2-1284214bc3e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_content
+    - paragraphs.paragraphs_type.shared_container_background_colr
+  module:
+    - entity_reference_revisions
+id: paragraph.shared_container_background_colr.field_shared_content
+field_name: field_shared_content
+entity_type: paragraph
+bundle: shared_container_background_colr
+label: 'Shared content'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      bp_accordion:
+        weight: 26
+        enabled: false
+      bp_accordion_section:
+        weight: 27
+        enabled: false
+      bp_blank:
+        weight: 28
+        enabled: false
+      bp_block:
+        weight: 29
+        enabled: false
+      bp_carousel:
+        weight: 30
+        enabled: false
+      bp_column_wrapper:
+        weight: 31
+        enabled: false
+      bp_columns:
+        weight: 32
+        enabled: false
+      bp_columns_three_uneven:
+        weight: 33
+        enabled: false
+      bp_columns_two_uneven:
+        weight: 34
+        enabled: false
+      bp_image:
+        weight: 35
+        enabled: false
+      bp_modal:
+        weight: 36
+        enabled: false
+      bp_simple:
+        weight: 37
+        enabled: false
+      bp_tab_section:
+        weight: 38
+        enabled: false
+      bp_tabs:
+        weight: 39
+        enabled: false
+      bp_view:
+        weight: 40
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 41
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 42
+        enabled: false
+      content_page_products:
+        weight: 43
+        enabled: false
+      image1:
+        weight: 44
+        enabled: false
+      image_and_description_simple:
+        weight: 45
+        enabled: false
+      shared_aditional_information:
+        weight: 46
+        enabled: false
+      shared_container:
+        weight: 47
+        enabled: false
+      shared_container_background_colr:
+        weight: 48
+        enabled: false
+      shared_container_background_img:
+        weight: 49
+        enabled: false
+      shared_simple_white_title_:
+        weight: 50
+        enabled: false
+field_type: entity_reference_revisions

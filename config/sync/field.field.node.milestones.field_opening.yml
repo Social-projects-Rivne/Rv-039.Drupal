@@ -1,0 +1,21 @@
+uuid: 7962ca9a-211b-415d-9cf7-7bc2629884fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opening
+    - node.type.milestones
+  module:
+    - datetime
+id: node.milestones.field_opening
+field_name: field_opening
+entity_type: node
+bundle: milestones
+label: Opening
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

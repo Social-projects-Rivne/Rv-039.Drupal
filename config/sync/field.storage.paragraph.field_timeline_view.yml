@@ -1,0 +1,21 @@
+uuid: 6b242ce4-617f-4e44-b0ee-0a1673d2cd28
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - views
+    - viewsreference
+id: paragraph.field_timeline_view
+field_name: field_timeline_view
+entity_type: paragraph
+type: viewsreference
+settings:
+  target_type: view
+module: viewsreference
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
