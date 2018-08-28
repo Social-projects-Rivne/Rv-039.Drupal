@@ -1,0 +1,21 @@
+uuid: 5c9b2bf6-1401-41ce-afcf-73c7395c2e96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_p_simple_text
+    - paragraphs.paragraphs_type.bundle_content_tech_par_page
+  module:
+    - text
+id: paragraph.bundle_content_tech_par_page.field_shared_p_simple_text
+field_name: field_shared_p_simple_text
+entity_type: paragraph
+bundle: bundle_content_tech_par_page
+label: 'Shared p simple text'
+description: 'Right column text field.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

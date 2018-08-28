@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,800,900");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6851,6 +6851,38 @@ td,
 th {
   padding: 0; }
 
+h1 {
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0;
+  font-weight: 300;
+  color: #111; }
+  @media (max-width: 479px) {
+    h1 {
+      font-size: 32px;
+      line-height: 36px; } }
+
+h2 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 300;
+  color: #111; }
+  @media (max-width: 479px) {
+    h2 {
+      font-size: 18px; } }
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 300;
+  color: #111; }
+
+a {
+  font-weight: 400;
+  color: #009ee3; }
+
 body {
   background-color: #fff;
   font-size: 14px;
@@ -6994,7 +7026,8 @@ body {
   .small-text-wrapper h2 {
     font-size: 20px;
     line-height: 24px;
-    margin-top: 50px; }
+    margin-top: 50px;
+    font-weight: 500; }
     .small-text-wrapper h2:first-child {
       margin-top: 0; }
   .small-text-wrapper p {

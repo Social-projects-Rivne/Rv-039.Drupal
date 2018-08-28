@@ -1,0 +1,20 @@
+uuid: 17defdb4-1268-4729-be2a-f9724c8e6e49
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_shared_h2_title
+field_name: field_shared_h2_title
+entity_type: paragraph
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
