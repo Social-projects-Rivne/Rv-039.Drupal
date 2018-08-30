@@ -1,4 +1,3 @@
-
 {%
   set classes = [
     'paragraph',
@@ -7,10 +6,12 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-{% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
-    {% block content %}
-      {{ content }}
-    {% endblock %}
-  </div>
-{% endblock paragraph %}
+<section class='{{content.css_class}}'   style="background:url({{ background_image_url }}) no-repeat center top;" >
+  {% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+      {% block content %}
+        {{ content }}
+      {% endblock %}
+    </div>
+  {% endblock paragraph %}
+</section>
