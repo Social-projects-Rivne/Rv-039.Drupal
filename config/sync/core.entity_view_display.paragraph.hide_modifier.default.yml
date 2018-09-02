@@ -1,0 +1,36 @@
+uuid: 0dc23263-37d2-48a7-b2cd-af0739bb5dee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hide_modifier.field_mod_hide
+    - field.field.paragraph.hide_modifier.field_mod_media_query
+    - paragraphs.paragraphs_type.hide_modifier
+_core:
+  default_config_hash: HEdD8xQLh65t53qqXL4300UOkf-DcwL7p9c_ADfjBN8
+id: paragraph.hide_modifier.default
+targetEntityType: paragraph
+bundle: hide_modifier
+mode: default
+content:
+  field_mod_hide:
+    weight: 1
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_mod_media_query:
+    weight: 2
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  created: true
+  uid: true

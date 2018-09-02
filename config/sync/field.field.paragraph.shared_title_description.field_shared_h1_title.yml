@@ -1,0 +1,21 @@
+uuid: 7a6f5353-3863-49bf-ab80-b80ce549e608
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_h1_title
+    - paragraphs.paragraphs_type.shared_title_description
+  module:
+    - text
+id: paragraph.shared_title_description.field_shared_h1_title
+field_name: field_shared_h1_title
+entity_type: paragraph
+bundle: shared_title_description
+label: 'Shared H1 title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

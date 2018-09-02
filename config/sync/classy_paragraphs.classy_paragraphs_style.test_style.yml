@@ -1,0 +1,7 @@
+uuid: ab3a25c2-fbcb-4036-98c5-16efa9c83eed
+langcode: en
+status: true
+dependencies: {  }
+id: test_style
+label: 'Test style'
+classes: text-white

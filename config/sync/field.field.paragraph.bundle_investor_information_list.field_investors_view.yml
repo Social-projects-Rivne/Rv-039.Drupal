@@ -1,0 +1,61 @@
+uuid: 73ae6c9d-b7cc-42eb-a6d5-2144e7ddad86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_investors_view
+    - paragraphs.paragraphs_type.bundle_investor_information_list
+    - views.view.bundle_investors_list
+  module:
+    - viewsreference
+id: paragraph.bundle_investor_information_list.field_investors_view
+field_name: field_investors_view
+entity_type: paragraph
+bundle: bundle_investor_information_list
+label: 'Investors view'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    options:
+      title: 0
+      argument: ''
+    display_id: block_1
+    argument: null
+    title: 0
+    data: null
+    target_uuid: 78f965c3-6b5d-426d-a278-93d2ef678d74
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+    entity_browser: 0
+  preselect_views:
+    block_content: 0
+    bundle_investors_list: 0
+    bundle_milestones_timeline: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    files: 0
+    frontpage: 0
+    investors_list: 0
+    media: 0
+    media_entity_browser: 0
+    pudlished: 0
+    tabs: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

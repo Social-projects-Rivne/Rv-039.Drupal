@@ -1,0 +1,32 @@
+uuid: e0beccf4-8c3b-470c-aeda-4252b8c1c297
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: EGj3_6NOuVR9OcF9AGbKIavk7nmUeFs6Xz_cZ5b2OkA
+id: paragraph.field_mod_height_units
+field_name: field_mod_height_units
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: px
+      label: Pixels
+    -
+      value: '%'
+      label: Percents
+    -
+      value: em
+      label: Ems
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

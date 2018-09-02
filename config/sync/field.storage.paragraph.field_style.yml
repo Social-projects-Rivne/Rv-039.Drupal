@@ -1,0 +1,30 @@
+uuid: 8d1801b3-391b-4f6f-9b56-3f4bb090385d
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_style
+field_name: field_style
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Color
+      label: Color
+    -
+      value: Image
+      label: Image
+    -
+      value: Image_gradient
+      label: 'Image Gradient'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

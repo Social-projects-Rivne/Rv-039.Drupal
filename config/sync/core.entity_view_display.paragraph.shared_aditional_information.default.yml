@@ -3,12 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.shared_aditional_information.field_background_color
     - field.field.paragraph.shared_aditional_information.field_shared_button_link
     - field.field.paragraph.shared_aditional_information.field_shared_h1_white_title
     - paragraphs.paragraphs_type.shared_aditional_information
   module:
-    - jquery_colorpicker
     - link
     - text
 id: paragraph.shared_aditional_information.default
@@ -16,13 +14,6 @@ targetEntityType: paragraph
 bundle: shared_aditional_information
 mode: default
 content:
-  field_background_color:
-    weight: 2
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: jquery_colorpicker_raw_hex_display
-    region: content
   field_shared_button_link:
     weight: 1
     label: above

@@ -1,0 +1,11 @@
+name: Modifiers
+type: module
+description: Integrates Modifier plugins into the page and into entities.
+# core: 8.x
+package: Modifiers
+
+# Information added by Drupal.org packaging script on 2018-04-12
+version: '8.x-1.1'
+core: '8.x'
+project: 'modifiers'
+datestamp: 1523518685

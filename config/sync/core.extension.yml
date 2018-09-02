@@ -7,6 +7,7 @@ module:
   block: 0
   block_class: 0
   block_content: 0
+  bootstrap_layouts: 0
   bootstrap_paragraphs: 0
   breakpoint: 0
   ckeditor: 0
@@ -27,6 +28,7 @@ module:
   editor: 0
   entity: 0
   entity_browser: 0
+  entity_delete: 0
   entity_reference_revisions: 0
   examples: 0
   field: 0
@@ -39,15 +41,28 @@ module:
   image: 0
   jquery_colorpicker: 0
   kint: 0
+  layout_discovery: 0
   link: 0
   link_class: 0
   media: 0
   media_entity_browser: 0
   menu_link_attributes: 0
   menu_ui: 0
+  modifiers: 0
+  modifiers_absolute_height: 0
+  modifiers_bg_image: 0
+  modifiers_bg_parallax: 0
+  modifiers_corners: 0
+  modifiers_custom_linear_gradient: 0
+  modifiers_fonts: 0
+  modifiers_hide: 0
+  modifiers_html_font_size: 0
+  modifiers_linear_gradient: 0
+  modifiers_padding: 0
   node: 0
   options: 0
   page_cache: 0
+  paragraphs_class: 0
   paragraphs_type_permissions: 0
   path: 0
   quickedit: 0
@@ -62,6 +77,7 @@ module:
   toolbar: 0
   tour: 0
   twig_field_value: 0
+  twig_tweak: 0
   ultimate_cron: 0
   update: 0
   user: 0

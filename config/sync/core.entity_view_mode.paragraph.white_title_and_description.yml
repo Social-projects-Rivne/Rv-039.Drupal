@@ -1,0 +1,10 @@
+uuid: e295d583-f299-4512-be77-5e4653a296fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.white_title_and_description
+label: 'White title and description'
+targetEntityType: paragraph
+cache: true

@@ -1,0 +1,24 @@
+uuid: 898d100f-2feb-430a-a729-0520a4b13183
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bundle_investor_text_block
+    - paragraphs.paragraphs_type.bundle_investor_information
+  module:
+    - text
+id: paragraph.bundle_investor_information.field_bundle_investor_text_block
+field_name: field_bundle_investor_text_block
+entity_type: paragraph
+bundle: bundle_investor_information
+label: 'Bundle investor text block'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<div class=\"investor-text-block\">\r\n<h2>Investor name</h2>\r\n\r\n<h6>Investor description</h6>\r\n</div>\r\n"
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

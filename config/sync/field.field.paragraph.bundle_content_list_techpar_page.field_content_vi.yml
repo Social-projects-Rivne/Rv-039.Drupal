@@ -1,0 +1,63 @@
+uuid: 329129ab-75cf-4954-b957-2af0a9f2b024
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content_vi
+    - paragraphs.paragraphs_type.bundle_content_list_techpar_page
+    - views.view.bundle_tech_part_page_content
+  module:
+    - viewsreference
+id: paragraph.bundle_content_list_techpar_page.field_content_vi
+field_name: field_content_vi
+entity_type: paragraph
+bundle: bundle_content_list_techpar_page
+label: 'Content view'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    options:
+      title: 0
+      argument: ''
+    display_id: block_1
+    argument: null
+    title: 0
+    data: null
+    target_uuid: 39f22479-2d1e-4a5b-bd96-15d63194c83d
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+    entity_browser: 0
+  preselect_views:
+    bundle_tech_part_page_content: bundle_tech_part_page_content
+    block_content: 0
+    bundle_investors_list: 0
+    bundle_milestones_timeline: 0
+    bundle_test_tabs: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    files: 0
+    frontpage: 0
+    investors_list: 0
+    media: 0
+    media_entity_browser: 0
+    pudlished: 0
+    tabs: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

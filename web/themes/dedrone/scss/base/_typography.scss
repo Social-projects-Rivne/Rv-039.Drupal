@@ -16,6 +16,8 @@ h1{
     }
 }
 
+.shared-h1-title{ text-align: center; }
+
 h2{
     font-size: 20px;
     line-height: 24px;
@@ -47,8 +49,17 @@ p
     font-weight: 300;
     color: #111;
 }
+h6
+{
+    margin-top: 0;
+    color: #111;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: .5px;
+}
 
 a{
     font-weight: 400;
     color: #009ee3;
 }
+

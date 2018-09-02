@@ -1,73 +1,219 @@
-.about-key-figures
+
+.about-us-description
 {
-	.key-figure-position
-	{
+	h1{
+		margin-top: 0px;
+		margin-bottom:5px;	
+	}
+	h3{
+		text-transform: uppercase;
+		margin-top:5px;
+	}
+	p{
+		margin-top:10px;
+		margin-bottom: 5px;
+	}
+}
+
+.key-figures
+{
+	@extend .section;
+	padding-bottom: 50px !important;
+
+	.paragraph__column{ padding-bottom:0px; }
+
+	.key-figure-position{
 		padding-left: 10px;
    		padding-right: 10px;
+   		padding-bottom:100px;
 	}
 
-	.h1-key-figure
-	{	
+	.h1-key-figure{	
 		text-align: center;	
+		margin-top: 0px;
 	    margin-bottom: 5px;
 	    color: #fff;
 	}
-	.h3-key-figure
-	{ 
+
+	.h3-key-figure{ 
 		text-align: center;	
-	    margin-top: 0;
+	    margin-bottom: 0px;
+	    margin-top:0px;
 	    color: #fff;
+	}
+}
+
+
+
+
+
+
+/////milestones
+.milestones
+{
+	@include media-breakpoint-down(xs)
+	{
+		ul.timeline-list:after 
+		{
+			left:0px;
+		}
+		ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper,
+		ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper
+		{
+			width: 100%;
+			.timeline-marker
+			{	
+				left: -5px;
+			}
+			float: left;
+		    padding-left: 5rem;
+		    text-align: left;
+		}
+	}
+	h1
+	{
+		color: #fff;
+		margin-bottom: 100px;
+	}
+
+	ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper .timeline-marker {
+    	left: -5px;
+    }
+	
+	ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper .timeline-marker {
+	    right: -5px;
+	}
+
+	.timeline-marker
+	{
+		position: absolute;
+	  	background-color:#009ee3 !important;
+	  	color: #009ee3 !important;
+		width: 10px !important;
+	    height: 10px !important;
+	    margin-top: 2px !important;
+	    border: 3px solid #009ee3 !important;
+	}
+	ul.timeline-list:after {
+
+		background-color: #009ee3 !important;
+		width: 1px;
+		height: 100%;
+		position: absolute;
+		z-index: 1;
+		background-color: #009ee3;
+		top: 0;
+	}
+
+
+	.timeline-item-wrapper time
+	{
+		color:#fff;
+	}
+	.timeline-item-wrapper p
+	{
+		display: inline-block;
+		width:300px;
+		color: #fff;
 	}
 
 }
 
 
 
-.key-figure-padding
+
+
+
+////Press Highlights
+
+.press-highlights
 {
-	margin-bottom:100px;
+	.h1-press-highlights
+	{
+		margin-bottom: 100px;
+	}
+	.h2-press-highlights
+	{
+		display: inline-block;
+	    font-weight: 300;
+	}
+
+	a.press-highlights-link-block
+	{
+		margin-bottom: 20px;
+		text-decoration: none;	
+	}
+	.h2-press-highlights a:hover 
+	{
+		color: #009ee3 !important;
+	}
+
+	.h5-press-highlights
+	{
+	}
 }
 
+////Our investors
 
-
-ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper .timeline-marker {
-    left: -5px;
-}
-ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper .timeline-marker {
-    right: -5px;
-}
-
-.timeline-marker
+.our-investors
 {
-	position: absolute;
-  	background-color:#009ee3 !important;
-  	color: #009ee3 !important;
-	width: 10px !important;
-    height: 10px !important;
-    margin-top: 2px !important;
-    border: 3px solid #009ee3 !important;
+	.our-investors-title
+	{
+		h1
+		{
+			margin-bottom:10px;
+		}
+		margin-bottom:100px;
+	}
+	img
+	{
+		height: auto;
+		max-width:100%;
+	}
 }
-ul.timeline-list:after {
-	background-color: #009ee3 !important;
-	width: 1px;
-	height: 100%;
-	position: absolute;
-	z-index: 1;
-	background-color: #009ee3;
-	top: 0;
+.investors-section:first-child
+{
+	border-top: 1px solid rgba(0,0,0,.1);
+} 
+.investors-section
+{
+	margin-bottom: 100px;
+	.row
+	{
+		margin-top: 100px;
+	}
+	.paragraph--type--bundle-investor-information
+	{
+		display:flex;
+		align-items:center;
+
+		.field--name-field-bundle-investor-logo
+		{
+			float:left;
+			img
+			{
+				border-radius: 50%;
+			    width: 70px;
+			    height: 70px;
+		    }
+		}
+		.field--name-field-bundle-investor-text-block
+		{
+			margin-left:15px;
+			padding-right: 20px;
+			h2
+			{
+				font-weight: 400;
+			}
+			h6
+			{
+				margin-bottom:0px;
+			}
+		}
+	}
+
 }
 
-
-.timeline-item-wrapper time
-{
-	color:#fff;
-}
-.timeline-item-wrapper p
-{
-	display: inline-block;
-	width:300px;
-	color: #fff;
-}
 
 
 

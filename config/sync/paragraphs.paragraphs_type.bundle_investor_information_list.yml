@@ -1,0 +1,12 @@
+uuid: 5849afaf-a491-4f88-9725-99db3d8b39bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_class
+id: bundle_investor_information_list
+label: 'Bundle investor information_list'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_class_paragraph_class: {  }

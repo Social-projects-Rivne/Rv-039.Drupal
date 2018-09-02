@@ -1,0 +1,143 @@
+uuid: 6898464a-3ce5-472a-b19a-48a6a1a98642
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - paragraphs.paragraphs_type.shared_section
+  module:
+    - entity_reference_revisions
+id: paragraph.shared_section.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: shared_section
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      absolute_height_modifier:
+        weight: 40
+        enabled: false
+      bp_accordion:
+        weight: 41
+        enabled: false
+      bp_accordion_section:
+        weight: 42
+        enabled: false
+      bp_blank:
+        weight: 43
+        enabled: false
+      bp_block:
+        weight: 44
+        enabled: false
+      bp_carousel:
+        weight: 45
+        enabled: false
+      bp_columns:
+        weight: 46
+        enabled: false
+      bp_columns_three_uneven:
+        weight: 47
+        enabled: false
+      bp_columns_two_uneven:
+        weight: 48
+        enabled: false
+      bp_column_wrapper:
+        weight: 49
+        enabled: false
+      bp_image:
+        weight: 50
+        enabled: false
+      bp_modal:
+        weight: 51
+        enabled: false
+      bp_simple:
+        weight: 52
+        enabled: false
+      bp_tabs:
+        weight: 53
+        enabled: false
+      bp_tab_section:
+        weight: 54
+        enabled: false
+      bp_view:
+        weight: 55
+        enabled: false
+      bundle_about_us_key_figures:
+        weight: 56
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 57
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 58
+        enabled: false
+      bundle_investor_information:
+        weight: 59
+        enabled: false
+      bundle_milestones_timeline:
+        weight: 60
+        enabled: false
+      bundle_milestones_timeline_list:
+        weight: 61
+        enabled: false
+      content_page_products:
+        weight: 62
+        enabled: false
+      corners_modifier:
+        weight: 63
+        enabled: false
+      fonts_modifier:
+        weight: 64
+        enabled: false
+      hide_modifier:
+        weight: 65
+        enabled: false
+      html_font_size_modifier:
+        weight: 66
+        enabled: false
+      image1:
+        weight: 67
+        enabled: false
+      image_and_description_simple:
+        weight: 68
+        enabled: false
+      linear_gradient_modifier:
+        weight: 69
+        enabled: false
+      padding_modifier:
+        weight: 70
+        enabled: false
+      shared_aditional_information:
+        weight: 71
+        enabled: false
+      shared_bootstrap_container:
+        weight: 72
+        enabled: false
+      shared_container:
+        weight: 73
+        enabled: false
+      shared_container_background_colr:
+        weight: 74
+        enabled: false
+      shared_container_background_img:
+        weight: 75
+        enabled: false
+      shared_full_width_col_7_col_5:
+        weight: 76
+        enabled: false
+      shared_section:
+        weight: 77
+        enabled: false
+      shared_title_description:
+        weight: 78
+        enabled: false
+field_type: entity_reference_revisions

@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.bundle_milestones_timeline.field_shared_p_simple_text
     - field.field.paragraph.bundle_milestones_timeline.field_timeline_date
+    - field.field.paragraph.bundle_milestones_timeline.field_timeline_text
     - paragraphs.paragraphs_type.bundle_milestones_timeline
   module:
     - datetime
@@ -14,19 +14,19 @@ targetEntityType: paragraph
 bundle: bundle_milestones_timeline
 mode: default
 content:
-  field_shared_p_simple_text:
+  field_timeline_date:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_timeline_text:
     weight: 1
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
-    region: content
-  field_timeline_date:
-    weight: 0
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
     region: content
 hidden:
   created: true

@@ -6862,6 +6862,9 @@ h1 {
       font-size: 32px;
       line-height: 36px; } }
 
+.shared-h1-title {
+  text-align: center; }
+
 h2 {
   font-size: 20px;
   line-height: 24px;
@@ -6887,6 +6890,13 @@ p {
   letter-spacing: 0;
   font-weight: 300;
   color: #111; }
+
+h6 {
+  margin-top: 0;
+  color: #111;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: .5px; }
 
 a {
   font-weight: 400;
@@ -7002,11 +7012,14 @@ body {
    - positioning options and unique page styles.
    - other page styles defined in _shared.scss.
    ========================================================================== */
-/*Title paragraph*/
-/*Page description paragraph*/
-.paragraph--type--bundle-description-tech-par-page h1 {
+/*Page description*/
+.section-description-tech-part {
+  padding-bottom: 0px !important; }
+
+.paragraph--type--bundle-description-tech-par-page h1.shared-h1-title {
   margin-top: 0px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  text-align: left !important; }
 
 .paragraph--type--bundle-description-tech-par-page p {
   padding: 0px 10px; }
@@ -7014,10 +7027,16 @@ body {
 .paragraph--type--bundle-description-tech-par-page a {
   padding-left: 10px; }
 
-/*Main content paragraph*/
+/*Content*/
+.section-content-tech-part {
+  padding-top: 0px !important; }
+
 .paragraph--type--bundle-content-tech-par-page h2 {
   font-weight: 400;
   margin: 10px 0px; }
+
+.paragraph--type--bundle-content-tech-par-page p {
+  font-weight: 300; }
 
 .paragraph--type--bundle-content-tech-par-page .bundle_partner_logo {
   padding-top: 15px;
@@ -7032,59 +7051,51 @@ body {
   height: auto; }
 
 .paragraph--type--bundle-content-tech-par-page .row {
-  margin: 60px 0 40px;
+  margin: 60px 0 0px;
   padding: 40px 11px 11px;
   border-top: 1px solid #426270; }
 
-/*Additional information paragraph*/
 /* ==========================================================================
    Shared site styles 
 ========================================================================== */
 /* Paragraphs background styles
 ========================================================================== */
-.paragraph--type--shared-simple-white-title- .background_image_position {
+.background_image {
   background-position: 0 0,50% 50% !important;
   background-size: auto,cover !important;
-  min-height: 550px !important;
   display: -ms-flexbox !important;
-  display: flex !important; }
+  display: flex !important;
+  min-height: 550px;
+  -ms-flex-align: center;
+      align-items: center; }
 
 /* Styles for shared paragraph
 ========================================================================== */
-.paragraph--type--shared-simple-white-title- {
-  margin-bottom: 75px; }
-  .paragraph--type--shared-simple-white-title- .shared_white_title_pos {
-    max-width: 500px;
-    color: #fff;
-    padding: 0px 25px;
-    /*Title*/
-    /*Description*/ }
-    .paragraph--type--shared-simple-white-title- .shared_white_title_pos h1 {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      padding-top: 5px;
-      color: #fff; }
-    .paragraph--type--shared-simple-white-title- .shared_white_title_pos h2 {
-      margin-top: 20px;
-      margin-bottom: 10px;
-      color: #fff; }
-  @media (min-width: 576px) {
-    .paragraph--type--shared-simple-white-title- {
-      margin-bottom: 100px; } }
-  @media (min-width: 768px) {
-    .paragraph--type--shared-simple-white-title- {
-      margin-bottom: 150px; } }
-  @media (min-width: 992px) {
-    .paragraph--type--shared-simple-white-title- {
-      margin-bottom: 150px; } }
-
-.paragraph--type--shared-aditional-information h1 {
+.paragraph--type--shared-title-description .shared_title_desc_pos {
+  width: 100%;
+  max-width: 500px;
   color: #fff;
-  text-align: center; }
+  padding: 0px 25px;
+  /*Title*/
+  /*Description*/ }
+  .paragraph--type--shared-title-description .shared_title_desc_pos h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    color: #fff; }
+  .paragraph--type--shared-title-description .shared_title_desc_pos h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff; }
 
-.paragraph--type--shared-aditional-information .container {
-  padding-top: 150px;
-  padding-bottom: 150px; }
+.paragraph--type--shared-aditional-information {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+  .paragraph--type--shared-aditional-information h1 {
+    color: #fff;
+    text-align: center; }
 
 /* Buttons style
 ========================================================================== */
@@ -7116,34 +7127,99 @@ body {
 .shared_adit_inf_btns {
   margin: 25px 10px 0px 10px; }
 
-.content-section {
-  padding-top: 150px;
-  padding-bottom: 150px; }
+.section, .section-description-tech-part, .section-content-tech-part, .key-figures {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%; }
+  @media (min-width: 576px) {
+    .section, .section-description-tech-part, .section-content-tech-part, .key-figures {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+  @media (min-width: 768px) {
+    .section, .section-description-tech-part, .section-content-tech-part, .key-figures {
+      padding-top: 150px;
+      padding-bottom: 150px; } }
+  @media (min-width: 992px) {
+    .section, .section-description-tech-part, .section-content-tech-part, .key-figures {
+      padding-top: 150px;
+      padding-bottom: 150px; } }
 
-.about-key-figures .key-figure-position {
-  padding-left: 10px;
-  padding-right: 10px; }
+.paragraph--type--shared-full-width-col-7-col-5 .background_image {
+  min-height: 400px; }
 
-.about-key-figures .h1-key-figure {
-  text-align: center;
-  margin-bottom: 5px;
-  color: #fff; }
+.paragraph--type--shared-full-width-col-7-col-5 .background {
+  height: 400px; }
 
-.about-key-figures .h3-key-figure {
-  text-align: center;
-  margin-top: 0;
-  color: #fff; }
+.paragraph--type--shared-full-width-col-7-col-5 .col-7 {
+  padding: 0; }
 
-.key-figure-padding {
+.paragraph--type--shared-full-width-col-7-col-5 .col-5 {
+  padding: 0; }
+
+.about-us-description h1 {
+  margin-top: 0px;
+  margin-bottom: 5px; }
+
+.about-us-description h3 {
+  text-transform: uppercase;
+  margin-top: 5px; }
+
+.about-us-description p {
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+.key-figures {
+  padding-bottom: 50px !important; }
+  .key-figures .paragraph__column {
+    padding-bottom: 0px; }
+  .key-figures .key-figure-position {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px; }
+  .key-figures .h1-key-figure {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #fff; }
+  .key-figures .h3-key-figure {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #fff; }
+
+@media (max-width: 575.98px) {
+  .milestones ul.timeline-list:after {
+    left: 0px; }
+  .milestones ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper,
+  .milestones ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper {
+    width: 100%;
+    float: left;
+    padding-left: 5rem;
+    text-align: left; }
+    .milestones ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper .timeline-marker,
+    .milestones ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper .timeline-marker {
+      left: -5px; } }
+
+.milestones h1 {
+  color: #fff;
   margin-bottom: 100px; }
 
-ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper .timeline-marker {
+.milestones ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper .timeline-marker {
   left: -5px; }
 
-ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper .timeline-marker {
+.milestones ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper .timeline-marker {
   right: -5px; }
 
-.timeline-marker {
+.milestones .timeline-marker {
   position: absolute;
   background-color: #009ee3 !important;
   color: #009ee3 !important;
@@ -7152,7 +7228,7 @@ ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper .timeline
   margin-top: 2px !important;
   border: 3px solid #009ee3 !important; }
 
-ul.timeline-list:after {
+.milestones ul.timeline-list:after {
   background-color: #009ee3 !important;
   width: 1px;
   height: 100%;
@@ -7161,10 +7237,59 @@ ul.timeline-list:after {
   background-color: #009ee3;
   top: 0; }
 
-.timeline-item-wrapper time {
+.milestones .timeline-item-wrapper time {
   color: #fff; }
 
-.timeline-item-wrapper p {
+.milestones .timeline-item-wrapper p {
   display: inline-block;
   width: 300px;
   color: #fff; }
+
+.press-highlights .h1-press-highlights {
+  margin-bottom: 100px; }
+
+.press-highlights .h2-press-highlights {
+  display: inline-block;
+  font-weight: 300; }
+
+.press-highlights a.press-highlights-link-block {
+  margin-bottom: 20px;
+  text-decoration: none; }
+
+.press-highlights .h2-press-highlights a:hover {
+  color: #009ee3 !important; }
+
+.our-investors .our-investors-title {
+  margin-bottom: 100px; }
+  .our-investors .our-investors-title h1 {
+    margin-bottom: 10px; }
+
+.our-investors img {
+  height: auto;
+  max-width: 100%; }
+
+.investors-section:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
+.investors-section {
+  margin-bottom: 100px; }
+  .investors-section .row {
+    margin-top: 100px; }
+  .investors-section .paragraph--type--bundle-investor-information {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; }
+    .investors-section .paragraph--type--bundle-investor-information .field--name-field-bundle-investor-logo {
+      float: left; }
+      .investors-section .paragraph--type--bundle-investor-information .field--name-field-bundle-investor-logo img {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px; }
+    .investors-section .paragraph--type--bundle-investor-information .field--name-field-bundle-investor-text-block {
+      margin-left: 15px;
+      padding-right: 20px; }
+      .investors-section .paragraph--type--bundle-investor-information .field--name-field-bundle-investor-text-block h2 {
+        font-weight: 400; }
+      .investors-section .paragraph--type--bundle-investor-information .field--name-field-bundle-investor-text-block h6 {
+        margin-bottom: 0px; }

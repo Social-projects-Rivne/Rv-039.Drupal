@@ -1,0 +1,27 @@
+{# #}
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+	    <div class="row justify-content-center align-self-center">
+			<div class="text-center shared_title_desc_pos">
+			  <h1>
+			   {{ content.field_shared_h1_title }}
+			  </h1>
+			  <h2>
+			   {{ content.field_shared_h2_title }}
+			  </h2>
+			</div>
+	    </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}
+

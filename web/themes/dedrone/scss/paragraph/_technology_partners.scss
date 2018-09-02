@@ -4,56 +4,61 @@
    - other page styles defined in _shared.scss.
    ========================================================================== */
 
-/*Title paragraph*/
-.paragraph--type--shared-simple-white-title-
+/*Page description*/
+
+.section-description-tech-part
 {
-
+	@extend .section;
+	padding-bottom: 0px !important;
 }
-
-/*Page description paragraph*/
 .paragraph--type--bundle-description-tech-par-page 
 {
-	h1{	margin-top:0px;
-	margin-bottom: 40px; }
-	p
-	{
-		padding: 0px 10px;
+	h1.shared-h1-title{	
+		margin-top:0px;
+		margin-bottom: 40px; 
+		text-align: left !important;
 	}
+	p{ padding: 0px 10px; }
 	a{ padding-left: 10px; }
 }
 
-/*Main content paragraph*/
+
+/*Content*/
+
+.section-content-tech-part
+{
+	@extend .section;
+	padding-top: 0px !important;
+}
 .paragraph--type--bundle-content-tech-par-page
 {
-	h2
-	{
+	h2{
 		font-weight: 400;
 		margin: 10px 0px;
 
 	}
-	.bundle_partner_logo
-	{
+
+	p{
+		font-weight: 300;
+	}
+
+	.bundle_partner_logo{
 		padding-top: 15px;
 		padding-bottom: 10px;
 		display:flex;
 		width:160px;
 		height:100%;
 	}
-	.bundle_partner_logo img
-	{
+
+	.bundle_partner_logo img{
 		width:160px;
 		height:auto;
     }
-    .row
-    {
-    	margin: 60px 0 40px;
+
+    .row{
+    	margin: 60px 0 0px;
 		padding: 40px 11px 11px;
 	    border-top: 1px solid #426270;
     }
 }
 
-/*Additional information paragraph*/
-.paragraph--type--shared-aditional-information
-{
-
-}

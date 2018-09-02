@@ -3,19 +3,28 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.bundle_milestones_timeline_list.field_shared_h1_title
     - field.field.paragraph.bundle_milestones_timeline_list.field_timeline_element
     - field.field.paragraph.bundle_milestones_timeline_list.field_timeline_view
     - paragraphs.paragraphs_type.bundle_milestones_timeline_list
   module:
+    - text
     - viewsreference
 id: paragraph.bundle_milestones_timeline_list.default
 targetEntityType: paragraph
 bundle: bundle_milestones_timeline_list
 mode: default
 content:
+  field_shared_h1_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
   field_timeline_view:
     type: viewsreference_formatter
-    weight: 0
+    weight: 1
     region: content
     label: hidden
     settings:
