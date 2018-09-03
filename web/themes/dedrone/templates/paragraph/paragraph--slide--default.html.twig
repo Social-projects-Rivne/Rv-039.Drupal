@@ -1,6 +1,6 @@
 {%
   set classes = [
-    'testslide',
+    'wrap-slide',
     'paragraph',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
@@ -20,7 +20,10 @@
             <div class="wrap-description">
                 {{ content.field_description }}
                 {{ content.field_button }}
-                {#{{ content.field_sustom_css_class }}#}
+
+            </div>
+            <div class="slide-animationimage">
+                {{ content.field_slide_animationimage }}
             </div>
         </div>
     {% endblock %}

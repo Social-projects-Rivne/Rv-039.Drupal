@@ -1,0 +1,72 @@
+.customers-secondary-slider {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding: 150px 0; }
+  .customers-secondary-slider:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, #011d2a, #011d2a);
+    z-index: 2;
+    opacity: 0.9; }
+  .customers-secondary-slider .text-wrapper {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto; }
+    .customers-secondary-slider .text-wrapper h2 {
+      font-size: 40px;
+      color: #fff;
+      line-height: 46px;
+      font-weight: 400; }
+    .customers-secondary-slider .text-wrapper p {
+      font-size: 20px;
+      color: #fff;
+      line-height: 24px;
+      margin-top: 20px; }
+  .customers-secondary-slider .icon-wrapper {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    margin-top: 150px; }
+    @media (max-width: 480px) {
+      .customers-secondary-slider .icon-wrapper {
+        margin-top: 100px; } }
+    .customers-secondary-slider .icon-wrapper .fields-wrapper {
+      display: inline-block;
+      width: 33.3%;
+      float: left; }
+      @media (max-width: 480px) {
+        .customers-secondary-slider .icon-wrapper .fields-wrapper {
+          display: block;
+          width: 100%;
+          float: none;
+          margin-bottom: 50px; } }
+      .customers-secondary-slider .icon-wrapper .fields-wrapper .icon {
+        max-width: 55px;
+        margin: 0 auto 30px; }
+        .customers-secondary-slider .icon-wrapper .fields-wrapper .icon a {
+          position: relative;
+          z-index: -1; }
+          .customers-secondary-slider .icon-wrapper .fields-wrapper .icon a img {
+            width: 100%;
+            height: inherit; }
+      .customers-secondary-slider .icon-wrapper .fields-wrapper .small-title {
+        text-align: center;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 600s;
+        text-transform: uppercase; }
+      .customers-secondary-slider .icon-wrapper .fields-wrapper .title {
+        text-align: center;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 300;
+        margin: 20px 0 5px; }
