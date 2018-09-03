@@ -3,7 +3,7 @@
   z-index: 1;
   overflow: hidden;
   padding: 150px 0;
-  //background: url("http://localhost:32772/sites/default/files/5a7e0a85ff78e900011e3283_golf-sunset-sport-golfer%20panda%20%281%29%20%281%29_2.png");
+  min-height: 550px;
   &:before{
     content: '';
     display: block;
@@ -81,5 +81,8 @@
         margin: 20px 0 5px;
       }
     }
+  }
+  @media (max-width: 767px) {
+    padding: 75px 25px;
   }
 }
