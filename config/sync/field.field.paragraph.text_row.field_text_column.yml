@@ -1,0 +1,112 @@
+uuid: f8e285c2-69bb-44b0-92c7-1cc8bc76f7dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_column
+    - paragraphs.paragraphs_type.image_description_row
+    - paragraphs.paragraphs_type.text_row
+  module:
+    - entity_reference_revisions
+id: paragraph.text_row.field_text_column
+field_name: field_text_column
+entity_type: paragraph
+bundle: text_row
+label: text_column
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      image_description_row: image_description_row
+    target_bundles_drag_drop:
+      bp_accordion:
+        weight: 29
+        enabled: false
+      bp_accordion_section:
+        weight: 30
+        enabled: false
+      bp_blank:
+        weight: 31
+        enabled: false
+      bp_block:
+        weight: 32
+        enabled: false
+      bp_carousel:
+        weight: 33
+        enabled: false
+      bp_columns:
+        weight: 34
+        enabled: false
+      bp_columns_three_uneven:
+        weight: 35
+        enabled: false
+      bp_columns_two_uneven:
+        weight: 36
+        enabled: false
+      bp_column_wrapper:
+        weight: 37
+        enabled: false
+      bp_image:
+        weight: 38
+        enabled: false
+      bp_modal:
+        weight: 39
+        enabled: false
+      bp_simple:
+        weight: 40
+        enabled: false
+      bp_tabs:
+        weight: 41
+        enabled: false
+      bp_tab_section:
+        weight: 42
+        enabled: false
+      bp_view:
+        weight: 43
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 44
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 45
+        enabled: false
+      content_page_products:
+        weight: 46
+        enabled: false
+      description_with_button:
+        weight: 47
+        enabled: false
+      image1:
+        weight: 48
+        enabled: false
+      image_and_description_simple:
+        weight: 49
+        enabled: false
+      image_description_column:
+        weight: 50
+        enabled: false
+      image_description_row:
+        enabled: true
+        weight: 51
+      shared_aditional_information:
+        weight: 52
+        enabled: false
+      shared_simple_white_title_:
+        weight: 53
+        enabled: false
+      slide:
+        weight: 54
+        enabled: false
+      slider:
+        weight: 55
+        enabled: false
+      text_row:
+        weight: 56
+        enabled: false
+field_type: entity_reference_revisions

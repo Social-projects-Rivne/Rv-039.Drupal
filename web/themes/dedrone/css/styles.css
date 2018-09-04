@@ -7103,6 +7103,8 @@ a {
   .slider-main .swiper-pagination {
     text-align: right;
     padding-right: 50px; }
+  .slider-main .field--type-view-mode-selector > p {
+    display: none; }
 
 .slider-inner {
   padding-top: 150px;
@@ -7180,6 +7182,8 @@ a {
   .slider-inner .swiper-pagination-bullet-active {
     background: #222;
     opacity: 1; }
+  .slider-inner .field--type-view-mode-selector > p {
+    display: none; }
 
 .benefits-trio {
   padding: 150px 0;
@@ -7254,12 +7258,14 @@ a {
       font-size: 40px;
       line-height: 45px;
       letter-spacing: 0;
-      font-weight: 300; }
+      font-weight: 300;
+      color: #fff; }
     .products-intro .tab-pane p {
       margin: 20px 0;
       font-size: 16px;
       line-height: 24px;
-      font-weight: 300; }
+      font-weight: 300;
+      color: #fff; }
     .products-intro .tab-pane .link {
       color: #009ee3;
       text-decoration: none;
@@ -7280,7 +7286,8 @@ a {
 .customers {
   padding-top: 150px;
   padding-bottom: 300px;
-  background-image: linear-gradient(180deg, #fff, #fff); }
+  background-image: linear-gradient(180deg, #fff, #fff);
+  text-align: center; }
   .customers h2 {
     margin: 10px 0;
     font-size: 40px;
@@ -7299,7 +7306,7 @@ a {
     text-transform: none;
     font-weight: 300; }
   .customers .thumb img {
-    width: 170px;
+    max-width: 170px;
     height: auto; }
   .customers .thumbs-wrap {
     margin: 100px 0; }
@@ -7327,7 +7334,8 @@ a {
   .buttons-section h2 {
     margin: 10px 0;
     font-size: 40px;
-    line-height: 45px; }
+    line-height: 45px;
+    color: #fff; }
   .buttons-section .wrap-buttons {
     display: inline-block;
     padding-top: 45px; }
@@ -7362,16 +7370,20 @@ a {
     .webinars-section .wpap-content h2 {
       margin-bottom: 10px;
       font-size: 40px;
-      line-height: 45px; }
+      line-height: 45px;
+      color: #fff; }
     .webinars-section .wpap-content p {
       margin-top: 20px;
       font-size: 20px;
       line-height: 24px;
-      font-weight: 300; }
+      font-weight: 300;
+      color: #fff; }
 
 .upcoming-webinars-section {
   padding-top: 150px;
-  padding-bottom: 150px; }
+  padding-bottom: 150px;
+  background: #fff; }
+  .upcoming-webinars-section .field__label,
   .upcoming-webinars-section .viewsreference--view-title {
     margin-bottom: 100px;
     font-size: 40px;

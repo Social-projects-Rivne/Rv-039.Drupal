@@ -124,6 +124,12 @@ $slider-inner-height: 424px;
 		text-align: right;
 		padding-right: 50px;
 	}
+
+	.field--type-view-mode-selector {
+		& > p {
+			display: none;
+		}
+	}
 }
 
 .slider-inner {
@@ -230,5 +236,11 @@ $slider-inner-height: 424px;
 	.swiper-pagination-bullet-active {
 		background: #222;
 		opacity: 1;
+	}
+
+	.field--type-view-mode-selector {
+		& > p {
+			display: none;
+		}
 	}
 }
