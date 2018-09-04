@@ -6,7 +6,7 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-<section class="text-columns">
+<section class='{{ content.css_class }}'>
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     <div class="container">
@@ -14,9 +14,9 @@
           <div class="title">
             {{ content.field_title }}
           </div>
-      <div class="wrap-items">
-          {{ content.field_image_description_column }}
-      </div>
+          <div class="wrap-items">
+              {{ content|without('field_title') }}
+          </div>
       {% endblock %}
     </div>
   </div>

@@ -18,7 +18,7 @@
 					effect: 'slide',
 					speed: 500,
 					autoplay: {
-						delay: 8000,
+						delay: 1118000,
 					},
 					pagination: {
 						el: '.swiper-pagination',
