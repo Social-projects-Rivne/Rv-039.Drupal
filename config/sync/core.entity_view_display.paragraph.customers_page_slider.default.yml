@@ -1,0 +1,31 @@
+uuid: c48ef92a-1894-440e-b678-5e712683e0ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.customers_page_slider.field_content
+    - field.field.paragraph.customers_page_slider.field_image
+    - paragraphs.paragraphs_type.customers_page_slider
+  module:
+    - text
+id: paragraph.customers_page_slider.default
+targetEntityType: paragraph
+bundle: customers_page_slider
+mode: default
+content:
+  field_content:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

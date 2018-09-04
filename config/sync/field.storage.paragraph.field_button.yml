@@ -1,16 +1,16 @@
-uuid: 1375c60a-16f3-48c3-9c8f-0da634c86acf
+uuid: a08e74b9-696d-48ad-aac7-64a69c8239b1
 langcode: en
 status: true
 dependencies:
   module:
-    - jquery_colorpicker
+    - link
     - paragraphs
-id: paragraph.field_background_color
-field_name: field_background_color
+id: paragraph.field_button
+field_name: field_button
 entity_type: paragraph
-type: jquery_colorpicker
+type: link
 settings: {  }
-module: jquery_colorpicker
+module: link
 locked: false
 cardinality: 1
 translatable: true
