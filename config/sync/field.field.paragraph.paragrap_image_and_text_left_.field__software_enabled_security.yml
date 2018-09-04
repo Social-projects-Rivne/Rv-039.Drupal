@@ -1,0 +1,21 @@
+uuid: 337177e1-e4e0-472b-bfb2-338038c3810d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field__software_enabled_security
+    - paragraphs.paragraphs_type.paragrap_image_and_text_left_
+  module:
+    - text
+id: paragraph.paragrap_image_and_text_left_.field__software_enabled_security
+field_name: field__software_enabled_security
+entity_type: paragraph
+bundle: paragrap_image_and_text_left_
+label: ' Software Enabled Security'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

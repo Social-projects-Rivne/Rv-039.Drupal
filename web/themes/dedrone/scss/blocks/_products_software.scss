@@ -1,4 +1,61 @@
-.page_software_your_airspace{
-  height: 300px;
-  padding: 150px 0px;
+.page_software_your_airspace {
+  height: 600px;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  display: flex;
+
+  .paragraph--type--page-software-your-airspace-secu {
+    align-items: center;
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 960px;
+    padding: 0 auto;
+    text-align: left;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .field--name-field-section-your-airspace-secu {
+      height: 190px;
+      width: 320px;
+      position: relative;
+      float: left;
+      min-height: 1px;
+      padding: 0 10px;
+
+      h2 {
+        clear: both;
+        text-decoration: none;
+        color: #fcf8f8;
+        font-weight: 400;
+        padding-bottom: 0;
+        border-bottom-width: 0;
+        font-family: 'Pluto Sans Condensed Extra Light',sans-serif;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: left;
+        letter-spacing: 0;
+        border-bottom-color: #bbb;
+        border-style: none;
+        text-transform: none;
+        margin-top: 0;
+      }
+
+      p {
+        color: rgb(255,255,255);
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 200;
+        text-align: left;
+        letter-spacing: 0;
+        text-transform: none;
+      }
+    }
+  }
 }

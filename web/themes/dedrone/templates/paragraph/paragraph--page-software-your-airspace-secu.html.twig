@@ -1,3 +1,4 @@
+
 {%
   set classes = [
     'paragraph',
@@ -6,7 +7,8 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-<section  class="page_software_your_airspace"  style="background:url({{ background_image_url }}) no-repeat center top; background-position: 0 50%;" >
+<section  class="page_software_your_airspace"  style="background:url({{ background_image_url }}) no-repeat center top; background-position: 0 50%;background-size: cover;" >
+
   {% block paragraph %}
     <div{{ attributes.addClass(classes) }}>
       {% block content %}
