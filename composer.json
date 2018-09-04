@@ -44,7 +44,7 @@
         "drupal/ctools": "^3.0",
         "drupal/devel": "^1.2",
         "drupal/dropzonejs": "^2.0@alpha",
-        "drupal/entity_browser": "^1.5",
+        "drupal/entity_browser": "^2.0@alpha",
         "drupal/examples": "1.x-dev",
         "drupal/file_browser": "^1.1",
         "drupal/honeypot": "^1.27",

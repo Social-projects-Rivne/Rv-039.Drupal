@@ -1,0 +1,21 @@
+uuid: 20f00db5-767c-46b0-9202-8f221a2c9395
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+_core:
+  default_config_hash: SC780NSGIKKlBearzLxgw_RJVZPobYA755L5Mi54uFE
+id: paragraph.bp_link
+field_name: bp_link
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -46,12 +46,12 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-<section class='{{ content.css_class }}' style="background-image: url('{{ content.field_background_image.0['#markup'] }}')">
+<section class='{{ content.css_class }}'>
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       <div class="container">
-          <div class="wpap-content">{{ content|without('field_background_image') }}</div>
+          <div class="wpap-content">{{ content }}</div>
       </div>
     {% endblock %}
   </div>

@@ -1,0 +1,9 @@
+uuid: c14af141-9458-400c-9a00-566bde25a6de
+langcode: en
+status: true
+dependencies: {  }
+id: text_row
+label: 'Text Row'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

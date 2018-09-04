@@ -1,0 +1,19 @@
+uuid: bba0c2c2-b32e-4bd4-8dc8-8ee383515016
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_css_class
+    - paragraphs.paragraphs_type.description_images_button
+id: paragraph.description_images_button.field_css_class
+field_name: field_css_class
+entity_type: paragraph
+bundle: description_images_button
+label: 'css class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
