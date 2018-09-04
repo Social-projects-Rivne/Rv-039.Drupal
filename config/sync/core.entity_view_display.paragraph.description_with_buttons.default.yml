@@ -1,0 +1,35 @@
+uuid: 20e8fd15-9dde-4473-bc83-7bf0dfbb6ec5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description_with_buttons.field_buttons
+    - field.field.paragraph.description_with_buttons.field_css_class
+    - field.field.paragraph.description_with_buttons.field_description
+    - paragraphs.paragraphs_type.description_with_buttons
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.description_with_buttons.default
+targetEntityType: paragraph
+bundle: description_with_buttons
+mode: default
+content:
+  field_buttons:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_description:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_css_class: true

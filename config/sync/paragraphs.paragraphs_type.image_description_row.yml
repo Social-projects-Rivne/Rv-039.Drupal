@@ -1,0 +1,9 @@
+uuid: ab9ea7d3-0ee9-421d-b32a-514a1cff93af
+langcode: en
+status: true
+dependencies: {  }
+id: image_description_row
+label: 'Image Description Row'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

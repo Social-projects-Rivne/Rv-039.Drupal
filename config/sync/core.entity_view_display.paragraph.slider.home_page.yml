@@ -1,0 +1,36 @@
+uuid: 8a09c52f-f414-4b48-aac4-748876d064d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.home_page
+    - field.field.paragraph.slider.field_css_class
+    - field.field.paragraph.slider.field_select_view_mode
+    - field.field.paragraph.slider.field_slider_row
+    - paragraphs.paragraphs_type.slider
+  module:
+    - entity_reference_revisions
+    - view_mode_selector
+id: paragraph.slider.home_page
+targetEntityType: paragraph
+bundle: slider
+mode: home_page
+content:
+  field_select_view_mode:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: view_mode_selector
+    region: content
+  field_slider_row:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: home_page
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_css_class: true

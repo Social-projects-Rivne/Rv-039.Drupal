@@ -1,0 +1,9 @@
+uuid: cf67eebb-7202-421d-8b17-e90475f385de
+langcode: en
+status: true
+dependencies: {  }
+id: image_description_column
+label: 'image description column'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
