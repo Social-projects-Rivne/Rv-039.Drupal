@@ -1,7 +1,0 @@
-uuid: 9ffe418f-6cbf-4cae-8f48-2745e4541726
-langcode: en
-status: true
-dependencies: {  }
-id: about_us_key_figure
-label: 'About us key figure'
-classes: text-white

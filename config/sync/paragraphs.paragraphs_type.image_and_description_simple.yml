@@ -1,9 +1,0 @@
-uuid: c54da373-057c-4de2-b573-3d0277115a77
-langcode: en
-status: true
-dependencies: {  }
-id: image_and_description_simple
-label: 'Image and Description (simple)'
-icon_uuid: null
-description: 'Provides section with an image and small description.'
-behavior_plugins: {  }

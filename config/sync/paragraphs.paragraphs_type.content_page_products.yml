@@ -1,9 +1,0 @@
-uuid: 3abb656e-b524-4be8-93ac-0981d6fda857
-langcode: en
-status: true
-dependencies: {  }
-id: content_page_products
-label: Content_page_products
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

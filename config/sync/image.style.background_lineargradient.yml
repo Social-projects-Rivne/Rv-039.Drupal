@@ -1,7 +1,0 @@
-uuid: 333c975b-a55d-4ea9-9584-13b5ac0646e0
-langcode: en
-status: true
-dependencies: {  }
-name: background_lineargradient
-label: 'Background linear gradient'
-effects: {  }

@@ -1,9 +1,0 @@
-uuid: 56645066-1171-4886-aeeb-692829fd05e4
-langcode: en
-status: true
-dependencies: {  }
-id: bundle_milestones_timeline_list
-label: 'Bundle Milestones timeline list'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }
