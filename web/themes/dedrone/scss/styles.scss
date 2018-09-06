@@ -9,6 +9,13 @@
 
 // Import Components
 @import 'blocks/header';
+@import 'blocks/_footer_menu';
+@import 'blocks/_footer';
+@import 'blocks/secondary_custimers_block-img_text';
+@import 'blocks/small_text_wrapper';
+@import 'blocks/secondary_custumers_slider';
+@import 'blocks/secondary_page_slider';
+@import 'blocks/customer_image_text_wrap';
 @import 'blocks/tabs';
 @import 'blocks/home-main-slider';
 @import 'blocks/benefits-trio';
@@ -24,8 +31,11 @@
 @import 'paragraph/technology_partners';
 @import 'paragraph/shared';
 
+
 // Import Layouts
 // @import 'layouts/home';
 
 // Import Plugins
 // @import 'plugins/plugin';
+
+

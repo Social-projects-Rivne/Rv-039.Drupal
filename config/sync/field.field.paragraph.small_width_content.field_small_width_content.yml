@@ -1,0 +1,21 @@
+uuid: c37f45ae-a93d-4089-a935-f6f6a3682b0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_small_width_content
+    - paragraphs.paragraphs_type.small_width_content
+  module:
+    - text
+id: paragraph.small_width_content.field_small_width_content
+field_name: field_small_width_content
+entity_type: paragraph
+bundle: small_width_content
+label: 'small width content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,21 @@
+uuid: 62104d78-ecd6-4b64-9a36-01fa1411b8f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_h2_title
+    - paragraphs.paragraphs_type.slider_icon_block
+  module:
+    - text
+id: paragraph.slider_icon_block.field_shared_h2_title
+field_name: field_shared_h2_title
+entity_type: paragraph
+bundle: slider_icon_block
+label: 'H2 title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

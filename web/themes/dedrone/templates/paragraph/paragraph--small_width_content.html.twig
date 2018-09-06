@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Default theme implementation to display a paragraph.
+ * Custom theme implementation to display a paragraph.
  *
  * Available variables:
  * - paragraph: Full paragraph entity.
@@ -38,22 +38,25 @@
  * @ingroup themeable
  */
 #}
+
 {%
   set classes = [
+    'paragraph-column',
     'paragraph',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-<section class='{{ content.css_class }}'>
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
-    {% block content %}
-      <div class="container">
-          <div class="wpap-content">{{ content }}</div>
-      </div>
-    {% endblock %}
+  <div class="container">
+    <div class="row">
+      {% block content %}
+        <div class="col-xs-12 col-sm-8 offset-sm-2 small-text-wrapper">
+          {{ content.field_small_width_content }}
+        </div>
+      {% endblock %}
+    </div>
   </div>
 {% endblock paragraph %}
-</section>
+

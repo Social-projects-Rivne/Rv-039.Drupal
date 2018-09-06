@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Default theme implementation to display a paragraph.
+ * Custom theme implementation to display a paragraph.
  *
  * Available variables:
  * - paragraph: Full paragraph entity.
@@ -38,22 +38,32 @@
  * @ingroup themeable
  */
 #}
+
 {%
   set classes = [
+    'paragraph-column',
     'paragraph',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-<section class='{{ content.css_class }}'>
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
+  <div class="customers-secondary-slider" style="background:url({{ background_image_url }}) no-repeat center top; background-size: cover;">
     {% block content %}
-      <div class="container">
-          <div class="wpap-content">{{ content }}</div>
-      </div>
+       <div class="container">
+         <div class="row text-wrapper">
+           <div class="col-sm-12">
+              {{ content.field_content }}
+           </div>
+         </div>
+         <div class="row icon-wrapper">
+           <div class="col-sm-12">
+              {{ content.field_icon_and_text }}
+           </div>
+         </div>
+       </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}
-</section>
+
