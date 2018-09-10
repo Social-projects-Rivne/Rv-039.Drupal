@@ -6,7 +6,7 @@ var sass = require('gulp-sass');
 
 
 gulp.task('styles', function(){
-  gulp.src(['scss/**/*.scss'])
+  return gulp.src(['scss/**/*.scss'])
     .pipe(plumber({
       errorHandler: function (error) {
         console.log(error.message);
@@ -19,5 +19,5 @@ gulp.task('styles', function(){
 
 
 gulp.task('default', function(){
-  gulp.watch("scss/**/*.scss", ['styles']);
+  gulp.watch("scss/**/*.scss", gulp.series('styles'));
 });

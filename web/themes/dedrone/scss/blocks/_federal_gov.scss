@@ -1,0 +1,41 @@
+
+.federal-gov {
+	img{
+		width: auto;
+		height: 530px;
+	}
+}
+.dedrone-solutions {
+	margin: 100px auto;
+
+	.field--name-field-left-column {
+		display: inline-block;
+		float: left;
+	}
+	.field--name-field-right-column {
+		display: inline-block;
+		float: right;
+	}
+}
+/* see_it_live */
+.paragraph--type--solutions-federal-see-it-live {
+  padding: 100px 0;
+  .title-wrap{
+    margin-bottom: 20px;
+    h3{
+      margin: auto;
+      color: #fff;
+    }
+  }
+  .content-wrap{
+    margin-bottom: 20px;
+    p{
+      color: #fff;
+    }
+  }
+  a{
+    color: #fff;
+    margin: auto;
+  }
+
+}

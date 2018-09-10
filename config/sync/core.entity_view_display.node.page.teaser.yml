@@ -17,4 +17,7 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  body: true
+  field_paragraph: true
+  field_section: true

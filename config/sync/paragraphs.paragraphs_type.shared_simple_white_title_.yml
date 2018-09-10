@@ -1,0 +1,9 @@
+uuid: c239b7c5-c8da-4695-bac0-f52813a22bfd
+langcode: en
+status: true
+dependencies: {  }
+id: shared_simple_white_title_
+label: 'Shared simple white title '
+icon_uuid: null
+description: 'Paragraph with title, small description and full screen width background image.'
+behavior_plugins: {  }

@@ -1,0 +1,28 @@
+.benefits-trio {
+	padding: 150px 0;
+	background: #fff;
+
+	.thumb {
+		text-align: center;
+		color: #111;
+
+		.image {
+			display: block;
+			margin: 0 auto 10px auto;
+			width: 70px;
+			height: auto;
+		}
+
+		h3 {
+			margin-top: 15px;
+			margin-bottom: 0;
+			//color: #111;
+			font-size: 15px;
+			line-height: 20px;
+			font-weight: 500;
+		}
+
+		p {
+		}
+	}
+}
