@@ -6971,15 +6971,15 @@ body {
   display: flex; }
   .page_software_your_airspace .paragraph--type--page-software-your-airspace-secu {
     -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-preferred-size: 0;
-        flex-basis: 0;
+    flex-basis: 0;
     -ms-flex-positive: 1;
-        flex-grow: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     max-width: 960px;
     padding: 0 auto;
     text-align: left;
@@ -7028,62 +7028,142 @@ body {
   font-family: 'Pluto Sans Light',sans-serif;
   color: #818181;
   line-height: 26px; }
-  .software-enabled-security-section .paragraph--type--paragrap-image-and-text-left- {
+
+.paragraph--type--paragrap-image-and-text-left- {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  display: -ms-flexbox;
+  display: flex; }
+  .paragraph--type--paragrap-image-and-text-left- .field--name-field-dronetracker-diagram-pilod {
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 80px; }
+    .paragraph--type--paragrap-image-and-text-left- .field--name-field-dronetracker-diagram-pilod img {
+      border: 0;
+      vertical-align: middle;
+      margin-top: 50px;
+      opacity: 1;
+      transform: translateX(0px) translateY(0px) translateZ(0px);
+      display: block;
+      transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+      margin-bottom: 0;
+      color: #818181;
+      line-height: 26px; }
+  .paragraph--type--paragrap-image-and-text-left- .field--name-field__software-enabled-security {
+    color: #818181;
+    float: left;
+    position: relative;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .paragraph--type--paragrap-image-and-text-left- .field--name-field__software-enabled-security h2 {
+      color: #ece9e9;
+      font-weight: 50;
+      padding-bottom: 0;
+      border-bottom-width: 0;
+      font-family: 'Pluto Sans Condensed Extra Light',sans-serif;
+      font-size: 40px;
+      line-height: 45px;
+      text-align: left;
+      letter-spacing: 0;
+      border-bottom-color: #bbb;
+      border-style: none;
+      text-transform: none;
+      font-weight: 100; }
+    .paragraph--type--paragrap-image-and-text-left- .field--name-field__software-enabled-security p {
+      color: #ece9e9;
+      clear: none;
+      display: inline-block;
+      float: none;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      list-style-type: disc;
+      margin-top: 20px;
+      margin-bottom: 0;
+      text-align: left; }
+
+.section_dronedna {
+  -ms-flex-align: center;
+      align-items: center;
+  box-sizing: border-box;
+  color: #818181;
+  display: block;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 150px 0;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  -webkit-box-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal; }
+  .section_dronedna .paragraph {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
+    -ms-flex-align: center;
+        align-items: center;
     display: -ms-flexbox;
-    display: flex; }
-    .software-enabled-security-section .paragraph--type--paragrap-image-and-text-left- .field--name-field-dronetracker-diagram-pilod {
-      position: relative;
-      float: left;
-      min-height: 1px;
-      padding-left: 10px;
-      padding-right: 10px;
-      margin-right: 80px; }
-      .software-enabled-security-section .paragraph--type--paragrap-image-and-text-left- .field--name-field-dronetracker-diagram-pilod img {
-        border: 0;
-        vertical-align: middle;
-        margin-top: 50px;
-        opacity: 1;
-        transform: translateX(0px) translateY(0px) translateZ(0px);
-        display: block;
-        transition: opacity 400ms ease 0s, transform 400ms ease 0s;
-        margin-bottom: 0;
-        color: #818181;
-        line-height: 26px; }
-    .software-enabled-security-section .paragraph--type--paragrap-image-and-text-left- .field--name-field__software-enabled-security {
-      color: #818181;
-      float: left;
-      position: relative;
-      -webkit-text-size-adjust: 100%;
-          -ms-text-size-adjust: 100%;
-              text-size-adjust: 100%;
-      padding-left: 10px;
-      padding-right: 10px; }
-      .software-enabled-security-section .paragraph--type--paragrap-image-and-text-left- .field--name-field__software-enabled-security h2 {
-        color: #ece9e9;
-        font-weight: 50;
-        padding-bottom: 0;
-        border-bottom-width: 0;
-        font-family: 'Pluto Sans Condensed Extra Light',sans-serif;
-        font-size: 40px;
-        line-height: 45px;
-        text-align: left;
-        letter-spacing: 0;
-        border-bottom-color: #bbb;
-        border-style: none;
-        text-transform: none;
-        font-weight: 100; }
-      .software-enabled-security-section .paragraph--type--paragrap-image-and-text-left- .field--name-field__software-enabled-security p {
-        color: #ece9e9;
-        clear: none;
-        display: inline-block;
-        float: none;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 24px;
-        list-style-type: disc;
-        margin-top: 20px;
-        margin-bottom: 0px;
-        text-align: left; }
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+
+.field--name-field-dronedna-is-a-machine {
+  float: none;
+  min-height: 1px;
+  padding: 0 10px;
+  position: relative;
+  width: 33.333333%; }
+  .field--name-field-dronedna-is-a-machine h1 {
+    padding-bottom: 0;
+    border-bottom-width: 0;
+    font-family: 'Pluto Sans Condensed Extra Light',sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #111;
+    border-bottom-color: #bbb;
+    border-style: none;
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 10px; }
+  .field--name-field-dronedna-is-a-machine p {
+    margin-top: 10px;
+    float: none;
+    clear: none;
+    font-family: 'Pluto Sans Condensed Light',sans-serif;
+    color: #111;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 400; }
+
+.hidden_elem {
+  width: 8.333333%; }
+
+.field--name-field-image-detection- {
+  width: 58.333333%;
+  float: none;
+  padding: 0 10px;
+  position: relative; }
+  .field--name-field-image-detection- img {
+    opacity: 1;
+    transform: translateX(0px) translateY(0px) translateZ(0px);
+    display: block;
+    transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    vertical-align: middle; }
