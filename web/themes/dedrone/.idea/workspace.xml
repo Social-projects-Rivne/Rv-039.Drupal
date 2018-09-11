@@ -2,12 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f51e905c-165c-4945-8dd5-2c0c84190acb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_form_display.paragraph.content_with_background.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_form_display.paragraph.customer_page_content_with_image.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_form_display.paragraph.customer_secondary_pages_with_im.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_form_display.paragraph.customers_page_slider.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_form_display.paragraph.customers_secondary_slider.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_form_display.paragraph.slider_icon_block.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_form_display.paragraph.small_width_content.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_view_display.paragraph.content_with_background.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_view_display.paragraph.customer_page_content_with_image.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_view_display.paragraph.customer_secondary_pages_with_im.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_view_display.paragraph.customers_page_slider.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_view_display.paragraph.customers_secondary_slider.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_view_display.paragraph.slider_icon_block.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/core.entity_view_display.paragraph.small_width_content.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.content_with_background.field_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customer_page_content_with_image.field_button.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customer_page_content_with_image.field_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customer_page_content_with_image.field_image_custom_page.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customer_secondary_pages_with_im.field_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customer_secondary_pages_with_im.field_image.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customers_page_slider.field_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customers_page_slider.field_image.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customers_secondary_slider.field_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customers_secondary_slider.field_icon_and_text.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.customers_secondary_slider.field_image.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.slider_icon_block.field_icon.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.slider_icon_block.field_our_products.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.slider_icon_block.field_shared_h2_title.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.field.paragraph.small_width_content.field_small_width_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.storage.paragraph.field_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.storage.paragraph.field_icon.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.storage.paragraph.field_icon_and_text.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.storage.paragraph.field_image_custom_page.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/field.storage.paragraph.field_small_width_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/paragraphs.paragraphs_type.content_with_background.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/paragraphs.paragraphs_type.customer_page_content_with_image.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/paragraphs.paragraphs_type.customer_secondary_pages_with_im.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/paragraphs.paragraphs_type.customers_page_slider.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/paragraphs.paragraphs_type.customers_secondary_slider.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/paragraphs.paragraphs_type.slider_icon_block.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../config/sync/paragraphs.paragraphs_type.small_width_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blocks/asdasda.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blocks/customer_image_text_wrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blocks/secondary_custimers_block-img_text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blocks/secondary_custumers_slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blocks/secondary_page_slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blocks/small_text_wrapper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blocks/customer_image_text_wrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blocks/secondary_custimers_block-img_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blocks/secondary_custumers_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blocks/secondary_page_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blocks/small_text_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--customer-page-content-with-image.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--customer-secondary-pages-with-im.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--customers-page-slider.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--customers-secondary-slider.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--slider-icon-block.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--small_width_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dedrone.theme" beforeDir="false" afterPath="$PROJECT_DIR$/dedrone.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/_buttons-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_buttons-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/_customers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_customers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/_home-main-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_home-main-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/_products-intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_products-intro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/_webinars-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_webinars-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/region--content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/region--content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--background-description.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--background-description.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--bp-tabs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--bp-tabs.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--description-images-button.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--description-images-button.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--slider--classic-slider.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--slider--classic-slider.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--text-row.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--text-row.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +105,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="1" />
           <entry key="html" value="1" />
           <entry key="js" value="5" />
-          <entry key="scss" value="23" />
+          <entry key="scss" value="24" />
           <entry key="theme" value="6" />
           <entry key="twig" value="54" />
           <entry key="yml" value="3" />
@@ -47,19 +116,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="5" />
           <entry key="PHP" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="23" />
+          <entry key="SCSS" value="24" />
           <entry key="Twig" value="54" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="2" />
           <entry key="js" value="145" />
-          <entry key="scss" value="2526" />
+          <entry key="scss" value="2560" />
           <entry key="theme" value="136" />
           <entry key="twig" value="1620" />
           <entry key="yml" value="23" />
@@ -67,10 +138,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CSS" value="2" />
           <entry key="JavaScript" value="145" />
           <entry key="PHP" value="131" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="SCSS" value="2526" />
+          <entry key="SCSS" value="2560" />
           <entry key="Twig" value="1620" />
           <entry key="YAML" value="23" />
         </counts>
@@ -107,7 +179,7 @@
         <entry file="file://$PROJECT_DIR$/templates/webform--contact-us.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="31" />
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -115,11 +187,39 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/blocks/_forms.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+            <state relative-caret-position="185">
+              <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
               <folding>
                 <element signature="e#386#393#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+              <folding>
+                <element signature="e#79488#79688#2" expanded="true" />
+                <element signature="e#79918#80067#2" expanded="true" />
+                <element signature="e#80630#80776#2" expanded="true" />
+                <element signature="e#81132#81298#1" expanded="true" />
+                <element signature="e#93615#93858#2" expanded="true" />
+                <element signature="e#94889#95138#2" expanded="true" />
+                <element signature="e#125341#125531#2" expanded="true" />
+                <element signature="e#125586#125776#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -194,8 +294,9 @@
         <option value="$PROJECT_DIR$/templates/paragraph/paragraph--default.html.twig" />
         <option value="$PROJECT_DIR$/scss/base/_global.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/_header.scss" />
-        <option value="$PROJECT_DIR$/scss/styles.scss" />
         <option value="$PROJECT_DIR$/templates/webform--contact-us.html.twig" />
+        <option value="$PROJECT_DIR$/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/scss/blocks/_forms.scss" />
       </list>
     </option>
@@ -223,6 +324,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="https://d85.lndo.site" id="1287c45d-e692-4e60-ba5c-5d171d2384c2" name="d85" port="443" use_path_mappings="true">
@@ -259,6 +361,11 @@
             <path>
               <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
               <item name="dedrone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dedrone" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
@@ -333,12 +440,12 @@
       <workItem from="1534602948664" duration="16560000" />
       <workItem from="1534917459603" duration="17297000" />
       <workItem from="1536221668783" duration="4972000" />
-      <workItem from="1536567484798" duration="6570000" />
+      <workItem from="1536567484798" duration="7745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116394000" />
+    <option name="totallyTimeSpent" value="117569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1043" extended-state="6" />
@@ -402,7 +509,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/dedrone.theme</url>
-          <line>7</line>
+          <line>8</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -677,24 +784,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/webform--contact-us.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="31" />
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+          <folding>
+            <element signature="e#79488#79688#2" expanded="true" />
+            <element signature="e#79918#80067#2" expanded="true" />
+            <element signature="e#80630#80776#2" expanded="true" />
+            <element signature="e#81132#81298#1" expanded="true" />
+            <element signature="e#93615#93858#2" expanded="true" />
+            <element signature="e#94889#95138#2" expanded="true" />
+            <element signature="e#125341#125531#2" expanded="true" />
+            <element signature="e#125586#125776#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/blocks/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+        <state relative-caret-position="185">
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
             <element signature="e#386#393#0" />
           </folding>

@@ -1,0 +1,21 @@
+uuid: 768bde60-eac9-432c-b513-93e51c4561df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - paragraphs.paragraphs_type.customers_secondary_slider
+  module:
+    - text
+id: paragraph.customers_secondary_slider.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: customers_secondary_slider
+label: content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

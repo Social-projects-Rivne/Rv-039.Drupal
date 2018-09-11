@@ -1,0 +1,32 @@
+uuid: bac952ce-8e93-4947-9eaf-cc41a88702ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.customer_secondary_pages_with_im.field_content
+    - field.field.paragraph.customer_secondary_pages_with_im.field_image
+    - paragraphs.paragraphs_type.customer_secondary_pages_with_im
+  module:
+    - text
+id: paragraph.customer_secondary_pages_with_im.default
+targetEntityType: paragraph
+bundle: customer_secondary_pages_with_im
+mode: default
+content:
+  field_content:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }
