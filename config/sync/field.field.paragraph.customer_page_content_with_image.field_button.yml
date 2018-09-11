@@ -1,0 +1,23 @@
+uuid: 1a555c09-27ea-4225-805b-9e6dc9269b8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button
+    - paragraphs.paragraphs_type.customer_page_content_with_image
+  module:
+    - link
+id: paragraph.customer_page_content_with_image.field_button
+field_name: field_button
+entity_type: paragraph
+bundle: customer_page_content_with_image
+label: button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

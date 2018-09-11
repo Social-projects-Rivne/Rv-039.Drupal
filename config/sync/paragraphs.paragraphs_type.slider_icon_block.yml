@@ -1,0 +1,9 @@
+uuid: ff91a6a6-b9f2-479f-81d5-270cf610db46
+langcode: en
+status: true
+dependencies: {  }
+id: slider_icon_block
+label: 'slider icon block'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

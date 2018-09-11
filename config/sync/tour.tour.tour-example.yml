@@ -1,0 +1,57 @@
+uuid: 99be4aa8-160a-4c5a-bd8d-02142f9082b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - tour_example
+_core:
+  default_config_hash: Vh49hSbV5ss8snRQu7M1Hz20cROVUkdn1q5fcumjtiA
+id: tour-example
+label: 'Tour an example admin page'
+module: tour_example
+routes:
+  -
+    route_name: tour_example_description
+tips:
+  introduction:
+    id: introduction
+    plugin: text
+    label: Introduction
+    body: 'This is an example tour. Click "next" to continue through the tour.'
+    weight: 1
+  first-item:
+    id: first-item
+    plugin: text
+    label: 'First Item'
+    body: 'Tours are helpful for walking users through an unfamiliar admin interface.'
+    weight: 2
+    location: bottom
+    attributes:
+      data-id: tour-target-1
+  second-item:
+    id: second-item
+    plugin: text
+    label: 'Second Item'
+    body: 'Individual tips can be positioned anywhere on the page.'
+    weight: 3
+    location: top
+    attributes:
+      data-id: tour-target-2
+  third-item:
+    id: third-item
+    plugin: text
+    label: 'Third Item'
+    body: 'You can click the X in the top right corner of this box to close the tour at any time.'
+    weight: 4
+    location: bottom
+    attributes:
+      data-id: tour-target-3
+  fourth-item:
+    id: fourth-item
+    plugin: text
+    label: 'Fourth Item'
+    body: 'When the tour is over, click "End Tour".'
+    weight: 5
+    location: left
+    attributes:
+      data-id: tour-target-4

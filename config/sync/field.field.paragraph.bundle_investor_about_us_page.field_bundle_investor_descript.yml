@@ -1,0 +1,21 @@
+uuid: 9302a132-6222-4137-a89a-3a17003e0b7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bundle_investor_descript
+    - paragraphs.paragraphs_type.bundle_investor_about_us_page
+  module:
+    - text
+id: paragraph.bundle_investor_about_us_page.field_bundle_investor_descript
+field_name: field_bundle_investor_descript
+entity_type: paragraph
+bundle: bundle_investor_about_us_page
+label: 'Bundle investor descript'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

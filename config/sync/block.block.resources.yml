@@ -1,0 +1,28 @@
+uuid: 92666028-4a0a-4d76-af4d-783f36923071
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.resources
+  module:
+    - block_class
+    - system
+  theme:
+    - dedrone
+third_party_settings:
+  block_class:
+    classes: 'col-md-2 col-sm-6 col-xs-12'
+id: resources
+theme: dedrone
+region: footerMenu
+weight: -5
+provider: null
+plugin: 'system_menu_block:resources'
+settings:
+  id: 'system_menu_block:resources'
+  label: RESOURCES
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

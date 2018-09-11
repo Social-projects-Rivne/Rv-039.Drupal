@@ -17,6 +17,7 @@ dependencies:
     - paragraphs.paragraphs_type.bp_simple
     - paragraphs.paragraphs_type.bp_tabs
     - paragraphs.paragraphs_type.bp_view
+    - paragraphs.paragraphs_type.bundle_investor_about_us_page
   module:
     - entity_reference_revisions
 _core:
@@ -34,6 +35,7 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
+    negate: 0
     target_bundles:
       bp_simple: bp_simple
       bp_image: bp_image
@@ -48,6 +50,7 @@ settings:
       bp_modal: bp_modal
       bp_tabs: bp_tabs
       bp_view: bp_view
+      bundle_investor_about_us_page: bundle_investor_about_us_page
     target_bundles_drag_drop:
       bp_simple:
         enabled: true
@@ -93,5 +96,77 @@ settings:
         enabled: false
       bp_tab_section:
         weight: -17
+        enabled: false
+      background_description:
+        weight: 40
+        enabled: false
+      bundle_about_us_timeline:
+        weight: 56
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 57
+        enabled: false
+      bundle_description_about_us_page:
+        weight: 58
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 59
+        enabled: false
+      bundle_investor_about_us_page:
+        enabled: true
+        weight: 60
+      bundle_timeline_item_about_us:
+        weight: 61
+        enabled: false
+      button:
+        weight: 62
+        enabled: false
+      content_page_products:
+        weight: 63
+        enabled: false
+      description_images_button:
+        weight: 64
+        enabled: false
+      description_image_date_view:
+        weight: 65
+        enabled: false
+      description_with_button:
+        weight: 66
+        enabled: false
+      description_with_buttons:
+        weight: 67
+        enabled: false
+      image1:
+        weight: 68
+        enabled: false
+      image_and_description_simple:
+        weight: 69
+        enabled: false
+      image_description_column:
+        weight: 70
+        enabled: false
+      image_description_row:
+        weight: 71
+        enabled: false
+      shared_h1_bottons:
+        weight: 72
+        enabled: false
+      shared_h1_buttons:
+        weight: 73
+        enabled: false
+      shared_title_description:
+        weight: 74
+        enabled: false
+      shared_wrapper:
+        weight: 75
+        enabled: false
+      slide:
+        weight: 76
+        enabled: false
+      slider:
+        weight: 77
+        enabled: false
+      text_row:
+        weight: 78
         enabled: false
 field_type: entity_reference_revisions

@@ -1,0 +1,116 @@
+uuid: 9b4e781b-cde3-4353-a963-a3f1c46c13a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - social_media_links
+  theme:
+    - dedrone
+third_party_settings:
+  block_class:
+    classes: 'col-md-2 col-sm-6 col-xs-12'
+id: socialmedialinks
+theme: dedrone
+region: footerMenu
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Follow Us'
+  provider: social_media_links
+  label_display: visible
+  platforms:
+    youtube:
+      value: ''
+      description: ''
+      weight: '-10'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-9'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-8'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-7'
+    github:
+      value: ''
+      description: ''
+      weight: '-6'
+    email:
+      value: ''
+      description: ''
+      weight: '-5'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-4'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-3'
+    contact:
+      value: ''
+      description: ''
+      weight: '-2'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-1'
+    facebook:
+      value: dedronetechnology/
+      description: ''
+      weight: '0'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '1'
+    instagram:
+      value: ''
+      description: ''
+      weight: '2'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '3'
+    linkedin:
+      value: company-beta/10048388/
+      description: ''
+      weight: '4'
+    rss:
+      value: ''
+      description: ''
+      weight: '5'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '6'
+    twitter:
+      value: 'Dedrone?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
+      description: ''
+      weight: '7'
+    behance:
+      value: ''
+      description: ''
+      weight: '8'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '9'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:lg'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }
