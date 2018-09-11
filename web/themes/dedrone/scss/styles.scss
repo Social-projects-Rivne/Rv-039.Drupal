@@ -9,14 +9,15 @@
 
 // Import Components
 @import 'blocks/header';
-@import 'blocks/_footer_menu';
-@import 'blocks/_footer';
+@import 'blocks/footer_menu';
+@import 'blocks/footer';
 @import 'blocks/secondary_custimers_block-img_text';
 @import 'blocks/small_text_wrapper';
 @import 'blocks/secondary_custumers_slider';
 @import 'blocks/secondary_page_slider';
 @import 'blocks/customer_image_text_wrap';
 @import 'blocks/tabs';
+@import 'blocks/forms';
 @import 'blocks/home-main-slider';
 @import 'blocks/benefits-trio';
 @import 'blocks/text-columns';
@@ -26,8 +27,6 @@
 @import 'blocks/webinars-section';
 @import 'blocks/cta-section';
 
-@import 'blocks/footer_menu';
-@import 'blocks/footer';
 @import 'paragraph/technology_partners';
 @import 'paragraph/shared';
 

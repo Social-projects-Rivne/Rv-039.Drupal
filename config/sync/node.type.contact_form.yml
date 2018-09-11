@@ -1,0 +1,18 @@
+uuid: 92981a36-cfac-474e-a880-cd7122b34d55
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Contact form'
+type: contact_form
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
