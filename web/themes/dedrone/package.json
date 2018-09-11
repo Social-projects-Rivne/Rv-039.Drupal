@@ -1,7 +1,7 @@
 {
 	"devDependencies": {
 		"gulp": "3.8.11",
-		"gulp-autoprefixer": "2.1.0",
+		"gulp-autoprefixer": "2.3.1",
 		"gulp-plumber": "1.0.0",
 		"gulp-rename": "1.2.2",
 		"gulp-sass": "^4.0.1",
