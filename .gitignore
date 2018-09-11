@@ -25,6 +25,3 @@
 
 # Ignore node-modules
 /web/themes/dedrone/node_modules/
-
-# Ignore composer.lock
-composer.lock
