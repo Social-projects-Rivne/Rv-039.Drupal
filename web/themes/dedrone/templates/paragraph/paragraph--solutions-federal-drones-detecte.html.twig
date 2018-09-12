@@ -46,10 +46,19 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
+<section class="solutions-federal-drones-detecte">
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ content }}
+      <div class="container">
+        <div class="content-wrapper">
+            {{ content }}
+          <div class="title-wrap">{{ content.field_title_see_it_live }}</div>
+          <div class="content-wrap">{{ content.field_body_see_it_live }}</div>
+          <div class="button-wrap">{{ content.field_link_see_it_live }}</div>
+        </div>
+      </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}
+</section>
