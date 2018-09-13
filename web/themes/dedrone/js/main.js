@@ -1,4 +1,5 @@
-(function ($) {
+(function ($, window, Drupal, drupalSettings) {
+	'use strict';
 
 	Drupal.behaviors.initSlider = {
 		attach: function (context, settings) {
@@ -37,4 +38,4 @@
 		}
 	};
 
-})(jQuery);
+})(jQuery, window, Drupal, drupalSettings);

@@ -39,7 +39,7 @@
 
 {{ page.header }}
  
-{{ page.content }}
+{{ page.content|without('dedrone_page_title') }}
         
 {% if page.footerMenu %}
     {{ page.footerMenu }}
