@@ -3463,7 +3463,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.28",
-                    "datestamp": "1533849180",
+                    "datestamp": "1536179280",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4517,7 +4517,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-rc18",
-                    "datestamp": "1533682980",
+                    "datestamp": "1536257580",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -4642,12 +4642,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "3c6ae4176121a0f70b4b51f62210cee0bce49d58"
+                "reference": "40b149e76270593b9b4e5802e6ed3a6f5f14ebe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/3c6ae4176121a0f70b4b51f62210cee0bce49d58",
-                "reference": "3c6ae4176121a0f70b4b51f62210cee0bce49d58",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/40b149e76270593b9b4e5802e6ed3a6f5f14ebe1",
+                "reference": "40b149e76270593b9b4e5802e6ed3a6f5f14ebe1",
                 "shasum": ""
             },
             "require": {
@@ -4737,7 +4737,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-08-22T04:25:42+00:00"
+            "time": "2018-09-07T15:39:22+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -9887,6 +9887,49 @@
             "time": "2015-07-28T20:34:47+00:00"
         },
         {
+            "name": "sebastian/version",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/version.git",
+                "reference": "99732be0ddb3361e16ad77b68ba41efc8e979019"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/99732be0ddb3361e16ad77b68ba41efc8e979019",
+                "reference": "99732be0ddb3361e16ad77b68ba41efc8e979019",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that helps with managing the version number of Git-hosted PHP projects",
+            "homepage": "https://github.com/sebastianbergmann/version",
+            "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
             "name": "squizlabs/php_codesniffer",
             "version": "2.9.1",
             "source": {
@@ -10170,6 +10213,7 @@
     "stability-flags": {
         "drupal/bootstrap_paragraphs": 10,
         "drupal/dropzonejs": 15,
+        "drupal/entity_browser": 15,
         "drupal/examples": 20,
         "drupal/inline_entity_form": 5,
         "drupal/ultimate_cron": 15,

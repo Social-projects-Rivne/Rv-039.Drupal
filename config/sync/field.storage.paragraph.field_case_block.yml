@@ -1,4 +1,4 @@
-uuid: bc9d28a1-59f9-4bbe-924e-b25d04fa5ebf
+uuid: 55730a97-8bba-49fd-955d-42d3128041ef
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - paragraphs
     - views
     - viewsreference
-id: paragraph.field_upcoming_webinars
-field_name: field_upcoming_webinars
+id: paragraph.field_case_block
+field_name: field_case_block
 entity_type: paragraph
 type: viewsreference
 settings:
   target_type: view
 module: viewsreference
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

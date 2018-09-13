@@ -1,13 +1,13 @@
-uuid: a08e74b9-696d-48ad-aac7-64a69c8239b1
+uuid: 7f369bd9-0ab2-476d-9aae-5f2abd5c2f4e
 langcode: en
 status: true
 dependencies:
   module:
     - link
-    - paragraphs
-id: paragraph.field_button
-field_name: field_button
-entity_type: paragraph
+    - node
+id: node.field_secondary_page_kink
+field_name: field_secondary_page_kink
+entity_type: node
 type: link
 settings: {  }
 module: link
