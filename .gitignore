@@ -18,7 +18,7 @@
 /.idea/
 
 # Ignore Drupal's file directory
-#/web/sites/*/files/
+/web/sites/*/files/
 
 # Ignore .env files as they are personal
 /.env
