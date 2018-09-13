@@ -46,29 +46,10 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-<section class="solutions-federal-drones-detecte">
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      <div class="container">
-        <div class="content-wrapper">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="small_title_drones_detecte-wrap">{{ content.field_small_title_drones_detecte }}</div>
-              <div class="big_title_drones_detected-wrap">{{ content.field_big_title_drones_detected }}</div>
-              <div class="body_drones_detected-wrap">{{ content.field_body_drones_detected }}</div>
-              <div class="link_drones_detected-wrap">{{ content.field_link_drones_detected }}</div>
-            </div>
-            <div class="col-md-6">
-              <div class="img_drones_detected-wrap">{{ content.field_img_drones_detected }}</div>
-              <div class="img_desc_drones_detected-wrap">{{ content.field_img_desc_drones_detected }}</div>
-              <div class="quote_drones_detected-wrap">{{ content.field_quote_drones_detected }}</div>
-              <div class="author_drones_detected-wrap">{{ content.field_author_drones_detected }}</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      {{ content }}
     {% endblock %}
   </div>
 {% endblock paragraph %}
-</section>
