@@ -7,6 +7,7 @@ dependencies:
     - field.field.paragraph.bp_image.bp_image_field
     - field.field.paragraph.bp_image.bp_link
     - field.field.paragraph.bp_image.bp_width
+    - field.field.paragraph.bp_image.field_css_class
     - image.style.thumbnail
     - paragraphs.paragraphs_type.bp_image
   module:
@@ -46,6 +47,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_css_class:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
 hidden:
   created: true

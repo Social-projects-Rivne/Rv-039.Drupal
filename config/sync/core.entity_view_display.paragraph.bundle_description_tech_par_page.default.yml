@@ -1,4 +1,4 @@
-uuid: b3948927-ceda-4f70-8c21-898c9972b230
+uuid: 8c6de72f-7dae-45fe-9c30-68cb2202586d
 langcode: en
 status: true
 dependencies:
@@ -35,8 +35,8 @@ content:
     type: link
     region: content
   field_shared_p_simple_text:
-    weight: 3
-    label: above
+    weight: 1
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default

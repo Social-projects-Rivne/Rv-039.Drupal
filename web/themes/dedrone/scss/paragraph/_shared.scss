@@ -5,101 +5,134 @@
 
 /* Paragraphs background styles
 ========================================================================== */
-.paragraph--type--shared-simple-white-title-
+.background_image
 {
-    .background_image_position
-    {
         background-position: 0 0,50% 50% !important;
         background-size: auto,cover !important;
-        min-height: 550px !important;
         display:flex !important;
-    }
+        min-height: 550px;
+        align-items:center;
 }
 
 /* Styles for shared paragraph
 ========================================================================== */
 
-.paragraph--type--shared-simple-white-title-
+.paragraph--type--shared-title-description
 {
-    .shared_white_title_pos
-    {
-        max-width: 500px;
-        color: #fff;   
-        @include media-breakpoint-up(xs)
+        width:100%;
+        @include media-breakpoint-up(xs)  { padding: 0px 25px; }
+        .title-description-center
         {
-            padding: 0px 25px;
+            text-align:center;
+            max-width: 500px;
         }
-
         /*Title*/
-        h1
-        {
+        h1{
             margin-top: 10px;
             margin-bottom: 10px;
             padding-top: 5px;
             color: #fff;
         }
+
         /*Description*/
-        h2
-        {
+        h2{
+
             margin-top: 20px;
             margin-bottom: 10px;
             color: #fff;
         }
-    }
-    @include media-breakpoint-up(xs) { margin-bottom: 75px; }
-    @include media-breakpoint-up(sm) { margin-bottom: 100px; }
-    @include media-breakpoint-up(md) { margin-bottom: 150px; }
-    @include media-breakpoint-up(lg) { margin-bottom: 150px; }
 }
 
-.paragraph--type--shared-aditional-information
+.paragraph--type--shared-h1-buttons
 {
-    h1
-    {
+    display: flex;
+    align-items:center;
+    h1{
         color: #fff;
         text-align: center;
     }
-    .container
+}
+
+.paragraph--type--shared-full-width-col-7-col-5
+{
+    @extend .section;
+    padding-bottom:0px;
+    dispalay:flex;
+    align-items:center;
+    .background_image{ min-height: 400px;}
+    .background
     {
-        padding-top:150px;
-        padding-bottom:150px;
+        height: 400px;
     }
+    .col-7{padding:0;}
+    .col-5{padding:0;}
 }
 
 
-/* Buttons style
+
+/* Other 
 ========================================================================== */
 
-.shared_adit_inf_btns a
-{
-    display: inline-block;
-    text-decoration: none;
-    text-align:center;
-    padding: 15px 50px;
-    border-radius: 4px;
-    min-width: 220px;
-    margin: 0px 10px;
-    border-color: #fff;
-    background-color: transparent;
-    background-image: none;
-    color: #fff;
-    border: 1px solid #fff;
-    font-size: 12px;
-    line-height: 15px;
-    font-weight: 400;
+//Buttons
 
-    @include media-breakpoint-down(xs) { 
-        width: 100%; 
-        margin: 20px 0px;
-    }
-}
-
-.shared_adit_inf_btns a:hover
-{
-    color: #f05c40;
-    background-color: #fff;
-}
-.shared_adit_inf_btns
+.shared_buttons
 {
     margin: 25px 10px 0px 10px;
+    a{
+        display: inline-block;
+        text-decoration: none;
+        text-align:center;
+        padding: 15px 50px;
+        border-radius: 4px;
+        min-width: 220px;
+        margin: 0px 10px;
+        border-color: #fff;
+        background-color: transparent;
+        background-image: none;
+        color: #fff;
+        border: 1px solid #fff;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+
+        @include media-breakpoint-down(xs) { 
+            width: 100%; 
+            margin: 20px 0px;
+        }
+    }
+    a:hover
+    {
+        color: #f05c40;
+        background-color: #fff;
+    }
+
 }
+
+
+
+//Section
+
+.section
+{
+    display: flex;
+
+    @include media-breakpoint-up(xs) {padding-top: 75px;  padding-bottom: 75px;}
+    @include media-breakpoint-up(sm) {padding-top: 100px; padding-bottom: 100px;}
+    @include media-breakpoint-up(md) {padding-top: 150px; padding-bottom: 150px;}
+    @include media-breakpoint-up(lg) {padding-top: 150px; padding-bottom: 150px;}
+
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    height: 100%;
+    width:100%;
+}
+
+
+

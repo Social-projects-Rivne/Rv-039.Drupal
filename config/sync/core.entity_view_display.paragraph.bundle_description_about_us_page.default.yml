@@ -1,0 +1,30 @@
+uuid: 968329fa-46de-4b90-8c9c-d28e92d6c8c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bundle_description_about_us_page.field_shared_h1_title
+    - field.field.paragraph.bundle_description_about_us_page.field_shared_text_single
+    - paragraphs.paragraphs_type.bundle_description_about_us_page
+  module:
+    - text
+id: paragraph.bundle_description_about_us_page.default
+targetEntityType: paragraph
+bundle: bundle_description_about_us_page
+mode: default
+content:
+  field_shared_h1_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_shared_text_single:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

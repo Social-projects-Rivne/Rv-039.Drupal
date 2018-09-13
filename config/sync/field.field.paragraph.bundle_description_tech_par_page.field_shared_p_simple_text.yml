@@ -1,4 +1,4 @@
-uuid: 1b3b02d0-6961-4123-aed7-83005c73bfed
+uuid: 81437863-6fd0-4d54-a3ef-d752f460bcc7
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_shared_p_simple_text
 entity_type: paragraph
 bundle: bundle_description_tech_par_page
 label: 'Shared p simple text'
-description: 'Simple text field,'
+description: ''
 required: false
 translatable: false
 default_value: {  }

@@ -51,6 +51,9 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  simple_social_icons: 0
+  simple_timeline: 0
+  social_media_links: 0
   system: 0
   taxonomy: 0
   text: 0

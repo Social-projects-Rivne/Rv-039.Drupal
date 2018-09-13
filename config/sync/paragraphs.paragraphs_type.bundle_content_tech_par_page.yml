@@ -1,9 +1,9 @@
-uuid: fc025b3e-acd3-4817-bc0a-474abb97f2d2
+uuid: 01c1bc51-1f4b-4d66-a86f-e185a0601482
 langcode: en
 status: true
 dependencies: {  }
 id: bundle_content_tech_par_page
 label: 'Bundle content Technology Partners page'
 icon_uuid: null
-description: 'Technology Partners page content paragraph with partner company title, site link, logo, and information about company.'
+description: ''
 behavior_plugins: {  }

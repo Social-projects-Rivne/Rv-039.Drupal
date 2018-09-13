@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.bp_simple.bp_background
     - field.field.paragraph.bp_simple.bp_text
     - field.field.paragraph.bp_simple.bp_width
+    - field.field.paragraph.bp_simple.field_css_class
     - paragraphs.paragraphs_type.bp_simple
   module:
     - text
@@ -35,6 +36,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_css_class:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
 hidden:
   created: true

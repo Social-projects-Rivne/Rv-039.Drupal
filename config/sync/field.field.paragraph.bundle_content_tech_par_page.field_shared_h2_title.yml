@@ -1,4 +1,4 @@
-uuid: 0fd1e9ec-3373-46af-8a3e-b201e5e353de
+uuid: 5d44d147-cf25-4992-a1cd-8ae06ae93e1b
 langcode: en
 status: true
 dependencies:
@@ -12,10 +12,10 @@ field_name: field_shared_h2_title
 entity_type: paragraph
 bundle: bundle_content_tech_par_page
 label: 'Shared H2 title'
-description: 'Simple H2 title text.'
+description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: text_long

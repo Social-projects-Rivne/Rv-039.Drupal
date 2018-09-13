@@ -31,8 +31,19 @@
 		}
 
 		&:last-child {
-			& > a {
+			& > a,
+			& > span {
 				color: #e5310e;
+			}
+
+			span {
+				display: block;
+				padding: 5px 0 4px 0;
+				font-size: 13px;
+				font-weight: 400;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				cursor: pointer;
 			}
 		}
 		
@@ -45,5 +56,36 @@
 		    text-transform: uppercase;
 		    color: #111;
 		}
-	}	
+	}
+
+	& > .menu-item {
+		position: relative;
+
+		&--expanded {
+
+			& > .menu {
+				display: none;
+				position: absolute;
+				z-index: 11;
+				right: -35px;
+				left: -35px;
+				min-width: 100%;
+				padding: 10px;
+				margin: 0px;
+				background: #fff;
+				border-radius: 2px;
+				box-shadow: 1px 1px 5px 1px rgba(0,0,0,.25);
+
+				a {
+					padding: 7px 0 7px 20px;
+				}
+			}
+
+			&:hover {
+				& > .menu {
+					display: block;
+				}
+			}
+		}
+	}
 }

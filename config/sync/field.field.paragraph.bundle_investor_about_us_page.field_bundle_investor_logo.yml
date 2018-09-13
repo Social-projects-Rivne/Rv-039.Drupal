@@ -1,0 +1,28 @@
+uuid: fe40d9b4-78bc-4805-84e6-2b3840376379
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bundle_investor_logo
+    - media.type.image
+    - paragraphs.paragraphs_type.bundle_investor_about_us_page
+id: paragraph.bundle_investor_about_us_page.field_bundle_investor_logo
+field_name: field_bundle_investor_logo
+entity_type: paragraph
+bundle: bundle_investor_about_us_page
+label: 'Bundle investor logo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

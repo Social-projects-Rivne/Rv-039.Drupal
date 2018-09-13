@@ -1,4 +1,4 @@
-uuid: 85837602-1afc-4d15-9367-42d351bec718
+uuid: 07023e7a-60ec-4a16-b096-8f369c2bf182
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - field.field.paragraph.bundle_content_tech_par_page.field_bundle_partner_logo
     - field.field.paragraph.bundle_content_tech_par_page.field_shared_h2_title
     - field.field.paragraph.bundle_content_tech_par_page.field_shared_link_label
-    - field.field.paragraph.bundle_content_tech_par_page.field_shared_p_simple_text
+    - field.field.paragraph.bundle_content_tech_par_page.field_shared_text_single
     - paragraphs.paragraphs_type.bundle_content_tech_par_page
   module:
     - link
@@ -18,7 +18,7 @@ mode: default
 content:
   field_bundle_partner_logo:
     type: entity_reference_entity_view
-    weight: 2
+    weight: 3
     label: hidden
     settings:
       view_mode: default
@@ -33,7 +33,7 @@ content:
     type: text_default
     region: content
   field_shared_link_label:
-    weight: 4
+    weight: 1
     label: hidden
     settings:
       trim_length: 80
@@ -44,8 +44,8 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_shared_p_simple_text:
-    weight: 3
+  field_shared_text_single:
+    weight: 4
     label: hidden
     settings: {  }
     third_party_settings: {  }

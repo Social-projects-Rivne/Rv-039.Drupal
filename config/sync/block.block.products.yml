@@ -1,0 +1,28 @@
+uuid: 215abc94-f2fe-4b24-93c6-361bebdaa284
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.products
+  module:
+    - block_class
+    - system
+  theme:
+    - dedrone
+third_party_settings:
+  block_class:
+    classes: 'col-md-2 col-sm-6 col-xs-12'
+id: products
+theme: dedrone
+region: footerMenu
+weight: -9
+provider: null
+plugin: 'system_menu_block:products'
+settings:
+  id: 'system_menu_block:products'
+  label: Products
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

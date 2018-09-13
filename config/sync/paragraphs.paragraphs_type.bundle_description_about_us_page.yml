@@ -1,0 +1,9 @@
+uuid: 0aebe04c-321f-47e8-9617-6717c6f2dfd9
+langcode: en
+status: true
+dependencies: {  }
+id: bundle_description_about_us_page
+label: 'Bundle description About us page'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,4 +1,4 @@
-uuid: 597e916f-c54a-4f94-addd-008b73222d3b
+uuid: 2837b62a-e589-4a09-a073-41cbc64adc95
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_shared_link_label
 entity_type: paragraph
 bundle: bundle_content_tech_par_page
 label: 'Shared link label'
-description: 'Link with label.'
+description: ''
 required: false
 translatable: true
 default_value: {  }

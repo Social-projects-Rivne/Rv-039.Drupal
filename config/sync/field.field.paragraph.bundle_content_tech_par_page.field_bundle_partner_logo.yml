@@ -1,4 +1,4 @@
-uuid: 6df42b35-18ef-494c-beb6-3b8630913e2f
+uuid: 822f533b-cb65-4c56-b082-7f1a0eb30f67
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ id: paragraph.bundle_content_tech_par_page.field_bundle_partner_logo
 field_name: field_bundle_partner_logo
 entity_type: paragraph
 bundle: bundle_content_tech_par_page
-label: 'Bundle partner company logo image'
-description: 'Bundle partner company logo image.'
+label: 'Bundle partner logo'
+description: ''
 required: false
 translatable: false
 default_value: {  }

@@ -1,0 +1,36 @@
+uuid: e8bf2601-2433-4d07-9155-330193c2cded
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_h1_buttons.field_shared_button_link
+    - field.field.paragraph.shared_h1_buttons.field_shared_h1_title
+    - paragraphs.paragraphs_type.shared_h1_buttons
+  module:
+    - link
+    - text
+id: paragraph.shared_h1_buttons.default
+targetEntityType: paragraph
+bundle: shared_h1_buttons
+mode: default
+content:
+  field_shared_button_link:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_shared_h1_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

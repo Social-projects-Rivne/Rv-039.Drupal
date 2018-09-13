@@ -1,0 +1,9 @@
+uuid: 5441dfdc-663f-4b6b-a295-848194ecc4c1
+langcode: en
+status: true
+dependencies: {  }
+id: shared_wrapper
+label: 'Shared wrapper'
+icon_uuid: null
+description: 'Wrapper paragraph with background settings'
+behavior_plugins: {  }

@@ -17,5 +17,7 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
+settings:
+  handler: default
+  handler_settings: {  }
 field_type: text_long

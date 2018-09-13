@@ -1,4 +1,4 @@
-uuid: 17defdb4-1268-4729-be2a-f9724c8e6e49
+uuid: bd7dbfa0-c9dc-4685-a006-ef82097b1fae
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,8 @@ dependencies:
 id: paragraph.field_shared_h2_title
 field_name: field_shared_h2_title
 entity_type: paragraph
-type: text
-settings:
-  max_length: 255
+type: text_long
+settings: {  }
 module: text
 locked: false
 cardinality: 1

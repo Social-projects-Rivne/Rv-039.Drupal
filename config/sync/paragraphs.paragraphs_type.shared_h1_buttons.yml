@@ -1,0 +1,9 @@
+uuid: 8eededaa-26ce-48ab-b528-396bd2ecb9fb
+langcode: en
+status: true
+dependencies: {  }
+id: shared_h1_buttons
+label: 'Shared h1 buttons'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
