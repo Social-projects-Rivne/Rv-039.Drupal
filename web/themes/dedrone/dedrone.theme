@@ -38,6 +38,22 @@ function dedrone_preprocess_paragraph(&$variables) {
          $variables['background_image_url'] = file_create_url($uri);
         }
       }
+      if ($paragraph->bundle() == 'text_link_and_background_image')
+      {
+       $image_field = $paragraph->get('field_background_image_media');
+       if (!$image_field->isEmpty()) {
+         $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+         $variables['background_image_url'] = file_create_url($uri);
+        }
+      }
+      if ($paragraph->bundle() == 'background_image_and_text_right_')
+      {
+       $image_field = $paragraph->get('field_backgroundmediaima');
+       if (!$image_field->isEmpty()) {
+         $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+         $variables['background_image_url'] = file_create_url($uri);
+        }
+      }
 
 
 
