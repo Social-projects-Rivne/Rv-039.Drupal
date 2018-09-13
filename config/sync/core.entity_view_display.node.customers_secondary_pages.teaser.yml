@@ -1,21 +1,18 @@
-uuid: 80a82a82-2c10-4235-9720-bcbb21007729
+uuid: 19aee5b4-82cd-466e-8b93-3be1fa8316f3
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.event
+    - node.type.customers_secondary_pages
   module:
     - user
-id: node.event.teaser
+id: node.customers_secondary_pages.teaser
 targetEntityType: node
-bundle: event
+bundle: customers_secondary_pages
 mode: teaser
 content:
   links:
     weight: 100
     region: content
-hidden:
-  field_event_date: true
-  field_event_description: true
-  field_event_image: true
+hidden: {  }
