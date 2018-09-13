@@ -11,7 +11,7 @@ id: node.customers_secondary_pages.field_secondary_page_kink
 field_name: field_secondary_page_kink
 entity_type: node
 bundle: customers_secondary_pages
-label: secondary-page-kink
+label: secondary-page-link
 description: ''
 required: false
 translatable: false

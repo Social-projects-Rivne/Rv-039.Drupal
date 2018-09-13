@@ -63,6 +63,7 @@ module:
   user: 0
   view_mode_selector: 0
   views_ui: 0
+  viewsreference: 0
   webform: 0
   webform_examples: 0
   webform_ui: 0

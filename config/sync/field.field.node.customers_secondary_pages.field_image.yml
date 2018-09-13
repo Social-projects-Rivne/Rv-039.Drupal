@@ -11,7 +11,7 @@ id: node.customers_secondary_pages.field_image
 field_name: field_image
 entity_type: node
 bundle: customers_secondary_pages
-label: Image
+label: secondary-page-image
 description: ''
 required: false
 translatable: true
