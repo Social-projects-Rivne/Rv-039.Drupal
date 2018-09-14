@@ -1,0 +1,21 @@
+uuid: 23fa4aa9-673e-4678-a0bd-621ebb96bd3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dronedna_is_a_machine
+    - paragraphs.paragraphs_type.page_software_dronedna
+  module:
+    - text
+id: paragraph.page_software_dronedna.field_dronedna_is_a_machine
+field_name: field_dronedna_is_a_machine
+entity_type: paragraph
+bundle: page_software_dronedna
+label: 'DroneDNA is a machine'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

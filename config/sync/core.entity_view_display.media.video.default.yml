@@ -17,7 +17,7 @@ content:
   field_media_video_file:
     type: file_url_plain
     weight: 0
-    label: visually_hidden
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     region: content

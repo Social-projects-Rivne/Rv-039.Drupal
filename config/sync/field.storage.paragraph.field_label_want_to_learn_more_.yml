@@ -1,0 +1,19 @@
+uuid: 61203bc8-ea6f-4672-92dd-01009bbc90c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_label_want_to_learn_more_
+field_name: field_label_want_to_learn_more_
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

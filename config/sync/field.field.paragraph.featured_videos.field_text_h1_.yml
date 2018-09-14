@@ -1,0 +1,21 @@
+uuid: 8336666b-351c-49c5-beb0-07f528d3002c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_h1_
+    - paragraphs.paragraphs_type.featured_videos
+  module:
+    - text
+id: paragraph.featured_videos.field_text_h1_
+field_name: field_text_h1_
+entity_type: paragraph
+bundle: featured_videos
+label: 'text h1 and p2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

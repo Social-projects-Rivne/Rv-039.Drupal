@@ -11,6 +11,7 @@ module:
   ckeditor: 0
   color: 0
   color_field: 0
+  colorbox: 0
   comment: 0
   config: 0
   contact: 0
@@ -67,6 +68,7 @@ module:
   webform: 0
   webform_examples: 0
   webform_ui: 0
+  webprofiler: 0
   yaml_content: 0
   youtube_formatter: 0
   menu_link_content: 1

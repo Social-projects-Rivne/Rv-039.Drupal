@@ -1,0 +1,32 @@
+uuid: 82437245-5498-4283-afce-9c88789fdb36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_link_and_background_image.field_background_image_media
+    - field.field.paragraph.text_link_and_background_image.field_watch_our_latest_videos
+    - paragraphs.paragraphs_type.text_link_and_background_image
+  module:
+    - text
+id: paragraph.text_link_and_background_image.default
+targetEntityType: paragraph
+bundle: text_link_and_background_image
+mode: default
+content:
+  field_background_image_media:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_watch_our_latest_videos:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }
