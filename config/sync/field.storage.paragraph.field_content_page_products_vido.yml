@@ -1,0 +1,20 @@
+uuid: 5e3942f0-38ea-4803-b8b9-9bf8cb8f27bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+id: paragraph.field_content_page_products_vido
+field_name: field_content_page_products_vido
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

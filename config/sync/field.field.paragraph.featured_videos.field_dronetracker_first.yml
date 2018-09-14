@@ -1,0 +1,25 @@
+uuid: c1f16b0e-7d02-4de4-a674-95a3bbed39d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dronetracker_first
+    - paragraphs.paragraphs_type.featured_videos
+  module:
+    - video_embed_field
+id: paragraph.featured_videos.field_dronetracker_first
+field_name: field_dronetracker_first
+entity_type: paragraph
+bundle: featured_videos
+label: 'dronetracker first'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube_playlist: youtube_playlist
+    youtube: youtube
+    vimeo: '0'
+field_type: video_embed_field

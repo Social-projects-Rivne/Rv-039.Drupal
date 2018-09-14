@@ -1,0 +1,33 @@
+uuid: 4d5bf52d-c2ca-4bba-b203-0d4b74aa3a6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_products_reporting_and_fore.field_airspace_security_report_i
+    - field.field.paragraph.page_products_reporting_and_fore.field_forensic_evidence
+    - paragraphs.paragraphs_type.page_products_reporting_and_fore
+  module:
+    - image
+    - text
+id: paragraph.page_products_reporting_and_fore.default
+targetEntityType: paragraph
+bundle: page_products_reporting_and_fore
+mode: default
+content:
+  field_airspace_security_report_i:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_forensic_evidence:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

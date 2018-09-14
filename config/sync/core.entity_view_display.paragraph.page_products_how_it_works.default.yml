@@ -1,0 +1,65 @@
+uuid: bf99473e-5899-4fe9-88b5-25103b37be6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_products_how_it_works.field_additional_sensors_and_
+    - field.field.paragraph.page_products_how_it_works.field_dronetracker_software
+    - field.field.paragraph.page_products_how_it_works.field_how_it_work_ima
+    - field.field.paragraph.page_products_how_it_works.field_how_it_work_learn_more
+    - field.field.paragraph.page_products_how_it_works.field_how_it_works
+    - field.field.paragraph.page_products_how_it_works.field_our_rf_sensors
+    - paragraphs.paragraphs_type.page_products_how_it_works
+  module:
+    - image
+    - text
+id: paragraph.page_products_how_it_works.default
+targetEntityType: paragraph
+bundle: page_products_how_it_works
+mode: default
+content:
+  field_additional_sensors_and_:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_dronetracker_software:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_how_it_work_ima:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_how_it_work_learn_more:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_how_it_works:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_our_rf_sensors:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

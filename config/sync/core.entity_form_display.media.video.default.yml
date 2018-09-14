@@ -3,10 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
+    - entity_browser.browser.image_entity_browser
     - field.field.media.video.field_media_video_file
     - media.type.video
   module:
-    - file
+    - entity_browser
     - path
 _core:
   default_config_hash: 5JEUDM5D29_PQUaaFfUguu-uK9yCIBey2iY-Z4NTja4
@@ -24,9 +25,16 @@ content:
   field_media_video_file:
     weight: 0
     settings:
-      progress_indicator: throbber
+      entity_browser: image_entity_browser
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_edit: true
+      field_widget_replace: false
+      open: false
+      view_mode: default
+      preview_image_style: thumbnail
     third_party_settings: {  }
-    type: file_generic
+    type: entity_browser_file
     region: content
   name:
     type: string_textfield

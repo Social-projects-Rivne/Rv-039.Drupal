@@ -1,0 +1,9 @@
+uuid: 2cb07f55-9987-4499-9be4-6eda9bdbccbc
+langcode: en
+status: true
+dependencies: {  }
+id: advanced_video_analytics
+label: 'Advanced Video Analytics'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

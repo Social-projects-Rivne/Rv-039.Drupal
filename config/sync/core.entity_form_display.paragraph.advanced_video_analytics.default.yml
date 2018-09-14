@@ -1,0 +1,37 @@
+uuid: e7484bec-d1f1-4c35-87d0-52f946aa3093
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.advanced_video_analytics.field_advanced_video_ima
+    - field.field.paragraph.advanced_video_analytics.field_machine_learning_video
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.advanced_video_analytics
+  module:
+    - image
+    - text
+id: paragraph.advanced_video_analytics.default
+targetEntityType: paragraph
+bundle: advanced_video_analytics
+mode: default
+content:
+  field_advanced_video_ima:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_machine_learning_video:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

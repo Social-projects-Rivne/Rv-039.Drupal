@@ -1,0 +1,215 @@
+.videos_wrapper {
+  display: block;
+  height: 550px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+
+  .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    line-height: 26px;
+  }
+}
+
+.field--name-field-watch-our-latest-videos {
+  h1 {
+    width: auto;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    border-style: none;
+    padding-bottom: 0;
+    border-bottom-width: 0;
+    font-family: 'Pluto Sans Condensed Extra Light',sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    border-bottom-color: #bbb;
+    letter-spacing: 0;
+    font-weight: 200;
+    text-transform: none;
+    margin-bottom: 10px;
+    display: block;
+    flex: 0 auto;
+    color: #fff;
+    position: relative;
+    text-shadow: 1px 0 10px #000;
+  }
+
+  h2 {
+    position: relative;
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-bottom: 10px;
+  }
+
+  p {
+    a {
+      display: block;
+      padding-right: 50px;
+      padding-left: 50px;
+      float: left;
+      background-image: linear-gradient(180deg,#fff,#fff);
+      color: #0a0c15;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      padding: 15px 50px;
+      border-radius: 4px;
+      font-size: 12px;
+      line-height: 15px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 0;
+      cursor: pointer;
+      text-align: center;
+    }
+  }
+}
+
+.section_videos {
+  align-items: flex-start;
+  background-image: linear-gradient(180deg,#fff,#fff);
+  color: #f8f8f8;
+  text-align: left;
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 645px;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+}
+
+.paragraph--type--featured-videos {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+.field--name-field-featured-videos-la {
+  h1 {
+    margin-top: 1px;
+    text-align: center;
+    border-style: none;
+    padding-bottom: 0;
+    border-bottom-width: 0;
+    font-family: 'Pluto Sans Condensed Extra Light',sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 0;
+    color: #111;
+    border-bottom-color: #bbb;
+    font-weight: 200;
+    text-transform: none;
+    margin-bottom: 10px;
+  }
+}
+
+.field--name-field-dronetracker-first {
+  width: 460px;
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+  margin-top: 100px;
+}
+
+.field--name-field-video-second {
+  width: 460px;
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+  margin-top: 100px;
+}
+
+.field--name-field-text-h1-and- {
+
+  width: 460px;
+  display: inline-block;
+  float: left;
+
+  h3 {
+    clear: none;
+    margin-top: 30px;
+    margin-bottom: 0;
+    float: left;
+    font-family: 'Pluto Sans Condensed Medium',sans-serif;
+    color: #111;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+  }
+
+  p {
+    margin-top: 10px;
+    float: none;
+    clear: none;
+    font-family: 'Pluto Sans Condensed Light',sans-serif;
+    color: #111;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+}
+
+.field--name-field-text-h1- {
+
+  width: 461px;
+  display: inline-block;
+  float: left;
+
+  h3 {
+    clear: none;
+    margin-top: 30px;
+    margin-bottom: 0;
+    float: none;
+
+    font-family: 'Pluto Sans Condensed Medium',sans-serif;
+    color: #111;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+  }
+
+  p {
+    margin-top: 10px;
+    float: none;
+    clear: none;
+    font-family: 'Pluto Sans Condensed Light',sans-serif;
+    color: #111;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+}

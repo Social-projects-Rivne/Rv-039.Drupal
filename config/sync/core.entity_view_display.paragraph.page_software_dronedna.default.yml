@@ -1,0 +1,33 @@
+uuid: d54e0252-232e-475e-9d06-803af343b793
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_software_dronedna.field_dronedna_is_a_machine
+    - field.field.paragraph.page_software_dronedna.field_image_detection_
+    - paragraphs.paragraphs_type.page_software_dronedna
+  module:
+    - image
+    - text
+id: paragraph.page_software_dronedna.default
+targetEntityType: paragraph
+bundle: page_software_dronedna
+mode: default
+content:
+  field_dronedna_is_a_machine:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image_detection_:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

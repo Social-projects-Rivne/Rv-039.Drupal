@@ -1,0 +1,33 @@
+uuid: b2fffbca-f284-415a-a44f-ee09e5e30f60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.advanced_video_analytics.field_advanced_video_ima
+    - field.field.paragraph.advanced_video_analytics.field_machine_learning_video
+    - paragraphs.paragraphs_type.advanced_video_analytics
+  module:
+    - image
+    - text
+id: paragraph.advanced_video_analytics.default
+targetEntityType: paragraph
+bundle: advanced_video_analytics
+mode: default
+content:
+  field_advanced_video_ima:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_machine_learning_video:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

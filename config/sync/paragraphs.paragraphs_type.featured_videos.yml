@@ -1,0 +1,9 @@
+uuid: 019bb9fd-058c-4bd0-9cca-973c1e8da857
+langcode: en
+status: true
+dependencies: {  }
+id: featured_videos
+label: 'Featured Videos'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
