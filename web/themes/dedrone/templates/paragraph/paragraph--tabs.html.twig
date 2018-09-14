@@ -1,0 +1,31 @@
+{% set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+] %}
+<section class="products-intro">
+    {% block paragraph %}
+        <div{{ attributes.addClass(classes) }}>
+            <div class="container ">
+                {% block content %}
+                    <div class="nav flex-column nav-pills " id="" role="tablist" aria-orientation="vertical">
+                        {{ content.field_tab_link }}
+                    </div>
+                    {#<div class="tab-content" id="">#}
+                        {#<div class="">#}
+                            {#{{ content.tab-content-title }}#}
+                            {#{{ content.tab-content-description }}#}
+                            {#{{ content.tab-content-link }}#}
+                        {#</div>#}
+                        {#<div class="">#}
+                            {#tab-content-img#}
+                        {#</div>#}
+                    {#</div>#}
+
+                    {{ content }}
+                {% endblock %}
+            </div>
+        </div>
+    {% endblock paragraph %}
+    </section>

@@ -1,0 +1,9 @@
+uuid: e446ab75-9621-47c4-af2a-e30ca45efdff
+langcode: en
+status: true
+dependencies: {  }
+id: shared_title_description
+label: 'Shared title description'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

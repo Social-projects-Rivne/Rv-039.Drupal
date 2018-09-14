@@ -1,0 +1,55 @@
+uuid: cb912db7-66a9-43ec-88fc-9ce39c4280d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bundle_content_tech_par_page.field_bundle_partner_logo
+    - field.field.paragraph.bundle_content_tech_par_page.field_shared_h2_title
+    - field.field.paragraph.bundle_content_tech_par_page.field_shared_link_label
+    - field.field.paragraph.bundle_content_tech_par_page.field_shared_text_single
+    - paragraphs.paragraphs_type.bundle_content_tech_par_page
+  module:
+    - link
+    - text
+id: paragraph.bundle_content_tech_par_page.default
+targetEntityType: paragraph
+bundle: bundle_content_tech_par_page
+mode: default
+content:
+  field_bundle_partner_logo:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_shared_h2_title:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_shared_link_label:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_shared_text_single:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,38 @@
+uuid: 159604b6-aae1-4e5d-95ab-97e2b08a15e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.view_mode_selector
+    - field.field.paragraph.slide.field_slide_description
+    - field.field.paragraph.slide.field_slide_image
+    - field.field.paragraph.slide.field_view_mode
+    - paragraphs.paragraphs_type.slide
+  module:
+    - entity_reference_revisions
+    - image
+id: paragraph.slide.view_mode_selector
+targetEntityType: paragraph
+bundle: slide
+mode: view_mode_selector
+content:
+  field_slide_description:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: view_mode_selector
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_slide_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_view_mode: true

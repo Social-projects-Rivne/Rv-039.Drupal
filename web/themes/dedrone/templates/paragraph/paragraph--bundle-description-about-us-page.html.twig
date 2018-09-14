@@ -1,0 +1,23 @@
+{# #}
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+          <div class="row">
+            <div class="col-12 col-md-5">
+             {{content.field_shared_h1_title}}
+            </div>
+            <div class="col-0 col-md-2"></div>
+            <div class="col-12 col-md-5">
+             {{content.field_shared_text_single}}
+          </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

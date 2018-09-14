@@ -1,0 +1,9 @@
+uuid: 2d545ba4-1053-4091-927a-839dc53fd5a2
+langcode: en
+status: true
+dependencies: {  }
+id: bundle_description_tech_par_page
+label: 'Bundle description Technology Partners page'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

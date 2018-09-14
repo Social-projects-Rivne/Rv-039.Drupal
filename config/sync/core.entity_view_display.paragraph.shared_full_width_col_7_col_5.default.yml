@@ -1,0 +1,24 @@
+uuid: 285e7a8b-328f-4cda-a67b-846f14f574ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_full_width_col_7_col_5.field_columns
+    - paragraphs.paragraphs_type.shared_full_width_col_7_col_5
+  module:
+    - entity_reference_revisions
+id: paragraph.shared_full_width_col_7_col_5.default
+targetEntityType: paragraph
+bundle: shared_full_width_col_7_col_5
+mode: default
+content:
+  field_columns:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

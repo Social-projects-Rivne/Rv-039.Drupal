@@ -2,3 +2,6 @@ name: my-lando-app
 recipe: drupal8
 config:
   webroot: web
+services:
+  appserver:
+    xdebug: true

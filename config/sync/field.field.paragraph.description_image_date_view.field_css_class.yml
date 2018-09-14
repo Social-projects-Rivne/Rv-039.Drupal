@@ -1,0 +1,19 @@
+uuid: 2e5624cb-25d7-4658-ae1f-e93b1bbbbdb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_css_class
+    - paragraphs.paragraphs_type.description_image_date_view
+id: paragraph.description_image_date_view.field_css_class
+field_name: field_css_class
+entity_type: paragraph
+bundle: description_image_date_view
+label: 'css class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

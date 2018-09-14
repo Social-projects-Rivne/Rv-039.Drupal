@@ -1,0 +1,44 @@
+{# #}
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+        <div class="row about-key-figures key-figure-padding">
+              <div class="col-12 col-md-4 key-figure-position">
+                  <h1 class="h1-key-figure">{{ content.field_shared_h1_title[0] }}</h1>
+                  <h3 class="h3-key-figure">{{ content.field_shared_h3_title[0] }}</h3>
+              </div>
+              <div class="col-12 col-md-4 key-figure-position">
+                  <h1 class="h1-key-figure">{{ content.field_shared_h1_title[1] }}</h1>
+                  <h3 class="h3-key-figure">{{ content.field_shared_h3_title[1] }}</h3>
+              </div>
+              <div class="col-12 col-md-4 key-figure-position">
+                  <h1 class="h1-key-figure">{{ content.field_shared_h1_title[2] }}</h1>
+                  <h3 class="h3-key-figure">{{ content.field_shared_h3_title[2] }}</h3>
+              </div>	              	              
+        </div>
+        <div class="row about-key-figures">
+              <div class="col-12 col-md-4 key-figure-position">
+                  <h1 class="h1-key-figure">{{ content.field_shared_h1_title[3] }}</h1>
+                  <h3 class="h3-key-figure">{{ content.field_shared_h3_title[3] }}</h3>
+              </div>
+              <div class="col-12 col-md-4 key-figure-position">
+                  <h1 class="h1-key-figure">{{ content.field_shared_h1_title[4] }}</h1>
+                  <h3 class="h3-key-figure">{{ content.field_shared_h3_title[4] }}</h3>
+              </div>
+              <div class="col-12 col-md-4 key-figure-position">
+                  <h1 class="h1-key-figure">{{ content.field_shared_h1_title[5] }}</h1>
+                  <h3 class="h3-key-figure">{{ content.field_shared_h3_title[5] }}</h3>
+              </div>	
+            </div>
+        </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}
