@@ -1,0 +1,21 @@
+uuid: 7c606a56-e87f-4dd9-a7c6-ab91a3155d6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_modern_security_requires
+    - paragraphs.paragraphs_type.complete_airspace_security_solut
+  module:
+    - text
+id: paragraph.complete_airspace_security_solut.field_modern_security_requires
+field_name: field_modern_security_requires
+entity_type: paragraph
+bundle: complete_airspace_security_solut
+label: 'Modern security requires'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

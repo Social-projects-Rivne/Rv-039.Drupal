@@ -1,0 +1,14 @@
+uuid: bf08a49d-eaeb-43e3-bbac-c56f30cb1aab
+name: d85
+mail: d85@mail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

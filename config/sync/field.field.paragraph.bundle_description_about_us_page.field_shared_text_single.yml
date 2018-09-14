@@ -1,0 +1,21 @@
+uuid: 29460393-ef9d-4846-8046-c3faa9c85ff4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_text_single
+    - paragraphs.paragraphs_type.bundle_description_about_us_page
+  module:
+    - text
+id: paragraph.bundle_description_about_us_page.field_shared_text_single
+field_name: field_shared_text_single
+entity_type: paragraph
+bundle: bundle_description_about_us_page
+label: 'Shared text single'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

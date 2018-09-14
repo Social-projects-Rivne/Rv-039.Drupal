@@ -1,0 +1,26 @@
+// Global CSS goes here
+body {
+	background-color: $body-bg-color;
+	font: {
+	size: $primery-font-size;
+    weight: 400;
+    family: $primery-font;
+	}
+    color: $body-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a {
+	display: inline-block;
+	transition: 0.25s all ease;
+	text-decoration: none;
+}

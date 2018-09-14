@@ -1,0 +1,9 @@
+uuid: e37b7c65-432f-40da-8099-e2f2928849df
+langcode: en
+status: true
+dependencies: {  }
+id: content_with_background
+label: 'content with background'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

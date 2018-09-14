@@ -1,0 +1,46 @@
+uuid: 0c6c9de2-13a9-4af8-be53-71e42f28b5ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.complete_airspace_security_solut.field_dronetracker_diagram_pilot
+    - field.field.paragraph.complete_airspace_security_solut.field_modern_security_requires
+    - field.field.paragraph.complete_airspace_security_solut.field_nothing_and_noth
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.complete_airspace_security_solut
+  module:
+    - image
+    - text
+id: paragraph.complete_airspace_security_solut.default
+targetEntityType: paragraph
+bundle: complete_airspace_security_solut
+mode: default
+content:
+  field_dronetracker_diagram_pilot:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_modern_security_requires:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_nothing_and_noth:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

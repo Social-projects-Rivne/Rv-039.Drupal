@@ -1,0 +1,9 @@
+uuid: daa29c9d-1475-4e8f-b359-c9f5f1e7375d
+langcode: en
+status: true
+dependencies: {  }
+id: background_description
+label: 'Background Description'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

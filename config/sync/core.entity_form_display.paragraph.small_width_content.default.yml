@@ -1,0 +1,26 @@
+uuid: 0470f2d8-5004-42ec-9192-265afa638239
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.small_width_content.field_small_width_content
+    - paragraphs.paragraphs_type.small_width_content
+  module:
+    - text
+id: paragraph.small_width_content.default
+targetEntityType: paragraph
+bundle: small_width_content
+mode: default
+content:
+  field_small_width_content:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

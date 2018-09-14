@@ -1,0 +1,43 @@
+uuid: 9610df17-6553-43ef-83f1-8461b0580c18
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.image_entity_browser
+    - field.field.paragraph.text_link_and_background_image.field_background_image_media
+    - field.field.paragraph.text_link_and_background_image.field_watch_our_latest_videos
+    - paragraphs.paragraphs_type.text_link_and_background_image
+  module:
+    - entity_browser
+    - text
+id: paragraph.text_link_and_background_image.default
+targetEntityType: paragraph
+bundle: text_link_and_background_image
+mode: default
+content:
+  field_background_image_media:
+    weight: 1
+    settings:
+      entity_browser: image_entity_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_watch_our_latest_videos:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

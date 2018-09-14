@@ -1,0 +1,17 @@
+
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+<section  class="videos_wrapper"  style="background:url({{ background_image_url }}) no-repeat center ; background-position: 0 0;background-size: cover;" >
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

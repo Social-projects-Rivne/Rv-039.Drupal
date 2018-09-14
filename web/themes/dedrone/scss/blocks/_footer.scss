@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Footer region style sheets.
+   ========================================================================== */
+.footer
+{
+	/*Copyright menu.*/
+	nav.block-menu
+	{
+		/* Menu positioning */
+		margin-left: auto;
+		margin-right: 5em;
+
+		/*Move menu to the horizontal position.*/
+		ul,li,h2
+		{
+			display: inline-block;
+		}
+
+		/*Font style  for menu*/ 
+        h2,a
+        {
+    		letter-spacing: 0.05em;
+	    	color: #111;
+	    	line-height: 13px;
+	    	font: normal normal 300 normal 13px 'Roboto', sans-serif;
+	    	text-decoration: none;
+   		}
+
+   		/* Menu elements positioning */
+		a
+		{
+	    	border-left: 1px solid #808080;
+	    	padding-left: 15px;
+	    	padding-right: 15px;
+	    }
+	}
+}

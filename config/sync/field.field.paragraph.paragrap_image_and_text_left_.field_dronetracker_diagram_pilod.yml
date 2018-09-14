@@ -1,0 +1,38 @@
+uuid: a9dbef98-ad20-4a62-bd2b-c18becd47d80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dronetracker_diagram_pilod
+    - paragraphs.paragraphs_type.paragrap_image_and_text_left_
+  module:
+    - image
+id: paragraph.paragrap_image_and_text_left_.field_dronetracker_diagram_pilod
+field_name: field_dronetracker_diagram_pilod
+entity_type: paragraph
+bundle: paragrap_image_and_text_left_
+label: dronetracker-diagram-pilot-dark
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 540x295
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

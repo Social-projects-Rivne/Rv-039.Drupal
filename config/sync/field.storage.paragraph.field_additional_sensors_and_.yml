@@ -1,0 +1,19 @@
+uuid: 7039551a-5cf6-49f4-9d82-04baf136339a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_additional_sensors_and_
+field_name: field_additional_sensors_and_
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

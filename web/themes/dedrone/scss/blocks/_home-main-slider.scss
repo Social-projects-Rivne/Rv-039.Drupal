@@ -1,0 +1,246 @@
+$slider-height: 550px;
+$slider-inner-height: 424px;
+
+.slider-main {
+	height: $slider-height;
+	position: relative;
+
+	.image {
+		display: block;
+		width: 100%;
+		object-fit: cover;
+		height: $slider-height;
+	}
+
+	.wrap-description {
+		display: flex;
+		float: left;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+		width: 42%;
+
+		h2 {
+			padding-bottom: 0;
+			border-bottom-width: 0;
+			font-size: 40px;
+			line-height: 45px;
+			text-align: left;
+			letter-spacing: 0;
+			color: #fff;
+			font-weight: 300;
+			opacity: 1;
+			transform: translateX(0px) translateY(0px) translateZ(0px);
+			transition: opacity 1200ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s, transform 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+		}
+
+		p {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			float: none;
+			clear: none;
+			color: #fff;
+			font-weight: 300;
+			text-align: left;
+		}
+
+		.button {
+			@extend .btn;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			padding: 15px 50px;
+			border-radius: 4px;
+			background-image: -webkit-linear-gradient(270deg,#fff,#fff);
+			background-image: linear-gradient(180deg,#fff,#fff);
+			color: #0a0c15;
+			font-size: 12px;
+			line-height: 15px;
+			font-weight: 400
+		}
+	}
+
+	.slide-animationimage {
+		position: absolute;
+		top: 50%;
+		right: 21%;
+		margin-top: -100px;
+		width: 200px;
+		height: 200px;
+
+		.image {
+			height: auto;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		.field__item {
+			opacity: 0;
+
+			&:first-child {
+				opacity: 1;
+			}
+		}
+
+	}
+
+	.swiper-wrapper {
+		height: $slider-height;
+	}
+
+	.swiper-container {
+		height: 100%;
+
+		.image-wrap {
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.container {
+			position: relative;
+			z-index: 2;
+			height: $slider-height;
+		}
+	}
+
+	.swiper-pagination-bullet {
+		width: 12px;
+		height: 12px;
+		background-color: #fff;
+		opacity: 0.4;
+	}
+
+	.swiper-pagination-bullet-active {
+		background-color: #fff;
+		opacity: 1;
+	}
+
+	.swiper-pagination {
+		text-align: right;
+		padding-right: 50px;
+	}
+
+	.field--type-view-mode-selector {
+		& > p {
+			display: none;
+		}
+	}
+}
+
+.slider-inner {
+	//height: $slider-inner-height;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: -webkit-linear-gradient(270deg,#011d2a,#011d2a);
+	background-image: linear-gradient(180deg,#011d2a,#011d2a);
+	color: #111;
+	text-align: center;
+
+	.slider-wrap {
+		overflow: hidden;
+		display: inline-block;
+		margin-top: -300px;
+		max-width: 940px;
+		box-shadow: 1px 1px 8px 0 rgba(0,0,0,.3);
+		border-radius: 4px;
+	}
+
+	.swiper-slide {
+		//height: $slider-inner-height;
+
+		.container {
+			max-width: inherit;
+			padding: 0;
+			margin: 0;
+		}
+
+	}
+
+	.wrap-slide {
+		display: flex;
+		background-color: #fff;
+		height: $slider-inner-height;
+
+		.image-wrap {
+			flex: 1 0;
+			order: 2;
+		}
+
+		.container {
+			flex: 0 0 315px;
+			max-width: 315px;
+			order: 1;
+			max-width: inherit;
+			padding: 40px 30px 0 40px;
+			margin: 0px;
+		}
+
+		.image {
+			object-fit: cover;
+			height: $slider-inner-height;
+		}
+
+		h2 {
+			margin-bottom: 10px;
+			font-size: 40px;
+			line-height: 45px;
+		}
+
+		p {
+			margin-top: 20px;
+			font-size: 20px;
+			line-height: 24px;
+			font-weight: 200;
+		}
+	}
+
+	.button-bordered {
+		width: 100%;
+		margin-top: 25px;
+		border-color: #e5310e;
+		color: #e5310e;
+		text-align: center;
+		margin-bottom: 10px;
+		padding: 15px 50px;
+		border-radius: 4px;
+		font-size: 12px;
+		line-height: 15px;
+		text-transform: uppercase;
+		font-weight: 400;
+
+
+		&:hover {
+			border-color: #f05c40;
+			background-image: -webkit-linear-gradient(270deg,#f05c40,#f05c40);
+			background-image: linear-gradient(180deg,#f05c40,#f05c40);
+			color: #fff;
+		}
+	}
+
+	.swiper-pagination {
+		width: 315px;
+	}
+
+	.swiper-pagination-bullet {
+		width: 12px;
+		height: 12px;
+		background-color: rgba(34,34,34,.4);
+		opacity: 1;
+	}
+
+	.swiper-pagination-bullet-active {
+		background: #222;
+		opacity: 1;
+	}
+
+	.field--type-view-mode-selector {
+		& > p {
+			display: none;
+		}
+	}
+}

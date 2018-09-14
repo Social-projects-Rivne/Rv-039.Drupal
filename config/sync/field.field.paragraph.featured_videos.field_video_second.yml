@@ -1,0 +1,25 @@
+uuid: 86ecb4e7-4373-451b-99b6-2b7a4a85180c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_video_second
+    - paragraphs.paragraphs_type.featured_videos
+  module:
+    - video_embed_field
+id: paragraph.featured_videos.field_video_second
+field_name: field_video_second
+entity_type: paragraph
+bundle: featured_videos
+label: 'video second'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube_playlist: youtube_playlist
+    youtube: youtube
+    vimeo: '0'
+field_type: video_embed_field

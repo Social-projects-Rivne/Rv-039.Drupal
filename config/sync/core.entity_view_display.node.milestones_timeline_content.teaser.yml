@@ -1,0 +1,18 @@
+uuid: 372013d1-853a-4a82-a152-ca6f8409232a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.milestones_timeline_content
+  module:
+    - user
+id: node.milestones_timeline_content.teaser
+targetEntityType: node
+bundle: milestones_timeline_content
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

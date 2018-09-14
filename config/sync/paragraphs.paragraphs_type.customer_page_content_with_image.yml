@@ -1,0 +1,9 @@
+uuid: 55b4a667-51de-434e-8c67-d6280afa7de4
+langcode: en
+status: true
+dependencies: {  }
+id: customer_page_content_with_image
+label: 'customer page content with image'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

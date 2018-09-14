@@ -1,0 +1,30 @@
+uuid: 7cf3d1cc-7e06-4a09-88f4-cc9b4a959f10
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - paragraphs
+id: paragraph.field_advanced_video_ima
+field_name: field_advanced_video_ima
+entity_type: paragraph
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

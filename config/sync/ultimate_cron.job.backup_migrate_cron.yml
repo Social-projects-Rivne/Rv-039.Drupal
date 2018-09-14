@@ -1,0 +1,17 @@
+uuid: f4e1d4dc-6dd5-48d3-bbf8-5ce02df4f8b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - backup_migrate
+title: 'Default cron handler'
+id: backup_migrate_cron
+weight: 0
+module: backup_migrate
+callback: backup_migrate_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

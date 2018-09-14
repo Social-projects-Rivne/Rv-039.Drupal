@@ -1,0 +1,33 @@
+uuid: 039a115a-0c1d-4032-8567-f46765fab5d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragrap_image_and_text_left_.field__software_enabled_security
+    - field.field.paragraph.paragrap_image_and_text_left_.field_dronetracker_diagram_pilod
+    - paragraphs.paragraphs_type.paragrap_image_and_text_left_
+  module:
+    - image
+    - text
+id: paragraph.paragrap_image_and_text_left_.default
+targetEntityType: paragraph
+bundle: paragrap_image_and_text_left_
+mode: default
+content:
+  field__software_enabled_security:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_dronetracker_diagram_pilod:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

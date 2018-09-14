@@ -1,0 +1,19 @@
+uuid: 1d161674-0775-4e38-93ba-b462fd60516f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_featured_videos_la
+field_name: field_featured_videos_la
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

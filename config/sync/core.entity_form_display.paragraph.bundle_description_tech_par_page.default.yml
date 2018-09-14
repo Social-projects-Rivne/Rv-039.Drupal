@@ -1,0 +1,45 @@
+uuid: c6e30a30-4013-477b-b84a-dd5c7e6bafce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bundle_description_tech_par_page.field_shared_h1_title
+    - field.field.paragraph.bundle_description_tech_par_page.field_shared_link_label
+    - field.field.paragraph.bundle_description_tech_par_page.field_shared_p_simple_text
+    - paragraphs.paragraphs_type.bundle_description_tech_par_page
+  module:
+    - link
+    - text
+id: paragraph.bundle_description_tech_par_page.default
+targetEntityType: paragraph
+bundle: bundle_description_tech_par_page
+mode: default
+content:
+  field_shared_h1_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_shared_link_label:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_shared_p_simple_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

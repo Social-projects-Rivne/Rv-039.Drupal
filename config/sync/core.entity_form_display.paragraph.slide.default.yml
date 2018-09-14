@@ -1,0 +1,49 @@
+uuid: 9bc9d6e2-056b-4fd6-ba62-b74139562593
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide.field_slide_description
+    - field.field.paragraph.slide.field_slide_image
+    - field.field.paragraph.slide.field_view_mode
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.slide
+  module:
+    - image
+    - paragraphs
+    - view_mode_selector
+id: paragraph.slide.default
+targetEntityType: paragraph
+bundle: slide
+mode: default
+content:
+  field_slide_description:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_slide_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_view_mode:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: view_mode_selector_radios
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

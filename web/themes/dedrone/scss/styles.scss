@@ -1,0 +1,22 @@
+@import 'base/variables';
+
+// Import Vendors
+@import 'vendors/bootstrap4/bootstrap';
+
+@import 'base/normalize';
+@import 'base/typography.scss';
+@import 'base/global';
+
+// Import Components
+@import 'blocks/header';
+@import 'blocks/_footer_menu';
+@import 'blocks/_footer';
+@import 'blocks/products_software.scss';
+@import 'blocks/products_videos';
+@import 'blocks/products_mitigation';
+
+// Import Layouts
+// @import 'layouts/home';
+
+// Import Plugins
+// @import 'plugins/plugin';

@@ -1,0 +1,9 @@
+uuid: 4132e8dc-ff1a-489c-930b-5f91fed00508
+langcode: en
+status: true
+dependencies: {  }
+id: bundle_investor_about_us_page
+label: 'Bundle investor About us page'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

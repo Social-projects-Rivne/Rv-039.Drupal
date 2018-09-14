@@ -1,0 +1,24 @@
+{# This is a twig template for footer region
+ - This region is used Bootstrap for 
+ - Stylesheets for this region: <theme folder>/scss/_footer_menu.scss
+#}
+
+{%
+  set classes = [
+    'footer',
+    'region',
+    'region-' ~ region|clean_class,
+  ]
+%}
+
+<div {{ attributes.addClass(classes) }}>
+  <div class = "container">
+    <div class = "row">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+
+
+
