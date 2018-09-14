@@ -1,0 +1,19 @@
+uuid: 0fa4f053-6990-44d2-9e9a-87a8825846ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_dronedna_is_a_machine
+field_name: field_dronedna_is_a_machine
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

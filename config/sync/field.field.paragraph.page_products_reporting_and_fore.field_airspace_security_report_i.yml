@@ -1,0 +1,38 @@
+uuid: 3a24a71c-33a5-404c-9e34-59ea7e6103a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_airspace_security_report_i
+    - paragraphs.paragraphs_type.page_products_reporting_and_fore
+  module:
+    - image
+id: paragraph.page_products_reporting_and_fore.field_airspace_security_report_i
+field_name: field_airspace_security_report_i
+entity_type: paragraph
+bundle: page_products_reporting_and_fore
+label: 'airspace security report image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 496x400
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

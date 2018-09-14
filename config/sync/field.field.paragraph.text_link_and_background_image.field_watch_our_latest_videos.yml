@@ -1,0 +1,21 @@
+uuid: 19eb29dd-8e58-4853-8bce-3de73bdbc270
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_watch_our_latest_videos
+    - paragraphs.paragraphs_type.text_link_and_background_image
+  module:
+    - text
+id: paragraph.text_link_and_background_image.field_watch_our_latest_videos
+field_name: field_watch_our_latest_videos
+entity_type: paragraph
+bundle: text_link_and_background_image
+label: 'watch our latest videos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

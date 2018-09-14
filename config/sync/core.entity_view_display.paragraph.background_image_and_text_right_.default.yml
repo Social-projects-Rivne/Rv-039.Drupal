@@ -1,0 +1,32 @@
+uuid: 537e36ef-e71c-46d3-8e0c-e1dc8c9c5a3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.background_image_and_text_right_.field_backgroundmediaima
+    - field.field.paragraph.background_image_and_text_right_.field_mitigation_label
+    - paragraphs.paragraphs_type.background_image_and_text_right_
+  module:
+    - text
+id: paragraph.background_image_and_text_right_.default
+targetEntityType: paragraph
+bundle: background_image_and_text_right_
+mode: default
+content:
+  field_backgroundmediaima:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_mitigation_label:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

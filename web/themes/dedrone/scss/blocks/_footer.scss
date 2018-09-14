@@ -1,23 +1,23 @@
 /* ==========================================================================
    Footer region style sheets.
    ========================================================================== */
-.footer 
+.footer
 {
 	/*Copyright menu.*/
-	nav.block-menu 
+	nav.block-menu
 	{
-		/* Menu positioning */	
+		/* Menu positioning */
 		margin-left: auto;
 		margin-right: 5em;
-	
+
 		/*Move menu to the horizontal position.*/
-		ul,li,h2 
+		ul,li,h2
 		{
 			display: inline-block;
 		}
 
-		/*Font style for menu*/
-        h2,a 
+		/*Font style  for menu*/ 
+        h2,a
         {
     		letter-spacing: 0.05em;
 	    	color: #111;
@@ -27,7 +27,7 @@
    		}
 
    		/* Menu elements positioning */
-		a 
+		a
 		{
 	    	border-left: 1px solid #808080;
 	    	padding-left: 15px;

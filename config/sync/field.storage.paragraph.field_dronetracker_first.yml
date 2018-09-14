@@ -1,16 +1,16 @@
-uuid: eeb26bcc-3ff1-4425-bbf3-16cbabd61fa2
+uuid: 8be51e71-b149-4ba1-927d-cb331a2396c2
 langcode: en
 status: true
 dependencies:
   module:
-    - link
     - paragraphs
-id: paragraph.field_watch_a_video
-field_name: field_watch_a_video
+    - video_embed_field
+id: paragraph.field_dronetracker_first
+field_name: field_dronetracker_first
 entity_type: paragraph
-type: link
+type: video_embed_field
 settings: {  }
-module: link
+module: video_embed_field
 locked: false
 cardinality: 1
 translatable: true

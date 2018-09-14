@@ -1,0 +1,21 @@
+uuid: b3af61ef-1768-4304-b7f0-91ddda09c646
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_your_airspace_secu
+    - paragraphs.paragraphs_type.page_software_your_airspace_secu
+  module:
+    - text
+id: paragraph.page_software_your_airspace_secu.field_section_your_airspace_secu
+field_name: field_section_your_airspace_secu
+entity_type: paragraph
+bundle: page_software_your_airspace_secu
+label: 'section Your Airspace, Secured'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

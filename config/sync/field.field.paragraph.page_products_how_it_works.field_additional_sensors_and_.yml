@@ -1,0 +1,21 @@
+uuid: b3ac85d8-c56a-41f2-b39d-146a76e24e03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_additional_sensors_and_
+    - paragraphs.paragraphs_type.page_products_how_it_works
+  module:
+    - text
+id: paragraph.page_products_how_it_works.field_additional_sensors_and_
+field_name: field_additional_sensors_and_
+entity_type: paragraph
+bundle: page_products_how_it_works
+label: 'Additional sensors and '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

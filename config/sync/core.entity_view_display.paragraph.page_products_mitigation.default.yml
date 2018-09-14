@@ -1,0 +1,33 @@
+uuid: cb18094f-702a-451b-9edc-55b677eb7049
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_products_mitigation.field_page_products_mitigation_i
+    - field.field.paragraph.page_products_mitigation.field_page_products_mitigation_t
+    - paragraphs.paragraphs_type.page_products_mitigation
+  module:
+    - image
+    - text
+id: paragraph.page_products_mitigation.default
+targetEntityType: paragraph
+bundle: page_products_mitigation
+mode: default
+content:
+  field_page_products_mitigation_i:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_page_products_mitigation_t:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

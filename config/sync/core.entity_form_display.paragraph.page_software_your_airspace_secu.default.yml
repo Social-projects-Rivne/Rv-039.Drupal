@@ -1,0 +1,43 @@
+uuid: ba143f5e-8f9f-4317-b172-0b27eb1ad9a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.image_entity_browser
+    - field.field.paragraph.page_software_your_airspace_secu.field_image_software
+    - field.field.paragraph.page_software_your_airspace_secu.field_section_your_airspace_secu
+    - paragraphs.paragraphs_type.page_software_your_airspace_secu
+  module:
+    - entity_browser
+    - text
+id: paragraph.page_software_your_airspace_secu.default
+targetEntityType: paragraph
+bundle: page_software_your_airspace_secu
+mode: default
+content:
+  field_image_software:
+    weight: 1
+    settings:
+      entity_browser: image_entity_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_section_your_airspace_secu:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

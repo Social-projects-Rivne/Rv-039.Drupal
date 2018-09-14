@@ -1,0 +1,21 @@
+uuid: 27f79f76-0a1f-48ed-80da-b4dceca5e73b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dedrone_s_rf_sensors
+    - paragraphs.paragraphs_type.page_products_detect_a_drone
+  module:
+    - text
+id: paragraph.page_products_detect_a_drone.field_dedrone_s_rf_sensors
+field_name: field_dedrone_s_rf_sensors
+entity_type: paragraph
+bundle: page_products_detect_a_drone
+label: 'Dedrone’s RF Sensors'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

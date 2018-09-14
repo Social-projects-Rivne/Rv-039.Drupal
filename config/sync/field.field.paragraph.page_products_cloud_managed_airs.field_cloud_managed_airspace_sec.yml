@@ -1,0 +1,21 @@
+uuid: 177bafdd-28ec-43c8-b4a4-9354bd73f134
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cloud_managed_airspace_sec
+    - paragraphs.paragraphs_type.page_products_cloud_managed_airs
+  module:
+    - text
+id: paragraph.page_products_cloud_managed_airs.field_cloud_managed_airspace_sec
+field_name: field_cloud_managed_airspace_sec
+entity_type: paragraph
+bundle: page_products_cloud_managed_airs
+label: 'Cloud-Managed Airspace Securi'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

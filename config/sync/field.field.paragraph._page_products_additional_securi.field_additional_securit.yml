@@ -1,0 +1,21 @@
+uuid: 8e5d2e54-4c57-4971-997e-96df551e126f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_additional_securit
+    - paragraphs.paragraphs_type._page_products_additional_securi
+  module:
+    - text
+id: paragraph._page_products_additional_securi.field_additional_securit
+field_name: field_additional_securit
+entity_type: paragraph
+bundle: _page_products_additional_securi
+label: 'Additional Securit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
