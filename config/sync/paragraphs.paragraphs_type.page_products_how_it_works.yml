@@ -1,9 +1,0 @@
-uuid: 3506e054-50f6-4ddd-8790-4d1537f4400b
-langcode: en
-status: true
-dependencies: {  }
-id: page_products_how_it_works
-label: 'page products How it Works'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

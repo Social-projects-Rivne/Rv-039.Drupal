@@ -1,16 +1,16 @@
-uuid: bf99da6c-b239-4221-b8de-001520989b75
+uuid: 06282ab4-bb39-4322-b76b-aaea5676af4f
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-    - video_embed_field
+    - youtube
 id: paragraph.field_video_second
 field_name: field_video_second
 entity_type: paragraph
-type: video_embed_field
+type: youtube
 settings: {  }
-module: video_embed_field
+module: youtube
 locked: false
 cardinality: 1
 translatable: true

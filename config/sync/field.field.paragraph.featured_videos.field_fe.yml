@@ -1,0 +1,21 @@
+uuid: cb1d7e5f-34e7-4d4e-8685-504ad417c87a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fe
+    - paragraphs.paragraphs_type.featured_videos
+  module:
+    - text
+id: paragraph.featured_videos.field_fe
+field_name: field_fe
+entity_type: paragraph
+bundle: featured_videos
+label: 'Featured Videos label'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

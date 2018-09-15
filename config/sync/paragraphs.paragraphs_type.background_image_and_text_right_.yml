@@ -1,9 +1,0 @@
-uuid: 5364f0d6-d7d4-4ae8-b9c3-2bed0e49241c
-langcode: en
-status: true
-dependencies: {  }
-id: background_image_and_text_right_
-label: 'background image and text(right)'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

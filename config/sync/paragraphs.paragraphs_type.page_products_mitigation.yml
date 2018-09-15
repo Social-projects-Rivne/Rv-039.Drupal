@@ -1,9 +1,0 @@
-uuid: 8c9340b2-b8d5-4cb3-b36f-7c11d9c515fb
-langcode: en
-status: true
-dependencies: {  }
-id: page_products_mitigation
-label: 'page products Mitigation'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

@@ -1,29 +1,29 @@
-uuid: 2d1a4c24-62de-40a9-9a1a-8a59a28ba05e
+uuid: 8830013f-66cf-41a3-9882-ee66fe3e2c50
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.featured_videos.field_dronetracker_first
-    - field.field.paragraph.featured_videos.field_featured_videos_la
-    - field.field.paragraph.featured_videos.field_text_h1_
-    - field.field.paragraph.featured_videos.field_text_h1_and_
+    - field.field.paragraph.featured_videos.field_dronetracker_
+    - field.field.paragraph.featured_videos.field_fe
+    - field.field.paragraph.featured_videos.field_text_h1_and_p
+    - field.field.paragraph.featured_videos.field_text_h1_and_p2
     - field.field.paragraph.featured_videos.field_video_second
     - paragraphs.paragraphs_type.featured_videos
   module:
     - text
-    - video_embed_field
+    - youtube
 id: paragraph.featured_videos.default
 targetEntityType: paragraph
 bundle: featured_videos
 mode: default
 content:
-  field_dronetracker_first:
+  field_dronetracker_:
     weight: 1
     settings: {  }
     third_party_settings: {  }
-    type: video_embed_field_textfield
+    type: youtube
     region: content
-  field_featured_videos_la:
+  field_fe:
     weight: 0
     settings:
       rows: 5
@@ -31,16 +31,16 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
-  field_text_h1_:
-    weight: 4
+  field_text_h1_and_p:
+    weight: 3
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
     region: content
-  field_text_h1_and_:
-    weight: 3
+  field_text_h1_and_p2:
+    weight: 4
     settings:
       rows: 5
       placeholder: ''
@@ -51,7 +51,7 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
-    type: video_embed_field_textfield
+    type: youtube
     region: content
 hidden:
   created: true

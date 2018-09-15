@@ -15,7 +15,4 @@ content:
   links:
     weight: 100
     region: content
-hidden:
-  field_event_date: true
-  field_event_description: true
-  field_event_image: true
+hidden: {  }

@@ -1,0 +1,32 @@
+uuid: 2ab9cb50-c170-4d87-97b0-f6f5886030cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.video_mantle1.field_background_image_media
+    - field.field.paragraph.video_mantle1.field_label_videos_page
+    - paragraphs.paragraphs_type.video_mantle1
+  module:
+    - text
+id: paragraph.video_mantle1.default
+targetEntityType: paragraph
+bundle: video_mantle1
+mode: default
+content:
+  field_background_image_media:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_label_videos_page:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

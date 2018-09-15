@@ -1,9 +1,0 @@
-uuid: 90f0b74a-220b-4ff9-935a-167f12ededd4
-langcode: en
-status: true
-dependencies: {  }
-id: page_software_dronedna
-label: 'page software DroneDNA'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

@@ -3,30 +3,34 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.content_page_products.field_content_page_products_vido
     - field.field.paragraph.content_page_products.field_our_products
+    - field.field.paragraph.content_page_products.field_watch_a_video
     - paragraphs.paragraphs_type.content_page_products
   module:
+    - link
     - text
 id: paragraph.content_page_products.default
 targetEntityType: paragraph
 bundle: content_page_products
 mode: default
 content:
-  field_content_page_products_vido:
-    type: entity_reference_entity_view
-    weight: 3
-    label: above
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
-    region: content
   field_our_products:
     weight: 0
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_watch_a_video:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
     region: content
 hidden: {  }
