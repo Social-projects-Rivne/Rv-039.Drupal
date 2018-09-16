@@ -19,7 +19,7 @@ mode: default
 content:
   field_slide_description:
     type: entity_reference_paragraphs
-    weight: 2
+    weight: 1
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -30,7 +30,7 @@ content:
     third_party_settings: {  }
     region: content
   field_slide_image:
-    weight: 1
+    weight: 0
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -38,7 +38,7 @@ content:
     type: image_image
     region: content
   field_view_mode:
-    weight: 3
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: view_mode_selector_radios
