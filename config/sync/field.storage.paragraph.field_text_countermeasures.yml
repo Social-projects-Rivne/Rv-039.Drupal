@@ -1,0 +1,19 @@
+uuid: 79e866b3-b657-4ba8-a82a-08b8abc9a57f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_text_countermeasures
+field_name: field_text_countermeasures
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

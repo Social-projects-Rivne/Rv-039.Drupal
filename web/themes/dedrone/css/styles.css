@@ -7127,7 +7127,7 @@ a {
     margin-left: auto;
     margin-right: 5em;
     /*Move menu to the horizontal position.*/
-    /*Font style for menu*/
+    /*Font style  for menu*/
     /* Menu elements positioning */ }
     .footer nav.block-menu ul, .footer nav.block-menu li, .footer nav.block-menu h2 {
       display: inline-block; }
@@ -8044,6 +8044,509 @@ button {
       padding-top: 50px;
       padding-bottom: 50px; } }
 
+.case-studies-paragraph {
+  padding: 150px 0;
+  background-image: linear-gradient(180deg, #f8f8f8, #f8f8f8); }
+  .case-studies-paragraph .content-wrap {
+    text-align: center;
+    padding-bottom: 100px; }
+    .case-studies-paragraph .content-wrap h2 {
+      font-size: 40px;
+      line-height: 45px;
+      color: #111111; }
+    .case-studies-paragraph .content-wrap p {
+      font-size: 20px;
+      line-height: 24px;
+      color: #111111;
+      margin-top: 25px; }
+  .case-studies-paragraph .view-case-studies {
+    margin: 0 -30px; }
+    .case-studies-paragraph .view-case-studies .case-study-element-wrap {
+      min-height: 280px;
+      margin-top: 0;
+      padding-right: 0;
+      padding-bottom: 20px;
+      padding-left: 0;
+      border-radius: 2px;
+      background-image: linear-gradient(180deg, #fff, #fff);
+      box-shadow: none; }
+      .case-studies-paragraph .view-case-studies .case-study-element-wrap .views-field-field-secondary-page-kink a {
+        padding: 20px 20px 0 20px;
+        color: #111;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+        text-decoration: none; }
+
+.videos_wrapper {
+  display: block;
+  height: 550px;
+  padding-bottom: 200px;
+  padding-top: 200px; }
+  .videos_wrapper .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    line-height: 26px; }
+
+.field--name-field-label-videos-page h1 {
+  width: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-align: center;
+  border-style: none;
+  padding-bottom: 0;
+  border-bottom-width: 0;
+  font-family: 'Pluto Sans Condensed Extra Light',sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  border-bottom-color: #bbb;
+  letter-spacing: 0;
+  font-weight: 200;
+  text-transform: none;
+  margin-bottom: 10px;
+  display: block;
+  -ms-flex: 0 auto;
+      flex: 0 auto;
+  color: #fff;
+  position: relative;
+  text-shadow: 1px 0 10px #000; }
+
+.field--name-field-label-videos-page h2 {
+  position: relative;
+  display: block;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-bottom: 10px; }
+
+.field--name-field-label-videos-page p a {
+  display: block;
+  padding-right: 50px;
+  padding-left: 50px;
+  float: left;
+  background-image: linear-gradient(180deg, #fff, #fff);
+  color: #0a0c15;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 15px 50px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  text-align: center; }
+
+.section_videos {
+  -ms-flex-align: start;
+      align-items: flex-start;
+  background-image: linear-gradient(180deg, #fff, #fff);
+  color: #f8f8f8;
+  text-align: left;
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 645px;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  box-sizing: border-box; }
+
+.paragraph--type--featured-videos {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px; }
+
+.field--name-field-fe h1 {
+  margin-top: 1px;
+  text-align: center;
+  border-style: none;
+  padding-bottom: 0;
+  border-bottom-width: 0;
+  font-family: 'Pluto Sans Condensed Extra Light',sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0;
+  color: #111;
+  border-bottom-color: #bbb;
+  font-weight: 200;
+  text-transform: none;
+  margin-bottom: 10px; }
+
+.field--name-field-dronetracker- {
+  width: 460px;
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-left: -50px; }
+
+.field--name-field-video-second {
+  width: 460px;
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+  margin-top: 100px; }
+
+.field--name-field-text-h1-and-p {
+  width: 460px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px; }
+  .field--name-field-text-h1-and-p h3 {
+    clear: none;
+    margin-top: 30px;
+    margin-bottom: 0;
+    float: left;
+    font-family: 'Pluto Sans Condensed Medium',sans-serif;
+    color: #111;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-sizing: border-box; }
+  .field--name-field-text-h1-and-p p {
+    margin-top: 10px;
+    float: none;
+    clear: none;
+    font-family: 'Pluto Sans Condensed Light',sans-serif;
+    color: #111;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 400; }
+
+.field--name-field-text-h1-and-p2 {
+  width: 461px;
+  display: inline-block;
+  float: left; }
+  .field--name-field-text-h1-and-p2 h3 {
+    clear: none;
+    margin-top: 30px;
+    margin-bottom: 0;
+    float: none;
+    font-family: 'Pluto Sans Condensed Medium',sans-serif;
+    color: #111;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    box-sizing: border-box; }
+  .field--name-field-text-h1-and-p2 p {
+    margin-top: 10px;
+    float: none;
+    clear: none;
+    font-family: 'Pluto Sans Condensed Light',sans-serif;
+    color: #111;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 400; }
+
+.section_introducing {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  min-height: 600px;
+  overflow: visible;
+  border-style: none;
+  border-top-width: 1px;
+  border-top-color: #000;
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  .section_introducing .paragraph {
+    margin: 0 auto;
+    max-width: 960px;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0; }
+    .section_introducing .paragraph .field--name-field-introducing-the-rf {
+      padding: 0 10px;
+      width: 33.33333%;
+      float: left;
+      min-height: 1px;
+      position: relative; }
+      .section_introducing .paragraph .field--name-field-introducing-the-rf h1 {
+        width: auto;
+        margin-top: 0;
+        -ms-flex: 0 auto;
+            flex: 0 auto;
+        color: #fff;
+        border-style: none;
+        padding-bottom: 0;
+        border-bottom-width: 0;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: left;
+        letter-spacing: 0;
+        font-weight: 200;
+        margin-bottom: 10px; }
+      .section_introducing .paragraph .field--name-field-introducing-the-rf h2 {
+        display: inline-block;
+        color: #fff;
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 0;
+        text-transform: none;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+        margin-bottom: 10px; }
+      .section_introducing .paragraph .field--name-field-introducing-the-rf p {
+        display: block;
+        padding-right: 50px;
+        padding-left: 50px;
+        float: left;
+        background-color: #fff;
+        color: #0a0c15;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 15px 50px;
+        border-radius: 4px;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase; }
+        .section_introducing .paragraph .field--name-field-introducing-the-rf p:hover {
+          background-color: #3898EC; }
+        .section_introducing .paragraph .field--name-field-introducing-the-rf p a {
+          color: #0a0c15; }
+
+.section_drone_detection_sensors {
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  background-image: linear-gradient(180deg, #fff, #fff);
+  color: #f8f8f8;
+  text-align: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  min-height: 850px; }
+  .section_drone_detection_sensors .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px; }
+
+.field--name-field-label-drone-detection h1 {
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #111;
+  border-style: none;
+  font-weight: 200;
+  text-transform: none;
+  margin-bottom: 50px;
+  border-bottom-width: 0;
+  margin-top: 0; }
+
+.images_wrapper {
+  margin-left: -10px;
+  margin-right: -10px;
+  opacity: 1;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  display: block;
+  transition: opacity 400ms ease 0s, transform 400ms ease 0s; }
+  .images_wrapper .first_section_drone {
+    width: 50%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f8f8f8;
+    text-align: left; }
+  .images_wrapper .second_section_drone {
+    width: 50%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f8f8f8;
+    text-align: left; }
+
+.field--name-field-first-text-area- h3 {
+  float: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 0;
+  clear: none;
+  color: #111;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px; }
+
+.field--name-field-second-text-area-drone h3 {
+  float: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 0;
+  clear: none;
+  color: #111;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px; }
+
+.hardware-overview-event-kit {
+  padding: 150px 0;
+  background-image: linear-gradient(180deg, #f8f8f8, #f8f8f8);
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .hardware-overview-event-kit .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px; }
+
+.field--name-field-label-portable-detection h1 {
+  margin-bottom: 50px;
+  padding-bottom: 0;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #111;
+  border-style: none;
+  font-weight: 200;
+  text-transform: none;
+  margin-top: 0; }
+
+.event-kit-block {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 225px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.15);
+  text-align: left; }
+  .event-kit-block .event-kit-block-image {
+    width: 30%;
+    height: 100%;
+    float: left; }
+  .event-kit-block .field__item {
+    width: 70%;
+    display: inline-block;
+    width: 70%;
+    padding-right: 50px;
+    padding-left: 50px; }
+    .event-kit-block .field__item h3 {
+      float: none;
+      font-weight: bold; }
+    .event-kit-block .field__item p {
+      margin-top: 10px;
+      margin-bottom: 5px; }
+
+.section_countermeasures_paragraph {
+  padding: 150px 0; }
+  .section_countermeasures_paragraph .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px; }
+
+.field--name-field-label-active-and-passive h1 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #111;
+  border-bottom-color: #bbb;
+  font-weight: 300; }
+
+.block_countermeasures {
+  height: 306px;
+  display: -ms-flexbox;
+  display: flex; }
+  .block_countermeasures a {
+    padding: 0 10px;
+    width: 50%;
+    position: relative; }
+  .block_countermeasures .field--name-field-text-countermeasures {
+    box-sizing: border-box;
+    width: 50%;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .block_countermeasures .field--name-field-text-countermeasures h3 {
+      font-weight: bold;
+      margin-top: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #111;
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: 500;
+      text-align: left;
+      margin-bottom: 0;
+      float: none;
+      clear: none;
+      margin-left: 80px; }
+    .block_countermeasures .field--name-field-text-countermeasures p {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      margin-left: 80px; }
+    .block_countermeasures .field--name-field-text-countermeasures p a {
+      padding: 0;
+      margin-top: 15px; }
+
 /* ==========================================================================
    Page "Technology Partners" styles
    - positioning options and unique page styles.
@@ -8448,3 +8951,75 @@ button {
   .investors-section .paragraph--type--bundle-investor-about-us-page .field--name-field-bundle-investor-descript h6 {
     font-weight: 400 !important;
     margin-bottom: 0px; }
+
+.paragraph--type--section-want-to-learn-more {
+  background-image: linear-gradient(180deg, #f05c40, #f05c40);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  box-sizing: border-box; }
+
+.field--name-field-label-want-to-learn-more- {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px; }
+
+.field--name-field-label-want-to-learn-more- h1 {
+  position: relative;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  width: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-align: center;
+  -ms-flex: 0 auto;
+      flex: 0 auto;
+  color: #fff;
+  border-style: none;
+  padding-bottom: 0;
+  border-bottom-width: 0;
+  font-family: 'Pluto Sans Condensed Extra Light', sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0;
+  border-bottom-color: #bbb;
+  font-weight: 200;
+  text-transform: none;
+  margin-bottom: 10px; }
+
+.field--name-field-label-want-to-learn-more- blockquote {
+  color: #818181;
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 0px; }
+
+.field--name-field-label-want-to-learn-more- blockquote p {
+  text-align: center;
+  min-width: 220px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-color: #fff;
+  background-color: transparent;
+  background-image: none;
+  color: #fff;
+  border: 1px solid;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 15px 50px;
+  border-radius: 4px;
+  font-family: 'Pluto Sans Condensed Regular', sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer; }
+
+.field--name-field-label-want-to-learn-more- blockquote p a {
+  color: #fff; }

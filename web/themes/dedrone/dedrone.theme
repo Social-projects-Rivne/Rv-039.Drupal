@@ -78,6 +78,30 @@ function dedrone_preprocess_paragraph(&$variables) {
       $variables['background_image_url'] = file_create_url($uri);
      }
    }
+   if ($paragraph->bundle() == 'video_mantle1')
+   {
+    $image_field = $paragraph->get('field_background_image_media');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'introducing_the_rf_300')
+   {
+    $image_field = $paragraph->get('field_background_image_media_har');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'section_portable_detection_solut')
+   {
+    $image_field = $paragraph->get('field_background_event_');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
 
 
    /* Background color preprocess:

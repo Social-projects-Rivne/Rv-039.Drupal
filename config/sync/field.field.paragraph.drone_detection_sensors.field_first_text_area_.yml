@@ -1,0 +1,21 @@
+uuid: 0392151f-3da3-453b-b439-8b6bd1c07c60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_first_text_area_
+    - paragraphs.paragraphs_type.drone_detection_sensors
+  module:
+    - text
+id: paragraph.drone_detection_sensors.field_first_text_area_
+field_name: field_first_text_area_
+entity_type: paragraph
+bundle: drone_detection_sensors
+label: 'first text area drone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

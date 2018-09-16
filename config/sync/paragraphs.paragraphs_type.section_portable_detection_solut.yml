@@ -1,0 +1,9 @@
+uuid: a64d86b0-4480-4a09-9ac2-a346724636a0
+langcode: en
+status: true
+dependencies: {  }
+id: section_portable_detection_solut
+label: 'section Portable Detection Solutions'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

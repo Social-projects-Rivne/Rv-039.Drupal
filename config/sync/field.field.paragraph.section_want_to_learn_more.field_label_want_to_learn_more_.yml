@@ -1,0 +1,21 @@
+uuid: 35d53ef7-f203-4adb-80b5-f803735c7e28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label_want_to_learn_more_
+    - paragraphs.paragraphs_type.section_want_to_learn_more
+  module:
+    - text
+id: paragraph.section_want_to_learn_more.field_label_want_to_learn_more_
+field_name: field_label_want_to_learn_more_
+entity_type: paragraph
+bundle: section_want_to_learn_more
+label: 'label want to learn more '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
