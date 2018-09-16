@@ -27,7 +27,6 @@ function dedrone_preprocess_paragraph(&$variables) {
    }
 
    if ($paragraph->bundle() == 'image_description_row' || 'slider' || 'description_with_buttons' || 'background_description' || 'description_image_date_view' || 'text_row') {
-
      if ($paragraph->hasField('field_css_class')) {
      	$css_option = $paragraph->get('field_css_class');
      	if ($css_option) {

@@ -30,26 +30,31 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('menu main-menu') }}>
-    {% else %}
-      <ul class="menu">
-    {% endif %}
-    {% for item in items %}
-      {%
-        set classes = [
-          'menu-item',
-          item.is_expanded ? 'menu-item--expanded',
-          item.is_collapsed ? 'menu-item--collapsed',
-          item.in_active_trail ? 'menu-item--active-trail',
-        ]
-      %}
-      <li{{ item.attributes.addClass(classes) }}>
-        {{ link(item.title, item.url) }}
-        {% if item.below %}
-          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
-        {% endif %}
-      </li>
-    {% endfor %}
-    </ul>
+      <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul{{ attributes.addClass('menu main-menu') }}>
+          {% else %}
+          <ul class="menu">
+            {% endif %}
+              {% for item in items %}
+                {%
+                  set classes = [
+                    'menu-item',
+                    item.is_expanded ? 'menu-item--expanded',
+                    item.is_collapsed ? 'menu-item--collapsed',
+                    item.in_active_trail ? 'menu-item--active-trail',
+                  ]
+                %}
+                <li{{ item.attributes.addClass(classes) }}>
+                  {{ link(item.title, item.url) }}
+                  {% if item.below %}
+                    {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+                  {% endif %}
+                </li>
+              {% endfor %}
+          </ul>
+      </ul>
   {% endif %}
 {% endmacro %}

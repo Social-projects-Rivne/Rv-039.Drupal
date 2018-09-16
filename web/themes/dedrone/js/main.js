@@ -7,7 +7,7 @@
 				var swiperMainFull = new Swiper ('.slider-main .swiper-container', {
 					loop: true,
 					effect: 'fade',
-					speed: 700,
+					speed: 500,
 					pagination: {
 						el: '.swiper-pagination',
 						clickable: true
@@ -17,7 +17,7 @@
 				var swiperMainInner = new Swiper ('.slider-inner .swiper-container', {
 					loop: true,
 					effect: 'slide',
-					speed: 500,
+					speed: 400,
 					autoplay: {
 						delay: 1118000,
 					},

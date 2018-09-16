@@ -88,4 +88,26 @@
 	.paragraph__column {
 		padding: 0 !important;
 	}
+
+	@media (max-width: 991px) {
+		min-height: 509px;
+
+		.tab-pane {
+			width: 100%;
+
+			.image {
+				display: none;
+			}
+		}
+
+		&.horizontal-tabs .nav-tabs {
+			flex: 0 0 120px;
+			max-width: 120px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }
