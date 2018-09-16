@@ -28,4 +28,14 @@
 			color: #f05c40;
 		}
 	}
+	
+	@media (max-width: 991px) {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	@media (max-width: 767px) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }

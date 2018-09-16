@@ -17,10 +17,40 @@
 			}
 		}
 	}
-	
+
+	.navbar {
+		display: block;
+		padding: 0;
+
+		&-light {
+			.navbar-toggler {
+				border: 0 none;
+
+				@media (max-width: 991px) {
+					position: absolute;
+					right: 0;
+					top: -32px;
+				}
+			}
+		}
+
+		@media (max-width: 991px) {
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 991px) {
+		.container {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
 }
 
+
 .main-menu {
+	margin: 0;
+
 	& > li {
 		float: left;
 		margin-left: 30px;
@@ -85,6 +115,37 @@
 				& > .menu {
 					display: block;
 				}
+			}
+		}
+	}
+
+	@media (max-width: 991px) {
+		margin-top: 20px;
+
+		& > li {
+			float: none;
+			width: 100%;
+			margin-left: 0;
+
+			&:last-child {
+				& > a,
+				& > span {
+					color: #e5310e;
+				}
+
+				span {
+					display: block;
+					padding: 5px 0 4px 0;
+					font-size: 13px;
+					font-weight: 400;
+					letter-spacing: 1px;
+					text-transform: uppercase;
+					cursor: pointer;
+				}
+			}
+
+			& > a {
+				padding: 10px 0;
 			}
 		}
 	}

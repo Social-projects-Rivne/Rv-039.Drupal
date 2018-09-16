@@ -46,4 +46,22 @@
 			}
 		}
 	}
+
+	@media (max-width: 991px) {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	@media (max-width: 767px) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		.wrap-buttons {
+			padding-top: 25px;
+
+			.btn-bordered {
+				margin:  20px 0;
+			}
+		}
+	}
 }
