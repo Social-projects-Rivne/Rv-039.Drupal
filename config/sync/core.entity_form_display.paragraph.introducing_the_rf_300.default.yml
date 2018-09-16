@@ -1,0 +1,43 @@
+uuid: ed694c45-a533-451c-91f5-a4061f19ffec
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.image_entity_browser
+    - field.field.paragraph.introducing_the_rf_300.field_background_image_media_har
+    - field.field.paragraph.introducing_the_rf_300.field_introducing_the_rf
+    - paragraphs.paragraphs_type.introducing_the_rf_300
+  module:
+    - entity_browser
+    - text
+id: paragraph.introducing_the_rf_300.default
+targetEntityType: paragraph
+bundle: introducing_the_rf_300
+mode: default
+content:
+  field_background_image_media_har:
+    weight: 1
+    settings:
+      entity_browser: image_entity_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_introducing_the_rf:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

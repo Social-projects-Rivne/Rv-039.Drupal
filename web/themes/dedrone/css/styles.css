@@ -8058,6 +8058,282 @@ button {
     margin-bottom: 5px;
     font-weight: 400; }
 
+.section_introducing {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  min-height: 600px;
+  overflow: visible;
+  border-style: none;
+  border-top-width: 1px;
+  border-top-color: #000;
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  .section_introducing .paragraph {
+    margin: 0 auto;
+    max-width: 960px;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0; }
+    .section_introducing .paragraph .field--name-field-introducing-the-rf {
+      padding: 0 10px;
+      width: 33.33333%;
+      float: left;
+      min-height: 1px;
+      position: relative; }
+      .section_introducing .paragraph .field--name-field-introducing-the-rf h1 {
+        width: auto;
+        margin-top: 0;
+        -ms-flex: 0 auto;
+            flex: 0 auto;
+        color: #fff;
+        border-style: none;
+        padding-bottom: 0;
+        border-bottom-width: 0;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: left;
+        letter-spacing: 0;
+        font-weight: 200;
+        margin-bottom: 10px; }
+      .section_introducing .paragraph .field--name-field-introducing-the-rf h2 {
+        display: inline-block;
+        color: #fff;
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 0;
+        text-transform: none;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+        margin-bottom: 10px; }
+      .section_introducing .paragraph .field--name-field-introducing-the-rf p {
+        display: block;
+        padding-right: 50px;
+        padding-left: 50px;
+        float: left;
+        background-color: #fff;
+        color: #0a0c15;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 15px 50px;
+        border-radius: 4px;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase; }
+        .section_introducing .paragraph .field--name-field-introducing-the-rf p:hover {
+          background-color: #3898EC; }
+        .section_introducing .paragraph .field--name-field-introducing-the-rf p a {
+          color: #0a0c15; }
+
+.section_drone_detection_sensors {
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  background-image: linear-gradient(180deg, #fff, #fff);
+  color: #f8f8f8;
+  text-align: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  min-height: 850px; }
+  .section_drone_detection_sensors .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px; }
+
+.field--name-field-label-drone-detection h1 {
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #111;
+  border-style: none;
+  font-weight: 200;
+  text-transform: none;
+  margin-bottom: 50px;
+  border-bottom-width: 0;
+  margin-top: 0; }
+
+.images_wrapper {
+  margin-left: -10px;
+  margin-right: -10px;
+  opacity: 1;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  display: block;
+  transition: opacity 400ms ease 0s, transform 400ms ease 0s; }
+  .images_wrapper .first_section_drone {
+    width: 50%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f8f8f8;
+    text-align: left; }
+  .images_wrapper .second_section_drone {
+    width: 50%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f8f8f8;
+    text-align: left; }
+
+.field--name-field-first-text-area- h3 {
+  float: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 0;
+  clear: none;
+  color: #111;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px; }
+
+.field--name-field-second-text-area-drone h3 {
+  float: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 0;
+  clear: none;
+  color: #111;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px; }
+
+.hardware-overview-event-kit {
+  padding: 150px 0;
+  background-image: linear-gradient(180deg, #f8f8f8, #f8f8f8);
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .hardware-overview-event-kit .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px; }
+
+.field--name-field-label-portable-detection h1 {
+  margin-bottom: 50px;
+  padding-bottom: 0;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #111;
+  border-style: none;
+  font-weight: 200;
+  text-transform: none;
+  margin-top: 0; }
+
+.event-kit-block {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 225px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.15);
+  text-align: left; }
+  .event-kit-block .event-kit-block-image {
+    width: 30%;
+    height: 100%;
+    float: left; }
+  .event-kit-block .field__item {
+    width: 70%;
+    display: inline-block;
+    width: 70%;
+    padding-right: 50px;
+    padding-left: 50px; }
+    .event-kit-block .field__item h3 {
+      float: none;
+      font-weight: bold; }
+    .event-kit-block .field__item p {
+      margin-top: 10px;
+      margin-bottom: 5px; }
+
+.section_countermeasures_paragraph {
+  padding: 150px 0; }
+  .section_countermeasures_paragraph .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px; }
+
+.field--name-field-label-active-and-passive h1 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #111;
+  border-bottom-color: #bbb;
+  font-weight: 300; }
+
+.block_countermeasures {
+  height: 306px;
+  display: -ms-flexbox;
+  display: flex; }
+  .block_countermeasures a {
+    padding: 0 10px;
+    width: 50%;
+    position: relative; }
+  .block_countermeasures .field--name-field-text-countermeasures {
+    box-sizing: border-box;
+    width: 50%;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .block_countermeasures .field--name-field-text-countermeasures h3 {
+      font-weight: bold;
+      margin-top: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #111;
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: 500;
+      text-align: left;
+      margin-bottom: 0;
+      float: none;
+      clear: none;
+      margin-left: 80px; }
+    .block_countermeasures .field--name-field-text-countermeasures p {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      margin-left: 80px; }
+    .block_countermeasures .field--name-field-text-countermeasures p a {
+      padding: 0;
+      margin-top: 15px; }
+
 /* ==========================================================================
    Page "Technology Partners" styles
    - positioning options and unique page styles.

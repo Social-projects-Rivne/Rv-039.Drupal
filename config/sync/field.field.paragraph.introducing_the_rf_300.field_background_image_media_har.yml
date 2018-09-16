@@ -1,0 +1,28 @@
+uuid: ab0e8716-ae8a-4601-8444-a1afaacb01b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_image_media_har
+    - media.type.image
+    - paragraphs.paragraphs_type.introducing_the_rf_300
+id: paragraph.introducing_the_rf_300.field_background_image_media_har
+field_name: field_background_image_media_har
+entity_type: paragraph
+bundle: introducing_the_rf_300
+label: 'background image media hardware'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

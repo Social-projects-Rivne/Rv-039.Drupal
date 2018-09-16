@@ -1,0 +1,64 @@
+uuid: 01730fa3-7273-4a72-9762-f8898ade34d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.drone_detection_sensors.field_drone_first_ima
+    - field.field.paragraph.drone_detection_sensors.field_first_text_area_
+    - field.field.paragraph.drone_detection_sensors.field_label_drone_detection
+    - field.field.paragraph.drone_detection_sensors.field_second_drone_image
+    - field.field.paragraph.drone_detection_sensors.field_second_text_area_drone
+    - image.style.image_460_287
+    - paragraphs.paragraphs_type.drone_detection_sensors
+  module:
+    - image
+    - text
+id: paragraph.drone_detection_sensors.default
+targetEntityType: paragraph
+bundle: drone_detection_sensors
+mode: default
+content:
+  field_drone_first_ima:
+    weight: 1
+    settings:
+      preview_image_style: image_460_287
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_first_text_area_:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_label_drone_detection:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_second_drone_image:
+    weight: 2
+    settings:
+      preview_image_style: image_460_287
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_second_text_area_drone:
+    weight: 4
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
