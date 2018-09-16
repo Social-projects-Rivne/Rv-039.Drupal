@@ -1,0 +1,21 @@
+uuid: eb3e4b12-ea8a-49b0-b5ba-6d4a4bf72134
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_software_enabled_sec
+    - paragraphs.paragraphs_type.section_software_enabled_securit
+  module:
+    - text
+id: paragraph.section_software_enabled_securit.field_text_software_enabled_sec
+field_name: field_text_software_enabled_sec
+entity_type: paragraph
+bundle: section_software_enabled_securit
+label: 'text software enabled secured'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

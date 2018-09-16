@@ -1,0 +1,38 @@
+uuid: 2093a33e-3a97-4aa0-a539-6f2c9c24a0fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_advanced_vide
+    - paragraphs.paragraphs_type.section_advanced_video_analytics
+  module:
+    - image
+id: paragraph.section_advanced_video_analytics.field_image_advanced_vide
+field_name: field_image_advanced_vide
+entity_type: paragraph
+bundle: section_advanced_video_analytics
+label: 'image advanced video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
