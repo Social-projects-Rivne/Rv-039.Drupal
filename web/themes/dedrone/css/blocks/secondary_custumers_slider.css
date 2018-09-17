@@ -63,7 +63,7 @@
         text-align: center;
         font-size: 12px;
         line-height: 15px;
-        font-weight: 600s;
+        font-weight: 600;
         text-transform: uppercase; }
       .customers-secondary-slider .icon-wrapper .fields-wrapper .title {
         text-align: center;
@@ -71,6 +71,8 @@
         line-height: 24px;
         font-weight: 300;
         margin: 20px 0 5px; }
+        .customers-secondary-slider .icon-wrapper .fields-wrapper .title h2 {
+          color: #fff; }
   @media (max-width: 767px) {
     .customers-secondary-slider {
       padding: 75px 25px; } }
