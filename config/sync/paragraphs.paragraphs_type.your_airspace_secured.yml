@@ -1,0 +1,9 @@
+uuid: 46a61b53-d6b1-4bd1-8ae8-53e4c8eef301
+langcode: en
+status: true
+dependencies: {  }
+id: your_airspace_secured
+label: 'section your Airspace, Secured'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

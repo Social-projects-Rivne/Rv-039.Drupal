@@ -1,0 +1,9 @@
+uuid: 7283d4e8-0bb2-4356-a3db-903b3c3f0636
+langcode: en
+status: true
+dependencies: {  }
+id: section_software_enabled_securit
+label: 'section Software Enabled Security'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

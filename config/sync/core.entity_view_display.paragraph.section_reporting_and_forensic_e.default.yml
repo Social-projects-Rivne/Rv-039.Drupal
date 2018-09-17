@@ -1,0 +1,33 @@
+uuid: 512b4759-92e0-498d-9647-046f5bf67d30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_reporting_and_forensic_e.field_image_reporti
+    - field.field.paragraph.section_reporting_and_forensic_e.field_text_reporting_and_forensi
+    - paragraphs.paragraphs_type.section_reporting_and_forensic_e
+  module:
+    - image
+    - text
+id: paragraph.section_reporting_and_forensic_e.default
+targetEntityType: paragraph
+bundle: section_reporting_and_forensic_e
+mode: default
+content:
+  field_image_reporti:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_text_reporting_and_forensi:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

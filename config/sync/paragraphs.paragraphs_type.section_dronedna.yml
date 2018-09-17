@@ -1,0 +1,9 @@
+uuid: 6bf5a0e4-5370-40f0-88b9-1a08c67feab9
+langcode: en
+status: true
+dependencies: {  }
+id: section_dronedna
+label: 'section DroneDNA'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

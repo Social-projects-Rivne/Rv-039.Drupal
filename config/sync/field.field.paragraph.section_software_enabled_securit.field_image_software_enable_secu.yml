@@ -1,0 +1,38 @@
+uuid: 3f415cea-c903-4b2c-aefc-48df940f2db6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_software_enable_secu
+    - paragraphs.paragraphs_type.section_software_enabled_securit
+  module:
+    - image
+id: paragraph.section_software_enabled_securit.field_image_software_enable_secu
+field_name: field_image_software_enable_secu
+entity_type: paragraph
+bundle: section_software_enabled_securit
+label: 'image software enable secured'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 540x295
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
