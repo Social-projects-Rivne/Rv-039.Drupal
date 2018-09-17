@@ -27,7 +27,6 @@ function dedrone_preprocess_paragraph(&$variables) {
    }
 
    if ($paragraph->bundle() == 'image_description_row' || 'slider' || 'description_with_buttons' || 'background_description' || 'description_image_date_view' || 'text_row') {
-
      if ($paragraph->hasField('field_css_class')) {
      	$css_option = $paragraph->get('field_css_class');
      	if ($css_option) {
@@ -79,6 +78,39 @@ function dedrone_preprocess_paragraph(&$variables) {
       $variables['background_image_url'] = file_create_url($uri);
      }
    }
+   if ($paragraph->bundle() == 'video_mantle1')
+   {
+    $image_field = $paragraph->get('field_background_image_media');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'introducing_the_rf_300')
+   {
+    $image_field = $paragraph->get('field_background_image_media_har');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'section_portable_detection_solut')
+   {
+    $image_field = $paragraph->get('field_background_event_');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'your_airspace_secured')
+   {
+    $image_field = $paragraph->get('field_background_your_airspa');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+
 
 
    /* Background color preprocess:

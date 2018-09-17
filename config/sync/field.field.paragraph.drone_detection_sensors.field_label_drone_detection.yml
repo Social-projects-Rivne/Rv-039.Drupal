@@ -1,0 +1,21 @@
+uuid: 27921f47-7c77-429f-8b82-b4b475934c90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label_drone_detection
+    - paragraphs.paragraphs_type.drone_detection_sensors
+  module:
+    - text
+id: paragraph.drone_detection_sensors.field_label_drone_detection
+field_name: field_label_drone_detection
+entity_type: paragraph
+bundle: drone_detection_sensors
+label: 'label drone detection'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

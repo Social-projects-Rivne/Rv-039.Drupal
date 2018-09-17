@@ -1,0 +1,21 @@
+uuid: d3091b5b-009f-42b3-b480-fb732f4f43cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_introducing_the_rf
+    - paragraphs.paragraphs_type.introducing_the_rf_300
+  module:
+    - text
+id: paragraph.introducing_the_rf_300.field_introducing_the_rf
+field_name: field_introducing_the_rf
+entity_type: paragraph
+bundle: introducing_the_rf_300
+label: 'Introducing the '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

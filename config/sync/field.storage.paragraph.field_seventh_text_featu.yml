@@ -1,0 +1,19 @@
+uuid: 3c24e555-f5b9-4719-ac0c-fe1804d1327b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_seventh_text_featu
+field_name: field_seventh_text_featu
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 41f2f410-c006-4d8d-ac8d-6db638ed3fdc
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+id: paragraph.field_background_your_airspa
+field_name: field_background_your_airspa
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

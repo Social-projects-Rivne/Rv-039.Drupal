@@ -1,0 +1,40 @@
+uuid: 0e6d8070-779f-402d-96e3-19a781936e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_portable_detection_solut.field_background_event_
+    - field.field.paragraph.section_portable_detection_solut.field_label_portable_detection
+    - field.field.paragraph.section_portable_detection_solut.field_text_event_kit
+    - paragraphs.paragraphs_type.section_portable_detection_solut
+  module:
+    - text
+id: paragraph.section_portable_detection_solut.default
+targetEntityType: paragraph
+bundle: section_portable_detection_solut
+mode: default
+content:
+  field_background_event_:
+    type: entity_reference_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_label_portable_detection:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_text_event_kit:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

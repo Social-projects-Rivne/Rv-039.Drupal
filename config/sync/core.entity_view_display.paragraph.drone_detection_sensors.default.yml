@@ -1,0 +1,59 @@
+uuid: a03f98ab-1114-4575-a978-883966c0527d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.drone_detection_sensors.field_drone_first_ima
+    - field.field.paragraph.drone_detection_sensors.field_first_text_area_
+    - field.field.paragraph.drone_detection_sensors.field_label_drone_detection
+    - field.field.paragraph.drone_detection_sensors.field_second_drone_image
+    - field.field.paragraph.drone_detection_sensors.field_second_text_area_drone
+    - paragraphs.paragraphs_type.drone_detection_sensors
+  module:
+    - image
+    - text
+id: paragraph.drone_detection_sensors.default
+targetEntityType: paragraph
+bundle: drone_detection_sensors
+mode: default
+content:
+  field_drone_first_ima:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_first_text_area_:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_label_drone_detection:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_second_drone_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_second_text_area_drone:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

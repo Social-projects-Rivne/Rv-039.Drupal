@@ -1,0 +1,21 @@
+uuid: 16dd4030-f247-49e9-850d-eb88fb010d8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_countermeasures
+    - paragraphs.paragraphs_type.section_active_and_passive_count
+  module:
+    - text
+id: paragraph.section_active_and_passive_count.field_text_countermeasures
+field_name: field_text_countermeasures
+entity_type: paragraph
+bundle: section_active_and_passive_count
+label: 'text COUNTERMEASURES'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

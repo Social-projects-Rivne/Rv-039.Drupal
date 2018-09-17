@@ -1,0 +1,21 @@
+uuid: b7852872-8b24-4bfc-927a-56e5e713f7e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_labal_section_featu
+    - paragraphs.paragraphs_type.section_features1
+  module:
+    - text
+id: paragraph.section_features1.field_labal_section_featu
+field_name: field_labal_section_featu
+entity_type: paragraph
+bundle: section_features1
+label: 'labal section features'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

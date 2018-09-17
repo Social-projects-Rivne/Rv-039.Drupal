@@ -1,0 +1,21 @@
+uuid: 84efa2a3-0492-4301-8420-3e9bd60ba91a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_second_text_area_drone
+    - paragraphs.paragraphs_type.drone_detection_sensors
+  module:
+    - text
+id: paragraph.drone_detection_sensors.field_second_text_area_drone
+field_name: field_second_text_area_drone
+entity_type: paragraph
+bundle: drone_detection_sensors
+label: 'second text area drone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

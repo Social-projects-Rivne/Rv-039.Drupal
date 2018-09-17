@@ -1,0 +1,21 @@
+uuid: 159089e2-5f2f-4447-a93f-180fc36dd91a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label_active_and_passive
+    - paragraphs.paragraphs_type.section_active_and_passive_count
+  module:
+    - text
+id: paragraph.section_active_and_passive_count.field_label_active_and_passive
+field_name: field_label_active_and_passive
+entity_type: paragraph
+bundle: section_active_and_passive_count
+label: 'label active and passive Countermeasures'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

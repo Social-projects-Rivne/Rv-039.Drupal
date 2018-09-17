@@ -1,0 +1,22 @@
+uuid: 6abd31a7-0f4e-4e56-b581-095cd2de1b54
+langcode: en
+status: true
+dependencies: {  }
+name: image_460_287
+label: 'image 460*287'
+effects:
+  3d7c9937-ac0f-4b4e-89f5-576119088f89:
+    uuid: 3d7c9937-ac0f-4b4e-89f5-576119088f89
+    id: image_scale
+    weight: 1
+    data:
+      width: 460
+      height: 287
+      upscale: false
+  e60ae887-c7cb-46c0-bb69-e39c628afa19:
+    uuid: e60ae887-c7cb-46c0-bb69-e39c628afa19
+    id: image_resize
+    weight: 2
+    data:
+      width: 460
+      height: 287

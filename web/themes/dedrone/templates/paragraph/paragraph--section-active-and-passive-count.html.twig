@@ -1,0 +1,22 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+<div class="section_countermeasures_paragraph">
+  {% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+      {% block content %}
+        {{ content.field_label_active_and_passive }}
+        <div class="block_countermeasures">
+          <a href="/products/mitigation">
+            {{content.field_image_mitigation_link	}}</a>
+          {{content.field_text_countermeasures}}
+        </div>
+      {% endblock %}
+    </div>
+  {% endblock paragraph %}
+</div>
