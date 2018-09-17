@@ -150,10 +150,10 @@ view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
 <section class='{{ content.css_class }}' style="background-color: {{ content.css_background_color }};">
   <div{{ attributes.addClass(classes) }}>
     {#<div class="paragraph__column">#}
-    <div class="container">
+    <div class = "container">
         {{ title_suffix }}
         {{ content|without('bp_width', 'bp_background') }}
     </div>
-    {#</div>#}
+     {#</div>#}
   </div>
 </section>

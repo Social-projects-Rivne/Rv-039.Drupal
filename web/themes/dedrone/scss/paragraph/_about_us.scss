@@ -23,11 +23,11 @@
 
 .key-figures
 {
+
 	@extend .section;
+	position:relative;
 	padding-bottom: 50px !important;
-
 	.paragraph__column{ padding-bottom:0px; }
-
 	.paragraph--type--bp-columns__3col{
 		padding-left: 10px;
    		padding-right: 10px;
@@ -49,6 +49,24 @@
 	    color: #fff;
 	}
 
+}
+
+.move
+{
+	display: block;
+}
+.move-hide
+{
+	opacity: 1 !important;
+	transform: translateX(0px) translateY(0px) translateZ(0px) !important;
+	transition: opacity 400ms ease 0s, transform 400ms ease 0s !important;
+}
+
+.move-up
+{
+	opacity: 0 !important;
+	transform: translateX(0px) translateY(35px) translateZ(0px) !important;
+	transition: opacity 400ms ease 0s, transform 400ms ease 0s !important;
 }
 
 /////Milestones
@@ -124,43 +142,6 @@
 }
 
 
-
-
-
-
-////Press Highlights
-
-.press-highlights
-{
-	h1
-	{
-		margin-bottom: 100px;
-		color:#fff;
-		text-align:center;
-	}
-	h2 a
-	{
-		display: inline-block;
-	    font-weight: 300;
-	}
-
-	a
-	{
-		color:#fff;
-		margin-bottom: 20px;
-		text-decoration: none;	
-	}
-	h2 a:hover 
-	{
-		color: #009ee3 !important;
-	}
-	h5 a
-	{
-		letter-spacing: 1px;
-    	text-transform: uppercase;
-    	font-weight:500;
-	}
-}
 
 
 

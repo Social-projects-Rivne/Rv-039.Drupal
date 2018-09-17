@@ -88,7 +88,7 @@ function dedrone_preprocess_paragraph(&$variables) {
          - 'background_color' - variable for use image in twig template
          Example:
            style = "<div style="background-color:#{{background_color}}">*/
-      if ($paragraph->bundle() == 'shared_aditional_information')
+   if ($paragraph->bundle() == 'shared_aditional_information')
       {
        $color_field = $paragraph->get('field_background_color');
        if (!$color_field->isEmpty()) {
@@ -98,16 +98,51 @@ function dedrone_preprocess_paragraph(&$variables) {
 
 
 
-   if ($paragraph->bundle() == 'shared_title_description')
+   if (   $paragraph->bundle() == 'shared_title'
+       || $paragraph->bundle() == 'shared_description')
    {
-      $paragraph = $variables['elements']['#paragraph'];
       $variables['css_class'] = get_css_classes($paragraph);
 
-      $position = $paragraph->get('field_position')->value;
-      if( $position == "Left") { $variables['position'] = "float-left";  }
-      if( $position == "Right"){ $variables['position'] = "float-right"; }
-      if( $position == "Center"){ $variables['position'] = "justify-content-center"; }
+      $position = $paragraph->get('field_shared_position')->value;
+      if( $position == "Left")
+      {
+          $variables['attributes']['class'][] = "title-description-left";
+          $variables['attributes']['class'][] = "col-4";
+      }
+      if( $position == "Right")
+      {
+          $variables['attributes']['class'][] = "title-description-right";
+          $variables['attributes']['class'][] = "col-4";
+      }
+      if( $position == "Center") {
+          $variables['attributes']['class'][] = "title-description-center";
+      }
+      if( $position == "Center-full-width")
+      {
+          $variables['attributes']['class'][] = "title-description-center-full-width";
+      }
+
    }
+
+    if ($paragraph->bundle() == 'shared_buttons')
+    {
+        $position = $paragraph->get('field_shared_buttons_position')->value;
+        if( $position == "Left")
+        {
+            $variables['attributes']['class'][] = "buttons-left";
+        }
+        if( $position == "Right")
+        {
+            $variables['attributes']['class'][] = "buttons-right";
+        }
+        if( $position == "Center") {
+            $variables['attributes']['class'][] = "buttons-center";
+        }
+        if( $position == "Right_vertically")
+        {
+            $variables['attributes']['class'][] = "buttons-right-vertically";
+        }
+    }
 
 
    if ($paragraph->bundle() == 'shared_wrapper')
