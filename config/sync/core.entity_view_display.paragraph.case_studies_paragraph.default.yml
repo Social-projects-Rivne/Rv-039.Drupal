@@ -1,0 +1,33 @@
+uuid: 0b9d3588-5a0b-4f48-984e-375434c40c1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.case_studies_paragraph.field_case_block
+    - field.field.paragraph.case_studies_paragraph.field_description
+    - paragraphs.paragraphs_type.case_studies_paragraph
+  module:
+    - text
+    - viewsreference
+id: paragraph.case_studies_paragraph.default
+targetEntityType: paragraph
+bundle: case_studies_paragraph
+mode: default
+content:
+  field_case_block:
+    weight: 1
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+  field_description:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

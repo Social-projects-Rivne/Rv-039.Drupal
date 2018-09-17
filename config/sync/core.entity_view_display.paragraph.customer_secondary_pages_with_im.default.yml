@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.customer_secondary_pages_with_im.field_content
-    - field.field.paragraph.customer_secondary_pages_with_im.field_image
+    - field.field.paragraph.customer_secondary_pages_with_im.field_background_img
+    - field.field.paragraph.customer_secondary_pages_with_im.field_description
     - paragraphs.paragraphs_type.customer_secondary_pages_with_im
   module:
     - text
@@ -13,20 +13,19 @@ targetEntityType: paragraph
 bundle: customer_secondary_pages_with_im
 mode: default
 content:
-  field_content:
+  field_background_img:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_description:
     weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
-  field_image:
-    type: entity_reference_entity_view
-    weight: 0
-    label: hidden
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
     region: content
 hidden: {  }

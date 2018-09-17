@@ -1,0 +1,22 @@
+uuid: 64274a5f-4712-4da1-9290-0e5a2e6d326a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.customers_events
+  module:
+    - text
+id: node.customers_events.body
+field_name: body
+entity_type: node
+bundle: customers_events
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

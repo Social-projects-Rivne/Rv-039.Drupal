@@ -15,7 +15,8 @@
       padding: 35px; } }
   .customers-img-text-wrap .text-wrap h3 {
     font-size: 20px;
-    line-height: 24px; }
+    line-height: 24px;
+    font-weight: 600; }
   .customers-img-text-wrap .text-wrap ul {
     margin: 10px 0;
     padding: 0;
