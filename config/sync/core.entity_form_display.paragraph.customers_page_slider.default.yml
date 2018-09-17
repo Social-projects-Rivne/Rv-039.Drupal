@@ -4,8 +4,8 @@ status: true
 dependencies:
   config:
     - entity_browser.browser.image_entity_browser
-    - field.field.paragraph.customers_page_slider.field_content
-    - field.field.paragraph.customers_page_slider.field_image
+    - field.field.paragraph.customers_page_slider.field_background_img
+    - field.field.paragraph.customers_page_slider.field_description
     - paragraphs.paragraphs_type.customers_page_slider
   module:
     - entity_browser
@@ -15,15 +15,7 @@ targetEntityType: paragraph
 bundle: customers_page_slider
 mode: default
 content:
-  field_content:
-    weight: 1
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_image:
+  field_background_img:
     weight: 0
     settings:
       entity_browser: image_entity_browser
@@ -36,6 +28,14 @@ content:
       field_widget_display_settings: {  }
     third_party_settings: {  }
     type: entity_browser_entity_reference
+    region: content
+  field_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
     region: content
 hidden:
   created: true

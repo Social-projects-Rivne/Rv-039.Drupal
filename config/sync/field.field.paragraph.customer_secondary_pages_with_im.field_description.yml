@@ -1,23 +1,21 @@
-uuid: 1cf6173e-3e5f-4a99-ac77-4af7d4979e49
+uuid: 4d707fce-cbb1-4dc7-9f7c-f8da0578de10
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_content
+    - field.storage.paragraph.field_description
     - paragraphs.paragraphs_type.customer_secondary_pages_with_im
   module:
     - text
-id: paragraph.customer_secondary_pages_with_im.field_content
-field_name: field_content
+id: paragraph.customer_secondary_pages_with_im.field_description
+field_name: field_description
 entity_type: paragraph
 bundle: customer_secondary_pages_with_im
-label: content
+label: Description
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
-settings:
-  handler: default
-  handler_settings: {  }
+settings: {  }
 field_type: text_long

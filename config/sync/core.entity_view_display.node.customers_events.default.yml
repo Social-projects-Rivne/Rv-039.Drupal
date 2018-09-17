@@ -1,0 +1,28 @@
+uuid: 41c415e1-f56f-4cfa-9f81-ca1e2a5acdb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.customers_events.body
+    - field.field.node.customers_events.field_second_page_custom
+    - node.type.customers_events
+  module:
+    - entity_reference_revisions
+    - user
+id: node.customers_events.default
+targetEntityType: node
+bundle: customers_events
+mode: default
+content:
+  field_second_page_custom:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  body: true
+  links: true

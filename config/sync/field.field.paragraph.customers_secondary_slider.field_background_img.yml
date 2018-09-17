@@ -1,19 +1,19 @@
-uuid: 1b1a184b-db8d-40b7-94b1-8e43e4bc0600
+uuid: 2f67beb5-730e-4667-99ac-412c68a56f9c
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_icon
+    - field.storage.paragraph.field_background_img
     - media.type.image
-    - paragraphs.paragraphs_type.slider_icon_block
-id: paragraph.slider_icon_block.field_icon
-field_name: field_icon
+    - paragraphs.paragraphs_type.customers_secondary_slider
+id: paragraph.customers_secondary_slider.field_background_img
+field_name: field_background_img
 entity_type: paragraph
-bundle: slider_icon_block
-label: icon
+bundle: customers_secondary_slider
+label: 'Background image'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

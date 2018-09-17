@@ -1,0 +1,30 @@
+uuid: c7e978b7-7ea0-43dd-8c6b-88c42f4c11be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.customers_secondary_pages.field_image_from_next_page
+    - field.field.node.customers_secondary_pages.field_link_to_next_page
+    - field.field.node.customers_secondary_pages.field_paragraph
+    - node.type.customers_secondary_pages
+  module:
+    - entity_reference_revisions
+    - user
+id: node.customers_secondary_pages.default
+targetEntityType: node
+bundle: customers_secondary_pages
+mode: default
+content:
+  field_paragraph:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  field_image_from_next_page: true
+  field_link_to_next_page: true
+  links: true

@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.customers_page_slider.field_content
-    - field.field.paragraph.customers_page_slider.field_image
+    - field.field.paragraph.customers_page_slider.field_background_img
+    - field.field.paragraph.customers_page_slider.field_description
     - paragraphs.paragraphs_type.customers_page_slider
   module:
     - text
@@ -13,19 +13,19 @@ targetEntityType: paragraph
 bundle: customers_page_slider
 mode: default
 content:
-  field_content:
-    weight: 1
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_image:
+  field_background_img:
     weight: 0
     label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
+  field_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
 hidden: {  }

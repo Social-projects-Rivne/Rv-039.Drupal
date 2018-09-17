@@ -1,17 +1,18 @@
-uuid: 5aa1ed15-216f-4324-94a9-7da14566fdef
+uuid: 4417a8b4-0994-4bad-b1fb-bf5b0ef83d26
 langcode: en
 status: true
 dependencies:
   module:
-    - media
     - paragraphs
-id: paragraph.field_icon
-field_name: field_icon
+    - views
+    - viewsreference
+id: paragraph.field_case_block
+field_name: field_case_block
 entity_type: paragraph
-type: entity_reference
+type: viewsreference
 settings:
-  target_type: media
-module: core
+  target_type: view
+module: viewsreference
 locked: false
 cardinality: 1
 translatable: true

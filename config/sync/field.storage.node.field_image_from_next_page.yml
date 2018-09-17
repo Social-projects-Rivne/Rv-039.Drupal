@@ -1,26 +1,26 @@
-uuid: 328142a0-d4d3-4165-a259-d629e1e15d6b
+uuid: b449b1db-a710-4dc1-b605-8b685a1d8fdb
 langcode: en
 status: true
 dependencies:
   module:
     - file
     - image
-    - paragraphs
-id: paragraph.field_image
-field_name: field_image
-entity_type: paragraph
+    - node
+id: node.field_image_from_next_page
+field_name: field_image_from_next_page
+entity_type: node
 type: image
 settings:
-  target_type: file
+  uri_scheme: public
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null
     height: null
+  target_type: file
   display_field: false
   display_default: false
-  uri_scheme: public
 module: image
 locked: false
 cardinality: 1
