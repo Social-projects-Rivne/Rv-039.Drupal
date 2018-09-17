@@ -46,7 +46,7 @@
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
-<section class='{{ content.css_class }}'>
+<section class='{{ css_class }}'>
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}

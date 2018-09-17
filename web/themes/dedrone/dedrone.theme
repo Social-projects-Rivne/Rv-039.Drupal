@@ -30,7 +30,7 @@ function dedrone_preprocess_paragraph(&$variables) {
      if ($paragraph->hasField('field_css_class')) {
      	$css_option = $paragraph->get('field_css_class');
      	if ($css_option) {
-     	  $variables['content']['css_class'] = $css_option->value;
+     	  $variables['css_class'] = $css_option->value;
      	}
      }
    }
@@ -39,7 +39,7 @@ function dedrone_preprocess_paragraph(&$variables) {
         if ($paragraph->hasField('field_css_bg_color')) {
             $css_option = $paragraph->get('field_css_bg_color');
             if ($css_option) {
-                $variables['content']['css_background_color'] = $css_option->value;
+                $variables['css_background_color'] = $css_option->value;
             }
         }
     }

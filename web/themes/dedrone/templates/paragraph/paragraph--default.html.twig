@@ -147,7 +147,7 @@ view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
 {% endif %}
 
 {# Prints div with classes, and content without Width and Background. #}
-<section class='{{ content.css_class }}' style="background-color: {{ content.css_background_color }};">
+<section class='{{ css_class }}' style="background-color: {{ css_background_color }};">
   <div{{ attributes.addClass(classes) }}>
     {#<div class="paragraph__column">#}
     <div class="container">

@@ -7384,10 +7384,12 @@ select {
 button {
   display: inline-block; }
 
+.event-registration,
 .contact-us-form {
   padding-top: 150px;
   padding-bottom: 150px;
   background-image: linear-gradient(180deg, #011d2a, #011d2a); }
+  .event-registration label,
   .contact-us-form label {
     display: block;
     margin: 25px 0 0 0;
@@ -7396,8 +7398,11 @@ button {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #7d949f !important; }
+  .event-registration input,
   .contact-us-form input {
     color: #fff; }
+  .event-registration input,
+  .event-registration select,
   .contact-us-form input,
   .contact-us-form select {
     border: 0 none;
@@ -7405,21 +7410,28 @@ button {
     padding: 5px 0;
     background: transparent;
     font-size: 13px; }
+  .event-registration h2,
+  .event-registration p,
   .contact-us-form h2,
   .contact-us-form p {
     color: #fff; }
+  .event-registration .form-description h2,
   .contact-us-form .form-description h2 {
     font-size: 40px;
     line-height: 45px;
     margin-bottom: 10px; }
+  .event-registration .form-description p,
   .contact-us-form .form-description p {
     margin-top: 20px;
     font-size: 20px;
     line-height: 24px; }
+  .event-registration .form-item-submit,
   .contact-us-form .form-item-submit {
     margin-top: 25px;
     padding-right: 15px;
     width: 50%; }
+    .event-registration .form-item-submit input[type="submit"],
+    .event-registration .form-item-submit button,
     .contact-us-form .form-item-submit input[type="submit"],
     .contact-us-form .form-item-submit button {
       width: 100%;
@@ -7434,17 +7446,57 @@ button {
       -webkit-appearance: none;
          -moz-appearance: none;
               appearance: none; }
+      .event-registration .form-item-submit input[type="submit"]:hover,
+      .event-registration .form-item-submit button:hover,
       .contact-us-form .form-item-submit input[type="submit"]:hover,
       .contact-us-form .form-item-submit button:hover {
         background: #008ecc; }
   @media (max-width: 991px) {
+    .event-registration,
     .contact-us-form {
       padding-top: 100px;
       padding-bottom: 100px; } }
   @media (max-width: 767px) {
+    .event-registration,
     .contact-us-form {
       padding-top: 50px;
       padding-bottom: 50px; } }
+
+.event-registration p {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff; }
+
+.event-registration h4 {
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff; }
+
+.event-registration li {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff; }
+
+.event-registration .event-title {
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 45px;
+  color: #fff; }
+
+.event-registration .form-item-submit {
+  width: 100%;
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.event-registration .date {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 300; }
 
 .slider-main {
   height: 550px;
