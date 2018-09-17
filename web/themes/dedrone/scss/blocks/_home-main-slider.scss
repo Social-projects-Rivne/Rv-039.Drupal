@@ -4,6 +4,7 @@ $slider-inner-height: 424px;
 .slider-main {
 	height: $slider-height;
 	position: relative;
+	color: #fff;
 
 	.image {
 		display: block;
@@ -90,8 +91,13 @@ $slider-inner-height: 424px;
 	}
 
 	.swiper-slide {
-		&:nth-child(1),
-		&:nth-child(3){
+		opacity: 0;
+
+		&:nth-child(1) {
+			opacity: 1;
+		}
+
+		&:nth-child(2) {
 			h2,
 			p {
 				color: #111;

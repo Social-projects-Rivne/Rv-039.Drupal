@@ -5,7 +5,9 @@ dependencies:
   config:
     - field.field.node.event.field_event_date
     - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_description_full
     - field.field.node.event.field_event_image
+    - field.field.node.event.field_event_registration_form
     - image.style.thumbnail
     - node.type.event
   module:
@@ -13,6 +15,7 @@ dependencies:
     - image
     - path
     - text
+    - webform
 id: node.event.default
 targetEntityType: node
 bundle: event
@@ -20,18 +23,26 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
   field_event_date:
-    weight: 123
+    weight: 10
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_event_description:
-    weight: 121
+    weight: 7
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_event_description_full:
+    weight: 8
     settings:
       rows: 5
       placeholder: ''
@@ -39,16 +50,23 @@ content:
     type: text_textarea
     region: content
   field_event_image:
-    weight: 122
+    weight: 9
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content
+  field_event_registration_form:
+    weight: 11
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
   path:
     type: path
-    weight: 30
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -56,26 +74,26 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 3
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 6
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 4
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -83,7 +101,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 1
     settings:
       match_operator: CONTAINS
       size: 60

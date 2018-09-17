@@ -5,7 +5,7 @@
 		attach: function (context, settings) {
 			$(document).ready(function(){
 				var swiperMainFull = new Swiper ('.slider-main .swiper-container', {
-					loop: true,
+					loop: false,
 					effect: 'fade',
 					speed: 500,
 					pagination: {

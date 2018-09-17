@@ -1,17 +1,17 @@
-uuid: 0d0ae65a-9332-49fc-b94a-cb65e6f7cf85
+uuid: abcfbfe6-4661-4a0c-9eb2-b9ba6c3a44d3
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_event_description
+    - field.storage.node.field_event_description_full
     - node.type.event
   module:
     - text
-id: node.event.field_event_description
-field_name: field_event_description
+id: node.event.field_event_description_full
+field_name: field_event_description_full
 entity_type: node
 bundle: event
-label: 'Event Title'
+label: 'Event Description Full'
 description: ''
 required: false
 translatable: false
