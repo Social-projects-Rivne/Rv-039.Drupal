@@ -371,7 +371,6 @@
 
   img {
     margin-left: 40px;
-
     width: 680px;
     height: 350px;
     overflow: visible;
@@ -396,7 +395,7 @@
   h2 {
     clear: none;
     flex: 0 auto;
-        color: #111;
+    color: #111;
     border-style: none;
     width: auto;
     margin-top: 0;
@@ -411,7 +410,8 @@
     text-transform: none;
     margin-bottom: 10px;
   }
-  p{
+
+  p {
     margin-top: 10px;
     margin-bottom: 5px;
     clear: none;
@@ -425,3 +425,109 @@
   }
 }
 ////////////////////////////////////////////////////////////////////
+
+.software-features {
+  padding: 150px 0;
+  background-image: linear-gradient(180deg,#011d2a,#011d2a);
+
+  .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    color: #fff;
+  }
+}
+
+.field--name-field-labal-section-featu {
+  h1 {
+    position: relative;
+    width: auto;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 0;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
+.wraper_features_block_1 {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 150px;
+  display: flex;
+}
+
+.wraper_features_block_2 {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 150px;
+  display: flex;
+}
+
+.featuressection {
+  opacity: 1;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  display: block;
+  transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+  padding-right: 20px;
+  width: 25%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+
+  .field--type-image {
+    img {
+      margin-top: 0;
+      margin-bottom: 0;
+      border: 0;
+      vertical-align: middle;
+      display: inline-block;
+      width: 55px;
+    }
+  }
+
+  .field--type-text-long {
+    h3 {
+      clear: none;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      color: #fff;
+      font-weight: 400;
+      display: inline-block;
+      float: left;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: left;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #fff;
+      line-height: 23px;
+      font-weight: 300;
+      text-align: left;
+      margin-top: 10px;
+      float: none;
+      clear: none;
+      font-size: 16px;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+}

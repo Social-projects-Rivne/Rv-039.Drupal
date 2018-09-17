@@ -1,0 +1,19 @@
+uuid: 0bc91738-f14f-4596-b932-b1d0ca6ad88f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_labal_section_featu
+field_name: field_labal_section_featu
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
