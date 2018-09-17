@@ -1,0 +1,9 @@
+uuid: e4bc10a5-4415-4d70-bba6-d2c6b14f176d
+langcode: en
+status: true
+dependencies: {  }
+id: customers_page_slider
+label: 'customers page slider'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

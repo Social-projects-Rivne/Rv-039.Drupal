@@ -1,0 +1,9 @@
+uuid: ec7fd781-985f-42cb-8d27-ee623605e803
+langcode: en
+status: true
+dependencies: {  }
+id: description_images_button
+label: 'Description ImageS Button'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

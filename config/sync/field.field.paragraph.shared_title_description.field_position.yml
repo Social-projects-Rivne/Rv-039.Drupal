@@ -1,0 +1,23 @@
+uuid: db0a677a-28c2-46cb-90d1-8ff8a2137cb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_position
+    - paragraphs.paragraphs_type.shared_title_description
+  module:
+    - options
+id: paragraph.shared_title_description.field_position
+field_name: field_position
+entity_type: paragraph
+bundle: shared_title_description
+label: Position
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Center
+default_value_callback: ''
+settings: {  }
+field_type: list_string

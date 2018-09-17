@@ -1,0 +1,59 @@
+uuid: c245d0a5-f716-4338-b78d-d80987a60784
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_and_text
+    - paragraphs.paragraphs_type.customers_secondary_slider
+  module:
+    - entity_reference_revisions
+id: paragraph.customers_secondary_slider.field_icon_and_text
+field_name: field_icon_and_text
+entity_type: paragraph
+bundle: customers_secondary_slider
+label: icon-and-text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      bundle_content_tech_par_page:
+        weight: 12
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 13
+        enabled: false
+      content_page_products:
+        weight: 14
+        enabled: false
+      content_with_background:
+        weight: 15
+        enabled: false
+      customer_secondary_pages_with_im:
+        weight: 16
+        enabled: false
+      customers_secondary_slider:
+        weight: 17
+        enabled: false
+      image1:
+        weight: 18
+        enabled: false
+      image_and_description_simple:
+        weight: 19
+        enabled: false
+      shared_aditional_information:
+        weight: 20
+        enabled: false
+      shared_simple_white_title_:
+        weight: 21
+        enabled: false
+      small_width_content:
+        weight: 22
+        enabled: false
+field_type: entity_reference_revisions

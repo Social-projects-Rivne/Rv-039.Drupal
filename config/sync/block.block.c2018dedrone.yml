@@ -1,0 +1,24 @@
+uuid: c9d31c11-dfaf-4047-8e45-d53961d7ffd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.2018-dedrone
+  module:
+    - system
+  theme:
+    - dedrone
+id: c2018dedrone
+theme: dedrone
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:2018-dedrone'
+settings:
+  id: 'system_menu_block:2018-dedrone'
+  label: '© 2018 Dedrone'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

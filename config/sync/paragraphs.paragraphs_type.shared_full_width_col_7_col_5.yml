@@ -1,0 +1,9 @@
+uuid: d8945ddb-bff3-4f89-96ba-98dc7e4c14a9
+langcode: en
+status: true
+dependencies: {  }
+id: shared_full_width_col_7_col_5
+label: 'Shared full width col-7 col-5'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

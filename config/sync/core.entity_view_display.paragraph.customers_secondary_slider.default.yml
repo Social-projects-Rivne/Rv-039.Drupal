@@ -1,0 +1,42 @@
+uuid: 6d8246c8-5ce3-4e68-9da3-631524d604ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.customers_secondary_slider.field_content
+    - field.field.paragraph.customers_secondary_slider.field_icon_and_text
+    - field.field.paragraph.customers_secondary_slider.field_image
+    - paragraphs.paragraphs_type.customers_secondary_slider
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.customers_secondary_slider.default
+targetEntityType: paragraph
+bundle: customers_secondary_slider
+mode: default
+content:
+  field_content:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_icon_and_text:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 3
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

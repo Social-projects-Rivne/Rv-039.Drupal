@@ -1,0 +1,29 @@
+uuid: aeff5862-2aa9-403a-8f18-5f9e1fe37459
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.button.field_button
+    - paragraphs.paragraphs_type.button
+  module:
+    - link_class
+id: paragraph.button.default
+targetEntityType: paragraph
+bundle: button
+mode: default
+content:
+  field_button:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+      link_class_mode: manual
+      link_class_force: ''
+      link_class_select: ''
+    third_party_settings: {  }
+    type: link_class_field_widget
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
