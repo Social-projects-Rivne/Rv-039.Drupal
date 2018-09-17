@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f51e905c-165c-4945-8dd5-2c0c84190acb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dedrone.theme" beforeDir="false" afterPath="$PROJECT_DIR$/dedrone.theme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--background-description.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--background-description.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--bp-tabs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--bp-tabs.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--default.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--default.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--description-images-button.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--description-images-button.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--description-with-buttons.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--description-with-buttons.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--image-description-row.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--image-description-row.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--slider--classic-slider.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--slider--classic-slider.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--slider--home-page-slider.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--slider--home-page-slider.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--slider--home-page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--slider--home-page.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/paragraph/paragraph--text-row.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/paragraph/paragraph--text-row.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,10 +91,8 @@
         <entry file="file://$PROJECT_DIR$/scss/blocks/_home-main-slider.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
-                <element signature="e#890#1204#0" />
-                <element signature="e#1232#1513#0" />
                 <element signature="e#1832#1909#0" />
                 <element signature="e#1945#1989#0" />
                 <element signature="e#2011#2059#0" />
@@ -134,43 +118,16 @@
         <entry file="file://$PROJECT_DIR$/templates/paragraph/paragraph--slider--classic-slider.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/views/event-registration-view/views-view-fields--event-registration-view.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/blocks/_event-registration.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dedrone.theme">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/paragraph/paragraph--image-description-row.html.twig">
+        <entry file="file://$PROJECT_DIR$/dedrone.theme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="570">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -180,24 +137,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/views/event-registration-view/views-view-unformatted--event-registration-view.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/views/event-registration-view/views-view--event-registration-view.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -444,11 +383,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165310000" />
+    <option name="totallyTimeSpent" value="165908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1043" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22251868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -747,10 +685,8 @@
     <entry file="file://$PROJECT_DIR$/scss/blocks/_home-main-slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
           <folding>
-            <element signature="e#890#1204#0" />
-            <element signature="e#1232#1513#0" />
             <element signature="e#1832#1909#0" />
             <element signature="e#1945#1989#0" />
             <element signature="e#2011#2059#0" />
@@ -769,13 +705,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/views-view-unformatted--event-registration-view.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/views-view-unformatted--event-registration-view.html.twig" />
     <entry file="file://$PROJECT_DIR$/templates/views/views-view-unformatted--upcoming-webinars.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -838,7 +768,7 @@
     <entry file="file://$PROJECT_DIR$/templates/paragraph/paragraph--slider--classic-slider.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
         </state>
       </provider>
     </entry>
