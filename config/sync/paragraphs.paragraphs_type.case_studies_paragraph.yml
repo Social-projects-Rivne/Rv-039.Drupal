@@ -1,0 +1,9 @@
+uuid: 25f2d752-1e98-493e-a5a9-d33d85055a4e
+langcode: en
+status: true
+dependencies: {  }
+id: case_studies_paragraph
+label: 'Case Studies Paragraph'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

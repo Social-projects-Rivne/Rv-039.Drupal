@@ -7160,7 +7160,8 @@ a {
       padding: 35px; } }
   .customers-img-text-wrap .text-wrap h3 {
     font-size: 20px;
-    line-height: 24px; }
+    line-height: 24px;
+    font-weight: 600; }
   .customers-img-text-wrap .text-wrap ul {
     margin: 10px 0;
     padding: 0;
@@ -7254,7 +7255,7 @@ a {
         text-align: center;
         font-size: 12px;
         line-height: 15px;
-        font-weight: 600s;
+        font-weight: 600;
         text-transform: uppercase; }
       .customers-secondary-slider .icon-wrapper .fields-wrapper .title {
         text-align: center;
@@ -7262,6 +7263,8 @@ a {
         line-height: 24px;
         font-weight: 300;
         margin: 20px 0 5px; }
+        .customers-secondary-slider .icon-wrapper .fields-wrapper .title h2 {
+          color: #fff; }
   @media (max-width: 767px) {
     .customers-secondary-slider {
       padding: 75px 25px; } }
@@ -8118,19 +8121,27 @@ button {
       margin-top: 25px; }
   .case-studies-paragraph .view-case-studies {
     margin: 0 -30px; }
-    .case-studies-paragraph .view-case-studies .case-study-element-wrap {
-      min-height: 280px;
-      margin-top: 0;
-      padding-right: 0;
-      padding-bottom: 20px;
-      padding-left: 0;
+    @media (max-width: 600px) {
+      .case-studies-paragraph .view-case-studies {
+        margin: 0; } }
+    .case-studies-paragraph .view-case-studies .views-row {
+      width: 31%;
+      float: left;
+      margin: 0 1% 20px 1%;
       border-radius: 2px;
       background-image: linear-gradient(180deg, #fff, #fff);
       box-shadow: none; }
-      .case-studies-paragraph .view-case-studies .case-study-element-wrap .views-field-field-secondary-page-kink a {
-        padding: 20px 20px 0 20px;
+      @media (max-width: 600px) {
+        .case-studies-paragraph .view-case-studies .views-row {
+          width: 100%; } }
+      .case-studies-paragraph .view-case-studies .views-row .views-field-field-image-from-next-page {
+        max-height: 215px;
+        overflow: hidden; }
+      .case-studies-paragraph .view-case-studies .views-row .views-field-field-link-to-next-page a {
+        padding: 20px;
         color: #111;
         font-size: 15px;
+        min-height: 80px;
         line-height: 20px;
         font-weight: 500;
         text-decoration: none; }
@@ -9053,6 +9064,21 @@ button {
     font-size: 16px;
     display: inline-block;
     margin-bottom: 5px; }
+
+.customers-coment blockquote {
+  color: #fff !important;
+  margin: 20px 0 !important;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px; }
+
+.customers-coment p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600; }
 
 /* ==========================================================================
    Page "Technology Partners" styles

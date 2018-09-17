@@ -4,9 +4,9 @@ status: true
 dependencies:
   config:
     - entity_browser.browser.image_entity_browser
-    - field.field.paragraph.customers_secondary_slider.field_content
+    - field.field.paragraph.customers_secondary_slider.field_background_img
+    - field.field.paragraph.customers_secondary_slider.field_description
     - field.field.paragraph.customers_secondary_slider.field_icon_and_text
-    - field.field.paragraph.customers_secondary_slider.field_image
     - paragraphs.paragraphs_type.customers_secondary_slider
   module:
     - entity_browser
@@ -17,28 +17,8 @@ targetEntityType: paragraph
 bundle: customers_secondary_slider
 mode: default
 content:
-  field_content:
-    weight: 2
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_icon_and_text:
-    type: entity_reference_paragraphs
-    weight: 1
-    settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
-    third_party_settings: {  }
-    region: content
-  field_image:
-    weight: 3
+  field_background_img:
+    weight: 0
     settings:
       entity_browser: image_entity_browser
       field_widget_display: label
@@ -50,6 +30,26 @@ content:
       field_widget_display_settings: {  }
     third_party_settings: {  }
     type: entity_browser_entity_reference
+    region: content
+  field_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_icon_and_text:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
     region: content
 hidden:
   created: true

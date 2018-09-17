@@ -1,0 +1,18 @@
+uuid: 4e0fd425-a8f5-46eb-8fc2-501366423f30
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'customers events'
+type: customers_events
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
