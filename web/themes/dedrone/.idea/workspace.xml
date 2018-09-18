@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f51e905c-165c-4945-8dd5-2c0c84190acb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/_home-main-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_home-main-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/_text-columns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_text-columns.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +40,7 @@
           <entry key="css" value="1" />
           <entry key="html" value="1" />
           <entry key="js" value="8" />
-          <entry key="scss" value="53" />
+          <entry key="scss" value="54" />
           <entry key="theme" value="10" />
           <entry key="twig" value="85" />
           <entry key="yml" value="5" />
@@ -50,7 +53,7 @@
           <entry key="JavaScript" value="8" />
           <entry key="PHP" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="53" />
+          <entry key="SCSS" value="54" />
           <entry key="Twig" value="85" />
           <entry key="YAML" value="5" />
         </counts>
@@ -59,7 +62,7 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="js" value="186" />
-          <entry key="scss" value="3722" />
+          <entry key="scss" value="3793" />
           <entry key="theme" value="146" />
           <entry key="twig" value="2124" />
           <entry key="yml" value="28" />
@@ -71,7 +74,7 @@
           <entry key="JavaScript" value="186" />
           <entry key="PHP" value="141" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="SCSS" value="3722" />
+          <entry key="SCSS" value="3793" />
           <entry key="Twig" value="2124" />
           <entry key="YAML" value="28" />
         </counts>
@@ -87,11 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/blocks/_home-main-slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="255">
+              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
               <folding>
                 <element signature="e#1832#1909#0" />
                 <element signature="e#1945#1989#0" />
@@ -123,11 +126,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dedrone.theme">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
               <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/blocks/_text-columns.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -205,7 +217,6 @@
         <option value="$PROJECT_DIR$/templates/block/block--system-menu-block--main.html.twig" />
         <option value="$PROJECT_DIR$/templates/region--header.html.twig" />
         <option value="$PROJECT_DIR$/templates/paragraph/paragraph--slide--classic-slider.html.twig" />
-        <option value="$PROJECT_DIR$/scss/blocks/_text-columns.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/_customers.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/_buttons-section.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/_benefits-trio.scss" />
@@ -217,7 +228,6 @@
         <option value="$PROJECT_DIR$/scss/blocks/_header.scss" />
         <option value="$PROJECT_DIR$/templates/paragraph/paragraph--bp-tabs.html.twig" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/scss/blocks/_home-main-slider.scss" />
         <option value="$PROJECT_DIR$/templates/views/views-view-unformatted--event-registration-view.html.twig" />
         <option value="$PROJECT_DIR$/templates/views/event-registration-view/views-view--event-registration-view.html.twig" />
         <option value="$PROJECT_DIR$/templates/views/event-registration-view/views-view-unformatted--event-registration-view.html.twig" />
@@ -228,6 +238,8 @@
         <option value="$PROJECT_DIR$/templates/paragraph/paragraph--slider--classic-slider.html.twig" />
         <option value="$PROJECT_DIR$/dedrone.theme" />
         <option value="$PROJECT_DIR$/templates/paragraph/paragraph--image-description-row.html.twig" />
+        <option value="$PROJECT_DIR$/scss/blocks/_text-columns.scss" />
+        <option value="$PROJECT_DIR$/scss/blocks/_home-main-slider.scss" />
       </list>
     </option>
   </component>
@@ -309,6 +321,12 @@
             <path>
               <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
               <item name="dedrone" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dedrone" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -383,10 +401,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165908000" />
+    <option name="totallyTimeSpent" value="166802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1043" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22251868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -569,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/_text-columns.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/field/field--paragraph--field-image-description-column.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-495" />
@@ -682,22 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/_home-main-slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="e#1832#1909#0" />
-            <element signature="e#1945#1989#0" />
-            <element signature="e#2011#2059#0" />
-            <element signature="e#2094#2130#0" />
-            <element signature="e#2408#2580#0" />
-            <element signature="e#2723#3237#0" />
-            <element signature="e#4043#4540#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/views-view.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-70">
@@ -783,6 +779,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/_text-columns.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/_home-main-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="e#1832#1909#0" />
+            <element signature="e#1945#1989#0" />
+            <element signature="e#2011#2059#0" />
+            <element signature="e#2094#2130#0" />
+            <element signature="e#2408#2580#0" />
+            <element signature="e#2723#3237#0" />
+            <element signature="e#4043#4540#0" />
+          </folding>
         </state>
       </provider>
     </entry>
