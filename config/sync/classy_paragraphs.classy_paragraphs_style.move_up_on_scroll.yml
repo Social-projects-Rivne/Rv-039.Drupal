@@ -1,0 +1,7 @@
+uuid: 31fceccb-ac20-4212-8c02-dfc2961c9cfd
+langcode: en
+status: true
+dependencies: {  }
+id: move_up_on_scroll
+label: 'Move up on scroll'
+classes: 'move move-up'

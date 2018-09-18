@@ -1,0 +1,19 @@
+uuid: f2558394-a4e9-4348-83db-e2a544784988
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_shared_button
+field_name: field_shared_button
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

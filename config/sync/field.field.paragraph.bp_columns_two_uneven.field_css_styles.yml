@@ -1,0 +1,23 @@
+uuid: 3a09728d-9231-4369-a87d-84dfd13a3129
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_css_styles
+    - paragraphs.paragraphs_type.bp_columns_two_uneven
+id: paragraph.bp_columns_two_uneven.field_css_styles
+field_name: field_css_styles
+entity_type: paragraph
+bundle: bp_columns_two_uneven
+label: 'CSS styles'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:classy_paragraphs_style'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

@@ -1,0 +1,7 @@
+uuid: e5d9f992-5da6-441f-b5c2-42ada2dd56c8
+langcode: en
+status: true
+dependencies: {  }
+id: buttons_white
+label: 'Buttons white'
+classes: buttons-white

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f6446c88116f311deee07dfc559c050",
+    "content-hash": "6f610b16e2a7e271a465b4ec30f79236",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2072,6 +2072,58 @@
             }
         },
         {
+            "name": "drupal/classy_paragraphs",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/classy_paragraphs",
+                "reference": "8.x-1.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/classy_paragraphs-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "ff611516e6b9fbe539284bbb620f1844c6eb5fb3"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/paragraphs": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1477459140",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Zugec",
+                    "homepage": "https://www.drupal.org/user/86970"
+                },
+                {
+                    "name": "murrayw",
+                    "homepage": "https://www.drupal.org/user/595658"
+                }
+            ],
+            "description": "Allows an editor to apply a class to paragraphs.",
+            "homepage": "https://www.drupal.org/project/classy_paragraphs",
+            "support": {
+                "source": "http://cgit.drupalcode.org/classy_paragraphs"
+            }
+        },
+        {
             "name": "drupal/color_field",
             "version": "1.0.0",
             "source": {
@@ -3275,6 +3327,69 @@
             }
         },
         {
+            "name": "drupal/entity_usage",
+            "version": "2.0.0-alpha7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/entity_usage",
+                "reference": "8.x-2.0-alpha7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity_usage-8.x-2.0-alpha7.zip",
+                "reference": "8.x-2.0-alpha7",
+                "shasum": "51eedb66750488bcbe9368377a0826273b2819d5"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "require-dev": {
+                "drupal/block_field": "~1.0",
+                "drupal/dynamic_entity_reference": "~1.0",
+                "drupal/entity_embed": "~1.0",
+                "drupal/entity_reference_revisions": "~1.0",
+                "drupal/paragraphs": "~1.0",
+                "drupal/webform": "~5.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-alpha7",
+                    "datestamp": "1531387725",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "marcoscano",
+                    "homepage": "https://www.drupal.org/user/1288796"
+                },
+                {
+                    "name": "seanB",
+                    "homepage": "https://www.drupal.org/user/545912"
+                }
+            ],
+            "description": "Track usage of entities referenced by other entities",
+            "homepage": "https://www.drupal.org/project/entity_usage",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/entity_usage",
+                "issues": "http://drupal.org/project/issues/entity_usage"
+            }
+        },
+        {
             "name": "drupal/examples",
             "version": "dev-1.x",
             "source": {
@@ -3463,7 +3578,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.28",
-                    "datestamp": "1536179280",
+                    "datestamp": "1533849180",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4029,6 +4144,58 @@
             }
         },
         {
+            "name": "drupal/paragraphs_viewmode",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/paragraphs_viewmode",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/paragraphs_viewmode-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "60b822738de4be0f326377ac88d642010fdb3512"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/paragraphs": "^1.2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1512760385",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "mikelutz",
+                    "homepage": "https://www.drupal.org/user/2972409"
+                }
+            ],
+            "description": "Allows you to select the paragraph view mode on a per paragraph basis",
+            "homepage": "https://www.drupal.org/project/paragraphs_viewmode",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/paragraphs_viewmode",
+                "issues": "https://www.drupal.org/project/issues/paragraphs_viewmode"
+            }
+        },
+        {
             "name": "drupal/pathauto",
             "version": "1.2.0",
             "source": {
@@ -4578,7 +4745,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-rc18",
-                    "datestamp": "1536257580",
+                    "datestamp": "1533682980",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -10250,17 +10417,6 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.5.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webflo/drupal-core-require-dev.git",
-                "reference": "d44ea0ed342256d1036962069afd0518fa92449e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/d44ea0ed342256d1036962069afd0518fa92449e",
-                "reference": "d44ea0ed342256d1036962069afd0518fa92449e",
-                "shasum": ""
-            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
@@ -10288,10 +10444,13 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/classy_paragraphs": 10,
         "drupal/dropzonejs": 15,
         "drupal/entity_browser": 15,
+        "drupal/entity_usage": 15,
         "drupal/examples": 20,
         "drupal/inline_entity_form": 5,
+        "drupal/paragraphs_viewmode": 15,
         "drupal/ultimate_cron": 15,
         "drupal/view_mode_selector": 20,
         "drupal/webform": 5,

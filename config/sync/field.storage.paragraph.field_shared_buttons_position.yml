@@ -1,0 +1,36 @@
+uuid: ce364f52-5cdc-4d8e-8b11-1c09acca0831
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_shared_buttons_position
+field_name: field_shared_buttons_position
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Left
+      label: Left
+    -
+      value: Right
+      label: Right
+    -
+      value: Center
+      label: Center
+    -
+      value: Left_vertically
+      label: 'Left vertically'
+    -
+      value: Right_vertically
+      label: 'Right vertically'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

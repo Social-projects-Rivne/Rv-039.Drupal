@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.bp_columns.bp_background
     - field.field.paragraph.bp_columns.bp_column_content
     - field.field.paragraph.bp_columns.bp_width
+    - field.field.paragraph.bp_columns.field_css_styles
     - paragraphs.paragraphs_type.bp_columns
   module:
     - entity_reference_revisions
@@ -42,4 +43,5 @@ content:
     region: content
 hidden:
   created: true
+  field_css_styles: true
   uid: true

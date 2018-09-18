@@ -6955,6 +6955,16 @@ a {
   font-weight: 400;
   color: #009ee3; }
 
+ul {
+  padding: 0; }
+
+li {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 300;
+  color: #111; }
+
 .shared-h1-title {
   text-align: center; }
 
@@ -9147,23 +9157,175 @@ button {
 
 /* Styles for shared paragraph
 ========================================================================== */
-.paragraph--type--shared-title-description {
+/* Styles for shared_title and shared_description paragraph
+========================================================================== */
+.text-color-white h1, .text-color-white h2, .text-color-white h3, .text-color-white h4, .text-color-white h5, .text-color-white h6, .text-color-white p, .text-color-white a {
+  color: #fff; }
+
+.text-padding h1 {
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.text-padding h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.text-padding p {
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.title-padding h1, .title-description-right h1, .title-description-left h1, .title-description-center h1, .title-description-center-full-width h1 {
+  margin-bottom: 10px;
+  padding-top: 5px; }
+
+.description-padding h2, .title-description-right h2, .title-description-left h2, .title-description-center h2, .title-description-center-full-width h2, .description-padding h3, .title-description-right h3, .title-description-left h3, .title-description-center h3, .title-description-center-full-width h3, .description-padding h4, .title-description-right h4, .title-description-left h4, .title-description-center h4, .title-description-center-full-width h4, .description-padding h5, .title-description-right h5, .title-description-left h5, .title-description-center h5, .title-description-center-full-width h5, .description-padding h6, .title-description-right h6, .title-description-left h6, .title-description-center h6, .title-description-center-full-width h6, .description-padding p, .title-description-right p, .title-description-left p, .title-description-center p, .title-description-center-full-width p {
+  margin-top: 20px; }
+
+.title-description-right {
   width: 100%;
   padding: 0px 25px;
-  /*Title*/
-  /*Description*/ }
-  .paragraph--type--shared-title-description .title-description-center {
+  float: right;
+  /*Title or Description*/ }
+  .title-description-right h1, .title-description-right h2, .title-description-right h3, .title-description-right h4, .title-description-right h5, .title-description-right h6, .title-description-right p {
+    text-align: center; }
+
+.title-description-left {
+  width: 100%;
+  padding: 0px 25px;
+  float: left;
+  /*Title or Description*/ }
+  .title-description-left h1, .title-description-left h2, .title-description-left h3, .title-description-left h4, .title-description-left h5, .title-description-left h6, .title-description-left p {
+    text-align: center; }
+
+.title-description-center, .title-description-center-full-width {
+  padding: 0px 25px;
+  margin: 0 auto !important;
+  max-width: 500px;
+  /*Title or Description*/ }
+  .title-description-center h1, .title-description-center-full-width h1, .title-description-center h2, .title-description-center-full-width h2, .title-description-center h3, .title-description-center-full-width h3, .title-description-center h4, .title-description-center-full-width h4, .title-description-center h5, .title-description-center-full-width h5, .title-description-center h6, .title-description-center-full-width h6, .title-description-center p, .title-description-center-full-width p {
+    text-align: center; }
+
+.title-description-center-full-width {
+  max-width: 100% !important; }
+
+/* Styles for shared_button paragraph
+==========================================================================
+Left|Left
+Right|Right
+Center|Center
+Left_vertically|Left vertically
+Right_vertically|Right vertically
+
+    if ($paragraph->bundle() == 'shared_buttons')
+    {
+        $paragraph = $variables['elements']['#paragraph'];
+        $position = $paragraph->get('field_shared_position')->value;
+        if( $position == "Left")
+        {
+            $variables['attributes']['class'][] = "buttons-left";
+            $variables['attributes']['class'][] = "col-4";
+        }
+        if( $position == "Right")
+        {
+            $variables['attributes']['class'][] = "buttons-right";
+            $variables['attributes']['class'][] = "col-4";
+        }
+        if( $position == "Center") {
+            $variables['attributes']['class'][] = "buttons-center";
+        }
+        if( $position == "Center-full-width")
+        {
+            $variables['attributes']['class'][] = "buttons-center-full-width";
+        }
+    }
+*/
+.buttons, .buttons-white, .buttons-white-transparent, .buttons-blue {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+  .buttons .field__item, .buttons-white .field__item, .buttons-white-transparent .field__item, .buttons-blue .field__item {
+    min-width: 220px;
+    display: inline-block;
+    margin: 45px 10px 0px 10px;
     text-align: center;
-    max-width: 500px; }
-  .paragraph--type--shared-title-description h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 5px;
+    padding: 15px 50px;
+    border-radius: 4px;
+    background-image: none;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .buttons .field__item a, .buttons-white .field__item a, .buttons-white-transparent .field__item a, .buttons-blue .field__item a {
+      text-decoration: none; }
+
+.buttons-white .field__item, .buttons-white-transparent .field__item {
+  border-color: #fff;
+  background-color: #fff;
+  border: 1px solid #fff; }
+  .buttons-white .field__item a, .buttons-white-transparent .field__item a {
+    color: #0a0c15; }
+
+.buttons-white .field__item:hover, .buttons-white-transparent .field__item:hover {
+  background-color: #009ee3;
+  border: 1px solid #009ee3; }
+  .buttons-white .field__item:hover a, .buttons-white-transparent .field__item:hover a {
     color: #fff; }
-  .paragraph--type--shared-title-description h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+
+.buttons-blue .field__item {
+  background-color: #009ee3;
+  border: 1px solid #009ee3; }
+  .buttons-blue .field__item a {
     color: #fff; }
+
+.buttons-blue .field__item:hover {
+  background-color: #3898EC;
+  border: 1px solid #3898EC; }
+
+.buttons-white-transparent .field__item {
+  background-color: transparent; }
+  @media (max-width: 575.98px) {
+    .buttons-white-transparent .field__item {
+      width: 100%;
+      margin: 20px 0px; } }
+  .buttons-white-transparent .field__item a {
+    text-decoration: none;
+    color: #fff; }
+
+.buttons-white-transparent .field__item:hover {
+  background-color: #fff;
+  border: 1px solid #fff; }
+  .buttons-white-transparent .field__item:hover a {
+    color: #111; }
+
+.buttons-left .field--name-field-shared-button {
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  -ms-flex-pack: left;
+      justify-content: left; }
+
+.buttons-right .field--name-field-shared-button {
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  -ms-flex-pack: right;
+      justify-content: right; }
+
+.buttons-center .field--name-field-shared-button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.buttons-right-vertically .field--name-field-shared-button {
+  display: block;
+  float: right; }
+
+.margin-top-100px {
+  margin-top: 100px; }
 
 .paragraph--type--shared-h1-buttons {
   display: -ms-flexbox;
@@ -9190,31 +9352,24 @@ button {
 
 /* Other 
 ========================================================================== */
-.shared_buttons {
-  margin: 25px 10px 0px 10px; }
-  .shared_buttons a {
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    padding: 15px 50px;
-    border-radius: 4px;
-    min-width: 220px;
-    margin: 0px 10px;
-    border-color: #fff;
-    background-color: transparent;
-    background-image: none;
-    color: #fff;
-    border: 1px solid #fff;
-    font-size: 12px;
-    line-height: 15px;
-    font-weight: 400; }
-    @media (max-width: 575.98px) {
-      .shared_buttons a {
-        width: 100%;
-        margin: 20px 0px; } }
-  .shared_buttons a:hover {
-    color: #f05c40;
-    background-color: #fff; }
+.link-block-white h1 {
+  margin-bottom: 100px;
+  color: #fff;
+  text-align: center; }
+
+.link-block-white h2 a {
+  display: inline-block;
+  font-weight: 300; }
+
+.link-block-white a {
+  color: #fff;
+  margin-bottom: 20px;
+  text-decoration: none; }
+
+.link-block-white h5 a {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500; }
 
 .section, .section-description-tech-part, .section-content-tech-part, .paragraph--type--shared-full-width-col-7-col-5, .key-figures, .investors-section .paragraph--type--bp-columns__3col {
   display: -ms-flexbox;
@@ -9242,6 +9397,43 @@ button {
       padding-top: 150px;
       padding-bottom: 150px; } }
 
+.vertical-align-center {
+  padding: 0px 25px; }
+  .vertical-align-center .paragraph__column {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; }
+
+.block-quote p:before {
+  content: open-quote; }
+
+.block-quote p:after {
+  content: close-quote; }
+
+.block-quote p {
+  quotes: '\201c' '\201d';
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 0;
+  border-left-style: none;
+  border-left-width: 0;
+  color: #111;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 1px; }
+
+.block-quote h5 {
+  margin-top: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.img-default {
+  display: block;
+  min-width: 450px; }
+
 .paragraph--type--bundle-description-about-us-page h1 {
   margin-top: 0px;
   margin-bottom: 5px; }
@@ -9256,6 +9448,7 @@ button {
   margin-bottom: 5px; }
 
 .key-figures {
+  position: relative;
   padding-bottom: 50px !important; }
   .key-figures .paragraph__column {
     padding-bottom: 0px; }
@@ -9273,6 +9466,19 @@ button {
     margin-bottom: 0px;
     margin-top: 0px;
     color: #fff; }
+
+.move {
+  display: block; }
+
+.move-hide {
+  opacity: 1 !important;
+  transform: translateX(0px) translateY(0px) translateZ(0px) !important;
+  transition: opacity 400ms ease 0s, transform 400ms ease 0s !important; }
+
+.move-up {
+  opacity: 0 !important;
+  transform: translateX(0px) translateY(35px) translateZ(0px) !important;
+  transition: opacity 400ms ease 0s, transform 400ms ease 0s !important; }
 
 @media (max-width: 767.98px) {
   .milestones ul.timeline-list:after {
@@ -9323,28 +9529,6 @@ button {
   display: inline-block;
   width: 300px;
   color: #fff; }
-
-.press-highlights h1 {
-  margin-bottom: 100px;
-  color: #fff;
-  text-align: center; }
-
-.press-highlights h2 a {
-  display: inline-block;
-  font-weight: 300; }
-
-.press-highlights a {
-  color: #fff;
-  margin-bottom: 20px;
-  text-decoration: none; }
-
-.press-highlights h2 a:hover {
-  color: #009ee3 !important; }
-
-.press-highlights h5 a {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: 500; }
 
 .center-tabs .tab-container {
   text-align: center;

@@ -7,7 +7,7 @@ dependencies:
     - field.field.paragraph.bp_image.bp_image_field
     - field.field.paragraph.bp_image.bp_link
     - field.field.paragraph.bp_image.bp_width
-    - field.field.paragraph.bp_image.field_css_class
+    - field.field.paragraph.bp_image.field_css_styles
     - paragraphs.paragraphs_type.bp_image
   module:
     - image
@@ -57,5 +57,5 @@ content:
     region: content
 hidden:
   created: true
-  field_css_class: true
+  field_css_styles: true
   uid: true

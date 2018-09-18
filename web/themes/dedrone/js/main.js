@@ -38,4 +38,5 @@
 		}
 	};
 
-})(jQuery, window, Drupal, drupalSettings);
+
+})(jQuery);

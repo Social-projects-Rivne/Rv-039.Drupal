@@ -1,0 +1,14 @@
+uuid: 9db5d7f0-ca9d-4f85-bf5b-b93a1a286a6c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: shared_col_7_col_2_col_3
+label: 'Shared col-7 col-2 col-3'
+icon_uuid: null
+description: 'Bootstrap row with columns: col-7 col-2 col-3'
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

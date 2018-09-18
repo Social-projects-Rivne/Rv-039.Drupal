@@ -1,0 +1,173 @@
+uuid: 707d1618-e619-43d5-9e35-c7d6dc343439
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content_paragraph
+    - paragraphs.paragraphs_type.shared_col_7_col_2_col_3
+  module:
+    - entity_reference_revisions
+id: paragraph.shared_col_7_col_2_col_3.field_content_paragraph
+field_name: field_content_paragraph
+entity_type: paragraph
+bundle: shared_col_7_col_2_col_3
+label: 'Content paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      background_description:
+        weight: 50
+        enabled: false
+      bp_accordion:
+        weight: 51
+        enabled: false
+      bp_accordion_section:
+        weight: 52
+        enabled: false
+      bp_blank:
+        weight: 53
+        enabled: false
+      bp_block:
+        weight: 54
+        enabled: false
+      bp_carousel:
+        weight: 55
+        enabled: false
+      bp_column_wrapper:
+        weight: 56
+        enabled: false
+      bp_columns:
+        weight: 57
+        enabled: false
+      bp_columns_three_uneven:
+        weight: 58
+        enabled: false
+      bp_columns_two_uneven:
+        weight: 59
+        enabled: false
+      bp_image:
+        weight: 60
+        enabled: false
+      bp_modal:
+        weight: 61
+        enabled: false
+      bp_simple:
+        weight: 62
+        enabled: false
+      bp_tab_section:
+        weight: 63
+        enabled: false
+      bp_tabs:
+        weight: 64
+        enabled: false
+      bp_view:
+        weight: 65
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 66
+        enabled: false
+      bundle_description_about_us_page:
+        weight: 67
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 68
+        enabled: false
+      bundle_investor_about_us_page:
+        weight: 69
+        enabled: false
+      button:
+        weight: 70
+        enabled: false
+      content_page_products:
+        weight: 71
+        enabled: false
+      content_with_background:
+        weight: 72
+        enabled: false
+      customer_page_content_with_image:
+        weight: 73
+        enabled: false
+      customer_secondary_pages_with_im:
+        weight: 74
+        enabled: false
+      customers_page_slider:
+        weight: 75
+        enabled: false
+      customers_secondary_slider:
+        weight: 76
+        enabled: false
+      description_image_date_view:
+        weight: 77
+        enabled: false
+      description_images_button:
+        weight: 78
+        enabled: false
+      description_with_button:
+        weight: 79
+        enabled: false
+      description_with_buttons:
+        weight: 80
+        enabled: false
+      from_library:
+        weight: 81
+        enabled: false
+      image1:
+        weight: 82
+        enabled: false
+      image_and_description_simple:
+        weight: 83
+        enabled: false
+      image_description_column:
+        weight: 84
+        enabled: false
+      image_description_row:
+        weight: 85
+        enabled: false
+      shared_buttons:
+        weight: 86
+        enabled: false
+      shared_col_7_col_2_col_3:
+        weight: 87
+        enabled: false
+      shared_description:
+        weight: 88
+        enabled: false
+      shared_full_width_col_7_col_5:
+        weight: 89
+        enabled: false
+      shared_h1_buttons:
+        weight: 90
+        enabled: false
+      shared_title:
+        weight: 91
+        enabled: false
+      shared_title_description:
+        weight: 92
+        enabled: false
+      shared_wrapper:
+        weight: 93
+        enabled: false
+      slide:
+        weight: 94
+        enabled: false
+      slider:
+        weight: 95
+        enabled: false
+      slider_icon_block:
+        weight: 96
+        enabled: false
+      small_width_content:
+        weight: 97
+        enabled: false
+      text_row:
+        weight: 98
+        enabled: false
+field_type: entity_reference_revisions

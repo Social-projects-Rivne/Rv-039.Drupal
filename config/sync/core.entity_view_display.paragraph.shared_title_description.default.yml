@@ -3,34 +3,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.shared_title_description.field_css_classes
-    - field.field.paragraph.shared_title_description.field_position
+    - field.field.paragraph.shared_title_description.field_css_styles
     - field.field.paragraph.shared_title_description.field_shared_h1_title
     - field.field.paragraph.shared_title_description.field_shared_h2_title
+    - field.field.paragraph.shared_title_description.field_shared_position
     - paragraphs.paragraphs_type.shared_title_description
   module:
-    - options
     - text
 id: paragraph.shared_title_description.default
 targetEntityType: paragraph
 bundle: shared_title_description
 mode: default
 content:
-  field_css_classes:
-    weight: 3
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_position:
-    weight: 2
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_shared_h1_title:
     weight: 0
     label: hidden
@@ -45,4 +29,6 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-hidden: {  }
+hidden:
+  field_css_styles: true
+  field_shared_position: true

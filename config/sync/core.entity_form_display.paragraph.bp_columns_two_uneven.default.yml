@@ -7,6 +7,7 @@ dependencies:
     - field.field.paragraph.bp_columns_two_uneven.bp_column_content_2
     - field.field.paragraph.bp_columns_two_uneven.bp_column_style_2
     - field.field.paragraph.bp_columns_two_uneven.bp_width
+    - field.field.paragraph.bp_columns_two_uneven.field_css_styles
     - paragraphs.paragraphs_type.bp_columns_two_uneven
   module:
     - paragraphs
@@ -45,6 +46,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_css_styles:
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
 hidden:
   created: true

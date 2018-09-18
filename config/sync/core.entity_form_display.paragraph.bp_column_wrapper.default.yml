@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.bp_column_wrapper.bp_column_content_w
+    - field.field.paragraph.bp_column_wrapper.field_css_styles
     - paragraphs.paragraphs_type.bp_column_wrapper
   module:
     - paragraphs
@@ -24,6 +25,15 @@ content:
       add_mode: dropdown
       form_display_mode: default
     third_party_settings: {  }
+    region: content
+  field_css_styles:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
 hidden:
   created: true

@@ -1,0 +1,23 @@
+uuid: d5e066eb-202b-4388-a6be-3a6675e8a8b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_button
+    - paragraphs.paragraphs_type.shared_buttons
+  module:
+    - link
+id: paragraph.shared_buttons.field_shared_button
+field_name: field_shared_button
+entity_type: paragraph
+bundle: shared_buttons
+label: 'Shared Button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
