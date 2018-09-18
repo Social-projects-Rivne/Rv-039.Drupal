@@ -51,12 +51,16 @@ $slider-inner-height: 424px;
 			margin-bottom: 10px;
 			padding: 15px 50px;
 			border-radius: 4px;
-			background-image: -webkit-linear-gradient(270deg,#fff,#fff);
-			background-image: linear-gradient(180deg,#fff,#fff);
+			background-color: #fff;
 			color: #0a0c15;
 			font-size: 12px;
 			line-height: 15px;
-			font-weight: 400
+			font-weight: 400;
+
+			&:hover {
+				background-color: #009ee3;
+				color: #fff;
+			}
 		}
 	}
 
@@ -104,8 +108,13 @@ $slider-inner-height: 424px;
 			}
 
 			.button {
-				background-image: linear-gradient(180deg,#009ee3,#009ee3);
+				background-color: #009ee3;
 				color: #fff;
+
+				&:hover {
+					background-color: #fff;
+					color: #009ee3;
+				}
 			}
 		}
 	}
