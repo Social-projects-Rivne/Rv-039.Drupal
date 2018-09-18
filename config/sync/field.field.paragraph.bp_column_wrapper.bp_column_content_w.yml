@@ -17,6 +17,9 @@ dependencies:
     - paragraphs.paragraphs_type.bp_simple
     - paragraphs.paragraphs_type.bp_tabs
     - paragraphs.paragraphs_type.bp_view
+    - paragraphs.paragraphs_type.shared_buttons
+    - paragraphs.paragraphs_type.shared_description
+    - paragraphs.paragraphs_type.shared_title
   module:
     - entity_reference_revisions
 _core:
@@ -34,6 +37,7 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
+    negate: 0
     target_bundles:
       bp_simple: bp_simple
       bp_image: bp_image
@@ -47,6 +51,9 @@ settings:
       bp_modal: bp_modal
       bp_tabs: bp_tabs
       bp_view: bp_view
+      shared_buttons: shared_buttons
+      shared_description: shared_description
+      shared_title: shared_title
     target_bundles_drag_drop:
       bp_simple:
         enabled: true
@@ -92,5 +99,104 @@ settings:
         weight: -22
       bp_column_wrapper:
         weight: -21
+        enabled: false
+      background_description:
+        weight: 49
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 65
+        enabled: false
+      bundle_description_about_us_page:
+        weight: 66
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 67
+        enabled: false
+      bundle_investor_about_us_page:
+        weight: 68
+        enabled: false
+      button:
+        weight: 69
+        enabled: false
+      content_page_products:
+        weight: 70
+        enabled: false
+      content_with_background:
+        weight: 71
+        enabled: false
+      customers_page_slider:
+        weight: 72
+        enabled: false
+      customers_secondary_slider:
+        weight: 73
+        enabled: false
+      customer_page_content_with_image:
+        weight: 74
+        enabled: false
+      customer_secondary_pages_with_im:
+        weight: 75
+        enabled: false
+      description_images_button:
+        weight: 76
+        enabled: false
+      description_image_date_view:
+        weight: 77
+        enabled: false
+      description_with_button:
+        weight: 78
+        enabled: false
+      description_with_buttons:
+        weight: 79
+        enabled: false
+      from_library:
+        weight: 80
+        enabled: false
+      image1:
+        weight: 81
+        enabled: false
+      image_and_description_simple:
+        weight: 82
+        enabled: false
+      image_description_column:
+        weight: 83
+        enabled: false
+      image_description_row:
+        weight: 84
+        enabled: false
+      shared_buttons:
+        enabled: true
+        weight: 85
+      shared_description:
+        enabled: true
+        weight: 86
+      shared_full_width_col_7_col_5:
+        weight: 87
+        enabled: false
+      shared_h1_buttons:
+        weight: 88
+        enabled: false
+      shared_title:
+        enabled: true
+        weight: 89
+      shared_title_description:
+        weight: 90
+        enabled: false
+      shared_wrapper:
+        weight: 91
+        enabled: false
+      slide:
+        weight: 92
+        enabled: false
+      slider:
+        weight: 93
+        enabled: false
+      slider_icon_block:
+        weight: 94
+        enabled: false
+      small_width_content:
+        weight: 95
+        enabled: false
+      text_row:
+        weight: 96
         enabled: false
 field_type: entity_reference_revisions

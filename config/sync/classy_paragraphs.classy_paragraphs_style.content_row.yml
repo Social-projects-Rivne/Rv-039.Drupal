@@ -1,0 +1,7 @@
+uuid: 41c25612-aaf3-4e56-8d65-220a8d7ed409
+langcode: en
+status: true
+dependencies: {  }
+id: content_row
+label: 'Content row'
+classes: margin-top-100px

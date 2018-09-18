@@ -1,0 +1,7 @@
+uuid: 49f4ca67-d360-4038-bf01-64536f986954
+langcode: en
+status: true
+dependencies: {  }
+id: text_block
+label: 'Text block'
+classes: text-padding

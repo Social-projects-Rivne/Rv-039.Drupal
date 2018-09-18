@@ -7,6 +7,7 @@ dependencies:
     - field.field.paragraph.bp_columns_two_uneven.bp_column_content_2
     - field.field.paragraph.bp_columns_two_uneven.bp_column_style_2
     - field.field.paragraph.bp_columns_two_uneven.bp_width
+    - field.field.paragraph.bp_columns_two_uneven.field_css_styles
     - paragraphs.paragraphs_type.bp_columns_two_uneven
   module:
     - entity_reference_revisions
@@ -50,4 +51,5 @@ content:
     region: content
 hidden:
   created: true
+  field_css_styles: true
   uid: true

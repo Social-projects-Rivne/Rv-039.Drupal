@@ -1,23 +1,21 @@
-uuid: db0a677a-28c2-46cb-90d1-8ff8a2137cb4
+uuid: 1b3efb7f-8149-4759-9cf7-c24cf79f760e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_position
+    - field.storage.paragraph.field_shared_position
     - paragraphs.paragraphs_type.shared_title_description
   module:
     - options
-id: paragraph.shared_title_description.field_position
-field_name: field_position
+id: paragraph.shared_title_description.field_shared_position
+field_name: field_shared_position
 entity_type: paragraph
 bundle: shared_title_description
-label: Position
+label: 'Shared position'
 description: ''
 required: false
-translatable: false
-default_value:
-  -
-    value: Center
+translatable: true
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: list_string

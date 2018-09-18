@@ -1,0 +1,7 @@
+uuid: 8794d7e3-8ec4-4231-a794-e47e80eb7975
+langcode: en
+status: true
+dependencies: {  }
+id: text_block_white
+label: 'Text block white'
+classes: 'text-padding text-color-white'

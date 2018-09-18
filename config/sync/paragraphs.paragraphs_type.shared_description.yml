@@ -1,0 +1,14 @@
+uuid: 7e7cad6f-e7f7-44c8-aadd-aa8655a79951
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: shared_description
+label: 'Shared description'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

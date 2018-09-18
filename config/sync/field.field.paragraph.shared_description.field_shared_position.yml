@@ -1,0 +1,21 @@
+uuid: 2a7afc98-54ac-4541-a135-a8ed4b15d125
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_position
+    - paragraphs.paragraphs_type.shared_description
+  module:
+    - options
+id: paragraph.shared_description.field_shared_position
+field_name: field_shared_position
+entity_type: paragraph
+bundle: shared_description
+label: 'Shared position'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

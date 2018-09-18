@@ -1,0 +1,26 @@
+uuid: d08482ab-f251-49a3-bbb5-d4b766c99aee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_description.field_css_styles
+    - field.field.paragraph.shared_description.field_shared_h2_title
+    - field.field.paragraph.shared_description.field_shared_position
+    - paragraphs.paragraphs_type.shared_description
+  module:
+    - text
+id: paragraph.shared_description.default
+targetEntityType: paragraph
+bundle: shared_description
+mode: default
+content:
+  field_shared_h2_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_css_styles: true
+  field_shared_position: true

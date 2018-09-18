@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.bp_column_wrapper.bp_column_content_w
+    - field.field.paragraph.bp_column_wrapper.field_css_styles
     - paragraphs.paragraphs_type.bp_column_wrapper
   module:
     - entity_reference_revisions
@@ -25,4 +26,5 @@ content:
     region: content
 hidden:
   created: true
+  field_css_styles: true
   uid: true

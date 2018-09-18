@@ -11,6 +11,7 @@ module:
   bootstrap_paragraphs: 0
   breakpoint: 0
   ckeditor: 0
+  classy_paragraphs: 0
   color: 0
   color_field: 0
   comment: 0
@@ -28,6 +29,7 @@ module:
   entity: 0
   entity_browser: 0
   entity_reference_revisions: 0
+  entity_usage: 0
   examples: 0
   field: 0
   field_ui: 0
@@ -48,6 +50,8 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  paragraphs_library: 0
+  paragraphs_viewmode: 0
   path: 0
   quickedit: 0
   rdf: 0

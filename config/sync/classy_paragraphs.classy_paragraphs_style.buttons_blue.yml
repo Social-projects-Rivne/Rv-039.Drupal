@@ -1,0 +1,7 @@
+uuid: cec16fb4-ef65-4928-8e20-ed6815d924cf
+langcode: en
+status: true
+dependencies: {  }
+id: buttons_blue
+label: 'Buttons blue'
+classes: buttons-blue

@@ -1,0 +1,21 @@
+uuid: d2229dd2-7618-4404-90e1-b293b106a239
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_buttons_position
+    - paragraphs.paragraphs_type.shared_buttons
+  module:
+    - options
+id: paragraph.shared_buttons.field_shared_buttons_position
+field_name: field_shared_buttons_position
+entity_type: paragraph
+bundle: shared_buttons
+label: 'Shared buttons position'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

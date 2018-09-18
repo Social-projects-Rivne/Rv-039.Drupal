@@ -6,7 +6,7 @@ dependencies:
     - field.field.paragraph.bp_simple.bp_background
     - field.field.paragraph.bp_simple.bp_text
     - field.field.paragraph.bp_simple.bp_width
-    - field.field.paragraph.bp_simple.field_css_class
+    - field.field.paragraph.bp_simple.field_css_styles
     - paragraphs.paragraphs_type.bp_simple
   module:
     - text
@@ -37,13 +37,14 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
-  field_css_class:
-    weight: 3
+  field_css_styles:
+    weight: 4
     settings:
+      match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: entity_reference_autocomplete
     region: content
 hidden:
   created: true

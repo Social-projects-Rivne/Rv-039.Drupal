@@ -1,0 +1,7 @@
+uuid: 2e7f06b2-746f-43a4-b9dc-2aef5a26a230
+langcode: en
+status: true
+dependencies: {  }
+id: text_white
+label: 'Text white'
+classes: text-color-white
