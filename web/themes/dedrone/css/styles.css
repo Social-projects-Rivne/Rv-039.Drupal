@@ -9101,6 +9101,42 @@ button {
   text-transform: uppercase;
   font-weight: 600; }
 
+.jobs-slider {
+  padding: 150px 0;
+  min-height: 550px; }
+
+.two-columns-paragraph {
+  padding: 150px 0; }
+  .two-columns-paragraph .left-column h2 {
+    font-size: 40px;
+    line-height: 45px;
+    color: #111;
+    font-weight: 200; }
+  .two-columns-paragraph .left-column p {
+    margin-top: 20px;
+    color: #111;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 200;
+    padding-right: 100px; }
+  .two-columns-paragraph .right-column h3 {
+    color: #111;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600; }
+  .two-columns-paragraph .right-column p {
+    color: #111;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    margin-top: 15px; }
+
+.paragraph.paragraph--type--bp-image.paragraph--view-mode--default.paragraph--id--573.paragraph--width--full .paragraph__column {
+  padding: 0; }
+
+.page-node-type-customers-secondary-pages footer.node__meta {
+  display: none; }
+
 /* ==========================================================================
    Page "Technology Partners" styles
    - positioning options and unique page styles.
@@ -9213,7 +9249,7 @@ button {
 .title-description-center, .title-description-center-full-width {
   padding: 0px 25px;
   margin: 0 auto !important;
-  max-width: 500px;
+  max-width: 550px;
   /*Title or Description*/ }
   .title-description-center h1, .title-description-center-full-width h1, .title-description-center h2, .title-description-center-full-width h2, .title-description-center h3, .title-description-center-full-width h3, .title-description-center h4, .title-description-center-full-width h4, .title-description-center h5, .title-description-center-full-width h5, .title-description-center h6, .title-description-center-full-width h6, .title-description-center p, .title-description-center-full-width p {
     text-align: center; }
