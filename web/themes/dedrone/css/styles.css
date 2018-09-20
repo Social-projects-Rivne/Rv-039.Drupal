@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Martel:100,200,300,400,500,700,800,900");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6965,9 +6966,6 @@ li {
   font-weight: 300;
   color: #111; }
 
-.shared-h1-title {
-  text-align: center; }
-
 body {
   background-color: #fff;
   font-size: 16px;
@@ -9200,7 +9198,7 @@ button {
   float: right;
   /*Title or Description*/ }
   .title-description-right h1, .title-description-right h2, .title-description-right h3, .title-description-right h4, .title-description-right h5, .title-description-right h6, .title-description-right p {
-    text-align: center; }
+    text-align: right; }
 
 .title-description-left {
   width: 100%;
@@ -9208,12 +9206,12 @@ button {
   float: left;
   /*Title or Description*/ }
   .title-description-left h1, .title-description-left h2, .title-description-left h3, .title-description-left h4, .title-description-left h5, .title-description-left h6, .title-description-left p {
-    text-align: center; }
+    text-align: left; }
 
 .title-description-center, .title-description-center-full-width {
   padding: 0px 25px;
   margin: 0 auto !important;
-  max-width: 500px;
+  max-width: 550px;
   /*Title or Description*/ }
   .title-description-center h1, .title-description-center-full-width h1, .title-description-center h2, .title-description-center-full-width h2, .title-description-center h3, .title-description-center-full-width h3, .title-description-center h4, .title-description-center-full-width h4, .title-description-center h5, .title-description-center-full-width h5, .title-description-center h6, .title-description-center-full-width h6, .title-description-center p, .title-description-center-full-width p {
     text-align: center; }
@@ -9257,9 +9255,15 @@ Right_vertically|Right vertically
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
+  @media (max-width: 575.98px) {
+    .buttons, .buttons-white, .buttons-white-transparent, .buttons-blue {
+      width: 100%;
+      margin: 20px 0px; }
+      .buttons .field--name-field-shared-button, .buttons-white .field--name-field-shared-button, .buttons-white-transparent .field--name-field-shared-button, .buttons-blue .field--name-field-shared-button {
+        display: block !important; } }
   .buttons .field__item, .buttons-white .field__item, .buttons-white-transparent .field__item, .buttons-blue .field__item {
     min-width: 220px;
-    display: inline-block;
+    display: block;
     margin: 45px 10px 0px 10px;
     text-align: center;
     padding: 15px 50px;
@@ -9335,8 +9339,17 @@ Right_vertically|Right vertically
   display: block;
   float: right; }
 
-.margin-top-100px {
-  margin-top: 100px; }
+.content-row {
+  margin-top: 50px; }
+  @media (min-width: 576px) {
+    .content-row {
+      margin-top: 50px; } }
+  @media (min-width: 768px) {
+    .content-row {
+      margin-top: 100px; } }
+  @media (min-width: 992px) {
+    .content-row {
+      margin-top: 100px; } }
 
 .paragraph--type--shared-h1-buttons {
   display: -ms-flexbox;
@@ -9424,6 +9437,7 @@ Right_vertically|Right vertically
 
 .block-quote p {
   quotes: '\201c' '\201d';
+  font-family: Martel,sans-serif;
   margin-top: 50px;
   margin-bottom: 10px;
   padding: 0;
@@ -9432,7 +9446,7 @@ Right_vertically|Right vertically
   color: #111;
   font-size: 20px;
   line-height: 30px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 1px; }
 
 .block-quote h5 {
@@ -9440,10 +9454,6 @@ Right_vertically|Right vertically
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 700; }
-
-.img-default {
-  display: block;
-  min-width: 450px; }
 
 .paragraph--type--bundle-description-about-us-page h1 {
   margin-top: 0px;

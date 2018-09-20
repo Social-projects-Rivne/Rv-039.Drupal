@@ -81,7 +81,7 @@
 
     /*Title or Description*/
     h1,h2,h3,h4,h5,h6,p{
-        text-align:center;
+        text-align:right;
     }
 
 }
@@ -96,7 +96,7 @@
 
     /*Title or Description*/
     h1,h2,h3,h4,h5,h6,p{
-        text-align:center;
+        text-align:left;
     }
 }
 .title-description-center
@@ -153,14 +153,21 @@ Right_vertically|Right vertically
     }
 */
 
-.buttons
-{
+.buttons {
   display: flex;
   align-items: center;
 
+  @include media-breakpoint-down(xs) {
+    width: 100%;
+    margin: 20px 0px;
+    .field--name-field-shared-button {
+      display: block !important;
+    }
+  }
   .field__item {
+
     min-width: 220px;
-    display: inline-block;
+    display: block;
     margin: 45px 10px 0px 10px;
     text-align: center;
     padding: 15px 50px;
@@ -273,13 +280,14 @@ Right_vertically|Right vertically
   }
 }
 
-.margin-top-100px
+.content-row
 {
-  margin-top:100px;
+  @include media-breakpoint-up(xs) {margin-top:50px;}
+  @include media-breakpoint-up(sm) {margin-top:50px;}
+  @include media-breakpoint-up(md) {margin-top:100px;}
+  @include media-breakpoint-up(lg) {margin-top:100px;}
+
 }
-
-
-
 
 .paragraph--type--shared-h1-buttons
 {
@@ -384,6 +392,7 @@ Right_vertically|Right vertically
   }
   p{
     quotes: '\201c' '\201d';
+    font-family: Martel,sans-serif;
     margin-top: 50px;
     margin-bottom: 10px;
     padding: 0;
@@ -392,7 +401,7 @@ Right_vertically|Right vertically
     color: #111;
     font-size: 20px;
     line-height: 30px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 1px;
   }
   h5{
@@ -401,11 +410,7 @@ Right_vertically|Right vertically
     text-transform: uppercase;
     font-weight: 700;
   }
-}
 
-.img-default{
-  display: block;
-  min-width: 450px;
 }
 
 

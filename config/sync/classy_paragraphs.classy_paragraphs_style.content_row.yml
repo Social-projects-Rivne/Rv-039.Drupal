@@ -4,4 +4,4 @@ status: true
 dependencies: {  }
 id: content_row
 label: 'Content row'
-classes: margin-top-100px
+classes: content-row
