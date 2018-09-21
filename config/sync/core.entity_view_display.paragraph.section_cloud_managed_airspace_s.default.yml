@@ -1,0 +1,33 @@
+uuid: 5ee89d7e-07ed-4bf4-a71b-367b17ed327c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_cloud_managed_airspace_s.field_image_cloud_managed_airspa
+    - field.field.paragraph.section_cloud_managed_airspace_s.field_text_cloud_managed_airspac
+    - paragraphs.paragraphs_type.section_cloud_managed_airspace_s
+  module:
+    - image
+    - text
+id: paragraph.section_cloud_managed_airspace_s.default
+targetEntityType: paragraph
+bundle: section_cloud_managed_airspace_s
+mode: default
+content:
+  field_image_cloud_managed_airspa:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_text_cloud_managed_airspac:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

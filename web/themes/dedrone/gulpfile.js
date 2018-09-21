@@ -6,7 +6,7 @@ var sass = require('gulp-sass');
 
 
 gulp.task('styles', function(){
-    gulp.src(['scss/**/*.scss'])
+   return  gulp.src(['scss/**/*.scss'])
         .pipe(plumber({
             errorHandler: function (error) {
                 console.log(error.message);

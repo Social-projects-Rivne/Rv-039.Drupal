@@ -1,0 +1,14 @@
+uuid: c6b21742-4ab9-43b3-ae91-76877d45be6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: section_reporting_and_forensic_e
+label: 'section Reporting and  Forensic Evidence'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

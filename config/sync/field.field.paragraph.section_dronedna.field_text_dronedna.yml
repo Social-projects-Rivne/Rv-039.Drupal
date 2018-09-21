@@ -1,0 +1,21 @@
+uuid: 1495962f-8c3e-4362-87d8-828064a2f065
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_dronedna
+    - paragraphs.paragraphs_type.section_dronedna
+  module:
+    - text
+id: paragraph.section_dronedna.field_text_dronedna
+field_name: field_text_dronedna
+entity_type: paragraph
+bundle: section_dronedna
+label: 'text DroneDNA'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

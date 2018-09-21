@@ -1,0 +1,21 @@
+uuid: 6c350846-72cb-4837-a4ca-359f7075fbfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_th
+    - paragraphs.paragraphs_type.section_features1
+  module:
+    - text
+id: paragraph.section_features1.field_th
+field_name: field_th
+entity_type: paragraph
+bundle: section_features1
+label: 'third text feature'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

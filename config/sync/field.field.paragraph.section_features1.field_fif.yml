@@ -1,0 +1,21 @@
+uuid: b4db79b5-2b99-4f30-bd35-712804fa1ca7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fif
+    - paragraphs.paragraphs_type.section_features1
+  module:
+    - text
+id: paragraph.section_features1.field_fif
+field_name: field_fif
+entity_type: paragraph
+bundle: section_features1
+label: 'fifth text feature'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

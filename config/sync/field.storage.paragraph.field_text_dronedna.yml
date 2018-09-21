@@ -1,0 +1,19 @@
+uuid: d47b6a5e-4888-4e7c-9d7e-65ab8536594b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_text_dronedna
+field_name: field_text_dronedna
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
