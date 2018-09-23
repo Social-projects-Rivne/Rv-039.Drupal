@@ -1,0 +1,21 @@
+uuid: d6beb5ed-dd9a-406c-bb02-5dd07c805630
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_page_mitigation
+    - paragraphs.paragraphs_type.section_page_mitigation
+  module:
+    - text
+id: paragraph.section_page_mitigation.field_text_page_mitigation
+field_name: field_text_page_mitigation
+entity_type: paragraph
+bundle: section_page_mitigation
+label: 'text page Mitigation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

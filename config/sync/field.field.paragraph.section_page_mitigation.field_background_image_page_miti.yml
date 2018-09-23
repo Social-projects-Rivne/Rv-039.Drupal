@@ -1,0 +1,28 @@
+uuid: 0679531c-769a-4dfa-9ef6-1e5269f32a93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_image_page_miti
+    - media.type.image
+    - paragraphs.paragraphs_type.section_page_mitigation
+id: paragraph.section_page_mitigation.field_background_image_page_miti
+field_name: field_background_image_page_miti
+entity_type: paragraph
+bundle: section_page_mitigation
+label: 'background image page Mitigation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

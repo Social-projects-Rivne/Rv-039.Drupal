@@ -9337,6 +9337,67 @@ button {
   text-transform: uppercase;
   font-weight: 600; }
 
+.section_page_mitigation_mantle {
+  padding: 150px 0;
+  min-height: 500px; }
+
+.section_mitigation-intro1 {
+  padding: 150px 0;
+  background-image: linear-gradient(180deg, #011d2a, #011d2a); }
+  .section_mitigation-intro1 .paragraph {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -ms-flexbox;
+    display: flex; }
+    .section_mitigation-intro1 .paragraph .field--name-field-text-page-mitigation-passi {
+      width: 41.666667%;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      position: relative; }
+      .section_mitigation-intro1 .paragraph .field--name-field-text-page-mitigation-passi h1 {
+        color: #fff;
+        width: auto;
+        margin-top: 0;
+        border-style: none;
+        padding-bottom: 0;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: left;
+        letter-spacing: 0;
+        font-weight: 200;
+        margin-bottom: 10px; }
+      .section_mitigation-intro1 .paragraph .field--name-field-text-page-mitigation-passi p {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: none;
+        clear: none;
+        color: #fff;
+        font-weight: 300;
+        text-align: left;
+        list-style-type: disc;
+        font-size: 16px;
+        line-height: 24px;
+        display: inline-block; }
+    .section_mitigation-intro1 .paragraph .field--name-field-image-page-mitigation-pass {
+      position: relative;
+      width: 58.33333333%;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .section_mitigation-intro1 .paragraph .field--name-field-image-page-mitigation-pass img {
+        margin-top: 0px;
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+        display: block;
+        transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+        max-width: 100%;
+        margin-bottom: 0;
+        border: 0;
+        vertical-align: middle; }
+
 /* ==========================================================================
    Page "Technology Partners" styles
    - positioning options and unique page styles.

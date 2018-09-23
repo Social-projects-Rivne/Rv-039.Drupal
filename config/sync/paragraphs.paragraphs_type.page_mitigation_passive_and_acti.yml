@@ -1,0 +1,14 @@
+uuid: 4d6de903-2f34-4c1b-8067-eb54f1e30fff
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: page_mitigation_passive_and_acti
+label: 'page mitigation Passive and Active Countermeasures'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }
