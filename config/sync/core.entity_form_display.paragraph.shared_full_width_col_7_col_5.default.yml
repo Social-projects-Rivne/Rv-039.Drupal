@@ -1,0 +1,30 @@
+uuid: 067e74b2-e71a-430f-89e9-c32568a9e80f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_full_width_col_7_col_5.field_columns
+    - paragraphs.paragraphs_type.shared_full_width_col_7_col_5
+  module:
+    - paragraphs
+id: paragraph.shared_full_width_col_7_col_5.default
+targetEntityType: paragraph
+bundle: shared_full_width_col_7_col_5
+mode: default
+content:
+  field_columns:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

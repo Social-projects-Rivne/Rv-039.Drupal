@@ -1,0 +1,19 @@
+uuid: 54bce80e-06e1-4d34-9439-05a9ad67c281
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_text_software_enabled_secu
+field_name: field_text_software_enabled_secu
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

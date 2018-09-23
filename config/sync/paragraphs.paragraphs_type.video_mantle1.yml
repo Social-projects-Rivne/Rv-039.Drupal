@@ -1,0 +1,9 @@
+uuid: fdaf3653-8708-429f-a56c-60e49e8a4f6e
+langcode: en
+status: true
+dependencies: {  }
+id: video_mantle1
+label: 'video mantle'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

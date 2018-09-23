@@ -1,0 +1,59 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+<div class="software-features">
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      {{ content.field_labal_section_features }}
+      <div class="wraper_features_block_1">
+        <div class="first_feature_section featuressection">
+          {{ content.field_first_image_feature }}
+          {{ content.field_first_text_feature }}
+        </div>
+        <div class="second_feature_section featuressection">
+          {{ content.field_second_image_feature }}
+          {{ content.field_second_text_feature }}
+        </div>
+        <div class="third_feature_section featuressection">
+          {{ content.field_third_image_feature }}
+          {{ content.field_th }}
+
+        </div>
+
+        <div class="fourth_feature_section featuressection">
+          {{ content.field_fourth_image_feature	 }}
+          {{ content.field_fou }}
+        </div>
+
+      </div>
+      <div class="wraper_features_block_2">
+        <div class="fifth_feature_section featuressection">
+          {{ content.field_fifth_image_feature }}
+          {{ content.field_fif }}
+        </div>
+        <div class="sixth_feature_section featuressection">
+          {{ content.field_six }}
+          {{ content.field_sixth_text_feature }}
+        </div>
+        <div class="seventh_feature_section featuressection">
+          {{ content.field_sev }}
+          {{ content.field_seventh_text_featu }}
+
+        </div>
+
+        <div class="eigth_feature_section featuressection">
+          {{ content.field_e	 }}
+          {{ content.field_eigth_text_featu }}
+        </div>
+
+      </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}
+</div>

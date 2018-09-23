@@ -1,0 +1,65 @@
+uuid: 1c50a420-f89f-4118-8305-13ec4a415721
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_wrapper.field_background_color
+    - field.field.paragraph.shared_wrapper.field_background_img
+    - field.field.paragraph.shared_wrapper.field_background_style
+    - field.field.paragraph.shared_wrapper.field_content
+    - field.field.paragraph.shared_wrapper.field_css_classes
+    - paragraphs.paragraphs_type.shared_wrapper
+  module:
+    - jquery_colorpicker
+    - paragraphs
+id: paragraph.shared_wrapper.default
+targetEntityType: paragraph
+bundle: shared_wrapper
+mode: default
+content:
+  field_background_color:
+    weight: 1
+    settings:
+      color: FFFFFF
+    third_party_settings: {  }
+    type: jquery_colorpicker
+    region: content
+  field_background_img:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_background_style:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_content:
+    type: entity_reference_paragraphs
+    weight: 4
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_css_classes:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

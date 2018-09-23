@@ -1,0 +1,20 @@
+uuid: c28a9cbd-c0fe-45ea-8ad2-24524ac5c3c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - classy_paragraphs
+    - paragraphs
+id: paragraph.field_css_styles
+field_name: field_css_styles
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: classy_paragraphs_style
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

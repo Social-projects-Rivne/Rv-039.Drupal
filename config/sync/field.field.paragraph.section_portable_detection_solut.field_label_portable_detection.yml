@@ -1,0 +1,21 @@
+uuid: 4c7082f0-e9db-45b6-af69-664690c697e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label_portable_detection
+    - paragraphs.paragraphs_type.section_portable_detection_solut
+  module:
+    - text
+id: paragraph.section_portable_detection_solut.field_label_portable_detection
+field_name: field_label_portable_detection
+entity_type: paragraph
+bundle: section_portable_detection_solut
+label: 'label portable detection'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

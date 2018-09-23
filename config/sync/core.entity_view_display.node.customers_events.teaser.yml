@@ -1,0 +1,28 @@
+uuid: f20ef7c1-887a-430e-a45b-e0a45f83afce
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.customers_events.body
+    - node.type.customers_events
+  module:
+    - text
+    - user
+id: node.customers_events.teaser
+targetEntityType: node
+bundle: customers_events
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

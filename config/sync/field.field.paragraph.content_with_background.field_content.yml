@@ -1,0 +1,23 @@
+uuid: 1311719d-0946-4606-ad33-9758054d6116
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - paragraphs.paragraphs_type.content_with_background
+  module:
+    - text
+id: paragraph.content_with_background.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: content_with_background
+label: content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: text_long

@@ -1,0 +1,28 @@
+uuid: 141b235d-6bc7-4704-9c66-a3d3e1fdd467
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.partners
+  module:
+    - block_class
+    - system
+  theme:
+    - dedrone
+third_party_settings:
+  block_class:
+    classes: 'col-md-2 col-sm-6 col-xs-12'
+id: partners
+theme: dedrone
+region: footerMenu
+weight: -7
+provider: null
+plugin: 'system_menu_block:partners'
+settings:
+  id: 'system_menu_block:partners'
+  label: PARTNERS
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,172 @@
+uuid: 07b7163e-94ef-4c0d-b96f-4c0914fab2e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_column_content
+    - paragraphs.paragraphs_type.bp_accordion
+    - paragraphs.paragraphs_type.bp_blank
+    - paragraphs.paragraphs_type.bp_block
+    - paragraphs.paragraphs_type.bp_carousel
+    - paragraphs.paragraphs_type.bp_column_wrapper
+    - paragraphs.paragraphs_type.bp_columns
+    - paragraphs.paragraphs_type.bp_columns_three_uneven
+    - paragraphs.paragraphs_type.bp_columns_two_uneven
+    - paragraphs.paragraphs_type.bp_image
+    - paragraphs.paragraphs_type.bp_modal
+    - paragraphs.paragraphs_type.bp_simple
+    - paragraphs.paragraphs_type.bp_tabs
+    - paragraphs.paragraphs_type.bp_view
+    - paragraphs.paragraphs_type.bundle_investor_about_us_page
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: hpixcgtuMcA66LN6-VERfwoZvbQwXGpYhQYt3zLDSzY
+id: paragraph.bp_columns.bp_column_content
+field_name: bp_column_content
+entity_type: paragraph
+bundle: bp_columns
+label: 'Column Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      bp_simple: bp_simple
+      bp_image: bp_image
+      bp_blank: bp_blank
+      bp_accordion: bp_accordion
+      bp_carousel: bp_carousel
+      bp_column_wrapper: bp_column_wrapper
+      bp_columns: bp_columns
+      bp_columns_three_uneven: bp_columns_three_uneven
+      bp_columns_two_uneven: bp_columns_two_uneven
+      bp_block: bp_block
+      bp_modal: bp_modal
+      bp_tabs: bp_tabs
+      bp_view: bp_view
+      bundle_investor_about_us_page: bundle_investor_about_us_page
+    target_bundles_drag_drop:
+      bp_simple:
+        enabled: true
+        weight: -31
+      bp_image:
+        enabled: true
+        weight: -30
+      bp_blank:
+        enabled: true
+        weight: -29
+      bp_accordion:
+        enabled: true
+        weight: -28
+      bp_carousel:
+        enabled: true
+        weight: -27
+      bp_column_wrapper:
+        enabled: true
+        weight: -26
+      bp_columns:
+        enabled: true
+        weight: -25
+      bp_columns_three_uneven:
+        enabled: true
+        weight: -24
+      bp_columns_two_uneven:
+        enabled: true
+        weight: -23
+      bp_block:
+        enabled: true
+        weight: -22
+      bp_modal:
+        enabled: true
+        weight: -21
+      bp_tabs:
+        enabled: true
+        weight: -20
+      bp_view:
+        enabled: true
+        weight: -19
+      bp_accordion_section:
+        weight: -18
+        enabled: false
+      bp_tab_section:
+        weight: -17
+        enabled: false
+      background_description:
+        weight: 40
+        enabled: false
+      bundle_about_us_timeline:
+        weight: 56
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 57
+        enabled: false
+      bundle_description_about_us_page:
+        weight: 58
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 59
+        enabled: false
+      bundle_investor_about_us_page:
+        enabled: true
+        weight: 60
+      bundle_timeline_item_about_us:
+        weight: 61
+        enabled: false
+      button:
+        weight: 62
+        enabled: false
+      content_page_products:
+        weight: 63
+        enabled: false
+      description_images_button:
+        weight: 64
+        enabled: false
+      description_image_date_view:
+        weight: 65
+        enabled: false
+      description_with_button:
+        weight: 66
+        enabled: false
+      description_with_buttons:
+        weight: 67
+        enabled: false
+      image1:
+        weight: 68
+        enabled: false
+      image_and_description_simple:
+        weight: 69
+        enabled: false
+      image_description_column:
+        weight: 70
+        enabled: false
+      image_description_row:
+        weight: 71
+        enabled: false
+      shared_h1_bottons:
+        weight: 72
+        enabled: false
+      shared_h1_buttons:
+        weight: 73
+        enabled: false
+      shared_title_description:
+        weight: 74
+        enabled: false
+      shared_wrapper:
+        weight: 75
+        enabled: false
+      slide:
+        weight: 76
+        enabled: false
+      slider:
+        weight: 77
+        enabled: false
+      text_row:
+        weight: 78
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,22 @@
+uuid: 3580061b-9ab4-4bfd-9e9d-f20d6c64aa4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_with_background.field_content
+    - paragraphs.paragraphs_type.content_with_background
+  module:
+    - text
+id: paragraph.content_with_background.default
+targetEntityType: paragraph
+bundle: content_with_background
+mode: default
+content:
+  field_content:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

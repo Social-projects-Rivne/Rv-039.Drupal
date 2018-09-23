@@ -1,0 +1,43 @@
+uuid: 2869f842-c78c-480e-92b0-c32081dafc95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_title.field_css_styles
+    - field.field.paragraph.shared_title.field_shared_h1_title
+    - field.field.paragraph.shared_title.field_shared_position
+    - paragraphs.paragraphs_type.shared_title
+  module:
+    - text
+id: paragraph.shared_title.default
+targetEntityType: paragraph
+bundle: shared_title
+mode: default
+content:
+  field_css_styles:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_shared_h1_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_shared_position:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

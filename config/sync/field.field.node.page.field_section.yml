@@ -1,0 +1,29 @@
+uuid: 8f685060-e951-4f01-894c-27f05482544b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_section
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_section
+field_name: field_section
+entity_type: node
+bundle: page
+label: Section
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles: null
+    target_bundles_drag_drop:
+      image_and_description_simple:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

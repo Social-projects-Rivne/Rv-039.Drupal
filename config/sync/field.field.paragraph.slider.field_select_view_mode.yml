@@ -1,0 +1,32 @@
+uuid: f1758f8e-e079-4502-b94f-7a4c884ee43c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_select_view_mode
+    - paragraphs.paragraphs_type.slider
+  module:
+    - view_mode_selector
+id: paragraph.slider.field_select_view_mode
+field_name: field_select_view_mode
+entity_type: paragraph
+bundle: slider
+label: 'Select view mode'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: default
+default_value_callback: ''
+settings:
+  view_modes:
+    default:
+      enable: 0
+      hide_title: 0
+      icon: {  }
+    home_page:
+      enable: 0
+      hide_title: 0
+      icon: {  }
+field_type: view_mode_selector

@@ -1,0 +1,28 @@
+uuid: 94b0d849-4d46-499b-965b-cb456ca9e203
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.classic_slider
+    - field.field.paragraph.shared_title_description.field_css_styles
+    - field.field.paragraph.shared_title_description.field_shared_h1_title
+    - field.field.paragraph.shared_title_description.field_shared_h2_title
+    - paragraphs.paragraphs_type.shared_title_description
+  module:
+    - text
+id: paragraph.shared_title_description.classic_slider
+targetEntityType: paragraph
+bundle: shared_title_description
+mode: classic_slider
+content:
+  field_shared_h1_title:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_css_styles: true
+  field_shared_h2_title: true
+  field_shared_position: true

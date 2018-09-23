@@ -1,0 +1,40 @@
+uuid: fdb13a65-1f97-40bd-bc86-163e3f665374
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_col_7_col_2_col_3.field_content_paragraph
+    - field.field.paragraph.shared_col_7_col_2_col_3.field_css_styles
+    - paragraphs.paragraphs_type.shared_col_7_col_2_col_3
+  module:
+    - paragraphs
+id: paragraph.shared_col_7_col_2_col_3.default
+targetEntityType: paragraph
+bundle: shared_col_7_col_2_col_3
+mode: default
+content:
+  field_content_paragraph:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_css_styles:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

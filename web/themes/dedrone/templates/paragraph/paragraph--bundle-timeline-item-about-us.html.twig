@@ -1,0 +1,19 @@
+{# #}
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+{% block paragraph %}
+  {% block content %}
+    <li row>
+      <div class="timeline-item-wrapper clearfix">
+            <span class="timeline-marker"></span>
+            {{ content }}
+      </div>
+    </li>
+  {% endblock %}
+{% endblock paragraph %}

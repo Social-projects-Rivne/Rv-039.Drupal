@@ -1,0 +1,35 @@
+uuid: a8c5fec0-753a-415e-a5c2-817cb0d25199
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_description_row.field_css_class
+    - field.field.paragraph.image_description_row.field_description
+    - field.field.paragraph.image_description_row.field_image_description_row
+    - paragraphs.paragraphs_type.image_description_row
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.image_description_row.default
+targetEntityType: paragraph
+bundle: image_description_row
+mode: default
+content:
+  field_description:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_image_description_row:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_css_class: true

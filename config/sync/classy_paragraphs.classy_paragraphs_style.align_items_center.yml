@@ -1,0 +1,7 @@
+uuid: 7f9b1055-891f-43b7-995c-5ae3a2543be3
+langcode: en
+status: true
+dependencies: {  }
+id: align_items_center
+label: Vertical-align-center
+classes: vertical-align-center

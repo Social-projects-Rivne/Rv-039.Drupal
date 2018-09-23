@@ -1,0 +1,40 @@
+uuid: cd29b36b-f04a-40b9-b418-74305f5c0af5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description_with_button.field_button
+    - field.field.paragraph.description_with_button.field_css_bg_color
+    - field.field.paragraph.description_with_button.field_css_class
+    - field.field.paragraph.description_with_button.field_description
+    - paragraphs.paragraphs_type.description_with_button
+  module:
+    - link
+    - text
+id: paragraph.description_with_button.default
+targetEntityType: paragraph
+bundle: description_with_button
+mode: default
+content:
+  field_button:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_description:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_css_bg_color: true
+  field_css_class: true

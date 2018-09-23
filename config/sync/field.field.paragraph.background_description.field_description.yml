@@ -1,0 +1,21 @@
+uuid: 4fa5558a-f7c9-4f2b-8141-6995454fa6ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.background_description
+  module:
+    - text
+id: paragraph.background_description.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: background_description
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

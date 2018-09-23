@@ -1,0 +1,9 @@
+uuid: 668b3668-1afa-4b3e-bae2-23a36ee85d73
+langcode: en
+status: true
+dependencies: {  }
+id: customer_secondary_pages_with_im
+label: 'customer secondary pages with image'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

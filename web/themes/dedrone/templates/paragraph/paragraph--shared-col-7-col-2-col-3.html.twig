@@ -1,0 +1,28 @@
+{# #}
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      <div class = "row align-items-center">
+            <div class="col-md-7 col-sm-12 col-12">
+              {{content.field_content_paragraph[0]}}
+            </div>
+            <div class="col-md-2 col-sm-0 col-0">
+              {{content.field_content_paragraph[1]}}
+            </div>
+            <div class="col-md-3 col-sm-12 col-12 ">
+              {{content.field_content_paragraph[2]}}
+            </div>
+      </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}
+
+

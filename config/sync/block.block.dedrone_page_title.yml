@@ -1,0 +1,20 @@
+uuid: 1e09ba6d-b5cc-4d22-91cd-14f8f339cc1a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dedrone
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: dedrone_page_title
+theme: dedrone
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

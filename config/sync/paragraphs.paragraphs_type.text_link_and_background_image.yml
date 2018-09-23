@@ -1,0 +1,9 @@
+uuid: d2be02d5-9f36-4390-b0d7-205ef0af32b8
+langcode: en
+status: true
+dependencies: {  }
+id: text_link_and_background_image
+label: 'text(link) and background image'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,36 @@
+uuid: 3253f58a-2920-4dc8-8a74-37d06ebbb7cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bundle_investor_about_us_page.field_bundle_investor_descript
+    - field.field.paragraph.bundle_investor_about_us_page.field_bundle_investor_logo
+    - paragraphs.paragraphs_type.bundle_investor_about_us_page
+  module:
+    - text
+id: paragraph.bundle_investor_about_us_page.default
+targetEntityType: paragraph
+bundle: bundle_investor_about_us_page
+mode: default
+content:
+  field_bundle_investor_descript:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_bundle_investor_logo:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

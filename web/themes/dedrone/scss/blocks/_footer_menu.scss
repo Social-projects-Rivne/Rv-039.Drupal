@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Footer menu region style sheets.
+   ========================================================================== */
+
+.footerMenu
+{
+    /*Bootstrap menu container*/
+    .container
+    {
+        /* Menu container positioning and style*/
+        padding-top: 75px;
+        padding-bottom: 75px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 45px;
+
+        /*Menus title positioning and style*/
+        h2
+        {
+            margin-top: 50px;
+            color: #111;
+            font-size: 13px;
+            font-weight: 700;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /*Menus items positioning and style*/
+        a
+        {
+            color: #111;
+            display: block;
+            text-align: left;
+            font: normal normal 300 normal 16px / 23px 'Roboto', sans-serif;
+            text-decoration: none;
+            &:hover 
+            {   
+                color: #009ee3;   
+            }
+
+        }
+
+        /*Menus positioning and style*/
+        ul.menu
+        {
+            color: #111;
+            margin: 0;
+        }
+
+        /*Menus elements positioning*/
+        li
+        {
+            padding-top: 10px;     
+        }
+
+        /*Menus elements positioning and ":hover" style*/
+        ul.social-media-links--platforms
+        {
+            display: block;
+            margin-top: 25px;
+            a:hover
+            {
+                color: #818181;
+            }
+        }
+    }
+}

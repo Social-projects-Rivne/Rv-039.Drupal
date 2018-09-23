@@ -1,0 +1,23 @@
+uuid: 62ed9c54-eeaf-423a-b1ff-355871fefa72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to_next_page
+    - node.type.customers_secondary_pages
+  module:
+    - link
+id: node.customers_secondary_pages.field_link_to_next_page
+field_name: field_link_to_next_page
+entity_type: node
+bundle: customers_secondary_pages
+label: link_to_next_page
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

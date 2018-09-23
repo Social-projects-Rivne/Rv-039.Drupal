@@ -1,0 +1,23 @@
+uuid: 2837b62a-e589-4a09-a073-41cbc64adc95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_link_label
+    - paragraphs.paragraphs_type.bundle_content_tech_par_page
+  module:
+    - link
+id: paragraph.bundle_content_tech_par_page.field_shared_link_label
+field_name: field_shared_link_label
+entity_type: paragraph
+bundle: bundle_content_tech_par_page
+label: 'Shared link label'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

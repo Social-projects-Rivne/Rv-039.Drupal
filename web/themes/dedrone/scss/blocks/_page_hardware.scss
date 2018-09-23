@@ -1,0 +1,324 @@
+.section_introducing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  overflow: visible;
+  border-style: none;
+  border-top-width: 1px;
+  border-top-color: #000;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  .paragraph {
+    margin: 0 auto;
+    max-width: 960px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+
+    .field--name-field-introducing-the-rf {
+      padding: 0 10px;
+      width: 33.33333%;
+      float: left;
+      min-height: 1px;
+      position: relative;
+
+      h1 {
+        width: auto;
+        margin-top: 0;
+        flex: 0 auto;
+        color: #fff;
+        border-style: none;
+        padding-bottom: 0;
+        border-bottom-width: 0;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: left;
+        letter-spacing: 0;
+        font-weight: 200;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        display: inline-block;
+        color: #fff;
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 0;
+        text-transform: none;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        display: block;
+        padding-right: 50px;
+        padding-left: 50px;
+        float: left;
+        background-color: #fff;
+        color: #0a0c15;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 15px 50px;
+        border-radius: 4px;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        &:hover {
+          background-color: #3898EC;
+        }
+
+        a {
+          color: #0a0c15;
+        }
+      }
+    }
+  }
+}
+
+.section_drone_detection_sensors {
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  background-image: linear-gradient(180deg,#fff,#fff);
+  color: #f8f8f8;
+  text-align: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  min-height: 850px;
+
+  .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+  }
+}
+
+.field--name-field-label-drone-detection {
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #111;
+    border-style: none;
+    font-weight: 200;
+    text-transform: none;
+    margin-bottom: 50px;
+    border-bottom-width: 0;
+    margin-top: 0;
+  }
+}
+
+.images_wrapper {
+  margin-left: -10px;
+  margin-right: -10px;
+  opacity: 1;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  display: block;
+  transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+
+  .first_section_drone {
+    width: 50%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f8f8f8;
+    text-align: left;
+  }
+
+  .second_section_drone {
+    width: 50%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f8f8f8;
+    text-align: left;
+  }
+}
+
+.field--name-field-first-text-area- {
+  h3 {
+    float: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0;
+    clear: none;
+    color: #111;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
+
+.field--name-field-second-text-area-drone {
+  h3 {
+    float: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0;
+    clear: none;
+    color: #111;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
+
+.hardware-overview-event-kit {
+  padding: 150px 0;
+  background-image: linear-gradient(180deg,#f8f8f8,#f8f8f8);
+  justify-content: center;
+
+  .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+  }
+}
+
+.field--name-field-label-portable-detection {
+  h1 {
+    margin-bottom: 50px;
+    padding-bottom: 0;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #111;
+    border-style: none;
+    font-weight: 200;
+    text-transform: none;
+    margin-top: 0;
+  }
+}
+
+.event-kit-block {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  height: 225px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px 0 rgba(0,0,0,.15);
+  text-align: left;
+
+  .event-kit-block-image {
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+
+  .field__item {
+    width: 70%;
+    display: inline-block;
+    width: 70%;
+    padding-right: 50px;
+    padding-left: 50px;
+
+    h3 {
+      float: none;
+      font-weight: bold;
+    }
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.section_countermeasures_paragraph {
+  padding: 150px 0;
+
+  .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+  }
+}
+
+.field--name-field-label-active-and-passive {
+  h1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #111;
+    border-bottom-color: #bbb;
+    font-weight: 300;
+  }
+}
+
+.block_countermeasures {
+  height: 306px;
+  display: flex;
+
+  a {
+    padding: 0 10px;
+    width: 50%;
+    position: relative;
+  }
+
+  .field--name-field-text-countermeasures {
+    box-sizing: border-box;
+    width: 50%;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    h3 {
+      font-weight: bold;
+      margin-top: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #111;
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: 500;
+      text-align: left;
+      margin-bottom: 0;
+      float: none;
+      clear: none;
+      margin-left: 80px;
+    }
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      margin-left: 80px;
+    }
+    p{
+      a{
+        padding: 0 ;
+        margin-top: 15px;
+      }
+    }
+  }
+}

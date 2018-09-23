@@ -1,0 +1,9 @@
+uuid: 72b80158-026b-4bb5-9ff6-06f3992527de
+langcode: en
+status: true
+dependencies: {  }
+id: description_with_button
+label: 'Description with button'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

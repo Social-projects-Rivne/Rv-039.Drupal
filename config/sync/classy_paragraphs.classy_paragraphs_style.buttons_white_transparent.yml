@@ -1,0 +1,7 @@
+uuid: 2c749c2c-086e-4d0a-857d-844789f152d4
+langcode: en
+status: true
+dependencies: {  }
+id: buttons_white_transparent
+label: 'Buttons white transparent'
+classes: buttons-white-transparent

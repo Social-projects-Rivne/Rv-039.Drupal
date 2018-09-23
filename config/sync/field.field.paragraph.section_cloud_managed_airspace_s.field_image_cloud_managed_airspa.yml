@@ -1,0 +1,38 @@
+uuid: 3b21f822-e986-4661-8409-88de8e859f07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_cloud_managed_airspa
+    - paragraphs.paragraphs_type.section_cloud_managed_airspace_s
+  module:
+    - image
+id: paragraph.section_cloud_managed_airspace_s.field_image_cloud_managed_airspa
+field_name: field_image_cloud_managed_airspa
+entity_type: paragraph
+bundle: section_cloud_managed_airspace_s
+label: 'image Cloud-Managed Airspace Security'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

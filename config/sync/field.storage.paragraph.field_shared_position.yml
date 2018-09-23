@@ -1,0 +1,33 @@
+uuid: 50f55703-6760-432f-92a9-79dd4d005bec
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_shared_position
+field_name: field_shared_position
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Left
+      label: Left
+    -
+      value: Right
+      label: Right
+    -
+      value: Center
+      label: Center
+    -
+      value: Center-full-width
+      label: 'Center full width'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

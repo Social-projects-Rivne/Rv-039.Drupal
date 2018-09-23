@@ -1,0 +1,21 @@
+uuid: 79b0b7d9-201f-4be4-a50d-eae8373a18a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_reporting_and_forensi
+    - paragraphs.paragraphs_type.section_reporting_and_forensic_e
+  module:
+    - text
+id: paragraph.section_reporting_and_forensic_e.field_text_reporting_and_forensi
+field_name: field_text_reporting_and_forensi
+entity_type: paragraph
+bundle: section_reporting_and_forensic_e
+label: 'text Reporting and Forensic Evidence'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

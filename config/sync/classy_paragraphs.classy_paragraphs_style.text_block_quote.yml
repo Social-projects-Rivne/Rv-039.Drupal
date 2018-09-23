@@ -1,0 +1,7 @@
+uuid: 1db591f2-ef0e-4edc-bf58-ddccfbd00a7b
+langcode: en
+status: true
+dependencies: {  }
+id: text_block_quote
+label: 'Text block quote'
+classes: block-quote
