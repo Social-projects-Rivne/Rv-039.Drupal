@@ -1,0 +1,54 @@
+uuid: fc8c7799-4c0b-46ca-aff5-00465e697302
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_blog
+    - paragraphs.paragraphs_type.blogs
+  module:
+    - viewsreference
+id: paragraph.blogs.field_blog
+field_name: field_blog
+entity_type: paragraph
+bundle: blogs
+label: Blog
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    page: page
+    block: block
+    default: 0
+    feed: 0
+    entity_browser: 0
+  preselect_views:
+    blog_posts: blog_posts
+    block_content: 0
+    case_studies: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    event_registration_view: 0
+    files: 0
+    frontpage: 0
+    media: 0
+    media_entity_browser: 0
+    milestones_timeline: 0
+    paragraphs_library: 0
+    paragraphs_library_browser: 0
+    paragraph_delete: 0
+    taxonomy_term: 0
+    upcoming_webinars: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

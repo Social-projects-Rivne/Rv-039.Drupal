@@ -25,7 +25,7 @@
 						el: '.swiper-pagination',
 						clickable: true
 					}
-				})
+				});
 			});
 		}
 	};
@@ -39,4 +39,4 @@
 	};
 
 
-})(jQuery);
+})(jQuery, window, Drupal, drupalSettings);
