@@ -1,0 +1,27 @@
+uuid: e8f8bc0f-8b8f-4c06-a5be-ab08d3714295
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.blogs.field_blog
+    - paragraphs.paragraphs_type.blogs
+  module:
+    - viewsreference
+id: paragraph.blogs.default
+targetEntityType: paragraph
+bundle: blogs
+mode: default
+content:
+  field_blog:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

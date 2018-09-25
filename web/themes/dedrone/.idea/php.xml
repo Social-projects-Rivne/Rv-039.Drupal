@@ -5,6 +5,7 @@
       <path value="$PROJECT_DIR$/../../core" />
       <path value="$PROJECT_DIR$/../../modules" />
       <path value="$PROJECT_DIR$/../../libraries" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
 </project>
