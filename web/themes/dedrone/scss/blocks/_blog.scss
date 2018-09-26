@@ -77,11 +77,69 @@
 	}
 }
 
+.blog-full {
+
+	.post-item {
+		.post-wrap {
+			text-align: center;
+			padding-top: 150px;
+			padding-bottom: 150px;
+			position: relative;
+
+			&:after {
+				background: rgba(1, 29, 42, 0.97);
+
+
+			}
+
+			&:hover  {
+				&:after {
+					background: rgba(1, 29, 42, 0.97) !important;
+
+				}
+			}
+		}
+
+		.featured-blog-post-text {
+			position: relative;
+
+			h5 {
+				color: #f05c40;
+
+				a {
+					color: #f05c40;
+				}
+			}
+
+			.blog-author,
+			.blog-date {
+				margin-right: 10px;
+				border-color: #f05c40;
+			}
+
+			.blog-title {
+				margin-top: 10px;
+				padding-top: 5px;
+				font-size: 40px;
+				line-height: 45px;
+				color: #fff;
+			}
+		}
+	}
+
+	.blog-content {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
+
 .post-item {
 	overflow: hidden;
 	position: relative;
 
 	.post-wrap {
+		text-align: left;
+
 
 		&:after {
 			content: "";
@@ -162,12 +220,80 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
+		overflow: hidden;
 
 		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
 		}
+	}
+}
+
+.more-blogs {
+	margin-top: 100px;
+
+	.more-link {
+		text-align: center;
+
+		a {
+			@extend .btn;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			padding: 15px 50px;
+			border-radius: 4px;
+			background-color: #009ee3;
+			color: #fff;
+			font-size: 12px;
+			line-height: 15px;
+			font-weight: 400;
+			text-transform: uppercase;
+
+			&:hover {
+				background-color: #008ecc;
+			}
+		}
+	}
+}
+
+.blogs-title {
+	padding: 49px 0 99px 0;
+	font-size: 40px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.blogs-filter {
+	.form-item {
+		width: 100%;
+		@include clearfix;
+	}
+	
+	.description {
+		float: left;
+		font-size: 40px;
+		line-height: 45px;
+		color: #111;
+		font-weight: 300;
+	}
+
+	.form-select {
+		float: right;
+		width: auto;
+		width: 300px;
+		height: 35px;
+		padding: 10px 20px 10px 0;
+		background: #fff url('../images/arrow-down.svg') 100% / 15% no-repeat;
+		background-size: 20px 10px;
+		border: 0 none;
+		border-bottom: 1px solid #426270;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		color: #111;
+		font-size: 12px;
+		line-height: 15px;
+		text-transform: uppercase;
 	}
 }
 

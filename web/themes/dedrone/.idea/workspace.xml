@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f51e905c-165c-4945-8dd5-2c0c84190acb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-fields--blog-posts.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dedrone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dedrone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-unformatted--blog-posts.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-unformatted--blog-posts.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views/blog_posts/views-view--blog-posts.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/blog_posts/views-view--blog-posts.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +42,9 @@
           <entry key="css" value="1" />
           <entry key="html" value="1" />
           <entry key="js" value="9" />
-          <entry key="scss" value="55" />
+          <entry key="scss" value="56" />
           <entry key="theme" value="10" />
-          <entry key="twig" value="93" />
+          <entry key="twig" value="100" />
           <entry key="yml" value="6" />
         </counts>
       </usages-collector>
@@ -56,8 +55,8 @@
           <entry key="JavaScript" value="9" />
           <entry key="PHP" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="55" />
-          <entry key="Twig" value="93" />
+          <entry key="SCSS" value="56" />
+          <entry key="Twig" value="100" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
@@ -65,9 +64,9 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="js" value="191" />
-          <entry key="scss" value="4365" />
+          <entry key="scss" value="4896" />
           <entry key="theme" value="146" />
-          <entry key="twig" value="2451" />
+          <entry key="twig" value="2754" />
           <entry key="yml" value="30" />
         </counts>
       </usages-collector>
@@ -77,8 +76,8 @@
           <entry key="JavaScript" value="191" />
           <entry key="PHP" value="141" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="SCSS" value="4365" />
-          <entry key="Twig" value="2451" />
+          <entry key="SCSS" value="4896" />
+          <entry key="Twig" value="2754" />
           <entry key="YAML" value="30" />
         </counts>
       </usages-collector>
@@ -94,10 +93,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/featured_blog_posts/views-view-unformatted--featured-blog-posts.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/views-view--blog-posts.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="537">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -105,35 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-unformatted--blog-posts.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="36" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/blog_archive/views-view-unformatted--blog-archive.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-fields--blog-posts.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="56" column="63" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/featured_blog_posts/views-view-fields--featured-blog-posts.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-229">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="315">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -141,12 +113,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/blocks/_blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+            <state relative-caret-position="271">
+              <caret line="131" column="30" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
               <folding>
-                <element signature="e#143#485#0" />
-                <element signature="e#247#568#0" />
+                <element signature="e#301#1056#0" />
+                <element signature="e#1336#1721#0" />
+                <element signature="e#1137#1283#0" />
+                <element signature="e#1296#1344#0" />
+                <element signature="e#2408#2413#0" />
+                <element signature="e#2897#2902#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/field/blog/field--node--blog.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="56" column="53" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/node/blog/node--blog--full.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -175,6 +169,7 @@
       <find>fields</find>
       <find>button</find>
       <find>content.css_class</find>
+      <find>title_attributes</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/templates/field</dir>
@@ -187,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/paragraph/paragraph--tabs.html.twig" />
         <option value="$PROJECT_DIR$/templates/paragraph/paragraph--tab-item.html.twig" />
         <option value="$PROJECT_DIR$/scss/blocks/_tabs.scss" />
         <option value="$PROJECT_DIR$/templates/paragraph/paragraph--description-with-buttons.html.twig" />
@@ -231,12 +225,13 @@
         <option value="$PROJECT_DIR$/dedrone.libraries.yml" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/scss/styles.scss" />
-        <option value="$PROJECT_DIR$/templates/views/blog_posts/views-view--blog-posts.html.twig" />
         <option value="$PROJECT_DIR$/templates/paragraph/paragraph--blogs.html.twig" />
         <option value="$PROJECT_DIR$/templates/views/blog_posts/featured_blog_posts/views-view-fields--featured-blog-posts.html.twig" />
         <option value="$PROJECT_DIR$/templates/views/blog_posts/featured_blog_posts/views-view-unformatted--featured-blog-posts.html.twig" />
-        <option value="$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-unformatted--blog-posts.html.twig" />
         <option value="$PROJECT_DIR$/templates/views/blog_posts/blog_archive/views-view-unformatted--blog-archive.html.twig" />
+        <option value="$PROJECT_DIR$/templates/views/blog_posts/views-view--blog-posts.html.twig" />
+        <option value="$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-unformatted--blog-posts.html.twig" />
+        <option value="$PROJECT_DIR$/templates/node/blog/node--blog--full.html.twig" />
         <option value="$PROJECT_DIR$/scss/blocks/_blog.scss" />
       </list>
     </option>
@@ -312,38 +307,14 @@
               <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
               <item name="dedrone" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
               <item name="dedrone" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dedrone" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="blog_archive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dedrone" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="blog_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dedrone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dedrone" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="featured_blog_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,10 +378,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186287000" />
+    <option name="totallyTimeSpent" value="196369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1918" height="1007" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2275641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -426,7 +398,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290398" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994664" visible="true" weight="0.5444965" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994664" visible="true" weight="0.21662763" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053364" side_tool="true" weight="0.3387471" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -503,37 +475,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/paragraph/paragraph--default.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-          <folding>
-            <element signature="e#79488#79688#2" expanded="true" />
-            <element signature="e#79918#80067#2" expanded="true" />
-            <element signature="e#80630#80776#2" expanded="true" />
-            <element signature="e#81132#81298#1" expanded="true" />
-            <element signature="e#93615#93858#2" expanded="true" />
-            <element signature="e#94889#95138#2" expanded="true" />
-            <element signature="e#125341#125531#2" expanded="true" />
-            <element signature="e#125586#125776#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/paragraph/paragraph--background-description.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/page--node.html.twig" />
     <entry file="file://$PROJECT_DIR$/templates/webform--contact-us.html.twig">
       <provider selected="true" editor-type-id="text-editor">
@@ -720,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/node/node--event--teaser.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/paragraph/paragraph--slider--classic-slider.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -752,13 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/views-view--blog-posts.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -804,20 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-fields--blog-posts.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="56" column="63" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-unformatted--blog-posts.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/blog_archive/views-view-unformatted--blog-archive.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -825,13 +738,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/views-view.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/views-view--blog-posts.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-unformatted--blog-posts.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/blog_posts/blog_posts/views-view-fields--blog-posts.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/node/node--event--teaser.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/field/blog/field--node--blog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="56" column="53" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/node/blog/node--blog--full.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/blocks/_blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+        <state relative-caret-position="271">
+          <caret line="131" column="30" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
           <folding>
-            <element signature="e#143#485#0" />
-            <element signature="e#247#568#0" />
+            <element signature="e#301#1056#0" />
+            <element signature="e#1336#1721#0" />
+            <element signature="e#1137#1283#0" />
+            <element signature="e#1296#1344#0" />
+            <element signature="e#2408#2413#0" />
+            <element signature="e#2897#2902#0" />
           </folding>
         </state>
       </provider>

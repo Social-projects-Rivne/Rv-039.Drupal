@@ -19,21 +19,21 @@ mode: default
 content:
   field_blog_category:
     weight: 101
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_blog_description:
     weight: 103
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_image:
     weight: 102
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -43,4 +43,6 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }
