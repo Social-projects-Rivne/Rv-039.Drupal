@@ -9088,9 +9088,6 @@ button {
       padding: 0;
       margin-top: 15px; }
 
-.field--name-field-background-your-airspace {
-  display: hidden; }
-
 .page_software_your_airspace {
   height: 600px;
   -ms-flex-align: center;
@@ -9141,8 +9138,8 @@ button {
         text-transform: none;
         margin-top: 0; }
       .page_software_your_airspace .paragraph .field--name-field-label-your-airspace-secure h2 {
-        clear: both;
-        color: #fcf8f8;
+        font-weight: 200;
+        color: #fff;
         margin-top: 20px;
         font-size: 20px;
         line-height: 24px;
@@ -9611,8 +9608,38 @@ button {
   font-weight: 600; }
 
 .section_page_mitigation_mantle {
-  padding: 150px 0;
+  padding: 200px 0;
   min-height: 500px; }
+  .section_page_mitigation_mantle .paragraph {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto; }
+    .section_page_mitigation_mantle .paragraph .field--name-field-text-page-mitigation {
+      float: right;
+      position: relative;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 33.3333%; }
+      .section_page_mitigation_mantle .paragraph .field--name-field-text-page-mitigation h1 {
+        width: auto;
+        margin-top: 0;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: left;
+        letter-spacing: 0;
+        color: #fff;
+        margin-bottom: 10px; }
+      .section_page_mitigation_mantle .paragraph .field--name-field-text-page-mitigation h2 {
+        margin-bottom: 10px;
+        text-align: left;
+        letter-spacing: 0;
+        text-transform: none;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+        display: inline-block;
+        color: #fff; }
 
 .section_mitigation-intro1 {
   padding: 150px 0;
@@ -9661,7 +9688,7 @@ button {
       padding-left: 10px;
       padding-right: 10px; }
       .section_mitigation-intro1 .paragraph .field--name-field-image-page-mitigation-pass img {
-        margin-top: 0px;
+        margin-top: 0;
         opacity: 1;
         transform: translateX(0px) translateY(0px) translateZ(0px);
         display: block;
