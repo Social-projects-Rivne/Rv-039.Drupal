@@ -1,0 +1,18 @@
+uuid: 4945256d-eb42-4422-a1e8-9094038d66d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.form_to_download
+  module:
+    - user
+id: node.form_to_download.teaser
+targetEntityType: node
+bundle: form_to_download
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

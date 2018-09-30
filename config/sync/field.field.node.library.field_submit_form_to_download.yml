@@ -1,0 +1,36 @@
+uuid: 8f63dbb5-4062-4d22-906a-35da67de0e77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_submit_form_to_download
+    - node.type.library
+    - webform.webform.submit_form_to_download
+  module:
+    - webform
+id: node.library.field_submit_form_to_download
+field_name: field_submit_form_to_download
+entity_type: node
+bundle: library
+label: 'SUBMIT FORM TO DOWNLOAD'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 8e5e80bb-1048-45b8-89e6-2ff0ce46361c
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  default_data: ''
+  status: open
+  open: ''
+  close: ''
+field_type: webform
