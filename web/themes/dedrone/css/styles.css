@@ -9740,20 +9740,20 @@ button {
 ========================================================================== */
 /* Styles for shared_title and shared_description paragraph
 ========================================================================== */
-.text-color-white h1, .text-color-white h2, .text-color-white h3, .text-color-white h4, .text-color-white h5, .text-color-white h6, .text-color-white p, .text-color-white a {
+.text-color-white h1, .node--type-library h1, .text-color-white h2, .node--type-library h2, .text-color-white h3, .node--type-library h3, .text-color-white h4, .node--type-library h4, .text-color-white h5, .node--type-library h5, .text-color-white h6, .node--type-library h6, .text-color-white p, .node--type-library p, .text-color-white a, .node--type-library a {
   color: #fff; }
 
-.text-padding h1 {
+.text-padding h1, .node--type-library .field--name-field-description h1 {
   padding-bottom: 10px;
   padding-top: 10px; }
 
-.text-padding h3 {
+.text-padding h3, .node--type-library .field--name-field-description h3 {
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 500;
   text-transform: uppercase; }
 
-.text-padding p {
+.text-padding p, .node--type-library .field--name-field-description p {
   padding-bottom: 10px;
   padding-top: 10px; }
 
@@ -10026,6 +10026,72 @@ Right_vertically|Right vertically
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 700; }
+
+.library-item {
+  display: -ms-flexbox;
+  height: 150px;
+  padding-right: 10px;
+  padding-left: 30px;
+  margin: 10px 10px;
+  -ms-flex: 1;
+  flex: 1;
+  display: flex !important;
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+  -moz-break-after: always;
+       break-after: always;
+  box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.15); }
+  .library-item .field--name-field-library-category {
+    width: 100%; }
+
+.node--type-library .field--name-field-submit-form-to-download label {
+  display: block;
+  margin: 25px 0 0 0;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #7d949f !important; }
+
+.node--type-library .field--name-field-submit-form-to-download input {
+  color: #fff; }
+
+.node--type-library .field--name-field-submit-form-to-download input,
+.node--type-library .field--name-field-submit-form-to-download select {
+  border: 0 none;
+  border-bottom: 1px solid #426270;
+  padding: 5px 0;
+  background: transparent;
+  font-size: 13px; }
+
+.node--type-library .field--name-field-submit-form-to-download .btn, .node--type-library .field--name-field-submit-form-to-download .more-blogs .more-link a, .more-blogs .more-link .node--type-library .field--name-field-submit-form-to-download a, .node--type-library .field--name-field-submit-form-to-download .slider-main .wrap-description .button, .slider-main .wrap-description .node--type-library .field--name-field-submit-form-to-download .button {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #009ee3;
+  border: 1px solid #009ee3;
+  display: block;
+  text-align: center;
+  padding: 15px 50px;
+  border-radius: 4px;
+  background-image: none;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  text-transform: uppercase; }
+  .node--type-library .field--name-field-submit-form-to-download .btn a, .node--type-library .field--name-field-submit-form-to-download .more-blogs .more-link a a, .more-blogs .more-link .node--type-library .field--name-field-submit-form-to-download a a, .node--type-library .field--name-field-submit-form-to-download .slider-main .wrap-description .button a, .slider-main .wrap-description .node--type-library .field--name-field-submit-form-to-download .button a {
+    color: #fff; }
+  .node--type-library .field--name-field-submit-form-to-download .btn:hover, .node--type-library .field--name-field-submit-form-to-download .more-blogs .more-link a:hover, .more-blogs .more-link .node--type-library .field--name-field-submit-form-to-download a:hover, .node--type-library .field--name-field-submit-form-to-download .slider-main .wrap-description .button:hover, .slider-main .wrap-description .node--type-library .field--name-field-submit-form-to-download .button:hover {
+    background-color: #3898EC;
+    border: 1px solid #3898EC; }
+
+.node--type-library .field--name-field-submit-form-to-download h2,
+.node--type-library .field--name-field-submit-form-to-download p,
+.node--type-library .field--name-field-submit-form-to-download .field__label {
+  margin-top: 30px;
+  color: #fff;
+  padding-bottom: 20px; }
 
 .paragraph--type--bundle-description-about-us-page h1 {
   margin-top: 0px;

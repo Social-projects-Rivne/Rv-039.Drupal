@@ -1,5 +1,5 @@
 <?php
-
+use Drupal\node\Entity\Node;
 /**
  * Implements template_preprocess_paragraph().
  *
@@ -212,3 +212,6 @@ function dedrone_preprocess_paragraph(&$variables) {
     }
    }
 }
+
+
+
