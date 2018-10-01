@@ -1,17 +1,18 @@
-uuid: 3846d775-51fb-435e-a721-cac852640c4b
+uuid: 96498678-3326-4fc6-a26a-0def974d2180
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image_from_next_page
-    - field.storage.node.field_link_to_next_page
+    - field.storage.node.field_date_of_press
+    - field.storage.node.field_description_for_press
+    - field.storage.node.field_link_to_press
   module:
-    - image
     - link
     - node
+    - text
     - user
-id: case_studies
-label: 'Case Studies'
+id: press_event
+label: 'press event'
 module: views
 description: ''
 tag: ''
@@ -51,91 +52,23 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: none
+        type: some
         options:
-          offset: null
+          items_per_page: 3
+          offset: 0
       style:
         type: default
         options:
           grouping: {  }
-          row_class: second-custom
-          default_row_class: false
+          row_class: event-block
+          default_row_class: true
       row:
         type: fields
-        options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: true
       fields:
-        field_image_from_next_page:
-          id: field_image_from_next_page
-          table: node__field_image_from_next_page
-          field: field_image_from_next_page
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: image
-          settings:
-            image_style: ''
-            image_link: ''
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        field_link_to_next_page:
-          id: field_link_to_next_page
-          table: node__field_link_to_next_page
-          field: field_link_to_next_page
+        field_link_to_press:
+          id: field_link_to_press
+          table: node__field_link_to_press
+          field: field_link_to_press
           relationship: none
           group_type: group
           admin_label: ''
@@ -199,62 +132,159 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-      filters:
-        status:
-          id: status
-          table: node_field_data
-          field: status
+        field_date_of_press:
+          id: field_date_of_press
+          table: node__field_date_of_press
+          field: field_date_of_press
           relationship: none
           group_type: group
           admin_label: ''
-          operator: '='
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_description_for_press:
+          id: field_description_for_press
+          table: node__field_description_for_press
+          field: field_description_for_press
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      filters:
+        status:
           value: '1'
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
+          table: node_field_data
+          field: status
           plugin_id: boolean
           entity_type: node
           entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
       sorts:
         created:
           id: created
           table: node_field_data
           field: created
-          relationship: none
-          group_type: group
-          admin_label: ''
           order: DESC
-          exposed: false
-          expose:
-            label: 'Authored on'
-          granularity: second
           entity_type: node
           entity_field: created
           plugin_id: date
-      title: 'Case Studies'
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exposed: false
+          expose:
+            label: ''
+          granularity: second
+      title: 'press event'
       header: {  }
       footer: {  }
       empty: {  }
@@ -269,8 +299,9 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_image_from_next_page'
-        - 'config:field.storage.node.field_link_to_next_page'
+        - 'config:field.storage.node.field_date_of_press'
+        - 'config:field.storage.node.field_description_for_press'
+        - 'config:field.storage.node.field_link_to_press'
   block_1:
     display_plugin: block
     id: block_1
@@ -278,7 +309,6 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      block_hide_empty: true
     cache_metadata:
       max-age: -1
       contexts:
@@ -287,5 +317,6 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_image_from_next_page'
-        - 'config:field.storage.node.field_link_to_next_page'
+        - 'config:field.storage.node.field_date_of_press'
+        - 'config:field.storage.node.field_description_for_press'
+        - 'config:field.storage.node.field_link_to_press'

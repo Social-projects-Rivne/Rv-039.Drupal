@@ -1,0 +1,21 @@
+uuid: 7da932e4-a800-4f8d-a229-157a0b356869
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_our_products
+    - paragraphs.paragraphs_type.other_news
+  module:
+    - text
+id: paragraph.other_news.field_our_products
+field_name: field_our_products
+entity_type: paragraph
+bundle: other_news
+label: 'date of news'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

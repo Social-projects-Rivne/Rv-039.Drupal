@@ -1,0 +1,21 @@
+uuid: 71f210ce-19fd-44ee-94ac-547302e8931d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description_for_press
+    - node.type.press_page
+  module:
+    - text
+id: node.press_page.field_description_for_press
+field_name: field_description_for_press
+entity_type: node
+bundle: press_page
+label: 'description for press'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

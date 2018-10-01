@@ -1,0 +1,21 @@
+uuid: 44e9a59a-7094-4946-8b86-6ea60d31d3aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.press_event
+  module:
+    - text
+id: paragraph.press_event.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: press_event
+label: 'text wrapper'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
