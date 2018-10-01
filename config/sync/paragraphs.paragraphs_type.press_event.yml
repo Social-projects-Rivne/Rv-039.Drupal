@@ -1,0 +1,14 @@
+uuid: 124b491d-cd96-4b13-b9e1-27f106c46486
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: press_event
+label: 'press event'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

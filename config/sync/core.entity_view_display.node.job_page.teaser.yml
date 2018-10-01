@@ -1,0 +1,22 @@
+uuid: eafbed20-5536-495d-b546-8a559be49ecf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.job_page.field_link_to_job
+    - field.field.node.job_page.field_paragraph
+    - node.type.job_page
+  module:
+    - user
+id: node.job_page.teaser
+targetEntityType: node
+bundle: job_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_link_to_job: true
+  field_paragraph: true

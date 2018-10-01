@@ -1,0 +1,33 @@
+uuid: d1193857-044f-497c-993c-99adeeaa8754
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.press_event.field_description
+    - field.field.paragraph.press_event.field_press_view
+    - paragraphs.paragraphs_type.press_event
+  module:
+    - text
+    - viewsreference
+id: paragraph.press_event.default
+targetEntityType: paragraph
+bundle: press_event
+mode: default
+content:
+  field_description:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_press_view:
+    weight: 1
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden: {  }

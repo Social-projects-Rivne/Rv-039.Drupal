@@ -1,0 +1,21 @@
+uuid: 00153002-7cc9-481f-97c3-bde2e5e9930c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.press_event
+  module:
+    - text
+id: paragraph.press_event.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: press_event
+label: 'Description for press'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

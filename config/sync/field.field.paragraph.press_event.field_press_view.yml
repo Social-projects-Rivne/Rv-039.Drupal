@@ -1,0 +1,55 @@
+uuid: ccad52dc-8a95-4331-9584-0cbb45cd75ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_press_view
+    - paragraphs.paragraphs_type.press_event
+  module:
+    - viewsreference
+id: paragraph.press_event.field_press_view
+field_name: field_press_view
+entity_type: paragraph
+bundle: press_event
+label: 'press view'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+    entity_browser: 0
+  preselect_views:
+    press: press
+    block_content: 0
+    case_studies: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    event_registration_view: 0
+    files: 0
+    frontpage: 0
+    jobs_view: 0
+    media: 0
+    media_entity_browser: 0
+    milestones_timeline: 0
+    paragraphs_library: 0
+    paragraphs_library_browser: 0
+    paragraph_delete: 0
+    taxonomy_term: 0
+    upcoming_webinars: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

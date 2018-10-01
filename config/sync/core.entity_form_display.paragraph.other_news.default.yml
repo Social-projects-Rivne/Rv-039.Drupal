@@ -1,0 +1,45 @@
+uuid: 6d608b73-640b-48f0-bc51-a9f651e3e87c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.other_news.field_link_customers
+    - field.field.paragraph.other_news.field_our_products
+    - field.field.paragraph.other_news.field_title
+    - paragraphs.paragraphs_type.other_news
+  module:
+    - link
+    - text
+id: paragraph.other_news.default
+targetEntityType: paragraph
+bundle: other_news
+mode: default
+content:
+  field_link_customers:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_our_products:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,206 @@
+uuid: 780ca54b-f598-41a6-b3e7-b45a3a6b126c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.press_page
+  module:
+    - entity_reference_revisions
+id: node.press_page.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: press_page
+label: Paragraph
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      background_description:
+        weight: 61
+        enabled: false
+      bp_accordion:
+        weight: 62
+        enabled: false
+      bp_accordion_section:
+        weight: 63
+        enabled: false
+      bp_blank:
+        weight: 64
+        enabled: false
+      bp_block:
+        weight: 65
+        enabled: false
+      bp_carousel:
+        weight: 66
+        enabled: false
+      bp_column_wrapper:
+        weight: 67
+        enabled: false
+      bp_columns:
+        weight: 68
+        enabled: false
+      bp_columns_three_uneven:
+        weight: 69
+        enabled: false
+      bp_columns_two_uneven:
+        weight: 70
+        enabled: false
+      bp_image:
+        weight: 71
+        enabled: false
+      bp_modal:
+        weight: 72
+        enabled: false
+      bp_simple:
+        weight: 73
+        enabled: false
+      bp_tab_section:
+        weight: 74
+        enabled: false
+      bp_tabs:
+        weight: 75
+        enabled: false
+      bp_view:
+        weight: 76
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 77
+        enabled: false
+      bundle_description_about_us_page:
+        weight: 78
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 79
+        enabled: false
+      bundle_investor_about_us_page:
+        weight: 80
+        enabled: false
+      button:
+        weight: 81
+        enabled: false
+      case_studies_paragraph:
+        weight: 82
+        enabled: false
+      content_page_products:
+        weight: 83
+        enabled: false
+      content_with_background:
+        weight: 84
+        enabled: false
+      customer_page_content_with_image:
+        weight: 85
+        enabled: false
+      customer_secondary_pages_with_im:
+        weight: 86
+        enabled: false
+      customers_page_slider:
+        weight: 87
+        enabled: false
+      customers_secondary_slider:
+        weight: 88
+        enabled: false
+      description_image_date_view:
+        weight: 89
+        enabled: false
+      description_images_button:
+        weight: 90
+        enabled: false
+      description_with_button:
+        weight: 91
+        enabled: false
+      description_with_buttons:
+        weight: 92
+        enabled: false
+      drone_detection_sensors:
+        weight: 93
+        enabled: false
+      featured_videos:
+        weight: 94
+        enabled: false
+      from_library:
+        weight: 95
+        enabled: false
+      image1:
+        weight: 96
+        enabled: false
+      image_and_description_simple:
+        weight: 97
+        enabled: false
+      image_description_column:
+        weight: 98
+        enabled: false
+      image_description_row:
+        weight: 99
+        enabled: false
+      introducing_the_rf_300:
+        weight: 100
+        enabled: false
+      jobs_slider:
+        weight: 101
+        enabled: false
+      section_active_and_passive_count:
+        weight: 102
+        enabled: false
+      section_portable_detection_solut:
+        weight: 103
+        enabled: false
+      section_want_to_learn_more:
+        weight: 104
+        enabled: false
+      shared_buttons:
+        weight: 105
+        enabled: false
+      shared_col_7_col_2_col_3:
+        weight: 106
+        enabled: false
+      shared_description:
+        weight: 107
+        enabled: false
+      shared_full_width_col_7_col_5:
+        weight: 108
+        enabled: false
+      shared_h1_buttons:
+        weight: 109
+        enabled: false
+      shared_title:
+        weight: 110
+        enabled: false
+      shared_title_description:
+        weight: 111
+        enabled: false
+      shared_wrapper:
+        weight: 112
+        enabled: false
+      slide:
+        weight: 113
+        enabled: false
+      slider:
+        weight: 114
+        enabled: false
+      slider_icon_block:
+        weight: 115
+        enabled: false
+      small_width_content:
+        weight: 116
+        enabled: false
+      text_link_and_background_image:
+        weight: 117
+        enabled: false
+      text_row:
+        weight: 118
+        enabled: false
+      two_columns_paragraph:
+        weight: 119
+        enabled: false
+      video_mantle1:
+        weight: 120
+        enabled: false
+field_type: entity_reference_revisions

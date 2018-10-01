@@ -1,0 +1,23 @@
+uuid: a16d2fc9-7ea6-4952-8045-04ae9d92d4d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to_press
+    - node.type.press_page
+  module:
+    - link
+id: node.press_page.field_link_to_press
+field_name: field_link_to_press
+entity_type: node
+bundle: press_page
+label: 'link to press'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,21 @@
+uuid: 72377fc9-75bd-4633-a20c-f4b2e7811f0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_description_full
+    - node.type.press_page
+  module:
+    - text
+id: node.press_page.field_event_description_full
+field_name: field_event_description_full
+entity_type: node
+bundle: press_page
+label: 'Description for press'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

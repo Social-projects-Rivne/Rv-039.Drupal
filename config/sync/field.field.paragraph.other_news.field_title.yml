@@ -1,0 +1,21 @@
+uuid: 45fb3052-7024-450a-a184-954788c9b82c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.other_news
+  module:
+    - text
+id: paragraph.other_news.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: other_news
+label: 'resource of news'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
