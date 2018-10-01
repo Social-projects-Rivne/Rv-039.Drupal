@@ -1,0 +1,75 @@
+.other-news{
+  padding: 150px 0;
+  .title-wrap{
+    margin-bottom: 150px;
+    text-align: center;
+    h2{
+      font-size: 40px;
+      line-height: 45px;
+      color: #fff;
+    }
+    p{
+      margin-top: 25px;
+      color: #fff;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .other-news-wrap{
+    min-height: 50px;
+    padding: 40px 0;
+    border-top: 1px solid #426270;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 50px;
+    .description-wrap{
+      .field--name-field-our-products{
+        padding-right: 50px;
+        padding-bottom: 0;
+        float: none;
+        clear: none;
+        color: #fff;
+        font-size: 13px;
+        line-height: 19px;
+        font-weight: 600;
+      }
+      .field--name-field-title{
+        padding-right: 50px;
+        padding-bottom: 0;
+        float: none;
+        clear: none;
+        color: #fff;
+        font-size: 13px;
+        line-height: 19px;
+        font-weight: 600;
+      }
+    }
+    .link-wrap{
+      a{
+        color: #fff;
+        font-size: 22px;
+        text-decoration: none;
+        &:hover {
+          color: #009ee3;
+        }
+      }
+    }
+  }
+  a.button.button-blue {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 4px;
+    background: #009ee3;
+    font-family: 'Pluto Sans Condensed Regular',sans-serif;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    max-width: 250px;
+    text-align: center;
+    width: 100%;
+    min-width: 200px;
+    text-decoration: none;
+  }
+}

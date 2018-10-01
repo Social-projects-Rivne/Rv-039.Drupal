@@ -29,3 +29,21 @@
 
 .page-node-type-customers-secondary-pages footer.node__meta {
   display: none; }
+
+.header-slider-wrapper h2 {
+  font-size: 40px;
+  line-height: 45px;
+  color: #fff;
+  width: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-align: center; }
+
+.header-slider-wrapper p {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  width: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-align: center; }

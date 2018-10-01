@@ -1,0 +1,61 @@
+.other-news {
+  padding: 150px 0; }
+  .other-news .title-wrap {
+    margin-bottom: 150px;
+    text-align: center; }
+    .other-news .title-wrap h2 {
+      font-size: 40px;
+      line-height: 45px;
+      color: #fff; }
+    .other-news .title-wrap p {
+      margin-top: 25px;
+      color: #fff;
+      font-size: 20px;
+      line-height: 24px; }
+  .other-news .other-news-wrap {
+    min-height: 50px;
+    padding: 40px 0;
+    border-top: 1px solid #426270;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 50px; }
+    .other-news .other-news-wrap .description-wrap .field--name-field-our-products {
+      padding-right: 50px;
+      padding-bottom: 0;
+      float: none;
+      clear: none;
+      color: #fff;
+      font-size: 13px;
+      line-height: 19px;
+      font-weight: 600; }
+    .other-news .other-news-wrap .description-wrap .field--name-field-title {
+      padding-right: 50px;
+      padding-bottom: 0;
+      float: none;
+      clear: none;
+      color: #fff;
+      font-size: 13px;
+      line-height: 19px;
+      font-weight: 600; }
+    .other-news .other-news-wrap .link-wrap a {
+      color: #fff;
+      font-size: 22px;
+      text-decoration: none; }
+      .other-news .other-news-wrap .link-wrap a:hover {
+        color: #009ee3; }
+  .other-news a.button.button-blue {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 4px;
+    background: #009ee3;
+    font-family: 'Pluto Sans Condensed Regular',sans-serif;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    max-width: 250px;
+    text-align: center;
+    width: 100%;
+    min-width: 200px;
+    text-decoration: none; }

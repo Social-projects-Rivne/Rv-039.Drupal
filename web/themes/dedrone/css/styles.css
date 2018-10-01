@@ -8145,7 +8145,7 @@ button {
     @media (max-width: 600px) {
       .case-studies-paragraph .view-case-studies {
         margin: 0; } }
-    .case-studies-paragraph .view-case-studies .views-row {
+    .case-studies-paragraph .view-case-studies .second-custom {
       width: 31%;
       float: left;
       margin: 0 1% 20px 1%;
@@ -8153,12 +8153,12 @@ button {
       background-image: linear-gradient(180deg, #fff, #fff);
       box-shadow: none; }
       @media (max-width: 600px) {
-        .case-studies-paragraph .view-case-studies .views-row {
+        .case-studies-paragraph .view-case-studies .second-custom {
           width: 100%; } }
-      .case-studies-paragraph .view-case-studies .views-row .views-field-field-image-from-next-page {
+      .case-studies-paragraph .view-case-studies .second-custom .views-field-field-image-from-next-page {
         max-height: 215px;
         overflow: hidden; }
-      .case-studies-paragraph .view-case-studies .views-row .views-field-field-link-to-next-page a {
+      .case-studies-paragraph .view-case-studies .second-custom .views-field-field-link-to-next-page a {
         padding: 20px;
         color: #111;
         font-size: 15px;
@@ -9136,6 +9136,121 @@ button {
 
 .page-node-type-customers-secondary-pages footer.node__meta {
   display: none; }
+
+.header-slider-wrapper h2 {
+  font-size: 40px;
+  line-height: 45px;
+  color: #fff;
+  width: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-align: center; }
+
+.header-slider-wrapper p {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  width: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-align: center; }
+
+.press-events {
+  padding: 150px 0; }
+  .press-events .text-wrap h2 {
+    font-size: 40px;
+    line-height: 45px;
+    color: #111; }
+  .press-events .text-wrap p {
+    margin-top: 25px;
+    color: #111;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 300px; }
+  .press-events .event-block {
+    margin: 0 0 50px 0;
+    padding: 0 15px;
+    border-left: 5px solid transparent; }
+    .press-events .event-block:hover {
+      border-left: 5px solid #f05c40; }
+    .press-events .event-block .views-field-field-event-description-full p {
+      color: #111;
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: 400; }
+    .press-events .event-block .views-field-field-event-date time.datetime {
+      color: #111;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: left; }
+    .press-events .event-block .views-field-field-link-to-press a {
+      color: #111;
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 20px;
+      text-decoration: none; }
+
+.other-news {
+  padding: 150px 0; }
+  .other-news .title-wrap {
+    margin-bottom: 150px;
+    text-align: center; }
+    .other-news .title-wrap h2 {
+      font-size: 40px;
+      line-height: 45px;
+      color: #fff; }
+    .other-news .title-wrap p {
+      margin-top: 25px;
+      color: #fff;
+      font-size: 20px;
+      line-height: 24px; }
+  .other-news .other-news-wrap {
+    min-height: 50px;
+    padding: 40px 0;
+    border-top: 1px solid #426270;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 50px; }
+    .other-news .other-news-wrap .description-wrap .field--name-field-our-products {
+      padding-right: 50px;
+      padding-bottom: 0;
+      float: none;
+      clear: none;
+      color: #fff;
+      font-size: 13px;
+      line-height: 19px;
+      font-weight: 600; }
+    .other-news .other-news-wrap .description-wrap .field--name-field-title {
+      padding-right: 50px;
+      padding-bottom: 0;
+      float: none;
+      clear: none;
+      color: #fff;
+      font-size: 13px;
+      line-height: 19px;
+      font-weight: 600; }
+    .other-news .other-news-wrap .link-wrap a {
+      color: #fff;
+      font-size: 22px;
+      text-decoration: none; }
+      .other-news .other-news-wrap .link-wrap a:hover {
+        color: #009ee3; }
+  .other-news a.button.button-blue {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 4px;
+    background: #009ee3;
+    font-family: 'Pluto Sans Condensed Regular',sans-serif;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    max-width: 250px;
+    text-align: center;
+    width: 100%;
+    min-width: 200px;
+    text-decoration: none; }
 
 /* ==========================================================================
    Page "Technology Partners" styles

@@ -18,7 +18,7 @@
     @media (max-width: 600px) {
       .case-studies-paragraph .view-case-studies {
         margin: 0; } }
-    .case-studies-paragraph .view-case-studies .views-row {
+    .case-studies-paragraph .view-case-studies .second-custom {
       width: 31%;
       float: left;
       margin: 0 1% 20px 1%;
@@ -26,12 +26,12 @@
       background-image: linear-gradient(180deg, #fff, #fff);
       box-shadow: none; }
       @media (max-width: 600px) {
-        .case-studies-paragraph .view-case-studies .views-row {
+        .case-studies-paragraph .view-case-studies .second-custom {
           width: 100%; } }
-      .case-studies-paragraph .view-case-studies .views-row .views-field-field-image-from-next-page {
+      .case-studies-paragraph .view-case-studies .second-custom .views-field-field-image-from-next-page {
         max-height: 215px;
         overflow: hidden; }
-      .case-studies-paragraph .view-case-studies .views-row .views-field-field-link-to-next-page a {
+      .case-studies-paragraph .view-case-studies .second-custom .views-field-field-link-to-next-page a {
         padding: 20px;
         color: #111;
         font-size: 15px;
