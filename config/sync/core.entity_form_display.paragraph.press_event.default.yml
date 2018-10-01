@@ -1,4 +1,4 @@
-uuid: 5d047115-7d1c-4313-9005-7a5555cffee4
+uuid: c1141a5e-d157-40d0-a23a-a694bcb5f96d
 langcode: en
 status: true
 dependencies:
@@ -24,9 +24,12 @@ content:
     region: content
   field_press_view:
     weight: 1
-    settings: {  }
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
     third_party_settings: {  }
-    type: viewsreference_select
+    type: viewsreference_autocomplete
     region: content
 hidden:
   created: true

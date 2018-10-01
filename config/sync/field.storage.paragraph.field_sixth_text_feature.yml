@@ -1,0 +1,19 @@
+uuid: bc0ed0fc-b1a3-4dfa-8db7-b816b454a460
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_sixth_text_feature
+field_name: field_sixth_text_feature
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,12 +1,9 @@
-uuid: dee5008a-cd6b-4af0-9792-039da50cc56a
+uuid: b3319955-e907-4e0e-a207-491f7789fe95
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.press_page.field_event_date
-    - field.field.node.press_page.field_event_description_full
-    - field.field.node.press_page.field_paragraph
     - node.type.press_page
   module:
     - user
@@ -18,7 +15,4 @@ content:
   links:
     weight: 100
     region: content
-hidden:
-  field_event_date: true
-  field_event_description_full: true
-  field_paragraph: true
+hidden: {  }

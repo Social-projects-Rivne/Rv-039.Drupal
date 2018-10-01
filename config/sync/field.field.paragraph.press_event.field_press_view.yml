@@ -1,4 +1,4 @@
-uuid: ccad52dc-8a95-4331-9584-0cbb45cd75ea
+uuid: a1c056fe-cc57-4d1b-a751-6080addd6b1b
 langcode: en
 status: true
 dependencies:
@@ -29,8 +29,9 @@ settings:
     feed: 0
     entity_browser: 0
   preselect_views:
-    press: press
+    press_event: press_event
     block_content: 0
+    blog_posts: 0
     case_studies: 0
     comment: 0
     comments_recent: 0
@@ -39,7 +40,7 @@ settings:
     event_registration_view: 0
     files: 0
     frontpage: 0
-    jobs_view: 0
+    library: 0
     media: 0
     media_entity_browser: 0
     milestones_timeline: 0

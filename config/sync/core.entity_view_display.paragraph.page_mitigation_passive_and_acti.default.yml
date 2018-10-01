@@ -1,0 +1,33 @@
+uuid: 76e26484-51d1-4f8a-85a7-9e370a62385f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_mitigation_passive_and_acti.field_image_page_mitigation_pass
+    - field.field.paragraph.page_mitigation_passive_and_acti.field_text_page_mitigation_passi
+    - paragraphs.paragraphs_type.page_mitigation_passive_and_acti
+  module:
+    - image
+    - text
+id: paragraph.page_mitigation_passive_and_acti.default
+targetEntityType: paragraph
+bundle: page_mitigation_passive_and_acti
+mode: default
+content:
+  field_image_page_mitigation_pass:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_text_page_mitigation_passi:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

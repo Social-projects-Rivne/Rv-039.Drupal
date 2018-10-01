@@ -1,0 +1,21 @@
+uuid: e311a886-0910-4f25-89a8-7a06093a4c28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_of_press
+    - node.type.press_page
+  module:
+    - text
+id: node.press_page.field_date_of_press
+field_name: field_date_of_press
+entity_type: node
+bundle: press_page
+label: 'date of press'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

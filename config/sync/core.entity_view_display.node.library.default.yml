@@ -1,0 +1,47 @@
+uuid: 021418d2-faca-4481-947d-de61d348aa18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.library.field_description
+    - field.field.node.library.field_library_category
+    - field.field.node.library.field_submit_form_to_download
+    - node.type.library
+  module:
+    - options
+    - text
+    - user
+    - webform
+id: node.library.default
+targetEntityType: node
+bundle: library
+mode: default
+content:
+  field_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_library_category:
+    type: list_default
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_submit_form_to_download:
+    weight: 3
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

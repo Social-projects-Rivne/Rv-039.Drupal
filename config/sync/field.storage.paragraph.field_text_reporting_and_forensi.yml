@@ -1,0 +1,19 @@
+uuid: c3fb5181-9c38-41b8-905a-0329d19c0300
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_text_reporting_and_forensi
+field_name: field_text_reporting_and_forensi
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

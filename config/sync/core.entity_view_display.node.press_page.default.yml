@@ -1,10 +1,10 @@
-uuid: ee12b016-6614-4509-920d-c58aeae2891e
+uuid: 5045e633-8f7d-4df8-98c8-e875de137d0d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.press_page.field_event_date
-    - field.field.node.press_page.field_event_description_full
+    - field.field.node.press_page.field_date_of_press
+    - field.field.node.press_page.field_description_for_press
     - field.field.node.press_page.field_link_to_press
     - field.field.node.press_page.field_paragraph
     - node.type.press_page
@@ -26,7 +26,7 @@ content:
     type: entity_reference_revisions_entity_view
     region: content
 hidden:
-  field_event_date: true
-  field_event_description_full: true
+  field_date_of_press: true
+  field_description_for_press: true
   field_link_to_press: true
   links: true

@@ -1,4 +1,4 @@
-uuid: 00153002-7cc9-481f-97c3-bde2e5e9930c
+uuid: 44e9a59a-7094-4946-8b86-6ea60d31d3aa
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: paragraph.press_event.field_description
 field_name: field_description
 entity_type: paragraph
 bundle: press_event
-label: 'Description for press'
+label: 'text wrapper'
 description: ''
 required: false
 translatable: true

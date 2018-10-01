@@ -1,0 +1,19 @@
+uuid: cbbfc1b9-39a2-4132-8a5d-cf422b7fea95
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_text_page_mitigation
+field_name: field_text_page_mitigation
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

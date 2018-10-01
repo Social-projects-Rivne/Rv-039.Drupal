@@ -1,4 +1,4 @@
-uuid: 45fb3052-7024-450a-a184-954788c9b82c
+uuid: 02e4ab81-1572-4f1a-b03b-10453e91be30
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: paragraph.other_news.field_title
 field_name: field_title
 entity_type: paragraph
 bundle: other_news
-label: 'resource of news'
+label: 'news description'
 description: ''
 required: false
 translatable: true

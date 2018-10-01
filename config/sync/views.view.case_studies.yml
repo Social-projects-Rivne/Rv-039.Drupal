@@ -59,7 +59,7 @@ display:
         options:
           grouping: {  }
           row_class: second-custom
-          default_row_class: true
+          default_row_class: false
       row:
         type: fields
         options:
@@ -250,7 +250,7 @@ display:
           exposed: false
           expose:
             label: 'Authored on'
-          granularity: minute
+          granularity: second
           entity_type: node
           entity_field: created
           plugin_id: date
@@ -274,11 +274,11 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: 'case studies'
+    display_title: Block
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      block_hide_empty: true
     cache_metadata:
       max-age: -1
       contexts:

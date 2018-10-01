@@ -1,4 +1,4 @@
-uuid: 732a50a4-5ac7-420b-84dc-7aa0ea83185e
+uuid: e79f3d4c-ef1a-4e93-8262-a99a427c34b9
 langcode: en
 status: true
 dependencies:
@@ -13,6 +13,6 @@ name: 'press page'
 type: press_page
 description: ''
 help: ''
-new_revision: false
+new_revision: true
 preview_mode: 1
-display_submitted: false
+display_submitted: true

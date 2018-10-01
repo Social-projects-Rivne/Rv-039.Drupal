@@ -65,3 +65,19 @@
     text-align: center;
   }
 }
+
+.press-resources-wrap{
+  .field--name-bp-text{
+    p{
+      color: #fff;
+    }
+    a{
+      color: #fff;
+      text-decoration: none;
+      &:hover{
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,21 +1,112 @@
-.section_mitigation_mantle{
-  padding-top: 200px;
-  padding-bottom: 200px ;
-  box-sizing: border-box;
-  display: block;
-  .paragraph{
-    box-sizing: border-box;
-    display: block;
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+.section_page_mitigation_mantle {
+  padding: 200px 0;
+  min-height: 500px;
 
+  .paragraph {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 
+    .field--name-field-text-page-mitigation {
+      float: right;
+      position: relative;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 33.3333%;
+
+      h1 {
+        width: auto;
+        margin-top: 0;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: left;
+        letter-spacing: 0;
+        color: #fff;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        margin-bottom: 10px;
+        text-align: left;
+        letter-spacing: 0;
+        text-transform: none;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+        display: inline-block;
+        color: #fff;
+      }
+    }
   }
 }
-.field--name-field-mitigation-label{
-  float: left;
-  padding: 0 10px;
-  position: relative;
-  width: 33.33333%;
+///////////////////////////////////////
+
+.section_mitigation-intro1 {
+  padding: 150px 0;
+  background-image: linear-gradient(180deg,#011d2a,#011d2a);
+
+  .paragraph {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    .field--name-field-text-page-mitigation-passi {
+      width: 41.666667%;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      position: relative;
+
+      h1 {
+        color: #fff;
+        width: auto;
+        margin-top: 0;
+        border-style: none;
+        padding-bottom: 0;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: left;
+        letter-spacing: 0;
+        font-weight: 200;
+        margin-bottom: 10px;
+      }
+
+      p {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: none;
+        clear: none;
+        color: #fff;
+        font-weight: 300;
+        text-align: left;
+        list-style-type: disc;
+        font-size: 16px;
+        line-height: 24px;
+        display: inline-block;
+      }
+    }
+
+    .field--name-field-image-page-mitigation-pass {
+      position: relative;
+      width: 58.33333333%;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      img {
+        margin-top: 0;
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+        display: block;
+        transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+        max-width: 100%;
+        margin-bottom: 0;
+        border: 0;
+        vertical-align: middle;
+      }
+    }
+  }
 }

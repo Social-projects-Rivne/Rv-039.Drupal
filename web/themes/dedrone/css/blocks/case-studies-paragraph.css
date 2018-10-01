@@ -21,9 +21,7 @@
     .case-studies-paragraph .view-case-studies .second-custom {
       width: 31%;
       float: left;
-      margin: 0 1% 20px 1%;
       border-radius: 2px;
-      background-image: linear-gradient(180deg, #fff, #fff);
       box-shadow: none; }
       @media (max-width: 600px) {
         .case-studies-paragraph .view-case-studies .second-custom {
@@ -31,11 +29,16 @@
       .case-studies-paragraph .view-case-studies .second-custom .views-field-field-image-from-next-page {
         max-height: 215px;
         overflow: hidden; }
+        .case-studies-paragraph .view-case-studies .second-custom .views-field-field-image-from-next-page img {
+          margin: 0 10px; }
       .case-studies-paragraph .view-case-studies .second-custom .views-field-field-link-to-next-page a {
         padding: 20px;
+        background-image: linear-gradient(180deg, #fff, #fff);
         color: #111;
         font-size: 15px;
         min-height: 80px;
         line-height: 20px;
+        width: calc(100% - 10px);
         font-weight: 500;
-        text-decoration: none; }
+        text-decoration: none;
+        margin: 0 10px 20px; }

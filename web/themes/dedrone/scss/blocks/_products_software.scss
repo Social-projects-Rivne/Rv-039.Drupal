@@ -1,3 +1,5 @@
+
+
 .page_software_your_airspace {
   height: 600px;
   align-items: center;
@@ -18,7 +20,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    .field--name-field-label- {
+    .field--name-field-label-your-airspace-secure {
       height: 190px;
       width: 320px;
       position: relative;
@@ -45,8 +47,8 @@
       }
 
       h2 {
-        clear: both;
-        color: #fcf8f8;
+font-weight: 200;
+        color: #fff;
         margin-top: 20px;
         font-size: 20px;
         line-height: 24px;
@@ -95,7 +97,7 @@
     }
   }
 
-  .field--name-field-text-software-enabled-sec {
+  .field--name-field-text-software-enabled-secu {
     color: rgb(129, 129, 129);
     position: relative;
     text-size-adjust: 100%;
@@ -106,6 +108,8 @@
       color: #ece9e9;
       font-weight: 50;
       padding-bottom: 0;
+      //fdfd
+      //dsddf
       border-bottom-width: 0;
       font-size: 40px;
       line-height: 45px;
@@ -196,9 +200,9 @@
     font-weight: 400;
   }
 }
-////////////////////////////////////////////////////////////////////////////////
+/////// //// ///////  //////////////////////////////////////////////////////////////
 
-.field--name-field-image-reporti {
+.field--name-field-image-re {
   width: 58.333333%;
   float: none;
   padding: 0;
@@ -385,7 +389,7 @@
   }
 }
 
-.field--name-field-text- {
+.field--name-field-text-cloud-managed-airspac {
   float: right;
   padding-left: 10px;
   padding-right: 10px;
@@ -438,7 +442,7 @@
   }
 }
 
-.field--name-field-labal-section-featu {
+.field--name-field-labal-section-features {
   h1 {
     position: relative;
     width: auto;
@@ -531,3 +535,71 @@
     }
   }
 }
+////////////////////////////////////////////////////////
+
+.wrapper_platform {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: linear-gradient(180deg,#fff,#fff);
+
+  .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    display: flex;
+    flex-direction: row;
+
+    .field {
+      width: 50%;
+      position: relative;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      float: left;
+    }
+  }
+}
+
+.field--name-field-image-platform-diagram {
+  img {
+    opacity: 1;
+    transform: translateX(0px) translateY(0px) translateZ(0px);
+    display: block;
+    transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+    margin-top: 25px;
+    margin-bottom: 0;
+    border: 0;
+    vertical-align: middle;
+    width: 315px;
+  }
+}
+.field--name-field-text-platform-for-airspace {
+  h1{
+    margin-top: 0px;
+    padding-bottom: 0;
+font-size: 40px;
+line-height: 45px;
+text-align: left;
+letter-spacing: 0;
+margin-bottom: 10px;
+
+  }
+  p{
+    margin-top: 10px;
+    float: none;
+    clear: none;
+    font-family: 'Pluto Sans Condensed Light',sans-serif;
+    color: #111;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+}
+
+.field--name-field-media-image{
+  .field__item{
+    a{
+      img{
+      display: hidden;
+}}}}

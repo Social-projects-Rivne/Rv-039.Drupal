@@ -1,4 +1,4 @@
-uuid: 2675fd58-fab4-49d8-833f-a01e619aff9e
+uuid: 08e59819-2325-460b-b95e-74870955d116
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ settings:
   target_type: view
 module: viewsreference
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

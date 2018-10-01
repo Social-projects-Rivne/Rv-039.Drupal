@@ -17,8 +17,7 @@
     padding: 40px 0;
     border-top: 1px solid #426270;
     text-align: left;
-    text-decoration: none;
-    margin-bottom: 50px; }
+    text-decoration: none; }
     .other-news .other-news-wrap .description-wrap .field--name-field-our-products {
       padding-right: 50px;
       padding-bottom: 0;
@@ -45,7 +44,7 @@
         color: #009ee3; }
   .other-news a.button.button-blue {
     display: block;
-    margin: 20px auto;
+    margin: 50px auto 0;
     padding: 20px;
     border-radius: 4px;
     background: #009ee3;

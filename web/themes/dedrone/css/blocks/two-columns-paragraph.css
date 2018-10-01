@@ -47,3 +47,13 @@
   margin-top: 10px;
   padding-top: 5px;
   text-align: center; }
+
+.press-resources-wrap .field--name-bp-text p {
+  color: #fff; }
+
+.press-resources-wrap .field--name-bp-text a {
+  color: #fff;
+  text-decoration: none; }
+  .press-resources-wrap .field--name-bp-text a:hover {
+    text-decoration: none;
+    color: #fff; }

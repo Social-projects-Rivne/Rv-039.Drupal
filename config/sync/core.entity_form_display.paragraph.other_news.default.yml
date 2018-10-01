@@ -1,4 +1,4 @@
-uuid: 6d608b73-640b-48f0-bc51-a9f651e3e87c
+uuid: 33cb9276-c9e6-4e76-b008-4c47952c8c13
 langcode: en
 status: true
 dependencies:
@@ -24,7 +24,7 @@ content:
     type: link_default
     region: content
   field_our_products:
-    weight: 3
+    weight: 0
     settings:
       size: 60
       placeholder: ''

@@ -1,0 +1,29 @@
+uuid: 7a57c0ec-ac31-4693-8b86-7ccca8be8c06
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.library.field_description
+    - field.field.node.library.field_library_category
+    - field.field.node.library.field_submit_form_to_download
+    - node.type.library
+  module:
+    - options
+    - user
+id: node.library.teaser
+targetEntityType: node
+bundle: library
+mode: teaser
+content:
+  field_library_category:
+    type: list_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_description: true
+  field_submit_form_to_download: true
+  links: true

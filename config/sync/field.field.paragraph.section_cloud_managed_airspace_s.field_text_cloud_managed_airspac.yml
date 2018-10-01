@@ -1,0 +1,21 @@
+uuid: e4f84894-76be-4d02-8b9f-26834e86a5bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_cloud_managed_airspac
+    - paragraphs.paragraphs_type.section_cloud_managed_airspace_s
+  module:
+    - text
+id: paragraph.section_cloud_managed_airspace_s.field_text_cloud_managed_airspac
+field_name: field_text_cloud_managed_airspac
+entity_type: paragraph
+bundle: section_cloud_managed_airspace_s
+label: 'text Cloud-Managed Airspace Security'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
