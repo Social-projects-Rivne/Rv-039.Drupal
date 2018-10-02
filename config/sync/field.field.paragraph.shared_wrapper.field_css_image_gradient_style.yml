@@ -1,0 +1,19 @@
+uuid: 4acf9dc4-b021-4aca-93df-48e87796bcbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_css_image_gradient_style
+    - paragraphs.paragraphs_type.shared_wrapper
+id: paragraph.shared_wrapper.field_css_image_gradient_style
+field_name: field_css_image_gradient_style
+entity_type: paragraph
+bundle: shared_wrapper
+label: 'CSS image gradient style'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

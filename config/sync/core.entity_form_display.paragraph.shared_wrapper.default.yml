@@ -8,6 +8,7 @@ dependencies:
     - field.field.paragraph.shared_wrapper.field_background_style
     - field.field.paragraph.shared_wrapper.field_content
     - field.field.paragraph.shared_wrapper.field_css_classes
+    - field.field.paragraph.shared_wrapper.field_css_image_gradient_style
     - paragraphs.paragraphs_type.shared_wrapper
   module:
     - jquery_colorpicker
@@ -53,6 +54,14 @@ content:
     region: content
   field_css_classes:
     weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_css_image_gradient_style:
+    weight: 6
     settings:
       size: 60
       placeholder: ''

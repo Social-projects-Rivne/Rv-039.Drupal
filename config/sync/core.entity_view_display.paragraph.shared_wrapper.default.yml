@@ -8,6 +8,7 @@ dependencies:
     - field.field.paragraph.shared_wrapper.field_background_style
     - field.field.paragraph.shared_wrapper.field_content
     - field.field.paragraph.shared_wrapper.field_css_classes
+    - field.field.paragraph.shared_wrapper.field_css_image_gradient_style
     - paragraphs.paragraphs_type.shared_wrapper
   module:
     - entity_reference_revisions
@@ -53,6 +54,14 @@ content:
   field_css_classes:
     weight: 4
     label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_css_image_gradient_style:
+    weight: 6
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }

@@ -33,7 +33,7 @@ content:
     third_party_settings: {  }
   field_submit_form_to_download:
     weight: 3
-    label: above
+    label: hidden
     settings:
       source_entity: true
     third_party_settings: {  }

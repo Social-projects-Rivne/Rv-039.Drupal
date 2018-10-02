@@ -211,12 +211,20 @@ function dedrone_preprocess_paragraph(&$variables) {
 
     if($field_style->value == "Image" || $field_style->value == "Gradient_image")
     {
-      $image_field = $paragraph->get('field_background_img');
-      if (!$image_field->isEmpty()) {
-        $variables['style'] = $field_style->value;
-        $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
-        $variables['background_image_url'] = file_create_url($uri);
-      }
+       $image_field = $paragraph->get('field_background_img');
+       if (!$image_field->isEmpty()) {
+           $variables['style'] = $field_style->value;
+           $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+           $variables['background_image_url'] = file_create_url($uri);
+       }
+       $gradient_field = $paragraph->get('field_css_image_gradient_style');
+       if (!$gradient_field->isEmpty()) {
+           $variables['gradient'] = $gradient_field->value.',';
+       }
+       else
+       {
+           $variables['gradient'] = 'linear-gradient(90deg,rgba(0,0,0,.59),hsla(0,0%,100%,0)),';
+       }
     }
    }
 }
