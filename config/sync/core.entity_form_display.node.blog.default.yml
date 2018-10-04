@@ -5,10 +5,13 @@ dependencies:
   config:
     - field.field.node.blog.field_blog_category
     - field.field.node.blog.field_blog_description
+    - field.field.node.blog.field_blog_region
+    - field.field.node.blog.field_geolocation
     - field.field.node.blog.field_image
     - image.style.thumbnail
     - node.type.blog
   module:
+    - geolocation
     - image
     - path
     - text
@@ -36,6 +39,47 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+    region: content
+  field_blog_region:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_geolocation:
+    weight: 124
+    settings:
+      default_longitude: ''
+      default_latitude: ''
+      google_map_settings:
+        height: 400px
+        width: 100%
+        type: ROADMAP
+        zoom: '3'
+        maxZoom: 18
+        minZoom: 0
+        mapTypeControl: 1
+        streetViewControl: 1
+        zoomControl: 1
+        scrollwheel: 1
+        gestureHandling: auto
+        draggable: 1
+        style: ''
+        info_auto_display: 1
+        marker_icon_path: ''
+        disableAutoPan: 1
+        rotateControl: 0
+        fullscreenControl: 0
+        preferScrollingToZooming: 0
+        disableDoubleClickZoom: 0
+      auto_client_location: '0'
+      auto_client_location_marker: '0'
+      allow_override_map_settings: 0
+      populate_address_field: ''
+      target_address_field: null
+      explicite_actions_address_field: ''
+    third_party_settings: {  }
+    type: geolocation_googlegeocoder
     region: content
   field_image:
     weight: 122

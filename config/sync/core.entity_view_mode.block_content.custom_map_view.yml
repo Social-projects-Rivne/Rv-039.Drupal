@@ -1,0 +1,10 @@
+uuid: a9b11809-ddf6-418c-9e13-53bedcdc8321
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.custom_map_view
+label: 'Custom Map view'
+targetEntityType: block_content
+cache: true
