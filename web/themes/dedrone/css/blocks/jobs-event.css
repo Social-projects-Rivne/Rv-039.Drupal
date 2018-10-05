@@ -1,0 +1,66 @@
+.jobs-event {
+  padding: 150px 0; }
+  .jobs-event .field--name-field-description {
+    margin-bottom: 100px;
+    text-align: center; }
+    .jobs-event .field--name-field-description h2 {
+      font-size: 40px;
+      line-height: 45px;
+      color: #111; }
+  .jobs-event .jobs-wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    width: 100%; }
+    .jobs-event .jobs-wrapper .view-jobs-event {
+      position: relative;
+      margin-top: 50px;
+      float: left;
+      width: 50%; }
+      @media (max-width: 764px) {
+        .jobs-event .jobs-wrapper .view-jobs-event {
+          width: 100%;
+          float: none; } }
+    .jobs-event .jobs-wrapper .view-display-id-block_1:before {
+      content: 'USA';
+      position: absolute;
+      color: #009ee3;
+      font-size: 21px;
+      line-height: 20px;
+      font-weight: 500;
+      top: -15px;
+      left: 15px; }
+    @media (max-width: 764px) {
+      .jobs-event .jobs-wrapper .view-display-id-block_2 {
+        margin-top: 100px; } }
+    .jobs-event .jobs-wrapper .view-display-id-block_2:before {
+      content: 'EMEA';
+      position: absolute;
+      color: #009ee3;
+      font-size: 21px;
+      line-height: 20px;
+      font-weight: 500;
+      top: -15px;
+      left: 15px; }
+    @media (max-width: 764px) {
+      .jobs-event .jobs-wrapper .job-event-block {
+        width: 100%;
+        float: none;
+        padding: 0; } }
+    .jobs-event .jobs-wrapper .job-event-block a {
+      margin: 20px 0;
+      color: #111;
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 300;
+      text-align: left;
+      letter-spacing: 0;
+      text-transform: none;
+      text-decoration: none; }
+    .jobs-event .jobs-wrapper .job-event-block .views-field-field-job-location {
+      color: #111;
+      font-size: 11px;
+      line-height: 16px;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px; }

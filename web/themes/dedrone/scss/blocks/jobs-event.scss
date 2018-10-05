@@ -1,0 +1,81 @@
+.jobs-event{
+  padding: 150px 0;
+  .field--name-field-description{
+    margin-bottom: 100px;
+    text-align: center;
+    h2{
+      font-size: 40px;
+      line-height: 45px;
+      color: #111;
+    }
+  }
+  .jobs-wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    width: 100%;
+    .view-jobs-event{
+      position: relative;
+      margin-top: 50px;
+      float: left;
+      width: 50%;
+      @media (max-width: 764px) {
+        width: 100%;
+        float: none;
+      }
+    }
+    .view-display-id-block_1{
+      &:before{
+        content: 'USA';
+        position: absolute;
+        color: #009ee3;
+        font-size: 21px;
+        line-height: 20px;
+        font-weight: 500;
+        top: -15px;
+        left: 15px;
+      }
+    }
+    .view-display-id-block_2{
+      @media (max-width: 764px) {
+        margin-top: 100px;
+      }
+      &:before{
+        content: 'EMEA';
+        position: absolute;
+        color: #009ee3;
+        font-size: 21px;
+        line-height: 20px;
+        font-weight: 500;
+        top: -15px;
+        left: 15px;
+      }
+    }
+    .job-event-block{
+      @media (max-width: 764px) {
+        width: 100%;
+        float: none;
+        padding: 0;
+      }
+      a{
+        margin: 20px 0;
+        color: #111;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 0;
+        text-transform: none;
+        text-decoration: none;
+      }
+      .views-field-field-job-location{
+        color: #111;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
