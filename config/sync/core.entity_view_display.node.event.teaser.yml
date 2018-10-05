@@ -4,15 +4,39 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_description_full
+    - field.field.node.event.field_event_image
+    - field.field.node.event.field_event_registration_form
+    - field.field.node.event.field_library_category
     - node.type.event
   module:
+    - options
+    - text
     - user
 id: node.event.teaser
 targetEntityType: node
 bundle: event
 mode: teaser
 content:
-  links:
-    weight: 100
+  field_event_description:
+    type: text_default
+    weight: 1
     region: content
-hidden: {  }
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_library_category:
+    type: list_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_event_date: true
+  field_event_description_full: true
+  field_event_image: true
+  field_event_registration_form: true
+  links: true

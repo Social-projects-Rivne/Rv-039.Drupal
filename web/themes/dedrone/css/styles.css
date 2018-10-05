@@ -8044,37 +8044,43 @@ button {
       padding-top: 50px;
       padding-bottom: 50px; } }
 
-.event-registration p {
+.event-registration p,
+.node--type-event p {
   margin: 20px 0;
   font-size: 16px;
   line-height: 24px;
   color: #fff; }
 
-.event-registration h4 {
+.event-registration h4,
+.node--type-event h4 {
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
   font-weight: 500;
   color: #fff; }
 
-.event-registration li {
+.event-registration li,
+.node--type-event li {
   font-size: 16px;
   font-weight: 300;
   color: #fff; }
 
-.event-registration .event-title {
+.event-registration .event-title,
+.node--type-event .event-title {
   margin-bottom: 10px;
   font-size: 40px;
   line-height: 45px;
   color: #fff; }
 
-.event-registration .form-item-submit {
+.event-registration .form-item-submit,
+.node--type-event .form-item-submit {
   width: 100%;
   margin-top: 25px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.event-registration .date {
+.event-registration .date,
+.node--type-event .date {
   font-size: 20px;
   line-height: 24px;
   color: #fff;
@@ -10533,8 +10539,8 @@ Right_vertically|Right vertically
   font-weight: 700; }
 
 .library-item {
+  max-width: 45%;
   display: -ms-flexbox;
-  height: 150px;
   padding-right: 10px;
   padding-left: 30px;
   margin: 10px 10px;
@@ -10545,11 +10551,25 @@ Right_vertically|Right vertically
       align-content: center !important;
   -ms-flex-wrap: wrap !important;
       flex-wrap: wrap !important;
-  -moz-break-after: always;
-       break-after: always;
+  -moz-break-after: always !important;
+       break-after: always !important;
+  overflow: hidden;
+  padding-bottom: 50px;
+  padding-top: 50px;
   box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.15); }
-  .library-item .field--name-field-library-category {
-    width: 100%; }
+  .library-item .type, .library-item .title {
+    width: 100%;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-line-pack: center !important;
+        align-content: center !important;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    -moz-break-after: always !important;
+         break-after: always !important; }
+    .library-item .type a, .library-item .title a {
+      -ms-flex-wrap: wrap-reverse !important;
+          flex-wrap: wrap-reverse !important; }
 
 .node--type-library .field--name-field-submit-form-to-download label {
   display: block;

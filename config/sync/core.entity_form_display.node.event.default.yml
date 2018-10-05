@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.event.field_event_description_full
     - field.field.node.event.field_event_image
     - field.field.node.event.field_event_registration_form
+    - field.field.node.event.field_library_category
     - image.style.thumbnail
     - node.type.event
   module:
@@ -108,4 +109,5 @@ content:
       placeholder: ''
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_library_category: true
