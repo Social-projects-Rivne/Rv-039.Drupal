@@ -411,11 +411,9 @@ Right_vertically|Right vertically
   }
 
 }
-
-
 .library-item {
+  max-width:45%;
   display: -ms-flexbox;
-  height: 150px;
   padding-right: 10px;
   padding-left: 30px;
   margin: 10px 10px;
@@ -426,12 +424,22 @@ Right_vertically|Right vertically
   display: flex !important;
   align-content: center !important;
   flex-wrap:wrap !important;
-  break-after: always;
-  .field--name-field-library-category
+  break-after: always !important;
+  overflow:hidden;
+  padding-bottom: 50px;
+  padding-top:50px;
+  .type,.title
   {
     width:100%;
+    display: flex !important;
+    align-content: center !important;
+    flex-wrap:wrap !important;
+    break-after: always !important;
+    a{
+      flex-wrap: wrap-reverse !important;
+    }
   }
-  box-shadow: 1px 1px 8px 0 rgba(0,0,0,.15);
+   box-shadow: 1px 1px 8px 0 rgba(0,0,0,.15);
 }
 
 .node--type-library

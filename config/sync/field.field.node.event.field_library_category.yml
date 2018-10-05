@@ -1,0 +1,23 @@
+uuid: 9f193b20-a56c-4c3a-bcef-fc3484fa2eb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_library_category
+    - node.type.event
+  module:
+    - options
+id: node.event.field_library_category
+field_name: field_library_category
+entity_type: node
+bundle: event
+label: 'Library category'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: webinars
+default_value_callback: ''
+settings: {  }
+field_type: list_string
