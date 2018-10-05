@@ -1,0 +1,14 @@
+uuid: 7a0ac928-271e-4e7e-b6b5-c6239c185ce0
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: job_
+label: 'job description'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

@@ -1,0 +1,21 @@
+uuid: 2d154e91-867b-45f3-94d4-5ed13b0edf36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_our_products
+    - paragraphs.paragraphs_type.job_
+  module:
+    - text
+id: paragraph.job_.field_our_products
+field_name: field_our_products
+entity_type: paragraph
+bundle: job_
+label: title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

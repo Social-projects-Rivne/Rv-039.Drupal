@@ -1,0 +1,32 @@
+uuid: ef69a7e2-c26c-4552-bffc-2efefe2c4a38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.job_page.field_job_location
+    - field.field.node.job_page.field_link_to_job
+    - field.field.node.job_page.field_location
+    - field.field.node.job_page.field_paragraph
+    - node.type.job_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.job_page.default
+targetEntityType: node
+bundle: job_page
+mode: default
+content:
+  field_paragraph:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  field_job_location: true
+  field_link_to_job: true
+  field_location: true
+  links: true

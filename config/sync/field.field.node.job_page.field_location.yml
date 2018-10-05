@@ -1,0 +1,21 @@
+uuid: 943d3852-4360-44eb-8c78-980e8248101e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.job_page
+  module:
+    - options
+id: node.job_page.field_location
+field_name: field_location
+entity_type: node
+bundle: job_page
+label: Location
+description: "usa|USA\r\nemea|EMEA"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

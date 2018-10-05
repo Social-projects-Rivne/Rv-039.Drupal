@@ -1,0 +1,33 @@
+uuid: e2a47ac9-87cc-485e-8973-19c2cd859e04
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.image_entity_browser
+    - field.field.paragraph.jobs_slider.field_background_img
+    - paragraphs.paragraphs_type.jobs_slider
+  module:
+    - entity_browser
+id: paragraph.jobs_slider.default
+targetEntityType: paragraph
+bundle: jobs_slider
+mode: default
+content:
+  field_background_img:
+    weight: 0
+    settings:
+      entity_browser: image_entity_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

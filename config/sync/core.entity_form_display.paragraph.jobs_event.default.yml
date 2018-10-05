@@ -1,0 +1,37 @@
+uuid: d1666241-143c-4505-870d-0c61dc0fb848
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.jobs_event.field_description
+    - field.field.paragraph.jobs_event.field_jobs_event
+    - paragraphs.paragraphs_type.jobs_event
+  module:
+    - text
+    - viewsreference
+id: paragraph.jobs_event.default
+targetEntityType: paragraph
+bundle: jobs_event
+mode: default
+content:
+  field_description:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_jobs_event:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

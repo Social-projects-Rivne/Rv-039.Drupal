@@ -49,19 +49,19 @@
   ]
 %}
 {% block paragraph %}
-  <div class="two-columns-paragraph">
-    {% block content %}
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="left-column">{{ content.field_le }}</div>
-          </div>
-          <div class="col-sm-12 col-md-6">
-            <div class="right-column">{{ content.field_r }}</div>
-          </div>
+<div class="jobs-event">
+  <div class="container">
+    <div class="row">
+      {% block content %}
+        <div class="col-sm-12">
+          {{ content.field_description }}
         </div>
-      </div>
-    {% endblock %}
+         <div class="jobs-wrapper">
+           {{ content.field_jobs_event }}
+         </div>
+        </div>
+      {% endblock %}
+    </div>
   </div>
 {% endblock paragraph %}
 
