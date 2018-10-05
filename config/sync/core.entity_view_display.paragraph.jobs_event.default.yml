@@ -1,10 +1,10 @@
-uuid: 8028e120-b6b2-4c53-95f9-aa153e823b55
+uuid: ec8e2ceb-03b7-4901-8bff-fd49bfaeae30
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.paragraph.jobs_event.field_description
-    - field.field.paragraph.jobs_event.field_job_view
+    - field.field.paragraph.jobs_event.field_jobs_event
     - paragraphs.paragraphs_type.jobs_event
   module:
     - text
@@ -21,7 +21,7 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-  field_job_view:
+  field_jobs_event:
     weight: 1
     label: hidden
     settings:

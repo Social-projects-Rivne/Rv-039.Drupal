@@ -53,12 +53,13 @@
   <div class="container">
     <div class="row">
       {% block content %}
-        <div class="col-sm-12 col-md-3">
+        <div class="col-sm-12">
           {{ content.field_description }}
         </div>
-         <div class="col-sm-12 col-md-9">
-           {{ content.field_description }}
+         <div class="jobs-wrapper">
+           {{ content.field_jobs_event }}
          </div>
+        </div>
       {% endblock %}
     </div>
   </div>

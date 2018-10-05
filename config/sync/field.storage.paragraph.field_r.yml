@@ -1,12 +1,12 @@
-uuid: b0e047df-acab-4ccc-9429-d533a9bf2fbb
+uuid: 00135a6f-7a09-4b21-8d7e-14f70ceaa390
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
     - text
-id: paragraph.field_right_column
-field_name: field_right_column
+id: paragraph.field_r
+field_name: field_r
 entity_type: paragraph
 type: text_long
 settings: {  }

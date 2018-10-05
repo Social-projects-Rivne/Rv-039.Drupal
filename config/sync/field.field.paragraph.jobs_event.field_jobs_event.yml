@@ -1,17 +1,17 @@
-uuid: 2455249e-c9af-4756-9543-6b80edddcdfb
+uuid: 516f5c6b-4bee-4637-ae3a-1065b508eb0f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_job_view
+    - field.storage.paragraph.field_jobs_event
     - paragraphs.paragraphs_type.jobs_event
   module:
     - viewsreference
-id: paragraph.jobs_event.field_job_view
-field_name: field_job_view
+id: paragraph.jobs_event.field_jobs_event
+field_name: field_jobs_event
 entity_type: paragraph
 bundle: jobs_event
-label: 'job view'
+label: 'Jobs event'
 description: ''
 required: false
 translatable: false

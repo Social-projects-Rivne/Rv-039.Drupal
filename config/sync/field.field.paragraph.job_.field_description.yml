@@ -1,16 +1,16 @@
-uuid: 3da0172b-9898-491a-933f-e861759b9809
+uuid: 920ac01d-eade-438d-8e50-6a96ed6af1c0
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_description
-    - paragraphs.paragraphs_type.job_description
+    - paragraphs.paragraphs_type.job_
   module:
     - text
-id: paragraph.job_description.field_description
+id: paragraph.job_.field_description
 field_name: field_description
 entity_type: paragraph
-bundle: job_description
+bundle: job_
 label: Description
 description: ''
 required: false

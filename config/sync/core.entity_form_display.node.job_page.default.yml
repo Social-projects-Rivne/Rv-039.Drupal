@@ -1,21 +1,21 @@
-uuid: 20976b1e-993f-462f-8920-4fe94a6cba10
+uuid: 1c715dfb-a59c-4d9c-a57c-387e7b25660d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.usa_jobs.field_job_link
-    - field.field.node.usa_jobs.field_job_location
-    - field.field.node.usa_jobs.field_location
-    - field.field.node.usa_jobs.field_paragraph
-    - node.type.usa_jobs
+    - field.field.node.job_page.field_job_location
+    - field.field.node.job_page.field_link_to_job
+    - field.field.node.job_page.field_location
+    - field.field.node.job_page.field_paragraph
+    - node.type.job_page
   module:
     - link
     - paragraphs
     - path
     - text
-id: node.usa_jobs.default
+id: node.job_page.default
 targetEntityType: node
-bundle: usa_jobs
+bundle: job_page
 mode: default
 content:
   created:
@@ -24,14 +24,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_job_link:
-    weight: 122
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
-    region: content
   field_job_location:
     weight: 123
     settings:
@@ -39,6 +31,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textfield
+    region: content
+  field_link_to_job:
+    weight: 122
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
     region: content
   field_location:
     weight: 121

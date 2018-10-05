@@ -1,17 +1,17 @@
-uuid: 22aba14a-3c07-497e-b518-d4ae9c3a2a79
+uuid: c2426b24-5602-4792-a16e-ab1a073e9551
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_job_link
-    - node.type.usa_jobs
+    - field.storage.node.field_link_to_job
+    - node.type.job_page
   module:
     - link
-id: node.usa_jobs.field_job_link
-field_name: field_job_link
+id: node.job_page.field_link_to_job
+field_name: field_link_to_job
 entity_type: node
-bundle: usa_jobs
-label: 'job link'
+bundle: job_page
+label: 'link to job'
 description: ''
 required: false
 translatable: false

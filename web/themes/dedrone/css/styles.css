@@ -10225,11 +10225,6 @@ button {
       font-weight: 500;
       top: -15px;
       left: 15px; }
-    @media (max-width: 764px) {
-      .jobs-event .jobs-wrapper .job-event-block {
-        width: 100%;
-        float: none;
-        padding: 0; } }
     .jobs-event .jobs-wrapper .job-event-block a {
       margin: 20px 0;
       color: #111;

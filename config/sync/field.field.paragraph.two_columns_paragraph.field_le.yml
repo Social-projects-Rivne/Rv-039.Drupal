@@ -1,14 +1,14 @@
-uuid: 01739cf2-6d3f-4be6-8bca-cbe1c862c026
+uuid: 3eef4ee1-6904-42ec-abf8-73894a76d0f2
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_left_column
+    - field.storage.paragraph.field_le
     - paragraphs.paragraphs_type.two_columns_paragraph
   module:
     - text
-id: paragraph.two_columns_paragraph.field_left_column
-field_name: field_left_column
+id: paragraph.two_columns_paragraph.field_le
+field_name: field_le
 entity_type: paragraph
 bundle: two_columns_paragraph
 label: 'left column'

@@ -1,16 +1,16 @@
-uuid: 4352f84c-058b-4c31-8b14-7cc1e4fc4bee
+uuid: 943d3852-4360-44eb-8c78-980e8248101e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_location
-    - node.type.usa_jobs
+    - node.type.job_page
   module:
     - options
-id: node.usa_jobs.field_location
+id: node.job_page.field_location
 field_name: field_location
 entity_type: node
-bundle: usa_jobs
+bundle: job_page
 label: Location
 description: "usa|USA\r\nemea|EMEA"
 required: true

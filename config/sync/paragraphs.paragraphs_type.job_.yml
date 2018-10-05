@@ -1,10 +1,10 @@
-uuid: 5052126a-0df8-4d6d-9db5-1b59bf66dc1b
+uuid: 7a0ac928-271e-4e7e-b6b5-c6239c185ce0
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs_viewmode
-id: job_description
+id: job_
 label: 'job description'
 icon_uuid: null
 description: ''

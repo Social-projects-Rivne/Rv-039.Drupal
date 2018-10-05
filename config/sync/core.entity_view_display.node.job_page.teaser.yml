@@ -1,15 +1,15 @@
-uuid: 2fe35073-6f54-4e91-84d0-dcf6c13ff972
+uuid: 77decbf9-fb7c-43ab-867f-89a8b082a69f
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.usa_jobs
+    - node.type.job_page
   module:
     - user
-id: node.usa_jobs.teaser
+id: node.job_page.teaser
 targetEntityType: node
-bundle: usa_jobs
+bundle: job_page
 mode: teaser
 content:
   links:

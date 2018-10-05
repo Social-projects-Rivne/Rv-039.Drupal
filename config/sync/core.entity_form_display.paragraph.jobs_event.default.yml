@@ -1,10 +1,10 @@
-uuid: 7d04ac82-4eea-4114-ab99-7a91116ec7e7
+uuid: d1666241-143c-4505-870d-0c61dc0fb848
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.paragraph.jobs_event.field_description
-    - field.field.paragraph.jobs_event.field_job_view
+    - field.field.paragraph.jobs_event.field_jobs_event
     - paragraphs.paragraphs_type.jobs_event
   module:
     - text
@@ -22,7 +22,7 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
-  field_job_view:
+  field_jobs_event:
     weight: 1
     settings:
       match_operator: CONTAINS

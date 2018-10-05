@@ -1,16 +1,16 @@
-uuid: b43e91f8-9cd9-4036-9b54-eeae4f5fb914
+uuid: 14e6e52c-1ddb-4134-8107-1ab5ddb96136
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_paragraph
-    - node.type.usa_jobs
+    - node.type.job_page
   module:
     - entity_reference_revisions
-id: node.usa_jobs.field_paragraph
+id: node.job_page.field_paragraph
 field_name: field_paragraph
 entity_type: node
-bundle: usa_jobs
+bundle: job_page
 label: Paragraph
 description: ''
 required: false

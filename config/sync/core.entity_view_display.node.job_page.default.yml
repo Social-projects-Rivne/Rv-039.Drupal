@@ -1,19 +1,19 @@
-uuid: ccccbcc4-2a24-4f99-8814-dac2c70c6fed
+uuid: ef69a7e2-c26c-4552-bffc-2efefe2c4a38
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.usa_jobs.field_job_link
-    - field.field.node.usa_jobs.field_job_location
-    - field.field.node.usa_jobs.field_location
-    - field.field.node.usa_jobs.field_paragraph
-    - node.type.usa_jobs
+    - field.field.node.job_page.field_job_location
+    - field.field.node.job_page.field_link_to_job
+    - field.field.node.job_page.field_location
+    - field.field.node.job_page.field_paragraph
+    - node.type.job_page
   module:
     - entity_reference_revisions
     - user
-id: node.usa_jobs.default
+id: node.job_page.default
 targetEntityType: node
-bundle: usa_jobs
+bundle: job_page
 mode: default
 content:
   field_paragraph:
@@ -26,7 +26,7 @@ content:
     type: entity_reference_revisions_entity_view
     region: content
 hidden:
-  field_job_link: true
   field_job_location: true
+  field_link_to_job: true
   field_location: true
   links: true

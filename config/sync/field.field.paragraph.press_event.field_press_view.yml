@@ -40,6 +40,7 @@ settings:
     event_registration_view: 0
     files: 0
     frontpage: 0
+    jobs_event: 0
     library: 0
     media: 0
     media_entity_browser: 0

@@ -1,16 +1,16 @@
-uuid: b760ce87-e0dc-4a2a-8083-b3c09a8e7730
+uuid: 6df53228-2189-4d79-a38d-9d03d743c046
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.job_description.field_description
-    - field.field.paragraph.job_description.field_our_products
-    - paragraphs.paragraphs_type.job_description
+    - field.field.paragraph.job_.field_description
+    - field.field.paragraph.job_.field_our_products
+    - paragraphs.paragraphs_type.job_
   module:
     - text
-id: paragraph.job_description.default
+id: paragraph.job_.default
 targetEntityType: paragraph
-bundle: job_description
+bundle: job_
 mode: default
 content:
   field_description:

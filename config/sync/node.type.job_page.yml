@@ -1,4 +1,4 @@
-uuid: 2f57697a-ade6-47d7-a231-8134bf9ce752
+uuid: 91b80f96-28cd-4ff8-8fbc-3fa5124c0666
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ third_party_settings:
       - main
     parent: 'main:'
 name: 'job page'
-type: usa_jobs
+type: job_page
 description: ''
 help: ''
 new_revision: false

@@ -1,17 +1,16 @@
-uuid: b6326a48-1f97-4a1f-b6e4-505f88dc34e5
+uuid: 10dfa926-1aea-4db7-8a2d-f5fba63ffa21
 langcode: en
 status: true
 dependencies:
   module:
+    - link
     - node
-    - text
-id: node.field_job_location
-field_name: field_job_location
+id: node.field_link_to_job
+field_name: field_link_to_job
 entity_type: node
-type: text
-settings:
-  max_length: 255
-module: text
+type: link
+settings: {  }
+module: link
 locked: false
 cardinality: 1
 translatable: true

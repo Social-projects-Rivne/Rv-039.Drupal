@@ -1,11 +1,11 @@
-uuid: 020fad83-89b0-42db-a001-3da444211194
+uuid: 8bece26f-c283-4bbc-a71b-5f686fa2127a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_job_link
     - field.storage.node.field_job_location
-    - node.type.usa_jobs
+    - field.storage.node.field_link_to_job
+    - node.type.job_page
   module:
     - link
     - node
@@ -53,8 +53,9 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: none
+        type: some
         options:
+          items_per_page: 5
           offset: 0
       style:
         type: default
@@ -65,10 +66,10 @@ display:
       row:
         type: fields
       fields:
-        field_job_link:
-          id: field_job_link
-          table: node__field_job_link
-          field: field_job_link
+        field_link_to_job:
+          id: field_link_to_job
+          table: node__field_link_to_job
+          field: field_link_to_job
           relationship: none
           group_type: group
           admin_label: ''
@@ -211,7 +212,7 @@ display:
           table: node_field_data
           field: type
           value:
-            usa_jobs: usa_jobs
+            job_page: job_page
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -270,7 +271,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Usa
+      title: 'Jobs event'
       header: {  }
       footer: {  }
       empty: {  }
@@ -285,8 +286,8 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_job_link'
         - 'config:field.storage.node.field_job_location'
+        - 'config:field.storage.node.field_link_to_job'
   block_1:
     display_plugin: block
     id: block_1
@@ -303,8 +304,8 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_job_link'
         - 'config:field.storage.node.field_job_location'
+        - 'config:field.storage.node.field_link_to_job'
   block_2:
     display_plugin: block
     id: block_2
@@ -330,7 +331,7 @@ display:
           table: node_field_data
           field: type
           value:
-            usa_jobs: usa_jobs
+            job_page: job_page
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -388,5 +389,5 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_job_link'
         - 'config:field.storage.node.field_job_location'
+        - 'config:field.storage.node.field_link_to_job'

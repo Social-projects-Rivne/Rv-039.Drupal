@@ -1,4 +1,4 @@
-uuid: 745a200a-e5ed-4e27-8a9f-13e0dd8aaec4
+uuid: c73adb53-2d48-4a99-8f57-109b72fc5cfd
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - paragraphs
     - views
     - viewsreference
-id: paragraph.field_job_view
-field_name: field_job_view
+id: paragraph.field_jobs_event
+field_name: field_jobs_event
 entity_type: paragraph
 type: viewsreference
 settings:
