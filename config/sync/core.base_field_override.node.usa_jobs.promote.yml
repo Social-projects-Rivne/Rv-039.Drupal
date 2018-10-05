@@ -1,0 +1,22 @@
+uuid: 9c707f3d-bc85-4aa8-bb30-03cd3133b5a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.usa_jobs
+id: node.usa_jobs.promote
+field_name: promote
+entity_type: node
+bundle: usa_jobs
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: f51939ca-3ef2-4ff2-b83e-d962bbc4fe7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.jobs_slider.field_background_img
+    - paragraphs.paragraphs_type.jobs_slider
+id: paragraph.jobs_slider.default
+targetEntityType: paragraph
+bundle: jobs_slider
+mode: default
+content:
+  field_background_img:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

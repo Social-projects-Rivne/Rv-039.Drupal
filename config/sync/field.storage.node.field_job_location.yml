@@ -1,0 +1,20 @@
+uuid: 721ba8fe-b0c5-4d57-bc4b-1e21ce3f086c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_job_location
+field_name: field_job_location
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

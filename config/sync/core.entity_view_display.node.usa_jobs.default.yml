@@ -1,0 +1,32 @@
+uuid: ccccbcc4-2a24-4f99-8814-dac2c70c6fed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.usa_jobs.field_job_link
+    - field.field.node.usa_jobs.field_job_location
+    - field.field.node.usa_jobs.field_location
+    - field.field.node.usa_jobs.field_paragraph
+    - node.type.usa_jobs
+  module:
+    - entity_reference_revisions
+    - user
+id: node.usa_jobs.default
+targetEntityType: node
+bundle: usa_jobs
+mode: default
+content:
+  field_paragraph:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  field_job_link: true
+  field_job_location: true
+  field_location: true
+  links: true

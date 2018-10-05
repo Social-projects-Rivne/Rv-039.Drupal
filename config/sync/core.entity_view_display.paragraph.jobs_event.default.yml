@@ -1,0 +1,33 @@
+uuid: 8028e120-b6b2-4c53-95f9-aa153e823b55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.jobs_event.field_description
+    - field.field.paragraph.jobs_event.field_job_view
+    - paragraphs.paragraphs_type.jobs_event
+  module:
+    - text
+    - viewsreference
+id: paragraph.jobs_event.default
+targetEntityType: paragraph
+bundle: jobs_event
+mode: default
+content:
+  field_description:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_job_view:
+    weight: 1
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden: {  }
