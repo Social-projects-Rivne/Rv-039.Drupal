@@ -1,0 +1,506 @@
+/* ==========================================================================
+   Shared site styles 
+========================================================================== */
+
+
+/* Paragraphs background styles
+========================================================================== */
+.background_image{
+        background-position: 0 0,50% 50% !important;
+        background-size: auto,cover !important;
+        display:flex !important;
+        min-height: 550px;
+        align-items:center;
+}
+
+/* Styles for shared paragraph
+========================================================================== */
+
+
+/* Styles for shared_title and shared_description paragraph
+========================================================================== */
+
+.text-color-white{
+  h1,h2,h3,h4,h5,h6,p,a  {
+    color: #fff;
+  }
+}
+.text-padding{
+  h1{
+    padding-bottom: 10px;
+    padding-top:10px;
+  }
+  h2{
+
+  }
+  h3{
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  h4{
+
+  }
+  h5{
+
+  }
+  h6{
+
+  }
+  p{
+    padding-bottom: 10px;
+    padding-top:10px;
+  }
+  a{
+
+  }
+}
+
+.title-padding{
+  h1{
+    margin-bottom: 10px;
+    padding-top: 5px;
+  }
+}
+.description-padding{
+  h2,h3,h4,h5,h6,p{
+    margin-top: 20px;
+  }
+}
+
+.title-description-right
+{
+    @extend .title-padding;
+    @extend .description-padding;
+
+    width:100%;
+    @include media-breakpoint-up(xs)  { padding: 0px 25px; }
+    float:right;
+
+    /*Title or Description*/
+    h1,h2,h3,h4,h5,h6,p{
+        text-align:right;
+    }
+
+}
+.title-description-left
+{
+  @extend .title-padding;
+  @extend .description-padding;
+
+    width:100%;
+    @include media-breakpoint-up(xs)  { padding: 0px 25px; }
+    float:left;
+
+    /*Title or Description*/
+    h1,h2,h3,h4,h5,h6,p{
+        text-align:left;
+    }
+}
+.title-description-center
+{
+  @extend .title-padding;
+  @extend .description-padding;
+
+    @include media-breakpoint-up(xs)  { padding: 0px 25px; }
+    margin:0 auto !important;
+    max-width: 550px;
+
+    /*Title or Description*/
+    h1,h2,h3,h4,h5,h6,p{
+        text-align:center;
+    }
+}
+
+.title-description-center-full-width
+{
+  @extend .title-description-center;
+  max-width:100% !important;
+}
+
+
+/* Styles for shared_button paragraph
+==========================================================================
+Left|Left
+Right|Right
+Center|Center
+Left_vertically|Left vertically
+Right_vertically|Right vertically
+
+    if ($paragraph->bundle() == 'shared_buttons')
+    {
+        $paragraph = $variables['elements']['#paragraph'];
+        $position = $paragraph->get('field_shared_position')->value;
+        if( $position == "Left")
+        {
+            $variables['attributes']['class'][] = "buttons-left";
+            $variables['attributes']['class'][] = "col-4";
+        }
+        if( $position == "Right")
+        {
+            $variables['attributes']['class'][] = "buttons-right";
+            $variables['attributes']['class'][] = "col-4";
+        }
+        if( $position == "Center") {
+            $variables['attributes']['class'][] = "buttons-center";
+        }
+        if( $position == "Center-full-width")
+        {
+            $variables['attributes']['class'][] = "buttons-center-full-width";
+        }
+    }
+*/
+
+.buttons {
+  display: flex;
+  align-items: center;
+
+  @include media-breakpoint-down(xs) {
+    width: 100%;
+    margin: 20px 0px;
+    .field--name-field-shared-button {
+      display: block !important;
+    }
+  }
+  .field__item {
+
+    min-width: 220px;
+    display: block;
+    margin: 45px 10px 0px 10px;
+    text-align: center;
+    padding: 15px 50px;
+    border-radius: 4px;
+    background-image: none;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.buttons-white
+{
+  @extend .buttons;
+  .field__item
+  {
+    border-color: #fff;
+    background-color: #fff;
+    border: 1px solid #fff;
+    a{
+      color: #0a0c15;
+    }
+  }
+  .field__item:hover
+  {
+    a{color: #fff;}
+    background-color: #009ee3;
+    border: 1px solid #009ee3;
+  }
+}
+
+.buttons-blue
+{
+  @extend .buttons;
+  .field__item
+  {
+    background-color: #009ee3;
+    border: 1px solid #009ee3;
+    a{
+      color: #fff;
+    }
+  }
+  .field__item:hover
+  {
+    background-color: #3898EC;
+    border: 1px solid #3898EC;
+  }
+}
+
+.buttons-white-transparent
+{
+  @extend .buttons-white;
+  .field__item
+  {
+    background-color: transparent;
+    @include media-breakpoint-down(xs) {
+      width: 100%;
+      margin: 20px 0px;
+    }
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  .field__item:hover
+  {
+    a{color: #111;}
+    background-color: #fff;
+    border: 1px solid #fff;
+  }
+}
+
+
+.buttons-left
+{
+    .field--name-field-shared-button
+    {
+      display: flex;
+      float:left;
+      justify-content: left;
+    }
+}
+.buttons-right
+{
+    .field--name-field-shared-button
+    {
+      display: flex;
+      float:right;
+      justify-content: right;
+    }
+}
+.buttons-center
+{
+    .field--name-field-shared-button
+    {
+      display: flex;
+      justify-content: center;
+    }
+}
+
+.buttons-right-vertically
+{
+  .field--name-field-shared-button
+  {
+    display: block;
+    float:right;
+  }
+}
+
+.content-row
+{
+  @include media-breakpoint-up(xs) {margin-top:50px;}
+  @include media-breakpoint-up(sm) {margin-top:50px;}
+  @include media-breakpoint-up(md) {margin-top:100px;}
+  @include media-breakpoint-up(lg) {margin-top:100px;}
+
+}
+
+.paragraph--type--shared-h1-buttons
+{
+    display: flex;
+    align-items:center;
+    h1{
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.paragraph--type--shared-full-width-col-7-col-5
+{
+    @extend .section;
+    padding-bottom:0px;
+    dispalay:flex;
+    align-items:center;
+    .background_image{ min-height: 400px;}
+    .background
+    {
+        height: 400px;
+    }
+    .col-7{padding:0;}
+    .col-5{padding:0;}
+}
+
+
+
+/* Other 
+========================================================================== */
+
+
+.link-block-white
+{
+  h1{
+    margin-bottom: 100px;
+    color:#fff;
+    text-align:center;
+  }
+  h2 a{
+    display: inline-block;
+    font-weight: 300;
+  }
+
+  a{
+    color:#fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  h5 a{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight:500;
+  }
+}
+
+
+
+
+
+//Section
+
+.section
+{
+    display: flex;
+
+    @include media-breakpoint-up(xs) {padding-top: 75px;  padding-bottom: 75px;}
+    @include media-breakpoint-up(sm) {padding-top: 100px; padding-bottom: 100px;}
+    @include media-breakpoint-up(md) {padding-top: 150px; padding-bottom: 150px;}
+    @include media-breakpoint-up(lg) {padding-top: 150px; padding-bottom: 150px;}
+
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    height: 100%;
+    width:100%;
+}
+
+.vertical-align-center
+{
+  @include media-breakpoint-up(xs)  { padding: 0px 25px; }
+  .paragraph__column {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.block-quote
+{
+  p:before {
+    content: open-quote;
+  }
+
+  p:after {
+    content: close-quote;
+  }
+  p{
+    quotes: '\201c' '\201d';
+    font-family: Martel,sans-serif;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 0;
+    border-left-style: none;
+    border-left-width: 0;
+    color: #111;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  h5{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+}
+
+
+.library-item {
+  display: -ms-flexbox;
+  height: 150px;
+  padding-right: 10px;
+  padding-left: 30px;
+  margin: 10px 10px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: flex !important;
+  align-content: center !important;
+  flex-wrap:wrap !important;
+  break-after: always;
+  .field--name-field-library-category
+  {
+    width:100%;
+  }
+  box-shadow: 1px 1px 8px 0 rgba(0,0,0,.15);
+}
+
+.node--type-library
+{
+  //Descripton
+  @extend .text-color-white;
+  .field--name-field-description{@extend .text-padding; }
+
+  //Web Form
+  .field--name-field-submit-form-to-download{
+    label {
+      display: block;
+      margin: 25px 0 0 0;
+      font-weight: 700;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #7d949f !important;
+    }
+
+    input {
+      color: #fff;
+    }
+
+    input,
+    select {
+      border: 0 none;
+      border-bottom: 1px solid #426270;
+      padding: 5px 0;
+      background: transparent;
+      font-size: 13px;
+    }
+    .btn
+    {
+      margin-top:30px;
+      width:100%;
+      background-color: #009ee3;
+      border: 1px solid #009ee3;
+      display: block;
+      text-align: center;
+      padding: 15px 50px;
+      border-radius: 4px;
+      background-image: none;
+      font-size: 12px;
+      line-height: 15px;
+      font-weight: 400;
+      text-transform: uppercase;
+      a{
+        color: #fff;
+      }
+
+      &:hover
+      {
+        background-color: #3898EC;
+        border: 1px solid #3898EC;
+      }
+    }
+
+    h2,
+    p,
+    .field__label {
+      margin-top:30px;
+      color: #fff;
+      padding-bottom:20px;
+    }
+
+
+  }
+}
+
+
+

@@ -1,0 +1,32 @@
+uuid: 5045e633-8f7d-4df8-98c8-e875de137d0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.press_page.field_date_of_press
+    - field.field.node.press_page.field_description_for_press
+    - field.field.node.press_page.field_link_to_press
+    - field.field.node.press_page.field_paragraph
+    - node.type.press_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.press_page.default
+targetEntityType: node
+bundle: press_page
+mode: default
+content:
+  field_paragraph:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  field_date_of_press: true
+  field_description_for_press: true
+  field_link_to_press: true
+  links: true

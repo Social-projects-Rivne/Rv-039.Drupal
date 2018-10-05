@@ -1,0 +1,20 @@
+uuid: a866aefa-c02b-4909-987e-c45e027847b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_date_of_press
+field_name: field_date_of_press
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

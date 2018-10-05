@@ -1,0 +1,235 @@
+.section-11_countermeasures {
+  background-color: #fff;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  .paragraph {
+    .container {
+      max-width: 940px;
+
+      .tab-container {
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+
+        .nav-tabs {
+          text-align: center;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          border-bottom: none;
+
+          li {
+            text-align: left;
+            cursor: pointer;
+            position: relative;
+            vertical-align: top;
+            text-decoration: none;
+            max-width: 100%;
+
+            a {
+              padding: 9px 30px;
+              color: #111;
+              display: inline-block;
+              float: left;
+              text-align: center;
+              font-weight: 400;
+              margin-top: 15px;
+              margin-bottom: 0;
+              clear: none;
+              font-size: 15px;
+              line-height: 20px;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+
+              &:hover {
+                color: #f05c40;
+                text-decoration: none;
+              }
+            }
+
+            .active {
+              border-bottom: 2px solid #f05c40;
+              color: #f05c40;
+            }
+          }
+        }
+      }
+
+      .tab-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        opacity: 1;
+        transition: opacity 300ms ease 0s;
+        position: relative;
+        display: block;
+        margin: 0 -15px;
+
+        #tab-232-2 {
+          .paragraph--type--bp-simple {
+            padding-top: 80px;
+            padding-bottom: 80px;
+            border-bottom: 1px solid #ddd;
+            margin-left: -10px;
+            margin-right: -10px;
+            box-sizing: border-box;
+          }
+        }
+
+        #tab-232-2 :last-child {
+          border-bottom-style: none;
+          border-bottom-width: 0;
+        }
+          #tab-232-1{
+            .paragraph--type--bp-simple {
+              padding-top: 80px;
+              padding-bottom: 80px;
+          
+              margin-left: -10px;
+              margin-right: -10px;
+              box-sizing: border-box;
+            }
+          }
+
+        .tab-pane {
+          .paragraph {
+            .field--name-bp-text {
+              blockquote:nth-child(1) {
+                display: block;
+                width: 300px;
+                position: relative;
+                float: left;
+                min-height: 1px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-right: 75px;
+                margin-bottom: 0;
+
+                h2 {
+                  display: inline-block;
+                  width: 300px;
+                  margin-top: 7px;
+                  color: #111;
+                  font-size: 40px;
+                  line-height: 45px;
+                  text-align: left;
+                  letter-spacing: 0;
+                  margin-bottom: 10px;
+                  box-sizing: border-box;
+                  font-weight: 300;
+                }
+
+                p {
+                  box-sizing: border-box;
+                  width: 300px;
+                  margin-top: 10px;
+                  float: none;
+                  clear: none;
+                  display: inline-block;
+                  margin-bottom: 5px;
+                  color: #111;
+                  font-size: 16px;
+                  line-height: 24px;
+                  text-align: left;
+                }
+              }
+            }
+
+            blockquote:nth-child(2) {
+              width: 240px;
+              min-height: 1px;
+              padding-left: 10px;
+              padding-right: 10px;
+              position: relative;
+              float: left;
+              margin-right: 50px;
+              margin-bottom: 0;
+
+              h3 {
+                margin-top: 10px;
+                padding-top: 0;
+                margin-bottom: 10px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                position: static;
+                top: 36px;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                color: #111;
+                font-size: 13px;
+                line-height: 17px;
+                text-align: left;
+                font-weight: bold;
+              }
+
+              ul {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 14px;
+
+                li {
+                  margin-top: 20px;
+                  margin-bottom: 20px;
+                  float: none;
+                  clear: none;
+                  font-weight: 300;
+                  text-align: left;
+                  list-style-type: disc;
+                  font-size: 16px;
+                  line-height: 24px;
+                }
+              }
+            }
+
+            blockquote:nth-child(3) {
+              width: 240px;
+              position: relative;
+              float: left;
+              min-height: 1px;
+              padding-left: 10px;
+              padding-right: 10px;
+              margin-bottom: 0;
+
+              h3 {
+                margin-top: 10px;
+                padding-top: 0;
+                margin-bottom: 10px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                position: static;
+                top: 36px;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                color: #111;
+                font-size: 13px;
+                line-height: 17px;
+                text-align: left;
+                font-weight: bold;
+              }
+
+              ul {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 14px;
+
+                li {
+                  margin-top: 20px;
+                  margin-bottom: 20px;
+                  float: none;
+                  clear: none;
+                  font-weight: 300;
+                  text-align: left;
+                  list-style-type: disc;
+                  font-size: 16px;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

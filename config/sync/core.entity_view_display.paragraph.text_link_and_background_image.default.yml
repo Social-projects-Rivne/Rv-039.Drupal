@@ -1,0 +1,43 @@
+uuid: 0b90e427-86c0-4fb6-9335-ee72935f09fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_link_and_background_image.field_hardware_rf_300
+    - field.field.paragraph.text_link_and_background_image.field_text_and_link
+    - field.field.paragraph.text_link_and_background_image.field_views_hardware
+    - paragraphs.paragraphs_type.text_link_and_background_image
+  module:
+    - text
+    - viewsreference
+id: paragraph.text_link_and_background_image.default
+targetEntityType: paragraph
+bundle: text_link_and_background_image
+mode: default
+content:
+  field_hardware_rf_300:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_text_and_link:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_views_hardware:
+    weight: 2
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden: {  }

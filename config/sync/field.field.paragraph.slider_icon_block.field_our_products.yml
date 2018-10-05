@@ -1,0 +1,21 @@
+uuid: a01c0ce7-866a-4246-8d7a-1ede61a6f14c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_our_products
+    - paragraphs.paragraphs_type.slider_icon_block
+  module:
+    - text
+id: paragraph.slider_icon_block.field_our_products
+field_name: field_our_products
+entity_type: paragraph
+bundle: slider_icon_block
+label: 'title small'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

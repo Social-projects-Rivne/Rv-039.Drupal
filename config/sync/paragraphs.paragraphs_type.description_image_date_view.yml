@@ -1,0 +1,9 @@
+uuid: 638fed56-31b0-432b-b24e-0028015a366c
+langcode: en
+status: true
+dependencies: {  }
+id: description_image_date_view
+label: 'Description Image Date View'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

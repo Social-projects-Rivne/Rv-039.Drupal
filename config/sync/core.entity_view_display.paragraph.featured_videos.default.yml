@@ -1,0 +1,73 @@
+uuid: f17e7075-962c-4af5-b666-3c1e933a5ef5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.featured_videos.field_dronetracker_
+    - field.field.paragraph.featured_videos.field_fe
+    - field.field.paragraph.featured_videos.field_text_h1_and_p
+    - field.field.paragraph.featured_videos.field_text_h1_and_p2
+    - field.field.paragraph.featured_videos.field_video_second
+    - paragraphs.paragraphs_type.featured_videos
+  module:
+    - text
+    - youtube
+id: paragraph.featured_videos.default
+targetEntityType: paragraph
+bundle: featured_videos
+mode: default
+content:
+  field_dronetracker_:
+    weight: 1
+    label: hidden
+    settings:
+      youtube_size: 450x315
+      youtube_width: ''
+      youtube_height: ''
+      youtube_autoplay: false
+      youtube_loop: false
+      youtube_showinfo: false
+      youtube_controls: false
+      youtube_autohide: false
+      youtube_iv_load_policy: false
+    third_party_settings: {  }
+    type: youtube_video
+    region: content
+  field_fe:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_text_h1_and_p:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_text_h1_and_p2:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_video_second:
+    weight: 2
+    label: hidden
+    settings:
+      youtube_size: 450x315
+      youtube_width: ''
+      youtube_height: ''
+      youtube_autoplay: false
+      youtube_loop: false
+      youtube_showinfo: false
+      youtube_controls: false
+      youtube_autohide: false
+      youtube_iv_load_policy: false
+    third_party_settings: {  }
+    type: youtube_video
+    region: content
+hidden: {  }

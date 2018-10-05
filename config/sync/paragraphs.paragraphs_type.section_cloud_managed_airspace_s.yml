@@ -1,0 +1,14 @@
+uuid: dd91703d-5eb6-41f4-ae00-19db3c6b564b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: section_cloud_managed_airspace_s
+label: 'section Cloud-Managed Airspace Security'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

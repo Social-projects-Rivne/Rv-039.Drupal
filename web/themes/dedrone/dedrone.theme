@@ -1,0 +1,233 @@
+<?php
+use Drupal\node\Entity\Node;
+/**
+ * Implements template_preprocess_paragraph().
+ *
+ */
+
+function get_css_classes($paragraph)
+{
+    if ($paragraph->hasField('field_css_classes')) {
+      $css_option = $paragraph->get('field_css_classes');
+      if ($css_option) {
+          return $css_option->value;
+      }
+    }
+}
+
+function dedrone_preprocess_paragraph(&$variables) {
+   $paragraph = $variables['elements']['#paragraph'];
+   if ($paragraph->bundle() == 'image_and_description_simple') {
+     if ($paragraph->hasField('field_image_position')) {
+     	$position_field = $paragraph->get('field_image_position');
+     	if ($position_field) {
+     	  $variables['content']['image_position'] = $position_field->value;
+     	}
+     }
+   }
+
+   if ($paragraph->bundle() == 'image_description_row' || 'slider' || 'description_with_buttons' || 'background_description' || 'description_image_date_view' || 'text_row') {
+     if ($paragraph->hasField('field_css_class')) {
+     	$css_option = $paragraph->get('field_css_class');
+     	if ($css_option) {
+     	  $variables['css_class'] = $css_option->value;
+     	}
+     }
+   }
+
+    if ($paragraph->bundle() == 'description_with_button' ) {
+        if ($paragraph->hasField('field_css_bg_color')) {
+            $css_option = $paragraph->get('field_css_bg_color');
+            if ($css_option) {
+                $variables['css_background_color'] = $css_option->value;
+            }
+        }
+    }
+   /*
+      Background image preprocess
+      Variables:
+      - 'shared_simple_white_title_' - paragraph name
+      - 'field_shared_background_image' - media image field
+      - 'background_image_url' - variable for use image in twig template
+      Example:
+        style = "background:url({{ background_image_url }}) no-repeat center top;" */
+
+   if ($paragraph->bundle() == 'customers_secondary_slider')
+   {
+    $image_field = $paragraph->get('field_background_img');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+
+   if ($paragraph->bundle() == 'jobs_slider') {
+       $image_field = $paragraph->get('field_background_img');
+       if (!$image_field->isEmpty()) {
+           $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+           $variables['background_image_url'] = file_create_url($uri);
+       }
+   }
+
+   if ($paragraph->bundle() == 'customer_secondary_pages_with_im')
+   {
+    $image_field = $paragraph->get('field_background_img');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+
+   if ($paragraph->bundle() == 'customers_page_slider')
+   {
+    $image_field = $paragraph->get('field_background_img');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'video_mantle1')
+   {
+    $image_field = $paragraph->get('field_background_image_media');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'introducing_the_rf_300')
+   {
+    $image_field = $paragraph->get('field_background_image_media_har');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'section_portable_detection_solut')
+   {
+    $image_field = $paragraph->get('field_background_event_');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'section_your_airspace_secured')
+   {
+    $image_field = $paragraph->get('field_background_your_airspace');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+   if ($paragraph->bundle() == 'section_page_mitigation')
+   {
+    $image_field = $paragraph->get('field_background_image_page_miti');
+    if (!$image_field->isEmpty()) {
+      $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+      $variables['background_image_url'] = file_create_url($uri);
+     }
+   }
+
+
+
+
+   /* Background color preprocess:
+         Variables:
+         - 'shared_aditional_information' - paragraph name
+         - 'field_background_color' -  jQuery Colorpicker field
+         - 'background_color' - variable for use image in twig template
+         Example:
+           style = "<div style="background-color:#{{background_color}}">*/
+   if ($paragraph->bundle() == 'shared_aditional_information')
+      {
+       $color_field = $paragraph->get('field_background_color');
+       if (!$color_field->isEmpty()) {
+         $variables['background_color'] = $color_field->value;
+        }
+    }
+
+
+
+   if (   $paragraph->bundle() == 'shared_title'
+       || $paragraph->bundle() == 'shared_description')
+   {
+      $variables['css_class'] = get_css_classes($paragraph);
+
+      $position = $paragraph->get('field_shared_position')->value;
+      if( $position == "Left")
+      {
+          $variables['attributes']['class'][] = "title-description-left";
+          $variables['attributes']['class'][] = "col-4";
+      }
+      if( $position == "Right")
+      {
+          $variables['attributes']['class'][] = "title-description-right";
+          $variables['attributes']['class'][] = "col-4";
+      }
+      if( $position == "Center") {
+          $variables['attributes']['class'][] = "title-description-center";
+      }
+      if( $position == "Center-full-width")
+      {
+          $variables['attributes']['class'][] = "title-description-center-full-width";
+      }
+
+   }
+
+    if ($paragraph->bundle() == 'shared_buttons')
+    {
+        $position = $paragraph->get('field_shared_buttons_position')->value;
+        if( $position == "Left")
+        {
+            $variables['attributes']['class'][] = "buttons-left";
+        }
+        if( $position == "Right")
+        {
+            $variables['attributes']['class'][] = "buttons-right";
+        }
+        if( $position == "Center") {
+            $variables['attributes']['class'][] = "buttons-center";
+        }
+        if( $position == "Right_vertically")
+        {
+            $variables['attributes']['class'][] = "buttons-right-vertically";
+        }
+    }
+
+
+   if ($paragraph->bundle() == 'shared_wrapper')
+   {
+    $field_style = $paragraph->get('field_background_style');
+
+    $variables['css_class'] = get_css_classes($paragraph);
+
+    if($field_style->value == "Color")
+    {
+      $color_field = $paragraph->get('field_background_color');
+      if (!$color_field->isEmpty()) {
+        $variables['style'] = $field_style->value;
+        $variables['background_color'] = $color_field->value;
+      }
+    }
+
+    if($field_style->value == "Image" || $field_style->value == "Gradient_image")
+    {
+       $image_field = $paragraph->get('field_background_img');
+       if (!$image_field->isEmpty()) {
+           $variables['style'] = $field_style->value;
+           $uri = $image_field->entity->get('field_media_image')->entity->uri->value;
+           $variables['background_image_url'] = file_create_url($uri);
+       }
+       $gradient_field = $paragraph->get('field_css_image_gradient_style');
+       if (!$gradient_field->isEmpty()) {
+           $variables['gradient'] = $gradient_field->value.',';
+       }
+       else
+       {
+           $variables['gradient'] = 'linear-gradient(90deg,rgba(0,0,0,.59),hsla(0,0%,100%,0)),';
+       }
+    }
+   }
+}
+
+
+

@@ -1,0 +1,21 @@
+uuid: 4f58dd0a-c383-49af-b3e2-7843388b6236
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shared_text_single
+    - paragraphs.paragraphs_type.bundle_content_tech_par_page
+  module:
+    - text
+id: paragraph.bundle_content_tech_par_page.field_shared_text_single
+field_name: field_shared_text_single
+entity_type: paragraph
+bundle: bundle_content_tech_par_page
+label: 'Shared text single'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

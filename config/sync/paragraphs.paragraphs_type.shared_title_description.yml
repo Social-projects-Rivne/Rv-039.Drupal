@@ -1,0 +1,14 @@
+uuid: e446ab75-9621-47c4-af2a-e30ca45efdff
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: shared_title_description
+label: 'Shared title description'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

@@ -1,0 +1,38 @@
+uuid: d96682bb-ef60-4ea7-9e25-2d1c976ccdf6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_six
+    - paragraphs.paragraphs_type.section_features1
+  module:
+    - image
+id: paragraph.section_features1.field_six
+field_name: field_six
+entity_type: paragraph
+bundle: section_features1
+label: 'sixth image feature'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

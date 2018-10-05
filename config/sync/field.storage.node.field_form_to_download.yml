@@ -1,0 +1,20 @@
+uuid: 7f6c3547-17b6-4593-882a-726490474ae1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - webform
+id: node.field_form_to_download
+field_name: field_form_to_download
+entity_type: node
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

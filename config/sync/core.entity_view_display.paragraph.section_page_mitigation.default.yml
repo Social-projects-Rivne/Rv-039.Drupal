@@ -1,0 +1,32 @@
+uuid: 42c18cde-9397-4ca4-916c-8ad4ea2ecb65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_page_mitigation.field_background_image_page_miti
+    - field.field.paragraph.section_page_mitigation.field_text_page_mitigation
+    - paragraphs.paragraphs_type.section_page_mitigation
+  module:
+    - text
+id: paragraph.section_page_mitigation.default
+targetEntityType: paragraph
+bundle: section_page_mitigation
+mode: default
+content:
+  field_background_image_page_miti:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_text_page_mitigation:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

@@ -1,0 +1,14 @@
+uuid: 8d693601-56bf-4a29-becf-47b9723c5d19
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: jobs_event
+label: 'Jobs event'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

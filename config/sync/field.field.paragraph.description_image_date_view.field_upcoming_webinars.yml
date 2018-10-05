@@ -1,0 +1,47 @@
+uuid: 8dfc60a5-80b0-4cbe-8d7e-9a4a5be8654c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_upcoming_webinars
+    - paragraphs.paragraphs_type.description_image_date_view
+  module:
+    - viewsreference
+id: paragraph.description_image_date_view.field_upcoming_webinars
+field_name: field_upcoming_webinars
+entity_type: paragraph
+bundle: description_image_date_view
+label: 'Upcoming Webinars'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+    entity_browser: 0
+  preselect_views:
+    upcoming_webinars: upcoming_webinars
+    block_content: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    files: 0
+    frontpage: 0
+    media: 0
+    media_entity_browser: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

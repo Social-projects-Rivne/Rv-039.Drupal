@@ -1,0 +1,32 @@
+uuid: 24d45432-ae7e-4010-870e-76a28e8f4945
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bundle_investor_about_us_page.field_bundle_investor_descript
+    - field.field.paragraph.bundle_investor_about_us_page.field_bundle_investor_logo
+    - paragraphs.paragraphs_type.bundle_investor_about_us_page
+  module:
+    - text
+id: paragraph.bundle_investor_about_us_page.default
+targetEntityType: paragraph
+bundle: bundle_investor_about_us_page
+mode: default
+content:
+  field_bundle_investor_descript:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_bundle_investor_logo:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

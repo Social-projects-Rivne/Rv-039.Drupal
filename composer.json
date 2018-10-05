@@ -1,0 +1,134 @@
+{
+    "name": "drupal-composer/drupal-project",
+    "description": "Project template for Drupal 8 projects with composer",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jaypan/jquery_colorpicker",
+                "type": "drupal-library",
+                "version": "1.4",
+                "source": {
+                    "url": "https://github.com/jaypan/jquery_colorpicker",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.6",
+        "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/address": "^1.4",
+        "drupal/admin_toolbar": "^1.24",
+        "drupal/backup_migrate": "^4.0",
+        "drupal/bg_image_formatter": "^1.2",
+        "drupal/block_class": "^1.0",
+        "drupal/bootstrap_paragraphs": "^2.0",
+        "drupal/classy_paragraphs": "^1.0@beta",
+        "drupal/color_field": "^1.0",
+        "drupal/console": "^1.0.2",
+        "drupal/core": "~8.5.3",
+        "drupal/ctools": "^3.0",
+        "drupal/devel": "^1.2",
+        "drupal/dropzonejs": "^2.0@alpha",
+        "drupal/entity_browser": "^2.0@alpha",
+        "drupal/entity_usage": "^2.0@alpha",
+        "drupal/examples": "1.x-dev",
+        "drupal/file_browser": "^1.1",
+        "drupal/geolocation": "^1.11",
+        "drupal/geolocation_address-geolocation_address": "^1.0",
+        "drupal/honeypot": "^1.27",
+        "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/jquery_colorpicker": "^1.4",
+        "drupal/link_class": "^1.3",
+        "drupal/media_entity_browser": "^2.0",
+        "drupal/media_entity_image": "^1.3",
+        "drupal/menu_link_attributes": "^1.0",
+        "drupal/paragraphs": "^1.3",
+        "drupal/paragraphs_viewmode": "^1.0@alpha",
+        "drupal/pathauto": "^1.2",
+        "drupal/simple_timeline": "^1.1",
+        "drupal/social_media_links": "^2.6",
+        "drupal/token": "^1.3",
+        "drupal/twig_tweak": "^2.1",
+        "drupal/ultimate_cron": "^2.0@alpha",
+        "drupal/video_embed_field": "^2.0",
+        "drupal/view_mode_selector": "1.x-dev",
+        "drupal/viewsreference": "^1.2",
+        "drupal/webform": "^5.0@RC",
+        "drupal/yaml_content": "^1.0@alpha",
+        "drupal/youtube": "^1.0",
+        "drush/drush": "^9.0.0",
+        "enyo/dropzone": "^5.1",
+        "jaypan/jquery_colorpicker": "^1.0",
+        "oomphinc/composer-installers-extender": "^1.1",
+        "vlucas/phpdotenv": "^2.4",
+        "webflo/drupal-finder": "^1.0.0",
+        "webmozart/path-util": "^2.3"
+    },
+    "require-dev": {
+        "webflo/drupal-core-require-dev": "~8.5.3"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ],
+        "files": ["load.environment.php"]
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ]
+    },
+    "extra": {
+        "installer-types": ["library"],
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": [
+                "type:drupal-library",
+                "enyo/dropzone"
+            ],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/{$name}": ["type:drupal-drush"]
+        },
+        "drupal-scaffold": {
+            "initial": {
+                ".editorconfig": "../.editorconfig",
+                ".gitattributes": "../.gitattributes"
+            }
+        }
+    }
+}

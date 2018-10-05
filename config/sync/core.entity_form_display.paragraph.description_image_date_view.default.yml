@@ -1,0 +1,36 @@
+uuid: ef46e8f6-a672-45a7-aff1-38cfccfc3e94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description_image_date_view.field_css_class
+    - field.field.paragraph.description_image_date_view.field_upcoming_webinars
+    - paragraphs.paragraphs_type.description_image_date_view
+  module:
+    - viewsreference
+id: paragraph.description_image_date_view.default
+targetEntityType: paragraph
+bundle: description_image_date_view
+mode: default
+content:
+  field_css_class:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_upcoming_webinars:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

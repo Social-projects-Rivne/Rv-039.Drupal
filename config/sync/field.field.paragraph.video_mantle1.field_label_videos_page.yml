@@ -1,0 +1,21 @@
+uuid: 22c24e88-9fa5-4880-af63-54f7131f5f62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label_videos_page
+    - paragraphs.paragraphs_type.video_mantle1
+  module:
+    - text
+id: paragraph.video_mantle1.field_label_videos_page
+field_name: field_label_videos_page
+entity_type: paragraph
+bundle: video_mantle1
+label: 'label videos page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

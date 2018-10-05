@@ -1,0 +1,14 @@
+uuid: fbe2ef1c-c24b-4afb-878a-c5d9e8aefe1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: section_platform_for_airspace_mo
+label: 'section Platform for Airspace Monitoring'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

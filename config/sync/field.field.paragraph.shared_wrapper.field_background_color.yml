@@ -1,0 +1,23 @@
+uuid: 6ab348a5-9768-4393-9784-ae0741e7be86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_color
+    - paragraphs.paragraphs_type.shared_wrapper
+  module:
+    - jquery_colorpicker
+id: paragraph.shared_wrapper.field_background_color
+field_name: field_background_color
+entity_type: paragraph
+bundle: shared_wrapper
+label: 'Background color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: FFFFFF
+default_value_callback: ''
+settings: {  }
+field_type: jquery_colorpicker

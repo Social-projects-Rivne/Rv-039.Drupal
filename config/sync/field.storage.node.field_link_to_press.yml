@@ -1,0 +1,19 @@
+uuid: 1e030f20-f4de-41e7-9305-eafb4bd4ff92
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_link_to_press
+field_name: field_link_to_press
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,46 @@
+uuid: 4dd423cd-7ffb-417f-84e4-038723566694
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider_icon_block.field_image
+    - field.field.paragraph.slider_icon_block.field_our_products
+    - field.field.paragraph.slider_icon_block.field_shared_h2_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.slider_icon_block
+  module:
+    - image
+    - text
+id: paragraph.slider_icon_block.default
+targetEntityType: paragraph
+bundle: slider_icon_block
+mode: default
+content:
+  field_image:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_our_products:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_shared_h2_title:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

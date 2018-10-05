@@ -1,0 +1,28 @@
+uuid: 2f67beb5-730e-4667-99ac-412c68a56f9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_img
+    - media.type.image
+    - paragraphs.paragraphs_type.customers_secondary_slider
+id: paragraph.customers_secondary_slider.field_background_img
+field_name: field_background_img
+entity_type: paragraph
+bundle: customers_secondary_slider
+label: 'Background image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

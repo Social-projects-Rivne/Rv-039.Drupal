@@ -1,0 +1,84 @@
+// typography go here
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Martel:100,200,300,400,500,700,800,900');
+
+
+h1{
+	font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #111;
+
+    @media (max-width: 479px)
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+
+h2{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #111;
+    @media (max-width: 479px)
+    {
+        font-size: 18px;
+    }
+}
+
+h3
+{
+    margin-bottom: 0;
+    float: none;
+    clear: none;
+    color: #111;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+p
+{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #111;
+}
+
+h5
+{
+    color: #111;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+h6
+{
+    margin-top: 0;
+    color: #111;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: .5px;
+}
+
+a{
+    font-weight: 400;
+    color: #009ee3;
+}
+
+ul {padding: 0;}
+li{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #111;
+}
+
+
+
+

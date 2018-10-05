@@ -1,0 +1,56 @@
+{# {{kint(content)}} #}
+{%
+  set classes = [
+    'node',
+    'blog-full',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+{{ attach_library('classy/node') }}
+<article{{ attributes.addClass(classes) }}>
+  <div class="post-item">
+    <div class="post-wrap">
+      <div class="featured-blog-post-text">
+        {{ title_prefix }}
+        {#{% if not page %}#}
+          <h2 class="blog-title">
+            {#<a href="{{ url }}" rel="bookmark">{{ label }}</a>#}
+            {{ label }}
+          </h2>
+        {#{% endif %}#}
+        {{ title_suffix }}
+
+        {% if display_submitted %}
+          <div class="node__meta">
+            {{ author_picture }}
+            <div{{ author_attributes.addClass('node__submitted') }}>
+                {% set createdDate = node.getCreatedTime|date('F j, o') %}
+                {% trans %} <h5 class="blog-author">by {{ author_name }}</h5> <h5 class="blog-date">{{ createdDate }}</h5> {% endtrans %}
+              <h5 class="blog-category">{{ content.field_blog_category }}</h5>
+              {{ metadata }}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+      <div class="image-wrap">
+          {{ content.field_image }}
+      </div>
+    </div>
+    <div{{ content_attributes.addClass('node__content') }}>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+            <div class="blog-content">
+              {{ content.field_blog_description }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,31 @@
+
+{%
+  set classes = [
+    'paragraph-column',
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}  
+        {% if content.image_position %}
+          <div class="left-side">
+            {{ content.field_media_image }}
+          </div>
+          <div class="right-side">
+           {{ content.field_description }}
+          </div>
+        {% else  %}
+          <div class="left-side">
+           {{ content.field_description }}
+          </div>
+          <div class="right-side">
+            {{ content.field_media_image }}
+          </div>
+        {% endif %}
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

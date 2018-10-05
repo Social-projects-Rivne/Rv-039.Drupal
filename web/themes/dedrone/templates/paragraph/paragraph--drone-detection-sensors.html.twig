@@ -1,0 +1,29 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+<div class="section_drone_detection_sensors">
+  {% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+      {% block content %}
+        {{ content.field_label_drone_detection}}
+        <div class="images_wrapper">
+          <div class="first_section_drone">
+            <a href="/products/hardware/rf-sensor/overview">
+              {{ content.field_drone_first_ima}}</a>
+            {{ content.field_first_text_area_}}
+          </div>
+          <div class="second_section_drone">
+            <a href="/admin/overview-old">
+              {{ content.field_second_drone_image}}</a>
+            {{ content.field_second_text_area_drone}}
+          </div>
+        </div>
+      {% endblock %}
+    </div>
+  {% endblock paragraph %}
+</div>

@@ -1,0 +1,23 @@
+uuid: 819882ab-1fd8-49e9-8c9b-0c7d740ae4a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_css_styles
+    - paragraphs.paragraphs_type.bp_simple
+id: paragraph.bp_simple.field_css_styles
+field_name: field_css_styles
+entity_type: paragraph
+bundle: bp_simple
+label: 'CSS styles'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:classy_paragraphs_style'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

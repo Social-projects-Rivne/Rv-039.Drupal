@@ -1,0 +1,70 @@
+uuid: 424381ec-f2b4-4f8a-be09-50491a3ea638
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_wrapper.field_background_color
+    - field.field.paragraph.shared_wrapper.field_background_img
+    - field.field.paragraph.shared_wrapper.field_background_style
+    - field.field.paragraph.shared_wrapper.field_content
+    - field.field.paragraph.shared_wrapper.field_css_classes
+    - field.field.paragraph.shared_wrapper.field_css_image_gradient_style
+    - paragraphs.paragraphs_type.shared_wrapper
+  module:
+    - entity_reference_revisions
+    - jquery_colorpicker
+    - options
+id: paragraph.shared_wrapper.default
+targetEntityType: paragraph
+bundle: shared_wrapper
+mode: default
+content:
+  field_background_color:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: jquery_colorpicker_raw_hex_display
+    region: content
+  field_background_img:
+    type: entity_reference_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_background_style:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_content:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_css_classes:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_css_image_gradient_style:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

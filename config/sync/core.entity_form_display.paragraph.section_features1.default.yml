@@ -1,0 +1,172 @@
+uuid: e99509b3-5d44-47a9-b322-86f80e85df30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_features1.field_e
+    - field.field.paragraph.section_features1.field_eigth_text_featu
+    - field.field.paragraph.section_features1.field_fif
+    - field.field.paragraph.section_features1.field_fifth_image_feature
+    - field.field.paragraph.section_features1.field_first_image_feature
+    - field.field.paragraph.section_features1.field_first_text_feature
+    - field.field.paragraph.section_features1.field_fou
+    - field.field.paragraph.section_features1.field_fourth_image_feature
+    - field.field.paragraph.section_features1.field_labal_section_features
+    - field.field.paragraph.section_features1.field_second_image_feature
+    - field.field.paragraph.section_features1.field_second_text_feature
+    - field.field.paragraph.section_features1.field_sev
+    - field.field.paragraph.section_features1.field_seventh_text_featu
+    - field.field.paragraph.section_features1.field_six
+    - field.field.paragraph.section_features1.field_sixth_text_feature
+    - field.field.paragraph.section_features1.field_th
+    - field.field.paragraph.section_features1.field_third_image_feature
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.section_features1
+  module:
+    - image
+    - text
+id: paragraph.section_features1.default
+targetEntityType: paragraph
+bundle: section_features1
+mode: default
+content:
+  field_e:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_eigth_text_featu:
+    weight: 16
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_fif:
+    weight: 13
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_fifth_image_feature:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_first_image_feature:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_first_text_feature:
+    weight: 9
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_fou:
+    weight: 12
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_fourth_image_feature:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_labal_section_features:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_second_image_feature:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_second_text_feature:
+    weight: 10
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_sev:
+    weight: 7
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_seventh_text_featu:
+    weight: 15
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_six:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_sixth_text_feature:
+    weight: 14
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_th:
+    weight: 11
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_third_image_feature:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

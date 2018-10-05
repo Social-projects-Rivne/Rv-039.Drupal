@@ -1,0 +1,7 @@
+uuid: 5a697423-a552-4702-a247-d53fd4d6c532
+langcode: en
+status: true
+dependencies: {  }
+id: link_block_white
+label: 'Link block white'
+classes: 'link-block-white margin-top-100px'

@@ -1,0 +1,56 @@
+@import 'base/variables';
+
+// Import Vendors
+@import 'vendors/bootstrap4/bootstrap';
+
+@import 'base/normalize';
+@import 'base/typography.scss';
+@import 'base/global';
+
+// Import Components
+@import 'blocks/header';
+@import 'blocks/footer_menu';
+@import 'blocks/footer';
+@import 'blocks/secondary_custimers_block-img_text';
+@import 'blocks/small_text_wrapper';
+@import 'blocks/secondary_custumers_slider';
+@import 'blocks/secondary_page_slider';
+@import 'blocks/customer_image_text_wrap';
+@import 'blocks/tabs';
+@import 'blocks/blog';
+@import 'blocks/forms';
+@import 'blocks/event-registration';
+@import 'blocks/home-main-slider';
+@import 'blocks/benefits-trio';
+@import 'blocks/text-columns';
+@import 'blocks/products-intro';
+@import 'blocks/customers';
+@import 'blocks/buttons-section';
+@import 'blocks/webinars-section';
+@import 'blocks/cta-section';
+@import 'blocks/case-studies-paragraph';
+@import 'blocks/products_videos';
+@import 'blocks/tabs_page_Mitigation';
+@import 'blocks/page_hardware';
+@import 'blocks/products_software';
+@import 'blocks/customers-coment';
+@import 'blocks/jobs-slider';
+@import 'blocks/two-columns-paragraph';
+@import 'blocks/press-events';
+@import 'blocks/other-news';
+@import 'blocks/products_mitigation';
+@import 'blocks/jobs-event';
+@import 'blocks/job-description';
+
+
+
+@import 'paragraph/technology_partners';
+@import 'paragraph/shared';
+@import 'paragraph/about_us';
+@import 'paragraph/want_to_learn_more';
+
+// Import Layouts
+// @import 'layouts/home';
+
+// Import Plugins
+// @import 'plugins/plugin';

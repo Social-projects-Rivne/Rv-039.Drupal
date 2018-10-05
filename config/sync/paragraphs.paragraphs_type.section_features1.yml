@@ -1,0 +1,14 @@
+uuid: 2ef094b3-fd62-4f8b-aa66-850d9254a8a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: section_features1
+label: 'section features1'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

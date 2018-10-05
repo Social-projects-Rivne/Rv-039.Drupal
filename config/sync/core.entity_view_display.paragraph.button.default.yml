@@ -1,0 +1,27 @@
+uuid: 8db0685a-e55d-4e5e-980c-7d3e35aa766f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.button.field_button
+    - paragraphs.paragraphs_type.button
+  module:
+    - link
+id: paragraph.button.default
+targetEntityType: paragraph
+bundle: button
+mode: default
+content:
+  field_button:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

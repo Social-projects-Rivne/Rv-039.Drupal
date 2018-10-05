@@ -1,0 +1,21 @@
+uuid: 67bdba2d-02f5-4841-b6d3-38471dba4abd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_timeline_text
+    - node.type.milestones_timeline_content
+  module:
+    - text
+id: node.milestones_timeline_content.field_timeline_text
+field_name: field_timeline_text
+entity_type: node
+bundle: milestones_timeline_content
+label: 'Timeline text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,21 @@
+uuid: 331679dc-b04f-422a-a38e-72db33fb94eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_event_kit
+    - paragraphs.paragraphs_type.section_portable_detection_solut
+  module:
+    - text
+id: paragraph.section_portable_detection_solut.field_text_event_kit
+field_name: field_text_event_kit
+entity_type: paragraph
+bundle: section_portable_detection_solut
+label: 'text event kit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

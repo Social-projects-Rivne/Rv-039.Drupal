@@ -1,0 +1,33 @@
+uuid: fd31880c-d872-4e16-bb0c-c010b674a1cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_library_category
+field_name: field_library_category
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: white-papers
+      label: 'White papers'
+    -
+      value: reports
+      label: Reports
+    -
+      value: ebooks
+      label: Ebooks
+    -
+      value: webinars
+      label: Webinars
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

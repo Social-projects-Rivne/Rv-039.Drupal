@@ -1,0 +1,29 @@
+uuid: bd196dc0-e819-4df2-8c99-0223761982ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.form_to_download.field_form_to_download
+    - node.type.form_to_download
+  module:
+    - user
+    - webform
+id: node.form_to_download.default
+targetEntityType: node
+bundle: form_to_download
+mode: default
+content:
+  field_form_to_download:
+    weight: 101
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

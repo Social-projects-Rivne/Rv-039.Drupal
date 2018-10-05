@@ -1,0 +1,14 @@
+uuid: 2d752b08-8248-4091-adaa-bfe54c270d28
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: section_software_enabled_securit
+label: 'section Software Enabled Security'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

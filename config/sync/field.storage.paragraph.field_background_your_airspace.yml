@@ -1,0 +1,20 @@
+uuid: 4a661103-3999-4143-bbb4-e63234b04670
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+id: paragraph.field_background_your_airspace
+field_name: field_background_your_airspace
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

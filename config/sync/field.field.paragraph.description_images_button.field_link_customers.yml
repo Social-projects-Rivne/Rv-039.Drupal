@@ -1,0 +1,23 @@
+uuid: b2b20bec-0203-4dcc-a58d-3bcbcb01b006
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_customers
+    - paragraphs.paragraphs_type.description_images_button
+  module:
+    - link
+id: paragraph.description_images_button.field_link_customers
+field_name: field_link_customers
+entity_type: paragraph
+bundle: description_images_button
+label: link_customers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

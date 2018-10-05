@@ -1,0 +1,21 @@
+uuid: 4b41863d-5be8-4d17-866c-6d06cd3aa6a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_h1_and_p
+    - paragraphs.paragraphs_type.featured_videos
+  module:
+    - text
+id: paragraph.featured_videos.field_text_h1_and_p
+field_name: field_text_h1_and_p
+entity_type: paragraph
+bundle: featured_videos
+label: 'text h1 and p'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

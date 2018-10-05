@@ -1,0 +1,167 @@
+uuid: 300bf194-c112-4feb-8500-1b3bb65631ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_features1.field_e
+    - field.field.paragraph.section_features1.field_eigth_text_featu
+    - field.field.paragraph.section_features1.field_fif
+    - field.field.paragraph.section_features1.field_fifth_image_feature
+    - field.field.paragraph.section_features1.field_first_image_feature
+    - field.field.paragraph.section_features1.field_first_text_feature
+    - field.field.paragraph.section_features1.field_fou
+    - field.field.paragraph.section_features1.field_fourth_image_feature
+    - field.field.paragraph.section_features1.field_labal_section_features
+    - field.field.paragraph.section_features1.field_second_image_feature
+    - field.field.paragraph.section_features1.field_second_text_feature
+    - field.field.paragraph.section_features1.field_sev
+    - field.field.paragraph.section_features1.field_seventh_text_featu
+    - field.field.paragraph.section_features1.field_six
+    - field.field.paragraph.section_features1.field_sixth_text_feature
+    - field.field.paragraph.section_features1.field_th
+    - field.field.paragraph.section_features1.field_third_image_feature
+    - paragraphs.paragraphs_type.section_features1
+  module:
+    - image
+    - text
+id: paragraph.section_features1.default
+targetEntityType: paragraph
+bundle: section_features1
+mode: default
+content:
+  field_e:
+    weight: 8
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_eigth_text_featu:
+    weight: 16
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_fif:
+    weight: 13
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_fifth_image_feature:
+    weight: 5
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_first_image_feature:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_first_text_feature:
+    weight: 9
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_fou:
+    weight: 12
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_fourth_image_feature:
+    weight: 4
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_labal_section_features:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_second_image_feature:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_second_text_feature:
+    weight: 10
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_sev:
+    weight: 7
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_seventh_text_featu:
+    weight: 15
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_six:
+    weight: 6
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_sixth_text_feature:
+    weight: 14
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_th:
+    weight: 11
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_third_image_feature:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

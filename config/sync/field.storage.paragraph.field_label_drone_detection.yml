@@ -1,0 +1,19 @@
+uuid: c2f4a98b-1b17-4aa0-94d1-1761712db427
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_label_drone_detection
+field_name: field_label_drone_detection
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

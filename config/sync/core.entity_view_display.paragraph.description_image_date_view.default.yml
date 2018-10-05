@@ -1,0 +1,26 @@
+uuid: b9d7a891-41da-4239-8409-fe5bdf004233
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description_image_date_view.field_css_class
+    - field.field.paragraph.description_image_date_view.field_upcoming_webinars
+    - paragraphs.paragraphs_type.description_image_date_view
+  module:
+    - viewsreference
+id: paragraph.description_image_date_view.default
+targetEntityType: paragraph
+bundle: description_image_date_view
+mode: default
+content:
+  field_upcoming_webinars:
+    weight: 0
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden:
+  field_css_class: true

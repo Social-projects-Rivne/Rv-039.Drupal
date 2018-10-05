@@ -1,0 +1,28 @@
+uuid: 90edaa04-d4bd-4a01-a4b8-14d5895fe82f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.about
+  module:
+    - block_class
+    - system
+  theme:
+    - dedrone
+third_party_settings:
+  block_class:
+    classes: 'col-md-2 col-sm-6 col-xs-12'
+id: about
+theme: dedrone
+region: footerMenu
+weight: -6
+provider: null
+plugin: 'system_menu_block:about'
+settings:
+  id: 'system_menu_block:about'
+  label: ABOUT
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

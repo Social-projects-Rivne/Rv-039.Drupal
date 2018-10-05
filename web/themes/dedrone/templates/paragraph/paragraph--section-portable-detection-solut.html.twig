@@ -1,0 +1,22 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+<div class="hardware-overview-event-kit">
+  {% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+      {% block content %}
+        {{ content.field_label_portable_detection }}
+        <div class="event-kit-block">
+          <div class="event-kit-block-image" style="background:url({{ background_image_url }})  ; background-position: 0 0;background-size: cover;">
+            {{content.field_background_event_}}</div>
+          {{content.field_text_event_kit}}
+        </div>
+      {% endblock %}
+    </div>
+  {% endblock paragraph %}
+</div>

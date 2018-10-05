@@ -1,0 +1,21 @@
+uuid: 3038290e-a219-4aba-b488-9b2cac801896
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_platform_for_airspace
+    - paragraphs.paragraphs_type.section_platform_for_airspace_mo
+  module:
+    - text
+id: paragraph.section_platform_for_airspace_mo.field_text_platform_for_airspace
+field_name: field_text_platform_for_airspace
+entity_type: paragraph
+bundle: section_platform_for_airspace_mo
+label: 'text Platform for Airspace Monitoring'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

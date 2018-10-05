@@ -1,0 +1,21 @@
+uuid: 30eadd2e-0fbd-4349-b496-0b04d4a14382
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_region
+    - node.type.blog
+  module:
+    - options
+id: node.blog.field_blog_region
+field_name: field_blog_region
+entity_type: node
+bundle: blog
+label: 'Blog Region'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

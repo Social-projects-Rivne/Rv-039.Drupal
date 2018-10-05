@@ -1,0 +1,28 @@
+uuid: 2c81ada9-cb93-496a-9dac-bf7a7bb5c2b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_event_
+    - media.type.image
+    - paragraphs.paragraphs_type.section_portable_detection_solut
+id: paragraph.section_portable_detection_solut.field_background_event_
+field_name: field_background_event_
+entity_type: paragraph
+bundle: section_portable_detection_solut
+label: 'background event kit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

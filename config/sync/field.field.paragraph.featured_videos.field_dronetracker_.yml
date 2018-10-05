@@ -1,0 +1,21 @@
+uuid: 3c5f025f-1d25-4b65-85b8-7940de7c7d34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dronetracker_
+    - paragraphs.paragraphs_type.featured_videos
+  module:
+    - youtube
+id: paragraph.featured_videos.field_dronetracker_
+field_name: field_dronetracker_
+entity_type: paragraph
+bundle: featured_videos
+label: 'dronetracker first'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube

@@ -1,0 +1,7 @@
+uuid: 3b3f58eb-e1e3-4d21-8652-17131cc2387d
+langcode: en
+status: true
+dependencies: {  }
+id: img_default
+label: 'Img default'
+classes: img-default

@@ -1,0 +1,18 @@
+uuid: 99e13efc-391b-48d6-9b5c-7e0e7a057bc2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'customers secondary pages'
+type: customers_secondary_pages
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

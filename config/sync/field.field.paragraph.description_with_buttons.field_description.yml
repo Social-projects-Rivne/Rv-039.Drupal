@@ -1,0 +1,21 @@
+uuid: 88c7a9a2-60dc-4043-b8d6-a97d0e8769a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.description_with_buttons
+  module:
+    - text
+id: paragraph.description_with_buttons.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: description_with_buttons
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

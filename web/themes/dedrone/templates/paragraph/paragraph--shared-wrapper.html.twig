@@ -1,0 +1,39 @@
+{# #}
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+       {% if (style == "Color") %}
+          <div style="background-color:#{{background_color}};">
+              <div class= "{{css_class}}">
+                  {{ content.field_content }}
+              </div>
+          </div>
+       {% elseif (style == "Image") %}
+          <div class = "background_image" style="background:linear-gradient(90deg,rgba(0,0,0,0) 0%,hsla(0,0%,0%,0)),url({{ background_image_url }}) no-repeat center top;">
+              <div class= "{{css_class}}">
+                  {{ content.field_content }}
+              </div>
+          </div>
+       {% elseif (style == "Gradient_image") %}
+           <div class = "background_image" style="background:{{gradient}} url({{ background_image_url }}) no-repeat center top;">
+               <div class= "{{css_class}}">
+                   {{ content.field_content }}
+               </div>
+           </div>
+       {% else %}
+          <div class = "{{css_class}}">
+              {{ content.field_content }}
+          </div>
+       {% endif %}
+     {% endblock %}
+  </div>
+{% endblock paragraph %}
+

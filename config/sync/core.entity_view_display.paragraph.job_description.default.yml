@@ -1,0 +1,30 @@
+uuid: eb1dc5b9-8c3d-41d1-b777-0ed7352c7792
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.job_description.field_description
+    - field.field.paragraph.job_description.field_our_products
+    - paragraphs.paragraphs_type.job_description
+  module:
+    - text
+id: paragraph.job_description.default
+targetEntityType: paragraph
+bundle: job_description
+mode: default
+content:
+  field_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_our_products:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

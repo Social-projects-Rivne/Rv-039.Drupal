@@ -1,0 +1,21 @@
+uuid: 522b2759-6abb-4079-90ea-93a794f1210f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_page_mitigation_passi
+    - paragraphs.paragraphs_type.page_mitigation_passive_and_acti
+  module:
+    - text
+id: paragraph.page_mitigation_passive_and_acti.field_text_page_mitigation_passi
+field_name: field_text_page_mitigation_passi
+entity_type: paragraph
+bundle: page_mitigation_passive_and_acti
+label: 'text page mitigation passive and active'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

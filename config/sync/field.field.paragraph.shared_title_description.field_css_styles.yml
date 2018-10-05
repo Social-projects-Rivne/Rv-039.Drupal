@@ -1,0 +1,23 @@
+uuid: de22c82b-71b6-42b3-a35b-5e22a6e4d6cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_css_styles
+    - paragraphs.paragraphs_type.shared_title_description
+id: paragraph.shared_title_description.field_css_styles
+field_name: field_css_styles
+entity_type: paragraph
+bundle: shared_title_description
+label: 'CSS styles'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:classy_paragraphs_style'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

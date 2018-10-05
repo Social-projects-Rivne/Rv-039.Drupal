@@ -1,0 +1,19 @@
+uuid: 91c08e2b-bfb2-4da3-9734-1da537441a7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - youtube
+id: paragraph.field_dronetracker_
+field_name: field_dronetracker_
+entity_type: paragraph
+type: youtube
+settings: {  }
+module: youtube
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

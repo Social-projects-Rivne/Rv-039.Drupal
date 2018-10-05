@@ -1,0 +1,348 @@
+
+////Description
+
+.paragraph--type--bundle-description-about-us-page{
+	h1{
+		margin-top: 0px;
+		margin-bottom:5px;	
+	}
+	h3{
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-top:5px;
+	}
+	p{
+		margin-top:10px;
+		margin-bottom: 5px;
+	}
+}
+
+
+////Key figures
+
+.key-figures
+{
+
+	@extend .section;
+	position:relative;
+	padding-bottom: 50px !important;
+	.paragraph__column{ padding-bottom:0px; }
+	.paragraph--type--bp-columns__3col{
+		padding-left: 10px;
+   		padding-right: 10px;
+   		padding-bottom:100px;
+	}
+	h1{
+		text-align: center;	
+		margin-top: 0px;
+	    margin-bottom: 5px;
+	    color: #fff;
+
+	}
+	h3{
+		text-align: center;	
+	    margin-bottom: 0px;
+	    margin-top:0px;
+	    color: #fff;
+	}
+
+}
+
+.move
+{
+	display: block;
+}
+.move-hide
+{
+	opacity: 1 !important;
+	transform: translateX(0px) translateY(0px) translateZ(0px) !important;
+	transition: opacity 400ms ease 0s, transform 400ms ease 0s !important;
+}
+
+.move-up
+{
+	opacity: 0 !important;
+	transform: translateX(0px) translateY(35px) translateZ(0px) !important;
+	transition: opacity 400ms ease 0s, transform 400ms ease 0s !important;
+}
+
+/////Milestones
+.milestones
+{
+	@include media-breakpoint-down(sm)
+	{
+		ul.timeline-list:after 
+		{
+			left:0px;
+		}
+		ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper,
+		ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper
+		{
+			width: 100%;
+			.timeline-marker
+			{	
+				left: -5px;
+			}
+			float: left;
+		    padding-left: 5rem;
+		    text-align: left;
+		}
+	}
+	h1
+	{
+		color: #fff;
+		margin-bottom: 100px;
+		text-align:center;
+	}
+
+	ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper .timeline-marker {
+    	left: -5px;
+    }
+	
+	ul.timeline-list.alternate li.timeline-item.odd .timeline-item-wrapper .timeline-marker {
+	    right: -5px;
+	}
+
+	.timeline-marker
+	{
+		position: absolute;
+	  	background-color:#009ee3 !important;
+	  	color: #009ee3 !important;
+		width: 10px !important;
+	    height: 10px !important;
+	    margin-top: 2px !important;
+	    border: 3px solid #009ee3 !important;
+	}
+	ul.timeline-list:after {
+
+		background-color: #009ee3 !important;
+		width: 1px;
+		height: 100%;
+		position: absolute;
+		z-index: 1;
+		background-color: #009ee3;
+		top: 0;
+	}
+
+
+	.timeline-item-wrapper time
+	{
+		color:#fff;
+	}
+	.timeline-item-wrapper p
+	{
+		display: inline-block;
+		width:300px;
+		color: #fff;
+	}
+
+}
+
+
+
+
+
+////TABS
+.center-tabs{
+
+		.tab-container {
+			text-align: center;
+			align-items:center;
+			align-content:center;
+		}
+
+		.nav-tabs {
+			width: 100%;
+			border:none;
+			justify-content:center;
+			li {
+
+				display:flex;
+				a {
+					font-size: 15px;
+    				line-height: 20px;
+    				color:#111;
+    				letter-spacing: 1px;
+    				text-transform: uppercase;
+    				font-weight: 500;
+					padding-right: 50px;
+    				padding-left: 50px;
+    				margin-left:5px;
+    				margin-right:5px;
+   				    padding: 9px 30px;
+
+				    text-align: left;
+				    cursor: pointer;
+					display: flex !important;
+					background-color: transparent;
+					text-decoration: none !important;
+				}
+			}
+			li a.active
+			{
+			border-bottom: 2px solid #f05c40;
+    		
+			}
+		}
+
+		.tab-content {
+			flex: 1 0;
+		}
+}
+
+////Our team
+
+.our-team
+{
+	.nav-tabs
+	{
+		margin-bottom: 50px;
+	}
+	.paragraph__column
+	{
+		display: flex;
+		justify-content: center;
+	}	
+	.paragraph--type--bp-columns__3col
+	{
+		margin-top: 50px;
+	}
+	.paragraph--type--bp-columns-two-uneven
+	{
+		h1
+		{
+			margin:0 !important;
+		}
+	    margin-top: 55px;
+	    padding-bottom: 50px;
+	    border-bottom: 1px solid rgba(0,0,0,.15);
+	}
+	.paragraph--type--bp-simple
+	{	
+		display: flex !important;
+		text-align: left;
+
+		h2{
+			font-weight: 400;
+			margin-bottom:10px;
+		}
+		h5{
+			margin-bottom:0px;
+			letter-spacing: 1px;
+    		text-transform: uppercase;
+    		font-weight: 700;
+		}
+		p
+		{
+			margin-top:5px;
+			margin-bottom:10px;
+		}
+	}
+
+	.paragraph--type--bp-image 
+	{	
+		display:block;
+		max-height: 400px;     
+		overflow: hidden;
+	}
+
+	.paragraph--type--bp-columns .paragraph--type--bp-image,
+	.paragraph__column .paragraph--type--bp-image
+	{
+		display: flex;
+		justify-content: center;
+		img
+		{
+			width: 140px;
+			height: 140px;
+			border-radius: 50%;
+	    }
+	    margin-bottom: 10px;
+	}
+
+	.paragraph--type--bp-columns__3col
+	{
+		.paragraph--type--bp-simple
+		{
+			text-align: center;
+		}
+	}
+}
+
+
+////Our investors
+
+.our-investors
+{
+	h1{
+		margin-bottom: 110px;
+		text-align:center;
+	}
+	img
+	{
+		transition: .5s ease;
+	}
+	img:hover
+	{
+		opacity: 0.7;
+	}
+	@include media-breakpoint-down(sm)
+	{
+		img
+		{
+			padding-bottom:25px;
+		}
+	}
+}
+
+
+.investors-section:first-child
+{
+	border-top: 1px solid rgba(0,0,0,.1);
+} 
+.investors-section
+{
+	.paragraph--type--bp-columns__3col
+	{
+		@extend .section;
+		padding-bottom:0px !important;
+	}
+	.paragraph--type--bundle-investor-about-us-page
+	{
+		.container
+		{
+		display:flex;
+		align-items:center;
+		}
+		.field--name-field-bundle-investor-logo
+		{
+			float:left;
+			img
+			{
+				border-radius: 50%;
+			    width: 70px !important;
+			    height: 70px !important;
+		    }
+		}
+
+		.field--name-field-bundle-investor-descript
+		{
+
+			text-align:left;
+			margin-left:15px;
+			padding-right: 20px;
+			h2
+			{
+				
+				font-weight: 400;
+			}
+			h6
+			{
+				font-weight:400 !important;
+				margin-bottom:0px;
+			}
+		}
+	}
+
+}
+

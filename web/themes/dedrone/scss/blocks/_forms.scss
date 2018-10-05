@@ -1,0 +1,105 @@
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+textarea,
+select {
+	display: inline-block;
+	width: 100%;
+
+	&:focus {
+		outline: 0 none;
+	}
+}
+
+button {
+	display: inline-block;
+}
+
+.event-registration,
+.contact-us-form{
+
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: linear-gradient(180deg,#011d2a,#011d2a);
+
+	label {
+		display: block;
+		margin: 25px 0 0 0;
+		font-weight: 700;
+		font-size: 10px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: #7d949f !important;
+	}
+
+	input {
+		color: #fff;
+	}
+
+	input,
+	select {
+		border: 0 none;
+		border-bottom: 1px solid #426270;
+		padding: 5px 0;
+		background: transparent;
+		font-size: 13px;
+	}
+
+
+	h2,
+	p {
+		color: #fff;
+	}
+
+	.form-description {
+		h2 {
+			font-size: 40px;
+			line-height: 45px;
+			margin-bottom: 10px;
+			//color: #fff;
+		}
+
+		p {
+			margin-top: 20px;
+			font-size: 20px;
+			line-height: 24px;
+			//color: #fff;
+		}
+	}
+
+	.form-item-submit {
+		margin-top: 25px;
+		padding-right: 15px;
+		width: 50%;
+
+		input[type="submit"],
+		button {
+			width: 100%;
+			background: #009ee3;
+			padding: 15px 30px;
+			color: #fff;
+			font-size: 11px;
+			font-weight: 400;
+			line-height: 15px;
+			text-transform: uppercase;
+			border: 0 none;
+			appearance: none;
+
+			&:hover {
+				background: #008ecc;
+			}
+		}
+	}
+
+	@media (max-width: 991px) {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	@media (max-width: 767px) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}

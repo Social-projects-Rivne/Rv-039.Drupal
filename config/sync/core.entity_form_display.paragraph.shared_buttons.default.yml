@@ -1,0 +1,43 @@
+uuid: de04579f-3d78-49ad-a38a-5b967054beca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.shared_buttons.field_css_styles
+    - field.field.paragraph.shared_buttons.field_shared_button
+    - field.field.paragraph.shared_buttons.field_shared_buttons_position
+    - paragraphs.paragraphs_type.shared_buttons
+  module:
+    - link
+id: paragraph.shared_buttons.default
+targetEntityType: paragraph
+bundle: shared_buttons
+mode: default
+content:
+  field_css_styles:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_shared_button:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_shared_buttons_position:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

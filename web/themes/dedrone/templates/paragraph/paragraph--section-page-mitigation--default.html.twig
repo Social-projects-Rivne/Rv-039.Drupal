@@ -1,0 +1,19 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+<div class="section_page_mitigation_mantle" style="background:url({{ background_image_url }}) no-repeat center top; background-position: 50% 50%;background-size: cover;">
+  {% block paragraph %}
+
+    <div{{ attributes.addclass(classes) }}>
+      {% block content %}
+        {{ content.field_text_page_mitigation }}
+      {% endblock %}
+    </div>
+
+  {% endblock paragraph %}
+</div>
