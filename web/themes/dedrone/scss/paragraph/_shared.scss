@@ -20,6 +20,20 @@
 /* Styles for shared_title and shared_description paragraph
 ========================================================================== */
 
+.button-hover-orange
+{
+  .field__item:hover
+  {
+    a{color:#f05d40 !important;}
+  }
+}
+
+.button-hover-blue {
+  .field__item:hover {
+    a{color:#011d2a !important;}
+  }
+}
+
 .text-color-white{
   h1,h2,h3,h4,h5,h6,p,a  {
     color: #fff;
@@ -301,7 +315,7 @@ Right_vertically|Right vertically
 .paragraph--type--shared-full-width-col-7-col-5
 {
     @extend .section;
-    padding-bottom:0px;
+    padding-bottom:0px !important;
     dispalay:flex;
     align-items:center;
     .background_image{ min-height: 400px;}
@@ -309,8 +323,8 @@ Right_vertically|Right vertically
     {
         height: 400px;
     }
-    .col-7{padding:0;}
-    .col-5{padding:0;}
+    .col-md-7{padding:0;}
+    .col-md-5{padding:0;}
 }
 
 
@@ -329,6 +343,10 @@ Right_vertically|Right vertically
   h2 a{
     display: inline-block;
     font-weight: 300;
+  }
+  h2 a:hover
+  {
+    color:#009ee3;
   }
 
   a{

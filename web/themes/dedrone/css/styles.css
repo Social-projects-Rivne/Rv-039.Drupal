@@ -10272,9 +10272,10 @@ button {
   padding: 0px 10px; }
 
 .paragraph--type--bundle-description-tech-par-page a {
-  padding-left: 10px; }
+  padding-left: 10px;
+  text-decoration: none; }
 
-/*Content*/
+/*Page content*/
 .section-content-tech-part {
   padding-top: 0px !important; }
 
@@ -10286,7 +10287,13 @@ button {
   font-weight: 300; }
 
 .paragraph--type--bundle-content-tech-par-page a {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  text-decoration: none; }
 
 .paragraph--type--bundle-content-tech-par-page .bundle_partner_logo {
   padding-top: 15px;
@@ -10323,6 +10330,12 @@ button {
 ========================================================================== */
 /* Styles for shared_title and shared_description paragraph
 ========================================================================== */
+.button-hover-orange .field__item:hover a {
+  color: #f05d40 !important; }
+
+.button-hover-blue .field__item:hover a {
+  color: #011d2a !important; }
+
 .text-color-white h1, .node--type-library h1, .text-color-white h2, .node--type-library h2, .text-color-white h3, .node--type-library h3, .text-color-white h4, .node--type-library h4, .text-color-white h5, .node--type-library h5, .text-color-white h6, .node--type-library h6, .text-color-white p, .node--type-library p, .text-color-white a, .node--type-library a {
   color: #fff; }
 
@@ -10516,7 +10529,7 @@ Right_vertically|Right vertically
     text-align: center; }
 
 .paragraph--type--shared-full-width-col-7-col-5 {
-  padding-bottom: 0px;
+  padding-bottom: 0px !important;
   dispalay: flex;
   -ms-flex-align: center;
       align-items: center; }
@@ -10524,9 +10537,9 @@ Right_vertically|Right vertically
     min-height: 400px; }
   .paragraph--type--shared-full-width-col-7-col-5 .background {
     height: 400px; }
-  .paragraph--type--shared-full-width-col-7-col-5 .col-7 {
+  .paragraph--type--shared-full-width-col-7-col-5 .col-md-7 {
     padding: 0; }
-  .paragraph--type--shared-full-width-col-7-col-5 .col-5 {
+  .paragraph--type--shared-full-width-col-7-col-5 .col-md-5 {
     padding: 0; }
 
 /* Other 
@@ -10539,6 +10552,9 @@ Right_vertically|Right vertically
 .link-block-white h2 a {
   display: inline-block;
   font-weight: 300; }
+
+.link-block-white h2 a:hover {
+  color: #009ee3; }
 
 .link-block-white a {
   color: #fff;
@@ -10785,6 +10801,14 @@ Right_vertically|Right vertically
   display: inline-block;
   width: 300px;
   color: #fff; }
+
+.milestones .datetime {
+  color: #111;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700; }
 
 .center-tabs .tab-container {
   text-align: center;

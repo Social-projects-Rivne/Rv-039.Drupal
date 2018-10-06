@@ -11,7 +11,7 @@
 	@extend .section;
 	padding-bottom: 0px !important;
 }
-.paragraph--type--bundle-description-tech-par-page 
+.paragraph--type--bundle-description-tech-par-page
 {
 	h1{	
 		margin-top:0px;
@@ -19,11 +19,14 @@
 		text-align: left !important;
 	}
 	p{ padding: 0px 10px; }
-	a{ padding-left: 10px; }
+	a{
+		padding-left: 10px;
+		text-decoration: none;
+	}
+
 }
 
-
-/*Content*/
+/*Page content*/
 
 .section-content-tech-part
 {
@@ -32,7 +35,6 @@
 }
 .paragraph--type--bundle-content-tech-par-page
 {
-
 	h2{
 		font-weight: 400;
 		margin: 10px 0px;
@@ -44,6 +46,12 @@
 
 	a{
 		text-transform: uppercase;
+		font-weight: 600 !important;
+		letter-spacing: 1px;
+		font-size: 12px;
+		line-height: 15px;
+		text-align: left;
+		text-decoration: none;
 	}
 
 	.bundle_partner_logo{
