@@ -1,0 +1,38 @@
+uuid: 88a0af6e-f95b-478b-8275-289d21edb00c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imge_airspace_security_sol
+    - paragraphs.paragraphs_type.section_complete_airspace_securi
+  module:
+    - image
+id: paragraph.section_complete_airspace_securi.field_imge_airspace_security_sol
+field_name: field_imge_airspace_security_sol
+entity_type: paragraph
+bundle: section_complete_airspace_securi
+label: 'imge Airspace Security Solution'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

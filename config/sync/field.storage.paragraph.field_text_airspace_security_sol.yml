@@ -1,0 +1,19 @@
+uuid: d78b4231-1b4f-4201-b445-a2892058d71d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_text_airspace_security_sol
+field_name: field_text_airspace_security_sol
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

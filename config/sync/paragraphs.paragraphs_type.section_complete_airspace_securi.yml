@@ -1,0 +1,14 @@
+uuid: 6cc9cf97-077e-4c9d-8bb2-d7870e2b8b03
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: section_complete_airspace_securi
+label: 'section Complete Airspace Security Solution'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

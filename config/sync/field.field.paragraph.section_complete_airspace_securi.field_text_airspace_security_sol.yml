@@ -1,0 +1,21 @@
+uuid: edfe725c-ea12-4a81-b767-9e0d1bdfa952
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_airspace_security_sol
+    - paragraphs.paragraphs_type.section_complete_airspace_securi
+  module:
+    - text
+id: paragraph.section_complete_airspace_securi.field_text_airspace_security_sol
+field_name: field_text_airspace_security_sol
+entity_type: paragraph
+bundle: section_complete_airspace_securi
+label: 'text Airspace Security Solution'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
