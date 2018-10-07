@@ -10254,6 +10254,51 @@ button {
     line-height: 20px;
     font-weight: 500; }
 
+.wraper_for_complete_airspace2 {
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  .wraper_for_complete_airspace2 .paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    display: -ms-flexbox;
+    display: flex; }
+    .wraper_for_complete_airspace2 .paragraph .field--name-field-imge-airspace-security-sol {
+      width: 58.33333333%;
+      margin-right: 70px;
+      position: relative;
+      float: left;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .wraper_for_complete_airspace2 .paragraph .field--name-field-imge-airspace-security-sol img {
+        margin-bottom: 0;
+        margin-top: 40px;
+        border: 0;
+        vertical-align: middle; }
+    .wraper_for_complete_airspace2 .paragraph .field--name-field-text-airspace-security-sol {
+      width: 33.33333333%;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .wraper_for_complete_airspace2 .paragraph .field--name-field-text-airspace-security-sol h1 {
+        margin-top: 0;
+        font-size: 39px;
+        padding-bottom: 0;
+        line-height: 45px;
+        text-align: left;
+        letter-spacing: 0;
+        margin-bottom: 10px; }
+      .wraper_for_complete_airspace2 .paragraph .field--name-field-text-airspace-security-sol p {
+        margin-top: 10px;
+        float: none;
+        clear: none;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        display: inline-block;
+        margin-bottom: 5px; }
+
 /* ==========================================================================
    Page "Technology Partners" styles
    - positioning options and unique page styles.

@@ -5,11 +5,10 @@
 /*==============First section===============*/
 
 /*===========Second section(Complete airspace solutions)================*/
-
+/*
 .page_products_div_complete_airspace_solutions {
   display: block;
-  /* padding-top: 150px;
-    padding-bottom: 150px; */
+
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
@@ -49,9 +48,6 @@
   height: 960px;
 }
 
-/* .complete_airspace_solution{
-    width: 33.33333333%;
-} */
 
 .paragraph--type--complete-airspace-security-solut {
   width: 960px;
@@ -123,7 +119,7 @@
   -webkit-box-direction: normal;
 }
 
-/* =====================Third section(How it works)=============*/
+ =====================Third section(How it works)============
 
 .page_products_div_how_it_works {
   background-image: linear-gradient(180deg, #011d2a, #011d2a);
@@ -260,7 +256,7 @@
   margin-top: 75px;
 }
 
-/* =====================Fourth section(Detect a drone)=============*/
+ =====================Fourth section(Detect a drone)=============
 
 .section_detect_a_drone {
   align-items: flex-start;
@@ -452,7 +448,7 @@
 
 /* //////////////////////////////////////////////////
               section  Reporting and  Forensic Evidence
-///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
 
 /* .paragraph--type--page-products-reporting-and-fore {
   align-items: flex-start;
@@ -571,7 +567,7 @@
 /* ////////////////////////////////////////////////////////
           section Cloud-Managed Airspace Security
 ///////////////////////////////////////////////////////// */
-
+/*
 .paragraph--type--page-products-cloud-managed-airs {
 
   align-items: flex-start;
@@ -646,7 +642,7 @@
 /* /////////////////////////////////////////////////////
                       section Additional security
   //////////////////////////////////////////////////// */
-
+/*
 .section_additional_security {
   align-items: flex-start;
   background-image: linear-gradient(180deg, #fff, #fff);
@@ -734,9 +730,9 @@
   text-decoration-style: solid;
 }
 
-/* //////////////////////////////////////
+ //////////////////////////////////////
               section Mitigation
-//////////////////////////////////////////// */
+////////////////////////////////////////////
 
 .section_mitigation {
   -ms-align-items: flex-start;
@@ -834,4 +830,4 @@
   font-weight: 400;
   margin-top: 15px;
   color: rgb(255, 255, 255);
-}
+} */ */
