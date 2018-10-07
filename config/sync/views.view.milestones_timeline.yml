@@ -79,8 +79,8 @@ display:
           label: ''
           exclude: false
           alter:
-            alter_text: false
-            text: ''
+            alter_text: true
+            text: '<div data-aos="fade-up">{{ field_timeline_date }}</div>'
             make_link: false
             path: ''
             absolute: false
@@ -143,8 +143,8 @@ display:
           label: ''
           exclude: false
           alter:
-            alter_text: false
-            text: ''
+            alter_text: true
+            text: '<div data-aos="fade-up">{{ field_timeline_text }}</div>'
             make_link: false
             path: ''
             absolute: false

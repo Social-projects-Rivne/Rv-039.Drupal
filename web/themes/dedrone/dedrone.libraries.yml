@@ -9,7 +9,9 @@ global-styling:
     js/libs/swiper/swiper.min.js: {}
     js/libs/bootstrap/bootstrap.min.js: {}
     js/main.js: {}
+
   dependencies:
     - core/jquery
     - core/drupalSettings
     - core/drupal
+

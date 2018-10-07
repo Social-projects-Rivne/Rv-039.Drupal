@@ -10554,7 +10554,7 @@ Right_vertically|Right vertically
   font-weight: 300; }
 
 .link-block-white h2 a:hover {
-  color: #009ee3; }
+  color: #111; }
 
 .link-block-white a {
   color: #fff;
@@ -10705,6 +10705,9 @@ Right_vertically|Right vertically
   margin-top: 30px;
   color: #fff;
   padding-bottom: 20px; }
+
+.display-block {
+  display: block !important; }
 
 .paragraph--type--bundle-description-about-us-page h1 {
   margin-top: 0px;
