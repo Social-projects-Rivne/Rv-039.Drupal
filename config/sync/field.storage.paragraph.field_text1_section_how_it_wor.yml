@@ -1,0 +1,19 @@
+uuid: b8308e34-ad05-4a22-b41f-28502fd783b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_text1_section_how_it_wor
+field_name: field_text1_section_how_it_wor
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+<div class="wraper_for_section_how_it_works">
+
+  {% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+      {% block content %}
+        {{ content.field_label_section_how_it_wor }}
+        <div data-aos="fade-up">
+          {{ content.field_image_section_how_it_wor }}
+        </div>
+        <div class="hidden_wraper_for_text_blocks">
+          {{ content.field_text1_section_how_it_wor }}
+          {{ content.field_text2_section_how_it_wor }}
+          {{ content.field_text3_section_how_it_wor }}
+        </div>
+        {{ content.field_link_section_how_it_works }}
+      {% endblock %}
+    </div>
+  {% endblock paragraph %}
+</div>

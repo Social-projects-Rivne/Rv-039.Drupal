@@ -1,0 +1,47 @@
+uuid: 8898f321-6bd5-4097-9ef1-3213d86214e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_detect_a_drone_overview.field__text_section_detect_a_dr
+    - field.field.paragraph.section_detect_a_drone_overview.field_image_section_detect_a_dro
+    - field.field.paragraph.section_detect_a_drone_overview.field_link_section_detect_a_dro
+    - paragraphs.paragraphs_type.section_detect_a_drone_overview
+  module:
+    - image
+    - link
+    - text
+id: paragraph.section_detect_a_drone_overview.default
+targetEntityType: paragraph
+bundle: section_detect_a_drone_overview
+mode: default
+content:
+  field__text_section_detect_a_dr:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image_section_detect_a_dro:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link_section_detect_a_dro:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

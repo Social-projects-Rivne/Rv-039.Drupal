@@ -8,6 +8,7 @@
     "gulp-util": "^3.0.8"
   },
   "dependencies": {
+    "modal-video": "^2.4.2",
     "swiper": "^4.3.5"
   }
 }

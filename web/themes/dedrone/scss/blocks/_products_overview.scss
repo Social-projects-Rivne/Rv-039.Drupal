@@ -54,3 +54,169 @@
     }
   }
 }
+
+.wraper_for_section_how_it_works {
+  background-image: linear-gradient(180deg,#011d2a,#011d2a);
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  .paragraph {
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .field--name-field-label-section-how-it-wor {
+      display: flex;
+      justify-content: center;
+
+      h1 {
+        border-style: none;
+        padding-bottom: 0;
+        font-size: 40px;
+        line-height: 45px;
+        letter-spacing: 0;
+        text-transform: none;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: #fff;
+      }
+    }
+
+    .field--name-field-image-section-how-it-wor {
+      margin-top: 100px;
+      margin-bottom: 50px;
+
+      img {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+        display: block;
+        transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+      }
+    }
+
+    .hidden_wraper_for_text_blocks {
+      display: flex;
+
+      .field {
+        width: 33.33333333%;
+        position: relative;
+        float: left;
+        box-sizing: border-box;
+        min-height: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        h3 {
+          display: inline-block;
+          float: left;
+          color: #fff;
+          text-align: center;
+          margin-top: 15px;
+          margin-bottom: 0;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+
+        p {
+          color: #fff;
+          padding-right: 15px;
+          text-align: left;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          font-size: 16px;
+          line-height: 24px;
+          display: inline-block;
+        }
+      }
+    }
+
+    .field--name-field-link-section-how-it-works {
+      margin-top: 75px;
+      text-align: center;
+
+      a {
+        text-align: center;
+        color: #009ee3;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.wrapper_for_section_detect_a_drone {
+  padding: 150px 0;
+  background-image: linear-gradient(180deg,#eee,#eee);
+  min-height: 600px;
+
+  .paragraph {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .field--name-field-image-section-detect-a-dro {
+      width: 58.33333333%;
+      position: relative;
+      float: left;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      img {
+        margin-top: 0;
+        margin-bottom: 0;
+        border: 0;
+        vertical-align: middle;
+        display: inline-block;
+      }
+    }
+
+    .inherit_wrapper_for_text_blocks {
+      width: 41.66666667%;
+      position: relative;
+      float: left;
+      min-height: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      box-sizing: border-box;
+      margin-top: 65px;
+
+      .field--name-field__text-section-detect-a-dr {
+        h1 {
+          font-size: 40px;
+          line-height: 45px;
+          text-align: left;
+          letter-spacing: 0;
+          padding-bottom: 0;
+          margin-bottom: 10px;
+          margin-top: 0;
+        }
+
+        p {
+          margin-top: 10px;
+          float: none;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: left;
+          display: inline-block;
+          margin-bottom: 5px;
+        }
+      }
+
+      .field--name-field-link-section-detect-a-dro {
+        display: block;
+        margin-top: 15px;
+
+        a {
+          font-size: 16px;
+          line-height: 24px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

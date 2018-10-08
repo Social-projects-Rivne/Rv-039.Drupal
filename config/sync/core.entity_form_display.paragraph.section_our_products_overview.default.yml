@@ -1,0 +1,35 @@
+uuid: 05282171-3d26-46b8-8005-855a4d308fff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_our_products_overview.field_hfiujfheiurgheurgh
+    - field.field.paragraph.section_our_products_overview.field_text_our_products_overview
+    - paragraphs.paragraphs_type.section_our_products_overview
+  module:
+    - text
+id: paragraph.section_our_products_overview.default
+targetEntityType: paragraph
+bundle: section_our_products_overview
+mode: default
+content:
+  field_hfiujfheiurgheurgh:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_text_our_products_overview:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

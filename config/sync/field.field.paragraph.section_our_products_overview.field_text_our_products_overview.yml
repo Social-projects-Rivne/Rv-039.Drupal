@@ -1,0 +1,21 @@
+uuid: f35b7ce3-e3cc-4a19-bed4-89a7117ad102
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_our_products_overview
+    - paragraphs.paragraphs_type.section_our_products_overview
+  module:
+    - text
+id: paragraph.section_our_products_overview.field_text_our_products_overview
+field_name: field_text_our_products_overview
+entity_type: paragraph
+bundle: section_our_products_overview
+label: 'text our products overview1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

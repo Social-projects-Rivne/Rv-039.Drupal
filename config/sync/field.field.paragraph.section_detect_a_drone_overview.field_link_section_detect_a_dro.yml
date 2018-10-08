@@ -1,0 +1,23 @@
+uuid: 639caddb-8df0-442c-b1b0-115b5155ee78
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_section_detect_a_dro
+    - paragraphs.paragraphs_type.section_detect_a_drone_overview
+  module:
+    - link
+id: paragraph.section_detect_a_drone_overview.field_link_section_detect_a_dro
+field_name: field_link_section_detect_a_dro
+entity_type: paragraph
+bundle: section_detect_a_drone_overview
+label: 'link section detect a drone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

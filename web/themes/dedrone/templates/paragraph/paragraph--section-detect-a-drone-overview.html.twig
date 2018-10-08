@@ -1,0 +1,21 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+<div class="wrapper_for_section_detect_a_drone">
+  {% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+      {% block content %}
+        {{ content.field_image_section_detect_a_dro }}
+        <div class="inherit_wrapper_for_text_blocks">
+        {{ content.field__text_section_detect_a_dr }}
+        {{ content.field_link_section_detect_a_dro }}
+      </div>
+      {% endblock %}
+    </div>
+  {% endblock paragraph %}
+</div>

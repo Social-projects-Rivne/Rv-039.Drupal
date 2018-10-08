@@ -1,0 +1,21 @@
+uuid: d06ff128-61d5-4827-abbd-490ca625f64e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label_section_how_it_wor
+    - paragraphs.paragraphs_type.section_how_it_works_overview
+  module:
+    - text
+id: paragraph.section_how_it_works_overview.field_label_section_how_it_wor
+field_name: field_label_section_how_it_wor
+entity_type: paragraph
+bundle: section_how_it_works_overview
+label: 'label section how it works'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

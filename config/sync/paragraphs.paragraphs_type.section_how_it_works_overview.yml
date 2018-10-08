@@ -1,0 +1,14 @@
+uuid: e93f4f89-d9b8-4f73-8ebd-b277f6bf1072
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: section_how_it_works_overview
+label: 'section how it works overview'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

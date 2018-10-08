@@ -1,0 +1,23 @@
+uuid: f677c850-d5b4-4084-ae5c-2f67cd8f0c7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_section_how_it_works
+    - paragraphs.paragraphs_type.section_how_it_works_overview
+  module:
+    - link
+id: paragraph.section_how_it_works_overview.field_link_section_how_it_works
+field_name: field_link_section_how_it_works
+entity_type: paragraph
+bundle: section_how_it_works_overview
+label: 'link section how it works'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

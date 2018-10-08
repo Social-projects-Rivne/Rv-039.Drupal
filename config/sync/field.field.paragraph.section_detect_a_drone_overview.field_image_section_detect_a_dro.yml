@@ -1,0 +1,38 @@
+uuid: 0c345511-cd6b-40d5-bd8e-ae93d9a6ee0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_section_detect_a_dro
+    - paragraphs.paragraphs_type.section_detect_a_drone_overview
+  module:
+    - image
+id: paragraph.section_detect_a_drone_overview.field_image_section_detect_a_dro
+field_name: field_image_section_detect_a_dro
+entity_type: paragraph
+bundle: section_detect_a_drone_overview
+label: 'image section detect  a drone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

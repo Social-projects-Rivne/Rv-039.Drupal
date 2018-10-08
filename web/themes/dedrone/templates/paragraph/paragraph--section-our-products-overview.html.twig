@@ -1,0 +1,18 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      {{ content.field_text_our_products_overview }}
+
+      <a href="#" class="js-modal-btn" data-channel="video" data-video-url"https://www.youtube.com/watch?v=Y9fS7UbOKbM">{{ content.field_hfiujfheiurgheurgh }}</a>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

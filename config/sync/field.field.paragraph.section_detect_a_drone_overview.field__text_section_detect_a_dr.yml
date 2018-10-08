@@ -1,0 +1,21 @@
+uuid: 8dca49f4-6d58-429e-a1a5-ba2d7bd2b007
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field__text_section_detect_a_dr
+    - paragraphs.paragraphs_type.section_detect_a_drone_overview
+  module:
+    - text
+id: paragraph.section_detect_a_drone_overview.field__text_section_detect_a_dr
+field_name: field__text_section_detect_a_dr
+entity_type: paragraph
+bundle: section_detect_a_drone_overview
+label: ' text section detect a drone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
