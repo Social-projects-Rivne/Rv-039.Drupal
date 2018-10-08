@@ -103,3 +103,37 @@ button {
 		padding-bottom: 50px;
 	}
 }
+
+.webform-confirmation {
+	padding: 150px 0;
+	background: #011d2a;
+	color: #fff;
+
+	&__message {
+		margin-bottom: 30px;
+
+		h2 {
+			font-size: 40px;
+			line-height: 45px;
+			margin-bottom: 10px;
+			text-align: center;
+			color: #fff;
+		}
+	}
+
+	&__back {
+		text-align: center;
+
+		.btn {
+			background: #009ee3;
+			padding: 15px 30px;
+			color: #fff;
+			font-size: 11px;
+			font-weight: 400;
+			line-height: 15px;
+			text-transform: uppercase;
+			border: 0 none;
+			appearance: none;
+		}
+	}
+}

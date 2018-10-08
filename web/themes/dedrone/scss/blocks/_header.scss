@@ -152,5 +152,30 @@
 				padding: 10px 0;
 			}
 		}
+
+		& > .menu-item {
+
+			&--expanded {
+
+				& > .menu {
+					position: relative;
+					left: 0px;
+					right: auto;
+					width: 100%;
+					min-width: 180px;
+					transform: translateX(0);
+					padding: 10px;
+					margin: 0px;
+					box-shadow: none;
+				}
+
+				&:hover,
+				&:focus {
+					& > .menu {
+						display: block;
+					}
+				}
+			}
+		}
 	}
 }
