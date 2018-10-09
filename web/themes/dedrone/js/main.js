@@ -38,6 +38,18 @@
 		}
 	};
 
+	Drupal.behaviors.submitExposedForm = {
+		attach: function (context, settings) {
+			$(document).ready(function() {
+				// $(document).ajaxComplete(function(event, xhr, settings) {
+					$(".views-exposed-form .form-select").on('change', function() {
+						$(".form-submit").click();
+					});
+				// });
+			});
+		}
+	};
+
 
 
 })(jQuery, window, Drupal, drupalSettings);

@@ -527,6 +527,7 @@ display:
         sorts: false
         css_class: false
         title: false
+        use_ajax: false
       filters:
         status:
           id: status
@@ -629,7 +630,7 @@ display:
             operator: field_blog_category_value_op
             identifier: field_blog_category_value
             required: false
-            remember: true
+            remember: false
             multiple: false
             remember_roles:
               authenticated: authenticated
@@ -688,6 +689,7 @@ display:
           granularity: second
       css_class: blog-posts
       title: 'Page Posts'
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:
@@ -894,6 +896,7 @@ display:
         style: false
         row: false
         header: false
+        use_ajax: false
       filters:
         status:
           id: status
@@ -1053,6 +1056,7 @@ display:
             value: "<h2 class=\"\">Worldwide Drone Incidents</h2>\n<p>Learn about the latest drone-related incidents and intrusions from around the world<p>"
             format: basic_html
           plugin_id: text
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:

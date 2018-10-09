@@ -408,6 +408,10 @@
 .blog-list {
 	padding: 100px 0;
 
+	.blog-list {
+		padding: 0;
+	}
+
 	.views-exposed-form {
 		label,
 		.description {
