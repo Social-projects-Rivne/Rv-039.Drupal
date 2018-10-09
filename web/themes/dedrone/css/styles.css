@@ -7905,6 +7905,8 @@ a {
 
 .blog-list {
   padding: 100px 0; }
+  .blog-list .blog-list {
+    padding: 0; }
   .blog-list .views-exposed-form label,
   .blog-list .views-exposed-form .description {
     display: block;
@@ -8055,6 +8057,9 @@ button {
     .contact-us-form {
       padding-top: 50px;
       padding-bottom: 50px; } }
+
+.views-exposed-form .form-submit {
+  display: none !important; }
 
 .webform-confirmation {
   padding: 150px 0;

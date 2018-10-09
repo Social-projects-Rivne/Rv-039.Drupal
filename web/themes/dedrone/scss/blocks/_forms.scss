@@ -104,6 +104,13 @@ button {
 	}
 }
 
+.views-exposed-form {
+
+	.form-submit {
+		display: none !important;
+	}
+}
+
 .webform-confirmation {
 	padding: 150px 0;
 	background: #011d2a;
