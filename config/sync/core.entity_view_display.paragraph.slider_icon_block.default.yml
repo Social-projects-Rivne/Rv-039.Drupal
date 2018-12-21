@@ -1,0 +1,41 @@
+uuid: 77e2db0d-9ab2-4e06-abdc-527abe5c45d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider_icon_block.field_image
+    - field.field.paragraph.slider_icon_block.field_our_products
+    - field.field.paragraph.slider_icon_block.field_shared_h2_title
+    - paragraphs.paragraphs_type.slider_icon_block
+  module:
+    - image
+    - text
+id: paragraph.slider_icon_block.default
+targetEntityType: paragraph
+bundle: slider_icon_block
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_our_products:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_shared_h2_title:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

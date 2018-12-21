@@ -1,0 +1,39 @@
+uuid: d272535d-956b-49c1-96cc-7a3b671e3c3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.milestones_timeline_content.field_timeline_date
+    - field.field.node.milestones_timeline_content.field_timeline_text
+    - node.type.milestones_timeline_content
+  module:
+    - datetime
+    - text
+    - user
+id: node.milestones_timeline_content.default
+targetEntityType: node
+bundle: milestones_timeline_content
+mode: default
+content:
+  field_timeline_date:
+    weight: 101
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: month_year
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_timeline_text:
+    weight: 102
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

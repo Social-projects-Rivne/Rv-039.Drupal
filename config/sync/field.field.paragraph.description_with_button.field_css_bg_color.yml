@@ -1,0 +1,19 @@
+uuid: 45887b04-52ff-4059-9c82-faa0786a415f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_css_bg_color
+    - paragraphs.paragraphs_type.description_with_button
+id: paragraph.description_with_button.field_css_bg_color
+field_name: field_css_bg_color
+entity_type: paragraph
+bundle: description_with_button
+label: 'Css bg color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

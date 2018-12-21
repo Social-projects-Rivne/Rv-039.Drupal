@@ -1,0 +1,28 @@
+uuid: 6e2fcf7a-b366-4ffb-9176-39f3cb9d1352
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.solutions
+  module:
+    - block_class
+    - system
+  theme:
+    - dedrone
+third_party_settings:
+  block_class:
+    classes: 'col-md-2 col-sm-6 col-xs-12'
+id: solutions
+theme: dedrone
+region: footerMenu
+weight: -8
+provider: null
+plugin: 'system_menu_block:solutions'
+settings:
+  id: 'system_menu_block:solutions'
+  label: SOLUTIONS
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

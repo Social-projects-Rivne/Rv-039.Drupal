@@ -1,0 +1,21 @@
+uuid: 19a3ba6c-eb4a-43cb-af2f-7b90031e468e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.customers_page_slider
+  module:
+    - text
+id: paragraph.customers_page_slider.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: customers_page_slider
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

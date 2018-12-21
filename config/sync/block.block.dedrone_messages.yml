@@ -1,0 +1,22 @@
+uuid: 349371da-bb41-49ae-859e-8b2861eda2b5
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - dedrone
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: dedrone_messages
+theme: dedrone
+region: header
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

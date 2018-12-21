@@ -1,0 +1,49 @@
+uuid: cf8693ea-bbd6-46aa-bf8d-247fc2cf96e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_row.field_css_class
+    - field.field.paragraph.text_row.field_text_column
+    - field.field.paragraph.text_row.field_title
+    - paragraphs.paragraphs_type.text_row
+  module:
+    - paragraphs
+    - text
+id: paragraph.text_row.default
+targetEntityType: paragraph
+bundle: text_row
+mode: default
+content:
+  field_css_class:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_text_column:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

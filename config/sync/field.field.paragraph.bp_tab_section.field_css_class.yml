@@ -1,0 +1,19 @@
+uuid: c467d52e-7fd6-45a4-b151-c61e7b6502ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_css_class
+    - paragraphs.paragraphs_type.bp_tab_section
+id: paragraph.bp_tab_section.field_css_class
+field_name: field_css_class
+entity_type: paragraph
+bundle: bp_tab_section
+label: 'css class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

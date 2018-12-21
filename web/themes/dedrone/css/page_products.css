@@ -1,0 +1,837 @@
+/* =======================================================================
+  Page Products style sheets
+  ========================================================================*/
+
+/*==============First section===============*/
+
+/*===========Second section(Complete airspace solutions)================*/
+
+.page_products_div_complete_airspace_solutions {
+  display: block;
+  /* padding-top: 150px;
+    padding-bottom: 150px; */
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(180deg, #fff, #fff);
+  color: #f8f8f8;
+  text-align: left;
+}
+
+.section_complete_airspace_solutions {
+  margin-left: -10px;
+  margin-right: -10px;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  height: 960px;
+}
+
+/* .complete_airspace_solution{
+    width: 33.33333333%;
+} */
+
+.paragraph--type--complete-airspace-security-solut {
+  width: 960px;
+  margin-left: -10px;
+  margin-right: -10px;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.field--name-field-dronetracker-diagram-pilot {
+  width: 58.33333333%;
+  position: relative;
+  float: right;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.field--name-field-modern-security-requires {
+  margin-left: 50px;
+  width: 330px;
+}
+
+.field--name-field-modern-security-requires>h1 {
+  padding-bottom: 0;
+  border-bottom-width: 0;
+  font-family: 'Pluto Sans Condensed Extra Light', sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  letter-spacing: 0;
+  color: rgb(17, 17, 17);
+  border-bottom-color: #bbb;
+  border-style: none;
+  font-weight: 100;
+  text-transform: none;
+  margin-top: 0;
+  margin: .67em 0;
+  display: block;
+}
+
+.field--name-field-modern-security-requires>p {
+  margin-top: 10px;
+  float: none;
+  clear: none;
+  font-family: 'Pluto Sans Condensed Light', sans-serif;
+  color: #111;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 5px;
+  -webkit-box-direction: normal;
+}
+
+/* =====================Third section(How it works)=============*/
+
+.page_products_div_how_it_works {
+  background-image: linear-gradient(180deg, #011d2a, #011d2a);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  color: #f8f8f8;
+  text-align: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+}
+
+.field--name-field-how-it-works {
+  width: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-align: center;
+  -webkit-box-flex: 0;
+  flex: 0 auto;
+  color: #fff;
+}
+
+.field--name-field-how-it-works>h1 {
+  border-style: none;
+  padding-bottom: 0;
+  border-bottom-width: 0;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0;
+  border-bottom-color: #bbb;
+  font-weight: 200;
+  text-transform: none;
+  margin-bottom: 10px;
+  display: block;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.paragraph--type--page-products-how-it-works {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+.field--name-field-how-it-work-ima {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  opacity: 1;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  display: block;
+  transition: opacity 400ms, transform 400ms;
+  border: 0;
+  vertical-align: middle;
+  box-sizing: border-box;
+  -webkit-box-direction: normal;
+}
+
+.field--name-field-our-rf-sensors, .field--name-field-dronetracker-software, .field--name-field-additional-sensors-and- {
+  box-sizing: border-box;
+  color: rgb(248, 248, 248);
+  display: block;
+  float: left;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 26px;
+  min-height: 1px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  text-size-adjust: 100%;
+  width: 319px;
+  -webkit-box-direction: normal;
+  margin-bottom: 70px;
+}
+
+.field--name-field-additional-sensors-and- {
+  width: 300px;
+}
+
+.field--name-field-our-rf-sensors>h3, .field--name-field-dronetracker-software>h3, .field--name-field-additional-sensors-and->h3 {
+  clear: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  float: left;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.field--name-field-our-rf-sensors>p, .field--name-field-dronetracker-software>p, .field--name-field-additional-sensors-and->p {
+  clear: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  flex-basis: 0%;
+  flex-grow: 1;
+  fle-shrink: 1;
+  float: none;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 24px;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.field--name-field-how-it-work-learn-more>p {
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  color: rgb(0, 158, 227);
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 75px;
+  text-align: center;
+  text-decoration-color: rgb(0, 158, 227);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-size-adjust: 100%;
+  margin-top: 75px;
+}
+
+/* =====================Fourth section(Detect a drone)=============*/
+
+.section_detect_a_drone {
+  align-items: flex-start;
+  background-image: linear-gradient(180deg, #eee, #eee);
+  box-sizing: border-box;
+  display: block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  text-align: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-align: start;
+}
+
+.paragraph--type--page-products-detect-a-drone {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: left;
+  -webkit-box-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+}
+
+.field--name-field-rf-sensor-side {
+  box-sizing: border-box;
+  color: rgb(248, 248, 248);
+  display: block;
+  float: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  text-align: left;
+  width: 560px;
+}
+
+.field--name-field-rf-sensor-side>img {
+  border-bottom-style: none;
+  border-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: rgb(248, 248, 248);
+  border-top-style: none;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 100%;
+  vertical-align: middle;
+  -webkit-box-direction: normal;
+}
+
+.field--name-field-dedrone-s-rf-sensors {
+  box-sizing: border-box;
+  color: rgb(248, 248, 248);
+  display: block;
+  float: none;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 26px;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  text-align: left;
+  text-size-adjust: 100%;
+  width: 400px;
+  -webkit-box-direction: normal;
+}
+
+.field--name-field-dedrone-s-rf-sensors>h2 {
+  boder-bottom-color: rgb(187, 187, 187);
+  border-style: none;
+  border-bottom-width: 0px;
+  box-sizing: border-box;
+  color: rgb(17, 17, 17);
+  display: block;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: normal;
+  margin: 0px 0px 10px 0px;
+  padding-bottom: 0px;
+  text-align: left;
+  text-transform: none;
+  -webkit-margin-after: 10px;
+  -webkit-margin-before: 0px;
+  -webkit-box-direction: normal;
+  text-size-adjust: 100%;
+}
+
+.field--name-field-dedrone-s-rf-sensors>p {
+  box-sizing: border-box;
+  clear: none;
+  color: rgb(17, 17, 17);
+  display: inline-block;
+  float: none;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+/* .section_advanced_video_analytic {
+  align-items: center;
+  background-image: linear-gradient(180deg, #f8f8f8, #f8f8f8);
+  box-sizing: border-box;
+  color: rgb(248, 248, 248);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 26px;
+  margin-top: 1px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 220px;
+  padding-top: 220px;
+  position: relative;
+  text-align: left;
+  text-size-adjust: 100%;
+  -webkit-box-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+}
+
+.field--name-field-machine-learning-video {
+  position: relative;
+  z-index: 1;
+}
+
+.field--name-field-advanced-video-ima {
+  width: 100px;
+  height: 400px;
+  border-style: none;
+  border-width: 0px;
+  border-image-repeat: stretch;
+  border-color: rgb(248, 248, 248);
+  border-image-outset: 0px;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 1;
+  max-width: 100%;
+}
+
+.field--name-field-advanced-video-ima>img {
+  width: 710px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  right: -140px;
+  transform: translateX(0px), translateY(0px), translateZ(0px);
+  display: block;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition-delay: 0s, 0s;
+  transition-duration: 0.4s, 0.4s;
+  transition-property: opasity, transform;
+  transition-timing-function: ease, ease;
+  vertical-align: middle;
+}
+
+.paragraph--type--advanced-video-analytics {
+  max-width: 940px;
+}
+
+.field--name-field-machine-learning-video {
+  background-color: #000;
+} */
+
+/* //////////////////////////////////////////////////
+              section  Reporting and  Forensic Evidence
+///////////////////////////////////////////////////////// */
+
+/* .paragraph--type--page-products-reporting-and-fore {
+  align-items: flex-start;
+  background-image: linear-gradient(180deg, #f05c40, #f05c40);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 150px;
+  padding-top: 175px;
+  position: relative;
+  text-align: left;
+  -webkit-box-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+}
+
+.div_reporting_and_forensic_evidence {
+  color: #f8f8f8;
+  line-height: 26px;
+  max-width: 940px;
+  text-size-adjust: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+}
+
+.div_reporting_and_forensic_evidence_inside {
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: left;
+  width: 960px;
+}
+
+.div_inside_reporting {
+  position: relative;
+  height: 350px;
+  display: block;
+  width: 560px;
+  float: left;
+}
+
+.field--name-field-forensic-evidence {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 400px;
+}
+
+.field--name-field-airspace-security-report-i {
+  position: relative;
+  z-index: 1;
+}
+
+.field--name-field-airspace-security-report-i>img {
+  overflow: visible;
+  position: absolute;
+  text-align: left;
+  opacity: 1;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  display: block;
+  transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+  left: 0;
+  z-index: 1;
+}
+
+.field--name-field-forensic-evidence>h2 {
+  clear: none;
+  flex: 0 auto;
+  color: rgb(230, 217, 217);
+  border-style: none;
+  width: auto;
+  margin-top: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  padding-bottom: 0;
+  border-bottom-width: 0;
+  font-family: 'Pluto Sans Condensed Extra Light', sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  letter-spacing: 0;
+  border-bottom-color: #bbb;
+  font-weight: 200;
+  text-transform: none;
+  margin-bottom: 10px;
+}
+
+.field--name-field-forensic-evidence>h5 {
+  clear: none;
+  display: inline-block;
+  float: none;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.field--name-field-forensic-evidence>p {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.field--name-field-forensic-evidence>p>a {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* ////////////////////////////////////////////////////////
+          section Cloud-Managed Airspace Security
+///////////////////////////////////////////////////////// */
+
+.paragraph--type--page-products-cloud-managed-airs {
+
+  align-items: flex-start;
+  background-image: linear-gradient(180deg, #0a0c15, #0a0c15);
+  box-sizing: border-box;
+  color: rgb(248, 248, 248);
+  display: block;
+
+
+  justify-content: center;
+  padding-bottom: 200px;
+  padding-top: 180px;
+  text-align: left;
+  text-size-adjust: 100%;
+
+}
+
+.section_cloud_managed_airspace_security {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  height: 310px;
+}
+
+.field--name-field-page-products-dedrone-clou {
+  max-width: 100%;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  right: -100px;
+  vertical-align: middle;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  display: block;
+  transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+  border: 0;
+}
+
+.section_cloud_managed_include {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.field--name-field-cloud-managed-airspace-sec {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  width: 400px;
+}
+
+.field--name-field-cloud-managed-airspace-sec>h2 {
+  margin-top: 0px;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: normal;
+  line-height: 45px;
+  margin-bottom: 10px;
+}
+
+.field--name-field-cloud-managed-airspace-sec>p {
+  font-family: 'Pluto Sans Condensed Extra Light', sans-serif;
+  clear: none;
+  float: none;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  list-style-type: disc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+} */
+
+/* /////////////////////////////////////////////////////
+                      section Additional security
+  //////////////////////////////////////////////////// */
+
+.section_additional_security {
+  align-items: flex-start;
+  background-image: linear-gradient(180deg, #fff, #fff);
+  box-sizing: border-box;
+  color: rgb(248, 248, 248);
+  display: block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  text-align: left;
+  text-size-adjust: 100%;
+  -webkit-box-align: start;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+}
+
+.paragraph--type---page-products-additional-securi {
+  -ms-align-items: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 26px;
+  margin-left: -10px;
+  margin-right: -10px;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.field--name-field-additional-securit {
+  float: none;
+  line-height: 26px;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  width: 400px;
+}
+
+.field--name-field-additional-security-image {
+  float: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  width: 480px;
+}
+
+.field--name-field-additional-securit>h2 {
+  border-bottom-color: rgb(187, 187, 187);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  color: rgb(17, 17, 17);
+  letter-spacing: normal;
+  line-height: 45px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  text-transform: none;
+  font-weight: 200;
+}
+
+.field--name-field-additional-securit>h6 {
+  clear: none;
+  display: inline-block;
+  float: none;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: rgb(17, 17, 17);
+}
+
+.field--name-field-additional-securit>p {
+  margin-bottom: 0px;
+  cursor: pointer;
+  margin-top: 15px;
+  text-align: left;
+  text-decoration: rgb(0, 158, 227);
+  text-decoration: none;
+  text-decoration-style: solid;
+}
+
+/* //////////////////////////////////////
+              section Mitigation
+//////////////////////////////////////////// */
+
+.section_mitigation {
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  background-image: linear-gradient(180deg, #011d2a, #011d2a);
+  box-sizing: border-box;
+  color: rgb(248, 248, 248);
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  -ms-text-align-last: auto;
+  text-align: left;
+  text-size-adjust: 100%;
+  -webkit-box-align: start;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+}
+
+.paragraph--type--page-products-mitigation {
+  -ms-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: left;
+  -webkit-box-align: start;
+  -webkit-box-pack: center;
+}
+
+.field--name-field-page-products-mitigation-i {
+  float: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  width: 480px;
+}
+
+.field--name-field-page-products-mitigation-i>img {
+  width: 460px;
+  height: 306px;
+}
+
+.field--name-field-page-products-mitigation-t {
+  float: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  width: 480px;
+}
+
+.field--name-field-page-products-mitigation-t>h2 {
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: normal;
+  line-height: 45px;
+  margin-bottom: 10px;
+  text-align: left;
+  text-transform: none;
+  width: 460px;
+  -webkit-box-flex: 0;
+  border-bottom-color: rgb(187, 187, 187);
+  border-style: none;
+  border-bottom-width: 0px;
+}
+
+.field--name-field-page-products-mitigation-t>h5 {
+  clear: none;
+  display: inline-block;
+  float: none;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  list-style-type: disc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: left;
+  width: 460px;
+  color: rgb(255, 255, 255);
+}
+
+.field--name-field-page-products-mitigation-t>h5>a {
+  cursor: pointer;
+  font-weight: 400;
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+}

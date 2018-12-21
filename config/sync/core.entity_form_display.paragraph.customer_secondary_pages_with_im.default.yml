@@ -1,0 +1,43 @@
+uuid: 75b16042-ff56-43ee-b8ab-5b097453710d
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.image_entity_browser
+    - field.field.paragraph.customer_secondary_pages_with_im.field_background_img
+    - field.field.paragraph.customer_secondary_pages_with_im.field_description
+    - paragraphs.paragraphs_type.customer_secondary_pages_with_im
+  module:
+    - entity_browser
+    - text
+id: paragraph.customer_secondary_pages_with_im.default
+targetEntityType: paragraph
+bundle: customer_secondary_pages_with_im
+mode: default
+content:
+  field_background_img:
+    weight: 2
+    settings:
+      entity_browser: image_entity_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

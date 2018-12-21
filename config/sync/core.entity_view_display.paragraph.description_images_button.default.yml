@@ -1,0 +1,49 @@
+uuid: d4ca02b7-aef9-470e-bfde-4d45a173734c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description_images_button.field_css_class
+    - field.field.paragraph.description_images_button.field_description
+    - field.field.paragraph.description_images_button.field_images_row
+    - field.field.paragraph.description_images_button.field_link_customers
+    - paragraphs.paragraphs_type.description_images_button
+  module:
+    - entity_reference_revisions
+    - link
+    - text
+id: paragraph.description_images_button.default
+targetEntityType: paragraph
+bundle: description_images_button
+mode: default
+content:
+  field_description:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_images_row:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_link_customers:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  field_css_class: true

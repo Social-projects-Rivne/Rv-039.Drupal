@@ -1,0 +1,9 @@
+uuid: 6ea3d8f7-1473-489b-a8e2-c3dfeb3eeb22
+langcode: en
+status: true
+dependencies: {  }
+id: customers_secondary_slider
+label: 'customers secondary slider'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

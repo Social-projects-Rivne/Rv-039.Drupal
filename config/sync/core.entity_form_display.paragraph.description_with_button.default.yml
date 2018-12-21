@@ -1,0 +1,57 @@
+uuid: 821f05db-03f5-4b77-b5e2-773d337e41f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description_with_button.field_button
+    - field.field.paragraph.description_with_button.field_css_bg_color
+    - field.field.paragraph.description_with_button.field_css_class
+    - field.field.paragraph.description_with_button.field_description
+    - paragraphs.paragraphs_type.description_with_button
+  module:
+    - link_class
+    - text
+id: paragraph.description_with_button.default
+targetEntityType: paragraph
+bundle: description_with_button
+mode: default
+content:
+  field_button:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+      link_class_mode: manual
+      link_class_force: ''
+      link_class_select: ''
+    third_party_settings: {  }
+    type: link_class_field_widget
+    region: content
+  field_css_bg_color:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_css_class:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_description:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

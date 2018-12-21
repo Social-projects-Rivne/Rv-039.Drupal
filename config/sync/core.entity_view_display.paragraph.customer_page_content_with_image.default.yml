@@ -1,0 +1,47 @@
+uuid: cf437139-f4e6-4bda-bce6-f025757125e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.customer_page_content_with_image.field_button
+    - field.field.paragraph.customer_page_content_with_image.field_description
+    - field.field.paragraph.customer_page_content_with_image.field_image
+    - paragraphs.paragraphs_type.customer_page_content_with_image
+  module:
+    - image
+    - link
+    - text
+id: paragraph.customer_page_content_with_image.default
+targetEntityType: paragraph
+bundle: customer_page_content_with_image
+mode: default
+content:
+  field_button:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

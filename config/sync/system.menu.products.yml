@@ -1,0 +1,8 @@
+uuid: 4ffacf8c-1d93-4387-981a-c5808557349a
+langcode: en
+status: true
+dependencies: {  }
+id: products
+label: Products
+description: ''
+locked: false

@@ -1,0 +1,21 @@
+uuid: 7365e164-1ca0-4e64-b96d-12e0c96ea297
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_css_classes
+    - paragraphs.paragraphs_type.shared_wrapper
+id: paragraph.shared_wrapper.field_css_classes
+field_name: field_css_classes
+entity_type: paragraph
+bundle: shared_wrapper
+label: 'CSS classes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'container section '
+default_value_callback: ''
+settings: {  }
+field_type: string

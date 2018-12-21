@@ -1,0 +1,32 @@
+{%
+  set classes = [
+    'swiper-container',
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+      {% block content %}
+      <ul>
+        if(items.index%2 == 0)
+        {
+          <div class = "odd">
+            {{content}}
+          </div>
+        }
+        else
+        {
+          <div class = "even">
+            {{content}}
+          </div>
+        }
+      </ul>
+      {% endblock %}
+  </div>
+{% endblock paragraph %}
+
+

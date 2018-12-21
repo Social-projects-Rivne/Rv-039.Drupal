@@ -1,0 +1,15 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/vendors/swiper/swiper.min.css: {}
+      css/styles.css: {}
+      css/page_products.css: {}
+  js:
+    js/libs/swiper/swiper.min.js: {}
+    js/libs/bootstrap/bootstrap.min.js: {}
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - core/drupal

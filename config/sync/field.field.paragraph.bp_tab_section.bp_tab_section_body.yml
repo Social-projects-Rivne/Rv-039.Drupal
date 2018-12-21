@@ -1,0 +1,139 @@
+uuid: 68fbe382-0504-4234-816b-0f4e419cd0cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_tab_section_body
+    - paragraphs.paragraphs_type.bp_accordion
+    - paragraphs.paragraphs_type.bp_blank
+    - paragraphs.paragraphs_type.bp_block
+    - paragraphs.paragraphs_type.bp_carousel
+    - paragraphs.paragraphs_type.bp_columns
+    - paragraphs.paragraphs_type.bp_columns_three_uneven
+    - paragraphs.paragraphs_type.bp_columns_two_uneven
+    - paragraphs.paragraphs_type.bp_image
+    - paragraphs.paragraphs_type.bp_modal
+    - paragraphs.paragraphs_type.bp_simple
+    - paragraphs.paragraphs_type.bp_tab_section
+    - paragraphs.paragraphs_type.bp_view
+    - paragraphs.paragraphs_type.button
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: B1Livq6o-IU3N7EkThyySIKhWo3IHdLQcmtznmCMvVA
+id: paragraph.bp_tab_section.bp_tab_section_body
+field_name: bp_tab_section_body
+entity_type: paragraph
+bundle: bp_tab_section
+label: 'Tab Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      bp_simple: bp_simple
+      bp_image: bp_image
+      bp_blank: bp_blank
+      bp_accordion: bp_accordion
+      bp_carousel: bp_carousel
+      bp_columns: bp_columns
+      bp_columns_three_uneven: bp_columns_three_uneven
+      bp_columns_two_uneven: bp_columns_two_uneven
+      bp_block: bp_block
+      bp_modal: bp_modal
+      bp_view: bp_view
+      button: button
+    target_bundles_drag_drop:
+      bp_simple:
+        enabled: true
+        weight: -31
+      bp_image:
+        enabled: true
+        weight: -30
+      bp_blank:
+        enabled: true
+        weight: -29
+      bp_accordion:
+        enabled: true
+        weight: -28
+      bp_carousel:
+        enabled: true
+        weight: -27
+      bp_columns:
+        enabled: true
+        weight: -26
+      bp_columns_three_uneven:
+        enabled: true
+        weight: -25
+      bp_columns_two_uneven:
+        enabled: true
+        weight: -24
+      bp_block:
+        enabled: true
+        weight: -23
+      bp_modal:
+        enabled: true
+        weight: -22
+      bp_view:
+        enabled: true
+        weight: -21
+      bp_accordion_section:
+        weight: -20
+        enabled: false
+      bp_tabs:
+        weight: -19
+        enabled: false
+      bp_tab_section:
+        weight: -18
+        enabled: false
+      bp_column_wrapper:
+        weight: 35
+        enabled: false
+      bundle_content_tech_par_page:
+        weight: 45
+        enabled: false
+      bundle_description_tech_par_page:
+        weight: 46
+        enabled: false
+      button:
+        enabled: true
+        weight: 47
+      content_page_products:
+        weight: 48
+        enabled: false
+      description_with_button:
+        weight: 49
+        enabled: false
+      image1:
+        weight: 50
+        enabled: false
+      image_and_description_simple:
+        weight: 51
+        enabled: false
+      image_description_column:
+        weight: 52
+        enabled: false
+      image_description_row:
+        weight: 53
+        enabled: false
+      shared_aditional_information:
+        weight: 54
+        enabled: false
+      shared_simple_white_title_:
+        weight: 55
+        enabled: false
+      slide:
+        weight: 56
+        enabled: false
+      slider:
+        weight: 57
+        enabled: false
+      text_row:
+        weight: 58
+        enabled: false
+field_type: entity_reference_revisions

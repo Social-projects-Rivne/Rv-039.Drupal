@@ -1,0 +1,9 @@
+uuid: cc8ba8f3-f718-4e4d-8785-07edf0f7c26c
+langcode: en
+status: true
+dependencies: {  }
+id: drone_detection_sensors
+label: 'Drone Detection Sensors'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

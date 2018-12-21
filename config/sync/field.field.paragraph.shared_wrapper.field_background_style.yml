@@ -1,0 +1,21 @@
+uuid: 3af3472f-7435-494c-9fde-6fefe6e404d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_style
+    - paragraphs.paragraphs_type.shared_wrapper
+  module:
+    - options
+id: paragraph.shared_wrapper.field_background_style
+field_name: field_background_style
+entity_type: paragraph
+bundle: shared_wrapper
+label: 'Background style'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,57 @@
+uuid: 6c19ffba-6fdb-481b-9a04-6dcd3b5298a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.image_entity_browser
+    - field.field.paragraph.customers_secondary_slider.field_background_img
+    - field.field.paragraph.customers_secondary_slider.field_description
+    - field.field.paragraph.customers_secondary_slider.field_icon_and_text
+    - paragraphs.paragraphs_type.customers_secondary_slider
+  module:
+    - entity_browser
+    - paragraphs
+    - text
+id: paragraph.customers_secondary_slider.default
+targetEntityType: paragraph
+bundle: customers_secondary_slider
+mode: default
+content:
+  field_background_img:
+    weight: 0
+    settings:
+      entity_browser: image_entity_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_icon_and_text:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

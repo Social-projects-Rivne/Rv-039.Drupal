@@ -1,0 +1,22 @@
+uuid: e90ea3b3-b0e2-4ee3-ace4-9c8f862ba512
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.small_width_content.field_small_width_content
+    - paragraphs.paragraphs_type.small_width_content
+  module:
+    - text
+id: paragraph.small_width_content.default
+targetEntityType: paragraph
+bundle: small_width_content
+mode: default
+content:
+  field_small_width_content:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }
